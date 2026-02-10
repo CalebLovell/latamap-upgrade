@@ -21,22 +21,8 @@ function App() {
 	const { leaders, lastUpdated, mostRecentLeader } = Route.useLoaderData();
 	const { setLeaders } = useMapStore();
 
-	// leaders dates became strings instead of dates, so we need to convert them back to dates
-	const newLeaders = leaders.map((x) => {
-		return {
-			...x,
-			tookOffice: new Date(x.tookOffice),
-			leftOffice: x.leftOffice ? new Date(x.leftOffice) : null,
-			createdAt: new Date(x.createdAt),
-			Country: {
-				...x.Country,
-				createdAt: new Date(x.Country.createdAt),
-			},
-		};
-	});
-
 	useEffect(() => {
-		setLeaders(newLeaders);
+		setLeaders(leaders);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
