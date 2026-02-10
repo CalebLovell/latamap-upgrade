@@ -589,6 +589,14 @@ export const costaRica: LeaderNoId[] = [
 		party: `Social Democratic Progress Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `8 May 2022`,
-		leftOffice: null,
+		leftOffice: `8 May 2026`,
 	},
+	{
+		countryId,
+		name: `Laura Fernández Delgado`,
+		party: `Sovereign People's Party`,
+		leaning: leanings.RIGHT,
+		tookOffice: `8 May 2026`,
+		leftOffice: null,
+	}
 ];
