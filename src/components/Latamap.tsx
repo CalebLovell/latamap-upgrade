@@ -14,29 +14,31 @@ export const Latamap = () => {
 	const { date: dateParam } = route.useSearch();
 	const date = parseDateParam(dateParam);
 	const leadersByDate = getLeadersByDate(leaders, date);
-	const svgRef = React.useRef(null);
-	const gRef = React.useRef(null);
+	const svgRef = React.useRef<SVGSVGElement>(null);
+	const gRef = React.useRef<SVGGElement>(null);
 
-	const svg = d3.select(svgRef.current);
-	const g = d3.select(gRef.current);
+	const zoom = React.useMemo(
+		() =>
+			d3
+				.zoom()
+				.scaleExtent([1, 8])
+				.on(`zoom`, (event: any) => {
+					d3.select(gRef.current).attr(`transform`, event.transform);
+				}),
+		[],
+	);
 
 	function reset() {
+		if (!svgRef.current) return;
+		const svg = d3.select(svgRef.current);
 		svg
 			.transition()
 			.duration(750)
-			// @ts-expect-error
 			.call(
 				zoom.transform,
 				d3.zoomIdentity,
-				d3.zoomTransform(svg.node()).invert([mapWidth / 2, mapHeight / 2]),
+				d3.zoomTransform(svgRef.current).invert([mapWidth / 2, mapHeight / 2]),
 			);
-	}
-
-	const zoom = d3.zoom().scaleExtent([1, 8]).on(`zoom`, zoomed);
-
-	function zoomed(event: any) {
-		const { transform } = event;
-		g.attr(`transform`, transform);
 	}
 
 	return (
@@ -46,8 +48,7 @@ export const Latamap = () => {
 			height="100%"
 			viewBox="-4 10 360 480"
 			onClick={reset}
-			// @ts-expect-error
-			onDoubleClick={() => svg.call(zoom)}
+			onDoubleClick={() => d3.select(svgRef.current).call(zoom)}
 		>
 			<g ref={gRef}>
 				{laTopoJson.features.map((feature) => {
