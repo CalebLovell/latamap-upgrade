@@ -18,8 +18,10 @@
     "db:seed": "dotenv -e .env.local -- prisma db seed"
   },
   "dependencies": {
-    "@prisma/adapter-pg": "^7.0.0",
-    "@prisma/client": "^7.0.0",
+    "@headlessui/react": "^2.2.9",
+    "@heroicons/react": "^2.2.0",
+    "@prisma/adapter-pg": "^7.3.0",
+    "@prisma/client": "^7.3.0",
     "@t3-oss/env-core": "^0.13.8",
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-devtools": "^0.7.0",
@@ -28,13 +30,23 @@
     "@tanstack/react-router-ssr-query": "^1.131.7",
     "@tanstack/react-start": "^1.132.0",
     "@tanstack/router-plugin": "^1.132.0",
+    "clsx": "^2.1.1",
+    "d3": "^7.9.0",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.24.0",
     "lucide-react": "^0.544.0",
-    "prisma": "^6.16.3",
+    "prisma": "^7.2.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-draggable": "^4.5.0",
+    "react-range": "^1.10.0",
+    "react-use": "^17.6.0",
     "tailwindcss": "^4.0.6",
+    "topojson-client": "^3.1.0",
+    "use-debounce": "^10.0.6",
     "vite-tsconfig-paths": "^5.1.4",
-    "zod": "^4.1.11"
+    "zod": "^4.1.11",
+    "zustand": "^5.0.9"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.4",
