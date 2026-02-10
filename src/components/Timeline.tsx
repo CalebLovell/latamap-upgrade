@@ -103,9 +103,12 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 						</div>
 					</div>
 				)}
-				renderThumb={({ props, isDragged }) => (
+				renderThumb={({ props, isDragged }) => {
+				const { key, ...restProps } = props;
+				return (
 					<div
-						{...props}
+						key={key}
+						{...restProps}
 						className="flex h-8 w-8 items-center justify-center rounded-md border-2 border-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2"
 					>
 						<div className="absolute -top-10 rounded-sm bg-gray-800 px-2 py-1 text-white">
@@ -118,7 +121,8 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 							)}
 						/>
 					</div>
-				)}
+				);
+			}}
 			/>
 			<button
 				title="Next Year"
