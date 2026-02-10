@@ -28,6 +28,14 @@ export const Latamap = () => {
 		[],
 	);
 
+	React.useEffect(() => {
+		if (svgRef.current) {
+			d3.select<SVGSVGElement, unknown>(svgRef.current).call(
+				zoom as unknown as d3.ZoomBehavior<SVGSVGElement, unknown>,
+			);
+		}
+	}, [zoom]);
+
 	function reset() {
 		if (!svgRef.current) return;
 		const svg = d3.select(svgRef.current);
@@ -55,13 +63,6 @@ export const Latamap = () => {
 				}
 			}}
 			aria-label="Latin America Map"
-			onDoubleClick={() => {
-				if (svgRef.current) {
-					d3.select<SVGSVGElement, unknown>(svgRef.current).call(
-						zoom as unknown as d3.ZoomBehavior<SVGSVGElement, unknown>,
-					);
-				}
-			}}
 		>
 			<title>Latin America Map</title>
 			<g ref={gRef}>
