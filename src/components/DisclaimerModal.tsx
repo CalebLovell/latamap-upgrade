@@ -49,7 +49,7 @@ export const DisclaimerModal = () => {
 				>
 					<div className="relative mx-auto flex h-full w-full max-w-3xl items-center px-2 py-14">
 						<div className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
-							<div className="flex flex-shrink-0 items-center justify-between rounded-t border-gray-300 border-b p-4">
+							<div className="flex shrink-0 items-center justify-between rounded-t border-gray-300 border-b p-4">
 								<Dialog.Title className="font-bold text-2xl">
 									Map Explanation
 								</Dialog.Title>
@@ -115,7 +115,7 @@ export const DisclaimerModal = () => {
 									, or on my social media listed below.
 								</Dialog.Description>
 							</Dialog.Panel>
-							<div className="flex flex-shrink-0 flex-wrap items-center justify-end rounded-b border-gray-300 border-t p-4">
+							<div className="flex shrink-0 flex-wrap items-center justify-end rounded-b border-gray-300 border-t p-4">
 								<button
 									type="button"
 									className="rounded bg-gray-800 px-6 py-2.5 font-medium text-white text-xs uppercase leading-tight transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 hover:shadow-lg active:bg-gray-800 active:shadow-lg"
