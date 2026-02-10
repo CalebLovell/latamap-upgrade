@@ -1,8 +1,8 @@
-import * as topojson from 'topojson-client';
+import * as topojson from "topojson-client";
 
-import { path } from '~/data/map';
-import { useMapStore } from '~/data/store';
-import { geoJSON } from '~/data/worldGeojson';
+import { path } from "~/data/map";
+import { useMapStore } from "~/data/store";
+import { geoJSON } from "~/data/worldGeojson";
 
 export const Borders = () => {
 	return (
@@ -20,27 +20,45 @@ const SelectedBorders = () => {
 
 	const outerBorders = topojson.mesh(
 		geoJSON,
-		// @ts-ignore
+		// @ts-expect-error
 		countries,
-		// @ts-ignore
-		(a, b) => a === b && a.properties.ADMIN === selectedCountry && b.properties.ADMIN === selectedCountry
+		// @ts-expect-error
+		(a, b) =>
+			a === b &&
+			a.properties.ADMIN === selectedCountry &&
+			b.properties.ADMIN === selectedCountry,
 	);
 	const innerBorders = topojson.mesh(
 		geoJSON,
-		// @ts-ignore
+		// @ts-expect-error
 		countries,
-		// @ts-ignore
-		(a, b) => a !== b && (a.properties.ADMIN === selectedCountry || b.properties.ADMIN === selectedCountry)
+		// @ts-expect-error
+		(a, b) =>
+			a !== b &&
+			(a.properties.ADMIN === selectedCountry ||
+				b.properties.ADMIN === selectedCountry),
 	);
-	const mapBorders = { type: `MultiLineString`, coordinates: outerBorders.coordinates.concat(innerBorders.coordinates) };
+	const mapBorders = {
+		type: `MultiLineString`,
+		coordinates: outerBorders.coordinates.concat(innerBorders.coordinates),
+	};
 
-	// @ts-ignore
+	// @ts-expect-error
 	const d = path(mapBorders) ? String(path(mapBorders)) : undefined;
 
 	const stroke = `black`;
 	const strokeWidth = 1.2;
 
-	return <path d={d} strokeWidth={strokeWidth} stroke={stroke} fill='none' className='transition duration-300 ease-in-out' strokeLinejoin='round' />;
+	return (
+		<path
+			d={d}
+			strokeWidth={strokeWidth}
+			stroke={stroke}
+			fill="none"
+			className="transition duration-300 ease-in-out"
+			strokeLinejoin="round"
+		/>
+	);
 };
 
 const UnselectedBorders = () => {
@@ -48,25 +66,43 @@ const UnselectedBorders = () => {
 
 	const outerBorders = topojson.mesh(
 		geoJSON,
-		// @ts-ignore
+		// @ts-expect-error
 		geoJSON.objects.countries,
-		// @ts-ignore
-		(a, b) => a === b && a.properties.ADMIN !== selectedCountry && b.properties.ADMIN !== selectedCountry
+		// @ts-expect-error
+		(a, b) =>
+			a === b &&
+			a.properties.ADMIN !== selectedCountry &&
+			b.properties.ADMIN !== selectedCountry,
 	);
 	const innerBorders = topojson.mesh(
 		geoJSON,
-		// @ts-ignore
+		// @ts-expect-error
 		geoJSON.objects.countries,
-		// @ts-ignore
-		(a, b) => a !== b && a.properties.ADMIN !== selectedCountry && b.properties.ADMIN !== selectedCountry
+		// @ts-expect-error
+		(a, b) =>
+			a !== b &&
+			a.properties.ADMIN !== selectedCountry &&
+			b.properties.ADMIN !== selectedCountry,
 	);
-	const mapBorders = { type: `MultiLineString`, coordinates: outerBorders.coordinates.concat(innerBorders.coordinates) };
+	const mapBorders = {
+		type: `MultiLineString`,
+		coordinates: outerBorders.coordinates.concat(innerBorders.coordinates),
+	};
 
-	// @ts-ignore
+	// @ts-expect-error
 	const d = path(mapBorders) ? String(path(mapBorders)) : undefined;
 
 	const stroke = `white`;
 	const strokeWidth = 0.5;
 
-	return <path d={d} strokeWidth={strokeWidth} stroke={stroke} fill='none' className='transition duration-300 ease-in-out' strokeLinejoin='round' />;
+	return (
+		<path
+			d={d}
+			strokeWidth={strokeWidth}
+			stroke={stroke}
+			fill="none"
+			className="transition duration-300 ease-in-out"
+			strokeLinejoin="round"
+		/>
+	);
 };

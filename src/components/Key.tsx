@@ -1,8 +1,8 @@
-import { useRef } from 'react';
-import Draggable from 'react-draggable';
+import { useRef } from "react";
+import Draggable from "react-draggable";
 
-import { useAppStore, useMapStore } from '~/data/store';
-import { getLeaningColors, leaningLabels } from '~/data/types';
+import { useAppStore, useMapStore } from "~/data/store";
+import { getLeaningColors, leaningLabels } from "~/data/types";
 
 export const Key = () => {
 	const nodeRef = useRef<HTMLDivElement>(null);
@@ -14,13 +14,26 @@ export const Key = () => {
 
 	if (!keyIsVisible) return null;
 	return (
-		<Draggable nodeRef={nodeRef} bounds='parent' defaultClassNameDragged='cursor-grab' defaultClassNameDragging='cursor-grabbing'>
-			<div ref={nodeRef} className='absolute bottom-4 left-0.5 rounded-lg p-2 md:bottom-16'>
+		<Draggable
+			nodeRef={nodeRef}
+			bounds="parent"
+			defaultClassNameDragged="cursor-grab"
+			defaultClassNameDragging="cursor-grabbing"
+		>
+			<div
+				ref={nodeRef}
+				className="absolute bottom-4 left-0.5 rounded-lg p-2 md:bottom-16"
+			>
 				{labels.map((label, index) => (
-					<div key={label} className='mt-1 flex items-center'>
+					<div key={label} className="mt-1 flex items-center">
 						{/* @ts-ignore */}
-						<div className='mr-2 h-6 w-1.5 transition duration-500 ease-in-out sm:h-10' style={{ backgroundColor: colors[index + 1] }} />
-						<p className='text-xs font-semibold text-black sm:text-sm'>{label}</p>
+						<div
+							className="mr-2 h-6 w-1.5 transition duration-500 ease-in-out sm:h-10"
+							style={{ backgroundColor: colors[index + 1] }}
+						/>
+						<p className="text-xs font-semibold text-black sm:text-sm">
+							{label}
+						</p>
 					</div>
 				))}
 			</div>
