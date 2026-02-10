@@ -5,6 +5,7 @@ import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import appCss from "../styles.css?url";
 
 export const Route = createRootRoute({
+	notFoundComponent: () => <p>Page not found</p>,
 	head: () => ({
 		meta: [
 			{
