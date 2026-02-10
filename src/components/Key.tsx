@@ -1,17 +1,15 @@
 import { getRouteApi } from "@tanstack/react-router";
 import { useRef } from "react";
 import Draggable from "react-draggable";
-import { useMapStore } from "~/data/store";
 import { getLeaningColors, leaningLabels } from "~/data/types";
 
 const route = getRouteApi("/");
 
 export const Key = () => {
 	const nodeRef = useRef<HTMLDivElement>(null);
-	const { mapColorType } = useMapStore();
-	const { key } = route.useSearch();
+	const { key, scheme } = route.useSearch();
 
-	const colors = getLeaningColors(mapColorType);
+	const colors = getLeaningColors(scheme);
 	const labels = Object.values(leaningLabels);
 
 	if (!key) return null;

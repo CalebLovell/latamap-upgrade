@@ -9,8 +9,6 @@ type MapState = {
 	setDate: (by: Date) => void;
 	selectedCountry: string | undefined;
 	setSelectedCountry: (by: string | undefined) => void;
-	mapColorType: `global` | `usa`;
-	setMapColorType: (by: `global` | `usa`) => void;
 };
 
 export const useMapStore = create<MapState>((set) => ({
@@ -20,6 +18,4 @@ export const useMapStore = create<MapState>((set) => ({
 	setDate: (by) => set(() => ({ date: by })),
 	selectedCountry: `United States of America`,
 	setSelectedCountry: (by) => set(() => ({ selectedCountry: by })),
-	mapColorType: `global`,
-	setMapColorType: (by) => set(() => ({ mapColorType: by })),
 }));

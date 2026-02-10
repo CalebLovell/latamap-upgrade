@@ -1,7 +1,10 @@
+import { getRouteApi } from "@tanstack/react-router";
 import { path } from "~/data/map";
 import { useMapStore } from "~/data/store";
 import type { LeaderReturn } from "~/data/types";
 import { getLeaningColors } from "~/data/types";
+
+const route = getRouteApi("/");
 
 type Props = {
 	feature: any;
@@ -10,13 +13,14 @@ type Props = {
 };
 
 export const Country = ({ feature, centroid, leader }: Props) => {
-	const { mapColorType, setSelectedCountry } = useMapStore();
+	const { scheme } = route.useSearch();
+	const { setSelectedCountry } = useMapStore();
 
 	const name = feature.properties.ADMIN;
 	const ISO_A3 = feature.properties?.ISO_A3;
 	// @ts-expect-error
 	const fill = leader
-		? getLeaningColors(mapColorType)[leader.leaning]
+		? getLeaningColors(scheme)[leader.leaning]
 		: `url(#diagonal)`;
 	const d = path(feature) ? String(path(feature)) : undefined;
 

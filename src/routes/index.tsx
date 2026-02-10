@@ -19,6 +19,7 @@ const searchDefaults = {
 	panel: true,
 	dateModal: false,
 	disclaimerModal: false,
+	scheme: "default" as const,
 };
 
 export const Route = createFileRoute("/")({
@@ -29,6 +30,9 @@ export const Route = createFileRoute("/")({
 		panel: search.panel !== false,
 		dateModal: search.dateModal === true,
 		disclaimerModal: search.disclaimerModal === true,
+		scheme: (search.scheme === "inverted" ? "inverted" : "default") as
+			| "default"
+			| "inverted",
 	}),
 	search: {
 		middlewares: [stripSearchParams(searchDefaults)],

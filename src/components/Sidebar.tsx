@@ -13,7 +13,6 @@ import {
 import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
 import * as React from "react";
-import { useMapStore } from "~/data/store";
 
 const route = getRouteApi("/");
 
@@ -31,7 +30,6 @@ type SidebarProps = {
 export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 	const { menu } = route.useSearch();
 	const navigate = useNavigate();
-	const { mapColorType, setMapColorType } = useMapStore();
 
 	const sections = [
 		{
@@ -54,7 +52,13 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 				{
 					title: `Invert Color Scheme`,
 					onClick: () =>
-						setMapColorType(mapColorType === `usa` ? `global` : `usa`),
+						navigate({
+							from: "/",
+							search: (prev) => ({
+								...prev,
+								scheme: prev.scheme === `inverted` ? `default` : `inverted`,
+							}),
+						}),
 					icon: <SwatchIcon className="h-6 w-6 text-blue-900" />,
 				},
 				{

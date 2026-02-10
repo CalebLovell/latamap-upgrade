@@ -39,7 +39,7 @@ export const leaningLabels = {
 	9: `Monarchy`,
 };
 
-export type MapKeyColorScheme = `global` | `usa`;
+export type MapKeyColorScheme = `default` | `inverted`;
 
 export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 	const globalColors = {
@@ -64,7 +64,7 @@ export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 		8: `rgb(61,129,22)`,
 		9: `gold`,
 	};
-	return mapColorType === `global` ? globalColors : usaColors;
+	return mapColorType === `default` ? globalColors : usaColors;
 };
 
 export function classNames(...classes: string[]) {
