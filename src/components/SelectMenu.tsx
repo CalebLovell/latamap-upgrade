@@ -1,4 +1,11 @@
-import { Listbox, Transition } from "@headlessui/react";
+import {
+	Button,
+	Label,
+	Listbox,
+	ListboxOption,
+	ListboxOptions,
+	Transition,
+} from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 import * as React from "react";
 
@@ -16,11 +23,11 @@ export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 		<Listbox value={selected} onChange={setSelected}>
 			{({ open }) => (
 				<>
-					<Listbox.Label className="block font-medium text-gray-900 text-sm leading-6">
+					<Label className="block font-medium text-gray-900 text-sm leading-6">
 						{title}
-					</Listbox.Label>
+					</Label>
 					<div className="relative mt-2">
-						<Listbox.Button className="relative w-full cursor-default rounded-md bg-white py-1.5 pr-10 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-gray-300 ring-inset focus:outline-none focus:ring-2 focus:ring-gray-600 sm:text-sm sm:leading-6">
+						<Button className="relative w-full cursor-default rounded-md bg-white py-1.5 pr-10 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-gray-300 ring-inset focus:outline-none focus:ring-2 focus:ring-gray-600 sm:text-sm sm:leading-6">
 							<span className="block truncate">{selected.name}</span>
 							<span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
 								<ChevronUpDownIcon
@@ -28,7 +35,7 @@ export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 									aria-hidden="true"
 								/>
 							</span>
-						</Listbox.Button>
+						</Button>
 
 						<Transition
 							show={open}
@@ -37,9 +44,9 @@ export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 							leaveFrom="opacity-100"
 							leaveTo="opacity-0"
 						>
-							<Listbox.Options className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+							<ListboxOptions className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
 								{values.map((x) => (
-									<Listbox.Option
+									<ListboxOption
 										key={x.id}
 										className={({ active }) =>
 											classNames(
@@ -72,9 +79,9 @@ export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 												) : null}
 											</>
 										)}
-									</Listbox.Option>
+									</ListboxOption>
 								))}
-							</Listbox.Options>
+							</ListboxOptions>
 						</Transition>
 					</div>
 				</>

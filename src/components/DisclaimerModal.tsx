@@ -1,4 +1,11 @@
-import { Dialog, Transition } from "@headlessui/react";
+import {
+	Description,
+	Dialog,
+	DialogPanel,
+	DialogTitle,
+	Transition,
+	TransitionChild,
+} from "@headlessui/react";
 import {
 	EnvelopeIcon,
 	ExclamationTriangleIcon,
@@ -26,7 +33,7 @@ export const DisclaimerModal = () => {
 				}
 				className="fixed top-0 left-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
 			>
-				<Transition.Child
+				<TransitionChild
 					as={React.Fragment}
 					enter="ease-out duration-300"
 					enterFrom="opacity-0"
@@ -36,9 +43,9 @@ export const DisclaimerModal = () => {
 					leaveTo="opacity-0"
 				>
 					<div className="fixed inset-0 bg-black/75" aria-hidden="true" />
-				</Transition.Child>
+				</TransitionChild>
 
-				<Transition.Child
+				<TransitionChild
 					as={React.Fragment}
 					enter="ease-out duration-300"
 					enterFrom="opacity-0 scale-95"
@@ -50,57 +57,57 @@ export const DisclaimerModal = () => {
 					<div className="relative mx-auto flex h-full w-full max-w-3xl items-center px-2 py-14">
 						<div className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
 							<div className="flex shrink-0 items-center justify-between rounded-t border-gray-300 border-b p-4">
-								<Dialog.Title className="font-bold text-2xl">
+								<DialogTitle className="font-bold text-2xl">
 									Map Explanation
-								</Dialog.Title>
+								</DialogTitle>
 							</div>
-							<Dialog.Panel className="relative flex-auto overflow-y-auto p-4">
+							<DialogPanel className="relative flex-auto overflow-y-auto p-4">
 								<div className="mb-2 flex items-center">
 									<ExclamationTriangleIcon className="mr-2 h-5 w-5 text-red-700" />
-									<Dialog.Title as="h3" className="font-semibold text-xl">
+									<DialogTitle as="h3" className="font-semibold text-xl">
 										Disclaimer
-									</Dialog.Title>
+									</DialogTitle>
 								</div>
-								<Dialog.Description className="mb-2">
+								<Description className="mb-2">
 									This is meant to be a fun, quick way to visualize the
 									political history of Latin America. Reducing every president
 									and political party to a single left-right axis is inherently
 									oversimplistic and highly subjective.
-								</Dialog.Description>
-								<Dialog.Description className="mb-2">
+								</Description>
+								<Description className="mb-2">
 									All the data comes from Wikipedia, relying mostly on its
 									&#34;Ideology&#34; and &#34;Political Position&#34; metrics.
 									When those were not available, I tried my best to approximate
 									the closest position based on their policies, stated ideology,
 									and political affiliations.
-								</Dialog.Description>
+								</Description>
 								<div className="mb-2 flex items-center">
 									<LightBulbIcon className="mr-2 h-5 w-5 text-orange-400" />
-									<Dialog.Title as="h3" className="font-semibold text-xl">
+									<DialogTitle as="h3" className="font-semibold text-xl">
 										Methodology
-									</Dialog.Title>
+									</DialogTitle>
 								</div>
-								<Dialog.Description className="mb-2">
+								<Description className="mb-2">
 									To be clear, this gets harder and more absurd the farther back
 									in time you go. The oldest political parties have often
 									switched ideologies and priorities significantly throughout
 									their history, and whatever the left-right spectrum roughly
 									represents today is only vaguely applicable to the political
 									stances of the 1800s.
-								</Dialog.Description>
-								<Dialog.Description className="mb-2">
+								</Description>
+								<Description className="mb-2">
 									In short, please do not take this map as any sort of
 									authoritative reference, because the whole concept itself is
 									inherently flawed! I made it to be a quick reference and fun
 									visualization, nothing more.
-								</Dialog.Description>
+								</Description>
 								<div className="mb-2 flex items-center">
 									<EnvelopeIcon className="mr-2 h-5 w-5 text-blue-600" />
-									<Dialog.Title as="h3" className="font-semibold text-xl">
+									<DialogTitle as="h3" className="font-semibold text-xl">
 										Contact Me
-									</Dialog.Title>
+									</DialogTitle>
 								</div>
-								<Dialog.Description className="mb-2">
+								<Description className="mb-2">
 									If you notice any errors in the data or any other bugs, or
 									just have a comment, I would love to hear from you! You can
 									contact me{` `}
@@ -113,8 +120,8 @@ export const DisclaimerModal = () => {
 										here
 									</a>
 									, or on my social media listed below.
-								</Dialog.Description>
-							</Dialog.Panel>
+								</Description>
+							</DialogPanel>
 							<div className="flex shrink-0 flex-wrap items-center justify-end rounded-b border-gray-300 border-t p-4">
 								<button
 									type="button"
@@ -125,7 +132,7 @@ export const DisclaimerModal = () => {
 							</div>
 						</div>
 					</div>
-				</Transition.Child>
+				</TransitionChild>
 			</Dialog>
 		</Transition>
 	);

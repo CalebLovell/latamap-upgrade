@@ -1,4 +1,9 @@
-import { Dialog, Transition, TransitionChild } from "@headlessui/react";
+import {
+	Dialog,
+	DialogPanel,
+	Transition,
+	TransitionChild,
+} from "@headlessui/react";
 import {
 	ArrowPathRoundedSquareIcon,
 	BookOpenIcon,
@@ -130,7 +135,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 						leaveFrom="translate-x-0"
 						leaveTo="-translate-x-full"
 					>
-						<Dialog.Panel>
+						<DialogPanel>
 							<div className="relative flex h-full w-80 shrink-0 flex-col items-center bg-white">
 								<div className="flex h-12 w-full items-center justify-end p-2">
 									<button
@@ -279,7 +284,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 									</div>
 								</div>
 							</div>
-						</Dialog.Panel>
+						</DialogPanel>
 					</TransitionChild>
 				</div>
 			</Dialog>
