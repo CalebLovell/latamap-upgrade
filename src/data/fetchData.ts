@@ -1,6 +1,9 @@
+import { createServerFn } from "@tanstack/react-start";
 import { prisma } from "~/db";
 
-export const fetchData = async () => {
+export const fetchData = createServerFn({
+	method: "GET",
+}).handler(async () => {
 	const leaders = await prisma.leader.findMany({ include: { Country: true } });
 	const mostRecentUpdate = await prisma.leader.findFirst({
 		orderBy: { createdAt: `desc` },
@@ -19,4 +22,4 @@ export const fetchData = async () => {
 
 	if (!data) throw new Error("No data found");
 	return data;
-};
+});

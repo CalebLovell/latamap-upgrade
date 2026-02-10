@@ -9,8 +9,6 @@ import {
 import clsx from "clsx";
 import * as React from "react";
 import { getTrackBackground, Range } from "react-range";
-import reactUse from "react-use";
-
 import { useMapStore } from "~/data/store";
 
 const step = 1;
@@ -52,22 +50,29 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 		setSelectedYear(vals[0]);
 	};
 
-	const increment = () => {
-		if (selectedYear === max) return setSelectedYear(min);
+	const increment = React.useCallback(() => {
+		if (selectedYear === max) return;
 		setSelectedYear(selectedYear + 1);
-	};
+	}, [selectedYear, setSelectedYear]);
 
-	const decrement = () => {
+	const decrement = React.useCallback(() => {
 		if (selectedYear === min) return setSelectedYear(max);
 		setSelectedYear(selectedYear - 1);
-	};
+	}, [selectedYear, setSelectedYear]);
 
-	reactUse.useKeyPressEvent(`ArrowLeft`, decrement);
-	reactUse.useKeyPressEvent(`ArrowRight`, increment);
+	React.useEffect(() => {
+		const handleKeyDown = (e: KeyboardEvent) => {
+			if (e.key === "ArrowLeft") decrement();
+			if (e.key === "ArrowRight") increment();
+		};
+		window.addEventListener("keydown", handleKeyDown);
+		return () => window.removeEventListener("keydown", handleKeyDown);
+	}, [decrement, increment]);
 
 	return (
 		<>
 			<button
+				type="button"
 				title="Previous Year"
 				onClick={decrement}
 				className="flex h-8 w-8 items-center justify-center rounded-md border-2 border-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 active:scale-95"
@@ -81,7 +86,6 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 				max={max}
 				onChange={onChange}
 				renderTrack={({ props, children }) => (
-					// eslint-disable-next-line jsx-a11y/no-static-element-interactions
 					<div
 						onMouseDown={props.onMouseDown}
 						onTouchStart={props.onTouchStart}
@@ -104,25 +108,25 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 					</div>
 				)}
 				renderThumb={({ props, isDragged }) => {
-				const { key, ...restProps } = props;
-				return (
-					<div
-						key={key}
-						{...restProps}
-						className="flex h-8 w-8 items-center justify-center rounded-md border-2 border-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2"
-					>
-						<div className="absolute -top-10 rounded-sm bg-gray-800 px-2 py-1 text-white">
-							{selectedYear}
-						</div>
+					const { key, ...restProps } = props;
+					return (
 						<div
-							className={clsx(
-								`h-1/2 w-1`,
-								`${isDragged ? `bg-gray-800` : `bg-gray-400`}`,
-							)}
-						/>
-					</div>
-				);
-			}}
+							key={key}
+							{...restProps}
+							className="flex h-8 w-8 items-center justify-center rounded-md border-2 border-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2"
+						>
+							<div className="absolute -top-10 rounded-sm bg-gray-800 px-2 py-1 text-white">
+								{selectedYear}
+							</div>
+							<div
+								className={clsx(
+									`h-1/2 w-1`,
+									`${isDragged ? `bg-gray-800` : `bg-gray-400`}`,
+								)}
+							/>
+						</div>
+					);
+				}}
 			/>
 			<button
 				title="Next Year"

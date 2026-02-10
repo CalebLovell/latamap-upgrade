@@ -1,5 +1,6 @@
 import { AcademicCapIcon, ClockIcon, LightBulbIcon, UserCircleIcon } from '@heroicons/react/24/solid';
 import { format } from 'date-fns';
+import { useRef } from 'react';
 import Draggable from 'react-draggable';
 
 import { useAppStore, useMapStore } from '~/data/store';
@@ -8,6 +9,7 @@ import { getLeadersByDate, leaningLabels } from '~/data/types';
 const formatDate = (date: Date | undefined) => (date ? format(new Date(date), `MMM d, yyy`) : undefined);
 
 export const DataPanel = () => {
+	const nodeRef = useRef<HTMLDivElement>(null);
 	const { panelIsVisible } = useAppStore();
 	const { leaders, date, selectedCountry, setSelectedCountry } = useMapStore();
 	const leadersByDate = getLeadersByDate(leaders, date);
@@ -28,8 +30,8 @@ export const DataPanel = () => {
 
 	if (!panelIsVisible) return null;
 	return (
-		<Draggable bounds='parent' defaultClassNameDragged='cursor-grab' defaultClassNameDragging='cursor-grabbing' cancel='button'>
-			<div className='absolute right-2 top-2 w-40 rounded-lg border border-gray-300 bg-white md:right-8 md:top-8 md:w-60'>
+		<Draggable nodeRef={nodeRef} bounds='parent' defaultClassNameDragged='cursor-grab' defaultClassNameDragging='cursor-grabbing' cancel='button'>
+			<div ref={nodeRef} className='absolute right-2 top-2 w-40 rounded-lg border border-gray-300 bg-white md:right-8 md:top-8 md:w-60'>
 				<dl className='flex flex-col'>
 					<div className='relative flex-auto p-1 md:p-2'>
 						<dt className='truncate text-center text-xs font-semibold leading-6 text-gray-900 md:whitespace-normal md:text-base'>{country}</dt>

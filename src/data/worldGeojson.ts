@@ -1,4 +1,4 @@
-import type { Topology } from 'topojson-specification';
+import type { Topology } from "topojson-specification";
 
 export const geoJSON: Topology = {
 	type: `Topology`,
@@ -2805,7 +2805,10 @@ export const geoJSON: Topology = {
 			[12, -49],
 		],
 	],
-	transform: { scale: [0.014102382520580702, 0.008230803238962112], translate: [-171.79111060289122, -55.61183] },
+	transform: {
+		scale: [0.014102382520580702, 0.008230803238962112],
+		translate: [-171.79111060289122, -55.61183],
+	},
 	objects: {
 		countries: {
 			type: `GeometryCollection`,
@@ -2813,106 +2816,246 @@ export const geoJSON: Topology = {
 				{
 					arcs: [[[-12, 41, -10, 42, -8, 43, -6, 44, -4, 45, 46, 47]]],
 					type: `MultiPolygon`,
-					properties: { ADMIN: `United States of America`, ISO_A3: `USA`, CONTINENT: `North America` },
+					properties: {
+						ADMIN: `United States of America`,
+						ISO_A3: `USA`,
+						CONTINENT: `North America`,
+					},
 				},
 				{
 					arcs: [[[57, 58]], [[59, 60, 61, 62, 63, 64]]],
 					type: `MultiPolygon`,
-					properties: { ADMIN: `Argentina`, ISO_A3: `ARG`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `Argentina`,
+						ISO_A3: `ARG`,
+						CONTINENT: `South America`,
+					},
 				},
 				{
 					arcs: [[[-59, 65]], [[66, -62, 67, 68]]],
 					type: `MultiPolygon`,
-					properties: { ADMIN: `Chile`, ISO_A3: `CHL`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `Chile`,
+						ISO_A3: `CHL`,
+						CONTINENT: `South America`,
+					},
 				},
-				{ arcs: [[69, 70]], type: `Polygon`, properties: { ADMIN: `Haiti`, ISO_A3: `HTI`, CONTINENT: `North America` } },
+				{
+					arcs: [[69, 70]],
+					type: `Polygon`,
+					properties: {
+						ADMIN: `Haiti`,
+						ISO_A3: `HTI`,
+						CONTINENT: `North America`,
+					},
+				},
 				{
 					arcs: [[-70, 71]],
 					type: `Polygon`,
-					properties: { ADMIN: `Dominican Republic`, ISO_A3: `DOM`, CONTINENT: `North America` },
+					properties: {
+						ADMIN: `Dominican Republic`,
+						ISO_A3: `DOM`,
+						CONTINENT: `North America`,
+					},
 				},
 				{
 					arcs: [[-47, 77, 78, 79, 80]],
 					type: `Polygon`,
-					properties: { ADMIN: `Mexico`, ISO_A3: `MEX`, CONTINENT: `North America` },
+					properties: {
+						ADMIN: `Mexico`,
+						ISO_A3: `MEX`,
+						CONTINENT: `North America`,
+					},
 				},
-				{ arcs: [[81, 82, -60]], type: `Polygon`, properties: { ADMIN: `Uruguay`, ISO_A3: `URY`, CONTINENT: `South America` } },
+				{
+					arcs: [[81, 82, -60]],
+					type: `Polygon`,
+					properties: {
+						ADMIN: `Uruguay`,
+						ISO_A3: `URY`,
+						CONTINENT: `South America`,
+					},
+				},
 				{
 					arcs: [[-82, -65, 83, 84, 85, 86, 87, 88, 89, 90, 91]],
 					type: `Polygon`,
-					properties: { ADMIN: `Brazil`, ISO_A3: `BRA`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `Brazil`,
+						ISO_A3: `BRA`,
+						CONTINENT: `South America`,
+					},
 				},
 				{
 					arcs: [[-85, 92, -63, -67, 93]],
 					type: `Polygon`,
-					properties: { ADMIN: `Bolivia`, ISO_A3: `BOL`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `Bolivia`,
+						ISO_A3: `BOL`,
+						CONTINENT: `South America`,
+					},
 				},
 				{
 					arcs: [[-86, -94, -69, 94, 95, 96]],
 					type: `Polygon`,
-					properties: { ADMIN: `Peru`, ISO_A3: `PER`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `Peru`,
+						ISO_A3: `PER`,
+						CONTINENT: `South America`,
+					},
 				},
 				{
 					arcs: [[-87, -97, 97, 98, 99, 100, 101]],
 					type: `Polygon`,
-					properties: { ADMIN: `Colombia`, ISO_A3: `COL`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `Colombia`,
+						ISO_A3: `COL`,
+						CONTINENT: `South America`,
+					},
 				},
 				{
 					arcs: [[-100, 102, 103, 104]],
 					type: `Polygon`,
-					properties: { ADMIN: `Panama`, ISO_A3: `PAN`, CONTINENT: `North America` },
+					properties: {
+						ADMIN: `Panama`,
+						ISO_A3: `PAN`,
+						CONTINENT: `North America`,
+					},
 				},
 				{
 					arcs: [[-104, 105, 106, 107]],
 					type: `Polygon`,
-					properties: { ADMIN: `Costa Rica`, ISO_A3: `CRI`, CONTINENT: `North America` },
+					properties: {
+						ADMIN: `Costa Rica`,
+						ISO_A3: `CRI`,
+						CONTINENT: `North America`,
+					},
 				},
 				{
 					arcs: [[-107, 108, 109, 110]],
 					type: `Polygon`,
-					properties: { ADMIN: `Nicaragua`, ISO_A3: `NIC`, CONTINENT: `North America` },
+					properties: {
+						ADMIN: `Nicaragua`,
+						ISO_A3: `NIC`,
+						CONTINENT: `North America`,
+					},
 				},
 				{
 					arcs: [[-110, 111, 112, 113, 114]],
 					type: `Polygon`,
-					properties: { ADMIN: `Honduras`, ISO_A3: `HND`, CONTINENT: `North America` },
+					properties: {
+						ADMIN: `Honduras`,
+						ISO_A3: `HND`,
+						CONTINENT: `North America`,
+					},
 				},
 				{
 					arcs: [[-113, 115, 116]],
 					type: `Polygon`,
-					properties: { ADMIN: `El Salvador`, ISO_A3: `SLV`, CONTINENT: `North America` },
+					properties: {
+						ADMIN: `El Salvador`,
+						ISO_A3: `SLV`,
+						CONTINENT: `North America`,
+					},
 				},
 				{
 					arcs: [[-80, 117, 118, -114, -117, 119]],
 					type: `Polygon`,
-					properties: { ADMIN: `Guatemala`, ISO_A3: `GTM`, CONTINENT: `North America` },
+					properties: {
+						ADMIN: `Guatemala`,
+						ISO_A3: `GTM`,
+						CONTINENT: `North America`,
+					},
 				},
-				{ arcs: [[-79, 120, -118]], type: `Polygon`, properties: { ADMIN: `Belize`, ISO_A3: `BLZ`, CONTINENT: `North America` } },
+				{
+					arcs: [[-79, 120, -118]],
+					type: `Polygon`,
+					properties: {
+						ADMIN: `Belize`,
+						ISO_A3: `BLZ`,
+						CONTINENT: `North America`,
+					},
+				},
 				{
 					arcs: [[-88, -102, 121, 122]],
 					type: `Polygon`,
-					properties: { ADMIN: `Venezuela`, ISO_A3: `VEN`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `Venezuela`,
+						ISO_A3: `VEN`,
+						CONTINENT: `South America`,
+					},
 				},
 				{
 					arcs: [[-89, -123, 123, 124]],
 					type: `Polygon`,
-					properties: { ADMIN: `Guyana`, ISO_A3: `GUY`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `Guyana`,
+						ISO_A3: `GUY`,
+						CONTINENT: `South America`,
+					},
 				},
 				{
 					arcs: [[-90, -125, 125, 126]],
 					type: `Polygon`,
-					properties: { ADMIN: `Suriname`, ISO_A3: `SUR`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `Suriname`,
+						ISO_A3: `SUR`,
+						CONTINENT: `South America`,
+					},
 				},
-				{ arcs: [[-96, 127, -98]], type: `Polygon`, properties: { ADMIN: `Ecuador`, ISO_A3: `ECU`, CONTINENT: `South America` } },
-				{ arcs: [[128]], type: `Polygon`, properties: { ADMIN: `Puerto Rico`, ISO_A3: `PRI`, CONTINENT: `North America` } },
+				{
+					arcs: [[-96, 127, -98]],
+					type: `Polygon`,
+					properties: {
+						ADMIN: `Ecuador`,
+						ISO_A3: `ECU`,
+						CONTINENT: `South America`,
+					},
+				},
+				{
+					arcs: [[128]],
+					type: `Polygon`,
+					properties: {
+						ADMIN: `Puerto Rico`,
+						ISO_A3: `PRI`,
+						CONTINENT: `North America`,
+					},
+				},
 				// { arcs: [[129]], type: `Polygon`, properties: { ADMIN: `Jamaica`, ISO_A3: `JAM`, CONTINENT: `North America` } },
-				{ arcs: [[130]], type: `Polygon`, properties: { ADMIN: `Cuba`, ISO_A3: `CUB`, CONTINENT: `North America` } },
-				{ arcs: [[-84, -64, -93]], type: `Polygon`, properties: { ADMIN: `Paraguay`, ISO_A3: `PRY`, CONTINENT: `South America` } },
-				{ arcs: [[131]], type: `Polygon`, properties: { ADMIN: `Trinidad and Tobago`, ISO_A3: `TTO`, CONTINENT: `North America` } },
+				{
+					arcs: [[130]],
+					type: `Polygon`,
+					properties: {
+						ADMIN: `Cuba`,
+						ISO_A3: `CUB`,
+						CONTINENT: `North America`,
+					},
+				},
+				{
+					arcs: [[-84, -64, -93]],
+					type: `Polygon`,
+					properties: {
+						ADMIN: `Paraguay`,
+						ISO_A3: `PRY`,
+						CONTINENT: `South America`,
+					},
+				},
+				{
+					arcs: [[131]],
+					type: `Polygon`,
+					properties: {
+						ADMIN: `Trinidad and Tobago`,
+						ISO_A3: `TTO`,
+						CONTINENT: `North America`,
+					},
+				},
 				{
 					arcs: [[132, -91, -127]],
 					type: `Polygon`,
-					properties: { ADMIN: `French Guiana`, ISO_A3: `GF`, CONTINENT: `South America` },
+					properties: {
+						ADMIN: `French Guiana`,
+						ISO_A3: `GF`,
+						CONTINENT: `South America`,
+					},
 				},
 			],
 		},

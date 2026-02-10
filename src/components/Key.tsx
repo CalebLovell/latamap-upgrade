@@ -1,9 +1,11 @@
+import { useRef } from 'react';
 import Draggable from 'react-draggable';
 
 import { useAppStore, useMapStore } from '~/data/store';
 import { getLeaningColors, leaningLabels } from '~/data/types';
 
 export const Key = () => {
+	const nodeRef = useRef<HTMLDivElement>(null);
 	const { mapColorType } = useMapStore();
 	const { keyIsVisible } = useAppStore();
 
@@ -12,8 +14,8 @@ export const Key = () => {
 
 	if (!keyIsVisible) return null;
 	return (
-		<Draggable bounds='parent' defaultClassNameDragged='cursor-grab' defaultClassNameDragging='cursor-grabbing'>
-			<div className='absolute bottom-4 left-0.5 rounded-lg p-2 md:bottom-16'>
+		<Draggable nodeRef={nodeRef} bounds='parent' defaultClassNameDragged='cursor-grab' defaultClassNameDragging='cursor-grabbing'>
+			<div ref={nodeRef} className='absolute bottom-4 left-0.5 rounded-lg p-2 md:bottom-16'>
 				{labels.map((label, index) => (
 					<div key={label} className='mt-1 flex items-center'>
 						{/* @ts-ignore */}

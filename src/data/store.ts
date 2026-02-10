@@ -1,6 +1,6 @@
-import { create } from 'zustand';
+import { create } from "zustand";
 
-import type { LeaderReturn } from '~/data/types';
+import type { LeaderReturn } from "~/data/types";
 
 type MapState = {
 	leaders: LeaderReturn[];
@@ -13,15 +13,15 @@ type MapState = {
 	setMapColorType: (by: `global` | `usa`) => void;
 };
 
-export const useMapStore = create<MapState>(set => ({
+export const useMapStore = create<MapState>((set) => ({
 	leaders: [],
-	setLeaders: by => set({ leaders: by }),
+	setLeaders: (by) => set({ leaders: by }),
 	date: new Date(),
-	setDate: by => set(() => ({ date: by })),
+	setDate: (by) => set(() => ({ date: by })),
 	selectedCountry: `United States of America`,
-	setSelectedCountry: by => set(() => ({ selectedCountry: by })),
+	setSelectedCountry: (by) => set(() => ({ selectedCountry: by })),
 	mapColorType: `global`,
-	setMapColorType: by => set(() => ({ mapColorType: by })),
+	setMapColorType: (by) => set(() => ({ mapColorType: by })),
 }));
 
 type AppState = {
@@ -41,7 +41,7 @@ type AppState = {
 	setDisclaimerModalIsOpen: (by: boolean) => void;
 };
 
-export const useAppStore = create<AppState>(set => ({
+export const useAppStore = create<AppState>((set) => ({
 	sidebarIsOpen: false,
 	setSidebarIsOpen: (by: boolean) => set({ sidebarIsOpen: by }),
 	slideoverIsOpen: false,
@@ -53,7 +53,7 @@ export const useAppStore = create<AppState>(set => ({
 	panelIsVisible: true,
 	setPanelIsVisible: (by: boolean) => set({ panelIsVisible: by }),
 	dateModalIsOpen: false,
-	setDateModalIsOpen: by => set(() => ({ dateModalIsOpen: by })),
+	setDateModalIsOpen: (by) => set(() => ({ dateModalIsOpen: by })),
 	disclaimerModalIsOpen: false,
-	setDisclaimerModalIsOpen: by => set(() => ({ disclaimerModalIsOpen: by })),
+	setDisclaimerModalIsOpen: (by) => set(() => ({ disclaimerModalIsOpen: by })),
 }));

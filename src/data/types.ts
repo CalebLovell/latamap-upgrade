@@ -1,4 +1,4 @@
-import type { Country, Leader } from '@prisma/client';
+import type { Country, Leader } from "@prisma/client";
 
 export type CountryReturn = Country;
 
@@ -72,7 +72,7 @@ export function classNames(...classes: string[]) {
 }
 
 export const getLeadersByDate = (leaders: LeaderReturn[], date: Date) => {
-	const leadersByDate = leaders?.filter(x => {
+	const leadersByDate = leaders?.filter((x) => {
 		const tookOffice = new Date(x.tookOffice);
 		const leftOffice = x.leftOffice ? new Date(x.leftOffice) : new Date();
 		const dateIsBetween = date >= tookOffice && date < leftOffice;
