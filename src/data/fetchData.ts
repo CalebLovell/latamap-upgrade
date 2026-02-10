@@ -12,7 +12,11 @@ export const fetchData = createServerFn({
 	const newestLeader = await prisma.leader.findFirst({
 		where: { tookOffice: { lte: new Date() } },
 		orderBy: { tookOffice: `desc` },
-		select: { name: true, tookOffice: true, Country: { select: { name: true } } },
+		select: {
+			name: true,
+			tookOffice: true,
+			Country: { select: { name: true } },
+		},
 	});
 
 	const data = {

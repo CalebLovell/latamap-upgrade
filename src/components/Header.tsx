@@ -4,17 +4,15 @@ import {
 	Bars3BottomLeftIcon,
 	CalendarIcon,
 } from "@heroicons/react/24/solid";
+import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
+import { useMapStore } from "~/data/store";
 
-import { useAppStore, useMapStore } from "~/data/store";
+const route = getRouteApi("/");
 
 export const Header = () => {
-	const {
-		setSidebarIsOpen,
-		setDateModalIsOpen,
-		slideoverIsOpen,
-		setSlideoverIsOpen,
-	} = useAppStore();
+	const { timeline } = route.useSearch();
+	const navigate = useNavigate();
 	const { date } = useMapStore();
 
 	const formatDate = (d: Date | undefined) =>
@@ -28,7 +26,12 @@ export const Header = () => {
 						title="Open Menu"
 						type="button"
 						className="flex transform rounded-md p-2 font-bold text-gray-900 duration-150 ease-in-out hover:bg-gray-200 active:scale-95"
-						onClick={() => setSidebarIsOpen(true)}
+						onClick={() =>
+							navigate({
+								from: "/",
+								search: (prev) => ({ ...prev, menu: true }),
+							})
+						}
 					>
 						<Bars3BottomLeftIcon className="h-6 w-6 text-blue-900" />
 						<p className="ml-2 hidden font-semibold md:block">Menu</p>
@@ -38,7 +41,12 @@ export const Header = () => {
 							title="Pick New Date"
 							type="button"
 							className="rounded-md p-2 text-blue-900 duration-150 ease-in-out hover:bg-gray-200 active:scale-95"
-							onClick={() => setDateModalIsOpen(true)}
+							onClick={() =>
+								navigate({
+									from: "/",
+									search: (prev) => ({ ...prev, dateModal: true }),
+								})
+							}
 						>
 							<CalendarIcon className="h-6 w-6" />
 						</button>
@@ -48,13 +56,21 @@ export const Header = () => {
 					</div>
 					<div className="flex">
 						<button
-							title="Open Slideover"
+							title="Open Timeline"
 							type="button"
 							className="plausible-event-name=Events flex rounded-md p-2 text-gray-900 transition duration-150 ease-in-out hover:bg-gray-200 active:scale-95"
-							onClick={() => setSlideoverIsOpen(!slideoverIsOpen)}
+							onClick={() =>
+								navigate({
+									from: "/",
+									search: (prev) => ({
+										...prev,
+										timeline: !prev.timeline,
+									}),
+								})
+							}
 						>
 							<p className="mr-2 hidden font-semibold md:block">Timeline</p>
-							{slideoverIsOpen ? (
+							{timeline ? (
 								<ArrowRightCircleIcon className="h-6 w-6 text-blue-900" />
 							) : (
 								<ArrowLeftCircleIcon className="h-6 w-6 text-blue-900" />

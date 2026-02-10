@@ -23,37 +23,3 @@ export const useMapStore = create<MapState>((set) => ({
 	mapColorType: `global`,
 	setMapColorType: (by) => set(() => ({ mapColorType: by })),
 }));
-
-type AppState = {
-	sidebarIsOpen: boolean;
-	setSidebarIsOpen: (by: boolean) => void;
-	slideoverIsOpen: boolean;
-	setSlideoverIsOpen: (by: boolean) => void;
-	bannerIsOpen: boolean;
-	setBannerIsOpen: (by: boolean) => void;
-	keyIsVisible: boolean;
-	setKeyIsVisible: (by: boolean) => void;
-	panelIsVisible: boolean;
-	setPanelIsVisible: (by: boolean) => void;
-	dateModalIsOpen: boolean;
-	setDateModalIsOpen: (by: boolean) => void;
-	disclaimerModalIsOpen: boolean;
-	setDisclaimerModalIsOpen: (by: boolean) => void;
-};
-
-export const useAppStore = create<AppState>((set) => ({
-	sidebarIsOpen: false,
-	setSidebarIsOpen: (by: boolean) => set({ sidebarIsOpen: by }),
-	slideoverIsOpen: false,
-	setSlideoverIsOpen: (by: boolean) => set({ slideoverIsOpen: by }),
-	bannerIsOpen: true,
-	setBannerIsOpen: (by: boolean) => set({ bannerIsOpen: by }),
-	keyIsVisible: true,
-	setKeyIsVisible: (by: boolean) => set({ keyIsVisible: by }),
-	panelIsVisible: true,
-	setPanelIsVisible: (by: boolean) => set({ panelIsVisible: by }),
-	dateModalIsOpen: false,
-	setDateModalIsOpen: (by) => set(() => ({ dateModalIsOpen: by })),
-	disclaimerModalIsOpen: false,
-	setDisclaimerModalIsOpen: (by) => set(() => ({ disclaimerModalIsOpen: by })),
-}));

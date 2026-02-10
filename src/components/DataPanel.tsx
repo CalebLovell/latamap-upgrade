@@ -4,19 +4,21 @@ import {
 	LightBulbIcon,
 	UserCircleIcon,
 } from "@heroicons/react/24/solid";
+import { getRouteApi } from "@tanstack/react-router";
 import { format } from "date-fns";
 import { useRef } from "react";
 import Draggable from "react-draggable";
-
-import { useAppStore, useMapStore } from "~/data/store";
+import { useMapStore } from "~/data/store";
 import { getLeadersByDate, leaningLabels } from "~/data/types";
+
+const route = getRouteApi("/");
 
 const formatDate = (date: Date | undefined) =>
 	date ? format(new Date(date), `MMM d, yyy`) : undefined;
 
 export const DataPanel = () => {
 	const nodeRef = useRef<HTMLDivElement>(null);
-	const { panelIsVisible } = useAppStore();
+	const { panel } = route.useSearch();
 	const { leaders, date, selectedCountry, setSelectedCountry } = useMapStore();
 	const leadersByDate = getLeadersByDate(leaders, date);
 	const leader = leadersByDate?.find((x) => x.Country.name === selectedCountry);
@@ -38,7 +40,7 @@ export const DataPanel = () => {
 		setSelectedCountry(undefined);
 	};
 
-	if (!panelIsVisible) return null;
+	if (!panel) return null;
 	return (
 		<Draggable
 			nodeRef={nodeRef}

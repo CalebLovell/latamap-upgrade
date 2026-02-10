@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, stripSearchParams } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { DataPanel } from "~/components/DataPanel";
 import { DateModal } from "~/components/DateModal";
@@ -12,7 +12,27 @@ import { Timeline } from "~/components/Timeline";
 import { fetchData } from "~/data/fetchData";
 import { useMapStore } from "~/data/store";
 
+const searchDefaults = {
+	menu: false,
+	timeline: false,
+	key: true,
+	panel: true,
+	dateModal: false,
+	disclaimerModal: false,
+};
+
 export const Route = createFileRoute("/")({
+	validateSearch: (search: Record<string, unknown>) => ({
+		menu: search.menu === true,
+		timeline: search.timeline === true,
+		key: search.key !== false,
+		panel: search.panel !== false,
+		dateModal: search.dateModal === true,
+		disclaimerModal: search.disclaimerModal === true,
+	}),
+	search: {
+		middlewares: [stripSearchParams(searchDefaults)],
+	},
 	loader: () => fetchData(),
 	component: App,
 });

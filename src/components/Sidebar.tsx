@@ -1,4 +1,4 @@
-import { Dialog, Transition } from "@headlessui/react";
+import { Dialog, Transition, TransitionChild } from "@headlessui/react";
 import {
 	ArrowPathRoundedSquareIcon,
 	BookOpenIcon,
@@ -10,10 +10,12 @@ import {
 	TableCellsIcon,
 	XMarkIcon,
 } from "@heroicons/react/24/solid";
+import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
 import * as React from "react";
+import { useMapStore } from "~/data/store";
 
-import { useAppStore, useMapStore } from "~/data/store";
+const route = getRouteApi("/");
 
 type SidebarProps = {
 	lastUpdated: Date;
@@ -27,16 +29,8 @@ type SidebarProps = {
 };
 
 export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
-	const {
-		sidebarIsOpen,
-		setSidebarIsOpen,
-		keyIsVisible,
-		setKeyIsVisible,
-		panelIsVisible,
-		setPanelIsVisible,
-		setDateModalIsOpen,
-		setDisclaimerModalIsOpen,
-	} = useAppStore();
+	const { menu } = route.useSearch();
+	const navigate = useNavigate();
 	const { mapColorType, setMapColorType } = useMapStore();
 
 	const sections = [
@@ -46,8 +40,14 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 				{
 					title: `Select a Date`,
 					onClick: () => {
-						setDateModalIsOpen(true);
-						setSidebarIsOpen(false);
+						navigate({
+							from: "/",
+							search: (prev) => ({
+								...prev,
+								dateModal: true,
+								menu: false,
+							}),
+						});
 					},
 					icon: <CalendarIcon className="h-6 w-6 text-blue-900" />,
 				},
@@ -59,12 +59,20 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 				},
 				{
 					title: `Toggle Map Key`,
-					onClick: () => setKeyIsVisible(!keyIsVisible),
+					onClick: () =>
+						navigate({
+							from: "/",
+							search: (prev) => ({ ...prev, key: !prev.key }),
+						}),
 					icon: <KeyIcon className="h-6 w-6 text-blue-900" />,
 				},
 				{
 					title: `Toggle Data Panel`,
-					onClick: () => setPanelIsVisible(!panelIsVisible),
+					onClick: () =>
+						navigate({
+							from: "/",
+							search: (prev) => ({ ...prev, panel: !prev.panel }),
+						}),
 					icon: <TableCellsIcon className="h-6 w-6 text-blue-900" />,
 				},
 			],
@@ -84,15 +92,20 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 	}`;
 
 	return (
-		<Transition.Root show={sidebarIsOpen} as={React.Fragment}>
+		<Transition show={menu} as={React.Fragment}>
 			<Dialog
 				as="div"
 				static
 				className="fixed inset-0 z-40 overflow-hidden"
-				open={sidebarIsOpen}
-				onClose={setSidebarIsOpen}
+				open={menu}
+				onClose={() =>
+					navigate({
+						from: "/",
+						search: (prev) => ({ ...prev, menu: false }),
+					})
+				}
 			>
-				<Transition.Child
+				<TransitionChild
 					as={React.Fragment}
 					enter="transition-opacity ease-linear duration-300"
 					enterFrom="opacity-0"
@@ -102,9 +115,9 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 					leaveTo="opacity-0"
 				>
 					<div className="fixed inset-0 bg-gray-600/50" />
-				</Transition.Child>
+				</TransitionChild>
 				<div className="fixed inset-0 flex">
-					<Transition.Child
+					<TransitionChild
 						as={React.Fragment}
 						enter="transition ease-in-out duration-300 transform"
 						enterFrom="-translate-x-full"
@@ -120,7 +133,15 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 										title="Open Menu"
 										type="button"
 										className="flex transform rounded-md from-red-200 via-orange-200 to-blue-200 px-2 py-1.5 font-bold text-gray-900 duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
-										onClick={() => setSidebarIsOpen(false)}
+										onClick={() =>
+											navigate({
+												from: "/",
+												search: (prev) => ({
+													...prev,
+													menu: false,
+												}),
+											})
+										}
 									>
 										<p className="mr-2 font-semibold">Close</p>
 										<XMarkIcon
@@ -175,8 +196,14 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 														type="button"
 														key="Methodology Disclaimer"
 														onClick={() => {
-															setDisclaimerModalIsOpen(true);
-															setSidebarIsOpen(false);
+															navigate({
+																from: "/",
+																search: (prev) => ({
+																	...prev,
+																	disclaimerModal: true,
+																	menu: false,
+																}),
+															});
 														}}
 														className="plausible-event-name=Disclaimer flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
 													>
@@ -249,10 +276,10 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 								</div>
 							</div>
 						</Dialog.Panel>
-					</Transition.Child>
+					</TransitionChild>
 				</div>
 			</Dialog>
-		</Transition.Root>
+		</Transition>
 	);
 };
 

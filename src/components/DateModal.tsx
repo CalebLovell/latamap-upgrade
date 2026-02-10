@@ -1,12 +1,15 @@
 import { Dialog, Transition } from "@headlessui/react";
+import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
 import * as React from "react";
-
 import { SelectMenu } from "~/components/SelectMenu";
-import { useAppStore, useMapStore } from "~/data/store";
+import { useMapStore } from "~/data/store";
+
+const route = getRouteApi("/");
 
 export const DateModal = () => {
-	const { dateModalIsOpen, setDateModalIsOpen } = useAppStore();
+	const { dateModal } = route.useSearch();
+	const navigate = useNavigate();
 	const { date, setDate } = useMapStore();
 
 	const year = years.find((y) => y.id === date.getFullYear())!;
@@ -38,11 +41,16 @@ export const DateModal = () => {
 		d ? format(new Date(d), `MMMM do, yyy`) : undefined;
 
 	return (
-		<Transition appear show={dateModalIsOpen} as={React.Fragment}>
+		<Transition appear show={dateModal} as={React.Fragment}>
 			<Dialog
 				static
-				open={dateModalIsOpen}
-				onClose={() => setDateModalIsOpen(false)}
+				open={dateModal}
+				onClose={() =>
+					navigate({
+						from: "/",
+						search: (prev) => ({ ...prev, dateModal: false }),
+					})
+				}
 				className="fixed left-0 top-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
 			>
 				<Transition.Child

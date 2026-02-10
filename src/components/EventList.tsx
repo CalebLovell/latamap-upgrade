@@ -1,18 +1,20 @@
-import { Transition } from "@headlessui/react";
+import { Transition, TransitionChild } from "@headlessui/react";
+import { getRouteApi } from "@tanstack/react-router";
 import { format } from "date-fns";
 import { Fragment } from "react";
-
 import { events } from "~/data/events";
-import { useAppStore, useMapStore } from "~/data/store";
+import { useMapStore } from "~/data/store";
 import { classNames } from "~/data/types";
 
+const route = getRouteApi("/");
+
 export const EventList = () => {
-	const { slideoverIsOpen } = useAppStore();
+	const { timeline } = route.useSearch();
 
 	return (
-		<Transition.Root show={slideoverIsOpen}>
+		<Transition show={timeline}>
 			<div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
-				<Transition.Child
+				<TransitionChild
 					as={Fragment}
 					enter="transform transition ease-in-out duration-500"
 					enterFrom="translate-x-full"
@@ -27,9 +29,9 @@ export const EventList = () => {
 							<SlideoverContent />
 						</div>
 					</div>
-				</Transition.Child>
+				</TransitionChild>
 			</div>
-		</Transition.Root>
+		</Transition>
 	);
 };
 

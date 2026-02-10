@@ -4,19 +4,26 @@ import {
 	ExclamationTriangleIcon,
 	LightBulbIcon,
 } from "@heroicons/react/24/solid";
+import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import * as React from "react";
 
-import { useAppStore } from "~/data/store";
+const route = getRouteApi("/");
 
 export const DisclaimerModal = () => {
-	const { disclaimerModalIsOpen, setDisclaimerModalIsOpen } = useAppStore();
+	const { disclaimerModal } = route.useSearch();
+	const navigate = useNavigate();
 
 	return (
-		<Transition appear show={disclaimerModalIsOpen} as={React.Fragment}>
+		<Transition appear show={disclaimerModal} as={React.Fragment}>
 			<Dialog
 				static
-				open={disclaimerModalIsOpen}
-				onClose={() => setDisclaimerModalIsOpen(false)}
+				open={disclaimerModal}
+				onClose={() =>
+					navigate({
+						from: "/",
+						search: (prev) => ({ ...prev, disclaimerModal: false }),
+					})
+				}
 				className="fixed left-0 top-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
 			>
 				<Transition.Child

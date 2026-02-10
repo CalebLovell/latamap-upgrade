@@ -10,7 +10,9 @@
       "Bash(npm run db:seed:*)",
       "Bash(dotenv:*)",
       "Bash(npx dotenv -e .env.local -- tsx test-db.ts)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(python:*)",
+      "Bash(npx tsc:*)"
     ]
   }
 }
