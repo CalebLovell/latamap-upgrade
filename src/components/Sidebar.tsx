@@ -124,7 +124,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 									</button>
 								</div>
 								<div className="h-0.5 w-full bg-linear-to-r from-blue-400 via-orange-400 to-red-400" />
-								<div className="flex h-full w-full flex-col justify-between overflow-auto bg-radial-at-br from-red-50 via-orange-50 to-blue-50 p-2">
+								<div className="flex h-full w-full flex-col justify-between overflow-auto bg-radial-[at_bottom_right] from-red-50 via-orange-50 to-blue-50 p-2">
 									<div>
 										<div className="mb-2 text-xs font-semibold leading-6 text-gray-900">
 											Map Information

@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
+@theme {
+	--height-content: calc(100vh - 3rem - 5rem - 0.125rem);
+	--height-slideover: calc(100vh - 3rem - 0.125rem);
+}
+
 @font-face {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 100 900;
 	font-display: block;
 	src: url(/fonts/inter-var.ttf) format('truetype');
-}
-
-:root {
-	--h-content: calc(100vh - theme('height.12') - theme('height.20') - theme(height[0.5]));
-	--h-slideover: calc(100vh - theme('height.12') - theme(height[0.5]));
 }
 
 /* custom scrollbar */

@@ -50,7 +50,7 @@ export const Header = () => {
 					</div>
 				</div>
 			</header>
-			<div className='h-0.5 w-full bg-gradient-to-r from-blue-400 via-orange-400 to-red-400' />
+			<div className='h-0.5 w-full bg-linear-to-r from-blue-400 via-orange-400 to-red-400' />
 		</>
 	);
 };
