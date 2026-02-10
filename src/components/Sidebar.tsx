@@ -95,7 +95,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 					leaveFrom="opacity-100"
 					leaveTo="opacity-0"
 				>
-					<div className="fixed inset-0 bg-gray-600 bg-opacity-50" />
+					<div className="fixed inset-0 bg-gray-600/50" />
 				</Transition.Child>
 				<div className="fixed inset-0 flex">
 					<Transition.Child

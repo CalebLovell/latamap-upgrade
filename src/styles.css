@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-	--height-content: calc(100vh - 3rem - 5rem - 0.125rem);
+	--font-sans: 'Inter', sans-serif;
+	--height-content: calc(100vh - 3rem - 5rem - 0.125rem - 0.5rem);
 	--height-slideover: calc(100vh - 3rem - 0.125rem);
 }
 
@@ -11,6 +12,10 @@
 	font-weight: 100 900;
 	font-display: block;
 	src: url(/fonts/inter-var.ttf) format('truetype');
+}
+
+button {
+	cursor: pointer;
 }
 
 /* custom scrollbar */

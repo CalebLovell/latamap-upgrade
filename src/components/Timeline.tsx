@@ -1,21 +1,17 @@
-import {
-	BackwardIcon,
-	ChevronLeftIcon,
-	ChevronRightIcon,
-	ForwardIcon,
-	PauseCircleIcon,
-	PlayCircleIcon,
-} from "@heroicons/react/24/solid";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import clsx from "clsx";
 import * as React from "react";
 import { getTrackBackground, Range } from "react-range";
+import { PlaybackBar } from "~/components/PlaybackBar";
 import { useMapStore } from "~/data/store";
 
-const step = 1;
-const min = 1789;
-const max = new Date().getFullYear();
-const background = `rgb(31 41 55)`;
-const accent = `rgb(156 163 175)`;
+export const timelineConfig = {
+	step: 1,
+	min: 1789,
+	max: new Date().getFullYear(),
+	background: `rgb(31 41 55)`,
+	accent: `rgb(156 163 175)`,
+};
 
 export const Timeline = () => {
 	const { date, setDate } = useMapStore();
@@ -46,6 +42,8 @@ type Props = {
 };
 
 const Slider = ({ selectedYear, setSelectedYear }: Props) => {
+	const { step, min, max, background, accent } = timelineConfig;
+
 	const onChange = (vals: number[]) => {
 		setSelectedYear(vals[0]);
 	};
@@ -53,12 +51,12 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 	const increment = React.useCallback(() => {
 		if (selectedYear === max) return;
 		setSelectedYear(selectedYear + 1);
-	}, [selectedYear, setSelectedYear]);
+	}, [selectedYear, setSelectedYear, max]);
 
 	const decrement = React.useCallback(() => {
 		if (selectedYear === min) return setSelectedYear(max);
 		setSelectedYear(selectedYear - 1);
-	}, [selectedYear, setSelectedYear]);
+	}, [selectedYear, setSelectedYear, min, max]);
 
 	React.useEffect(() => {
 		const handleKeyDown = (e: KeyboardEvent) => {
@@ -129,6 +127,7 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 				}}
 			/>
 			<button
+				type="button"
 				title="Next Year"
 				onClick={increment}
 				className="flex h-8 w-8 items-center justify-center rounded-md border-2 border-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 active:scale-95"
@@ -136,88 +135,5 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 				<ChevronRightIcon className="ml-0.5 h-6 w-6 text-gray-800" />
 			</button>
 		</>
-	);
-};
-
-const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
-	const { date, setDate } = useMapStore();
-
-	const [isPlaying, setIsPlaying] = React.useState(false);
-	const speeds = [
-		{ value: 875, label: 0.25 },
-		{ value: 750, label: 0.5 },
-		{ value: 625, label: 0.75 },
-		{ value: 500, label: 1 },
-		{ value: 375, label: 1.25 },
-		{ value: 250, label: 1.5 },
-		{ value: 125, label: 1.75 },
-		{ value: 67.5, label: 2 },
-	];
-	const baseSpeed = speeds[3];
-	const [speed, setSpeed] = React.useState(baseSpeed);
-
-	const increment = React.useCallback(() => {
-		if (selectedYear === max) return;
-		setSelectedYear(selectedYear + 1);
-	}, [selectedYear, setSelectedYear]);
-
-	React.useEffect(() => {
-		if (!isPlaying) return;
-		const interval = setInterval(() => {
-			if (selectedYear === max) {
-				clearInterval(interval);
-				setDate(new Date(min, date.getMonth(), date.getDate()));
-				return;
-			}
-			increment();
-		}, speed.value);
-		return () => clearInterval(interval);
-	}, [date, increment, isPlaying, selectedYear, setDate, speed]);
-
-	const increaseSpeed = () => {
-		const index = speeds.findIndex((s) => s.value === speed.value);
-		if (index === speeds.length - 1) return;
-		setSpeed(speeds[index + 1]);
-	};
-
-	const decreaseSpeed = () => {
-		const index = speeds.findIndex((s) => s.value === speed.value);
-		if (index === 0) return;
-		setSpeed(speeds[index - 1]);
-	};
-
-	return (
-		<div className="relative flex items-center space-x-4">
-			<p className="absolute -left-14 text-sm font-bold">Speed</p>
-			<button
-				title="Decrease Timeline Speed"
-				type="button"
-				className="flex rounded-full from-red-200 via-orange-200 to-blue-200 p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-red-200 active:scale-95"
-				onClick={decreaseSpeed}
-			>
-				<BackwardIcon className="h-8 w-8" />
-			</button>
-			<button
-				title={isPlaying ? `Pause Timeline` : `Autoplay Timeline`}
-				type="button"
-				className="rounded-full from-red-200 via-orange-200 to-blue-200 p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-red-200 active:scale-95"
-				onClick={() => setIsPlaying(!isPlaying)}
-			>
-				{isPlaying ? (
-					<PauseCircleIcon className="h-8 w-8" />
-				) : (
-					<PlayCircleIcon className="h-8 w-8" />
-				)}
-			</button>
-			<button
-				title="Increase Timeline Speed"
-				type="button"
-				className="rounded-full from-red-200 via-orange-200 to-blue-200 p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-red-200 active:scale-95"
-				onClick={increaseSpeed}
-			>
-				<ForwardIcon className="h-8 w-8" />
-			</button>
-			<p className="absolute -right-14 text-sm font-bold">{speed.label}x</p>
-		</div>
 	);
 };
