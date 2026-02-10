@@ -52,8 +52,8 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 				</pattern>
 			</defs>
 			<text
-				x={centroid[0]}
-				y={centroid[1]}
+				x={Math.round(centroid[0] * 100) / 100}
+				y={Math.round(centroid[1] * 100) / 100}
 				className="pointer-events-none select-none font-semibold"
 				style={{
 					fontWeight: `bold`,
