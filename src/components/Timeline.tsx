@@ -1,9 +1,12 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
+import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import clsx from "clsx";
 import * as React from "react";
 import { getTrackBackground, Range } from "react-range";
 import { PlaybackBar } from "~/components/PlaybackBar";
-import { useMapStore } from "~/data/store";
+import { formatDateParam, parseDateParam } from "~/routes/index";
+
+const route = getRouteApi("/");
 
 export const timelineConfig = {
 	step: 1,
@@ -14,11 +17,19 @@ export const timelineConfig = {
 };
 
 export const Timeline = () => {
-	const { date, setDate } = useMapStore();
+	const { date: dateParam } = route.useSearch();
+	const navigate = useNavigate();
+	const date = parseDateParam(dateParam);
 	const selectedYear = date.getFullYear();
 	const setSelectedYear = React.useCallback(
-		(year: number) => setDate(new Date(year, date.getMonth(), date.getDate())),
-		[date, setDate],
+		(year: number) => {
+			const newDate = new Date(year, date.getMonth(), date.getDate());
+			navigate({
+				from: "/",
+				search: (prev) => ({ ...prev, date: formatDateParam(newDate) }),
+			});
+		},
+		[date, navigate],
 	);
 
 	return (

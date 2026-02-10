@@ -1,10 +1,10 @@
 import { Transition, TransitionChild } from "@headlessui/react";
-import { getRouteApi } from "@tanstack/react-router";
+import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
 import { Fragment } from "react";
 import { events } from "~/data/events";
-import { useMapStore } from "~/data/store";
 import { classNames } from "~/data/types";
+import { formatDateParam, parseDateParam } from "~/routes/index";
 
 const route = getRouteApi("/");
 
@@ -36,7 +36,9 @@ export const EventList = () => {
 };
 
 const SlideoverContent = () => {
-	const { date, setDate, setSelectedCountry } = useMapStore();
+	const { date: dateParam } = route.useSearch();
+	const navigate = useNavigate();
+	const date = parseDateParam(dateParam);
 
 	const formatDate = (d: Date | undefined) =>
 		d ? format(new Date(d), `MMMM do, yyy`) : undefined;
@@ -70,8 +72,14 @@ const SlideoverContent = () => {
 									`my-1 rounded-md px-2 py-0.5 text-left hover:bg-blue-200`,
 								)}
 								onClick={() => {
-									setDate(x.date);
-									setSelectedCountry(x.country);
+									navigate({
+										from: "/",
+										search: (prev) => ({
+											...prev,
+											date: formatDateParam(x.date),
+											country: x.country,
+										}),
+									});
 								}}
 								type="button"
 							>

@@ -1,27 +1,41 @@
-import { Dialog, Transition } from "@headlessui/react";
+import {
+	Description,
+	Dialog,
+	DialogPanel,
+	DialogTitle,
+	Transition,
+} from "@headlessui/react";
 import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
 import * as React from "react";
 import { SelectMenu } from "~/components/SelectMenu";
-import { useMapStore } from "~/data/store";
+import { formatDateParam, parseDateParam } from "~/routes/index";
 
 const route = getRouteApi("/");
 
 export const DateModal = () => {
-	const { dateModal } = route.useSearch();
+	const { dateModal, date: dateParam } = route.useSearch();
 	const navigate = useNavigate();
-	const { date, setDate } = useMapStore();
+	const date = parseDateParam(dateParam);
 
-	const year = years.find((y) => y.id === date.getFullYear())!;
+	const setDate = React.useCallback(
+		(d: Date) =>
+			navigate({
+				from: "/",
+				search: (prev) => ({ ...prev, date: formatDateParam(d) }),
+			}),
+		[navigate],
+	);
+
+	const year = years.find((y) => y.id === date.getFullYear());
 	const setYear = React.useCallback(
 		(y: { id: number; name: number }) => {
-			console.log(y);
 			setDate(new Date(y.id, date.getMonth(), date.getDate()));
 		},
 		[date, setDate],
 	);
 
-	const month = months.find((m) => m.id === date.getMonth() + 1)!;
+	const month = months.find((m) => m.id === date.getMonth() + 1);
 	const setMonth = React.useCallback(
 		(m: { id: number; name: string }) => {
 			setDate(new Date(date.getFullYear(), m.id - 1, date.getDate()));
@@ -29,7 +43,7 @@ export const DateModal = () => {
 		[date, setDate],
 	);
 
-	const day = days.find((d) => d.id === date.getDate())!;
+	const day = days.find((d) => d.id === date.getDate());
 	const setDay = React.useCallback(
 		(d: { id: number; name: number }) => {
 			setDate(new Date(date.getFullYear(), date.getMonth(), d.id));
@@ -76,38 +90,38 @@ export const DateModal = () => {
 				>
 					<div className="relative mx-auto flex h-full w-full max-w-xl items-center px-2 py-14">
 						<div className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
-							<div className="flex flex-shrink-0 items-center justify-center rounded-t border-b border-gray-300 p-4">
-								<Dialog.Title className="text-center text-2xl font-bold">
+							<div className="flex shrink-0 items-center justify-center rounded-t border-b border-gray-300 p-4">
+								<DialogTitle className="text-center text-2xl font-bold">
 									{formatDate(date)}
-								</Dialog.Title>
+								</DialogTitle>
 							</div>
-							<Dialog.Panel className="relative flex-auto space-y-4 overflow-y-auto p-4">
-								<Dialog.Description className="">
+							<DialogPanel className="relative flex-auto space-y-4 overflow-y-auto p-4">
+								<Description>
 									<SelectMenu
 										values={years}
 										title="Select a Year"
-										selected={year}
+										selected={year ?? years[0]}
 										setSelected={setYear}
 									/>
-								</Dialog.Description>
-								<Dialog.Description className="">
+								</Description>
+								<Description>
 									<SelectMenu
 										values={months}
 										title="Select a Month"
-										selected={month}
+										selected={month ?? months[0]}
 										setSelected={setMonth}
 									/>
-								</Dialog.Description>
-								<Dialog.Description className="">
+								</Description>
+								<Description>
 									<SelectMenu
 										values={days}
 										title="Select a Day"
-										selected={day}
+										selected={day ?? days[0]}
 										setSelected={setDay}
 									/>
-								</Dialog.Description>
-							</Dialog.Panel>
-							<div className="flex flex-shrink-0 flex-wrap items-center justify-between rounded-b border-t border-gray-300 p-4">
+								</Description>
+							</DialogPanel>
+							<div className="flex shrink-0 flex-wrap items-center justify-between rounded-b border-t border-gray-300 p-4">
 								<div className="flex items-center justify-center space-x-2">
 									<p className="text-sm font-semibold text-gray-900">
 										Pick any date between 1789 and today!

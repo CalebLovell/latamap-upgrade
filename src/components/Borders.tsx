@@ -1,8 +1,10 @@
+import { getRouteApi } from "@tanstack/react-router";
 import * as topojson from "topojson-client";
 
 import { path } from "~/data/map";
-import { useMapStore } from "~/data/store";
 import { geoJSON } from "~/data/worldGeojson";
+
+const route = getRouteApi("/");
 
 export const Borders = () => {
 	return (
@@ -14,7 +16,7 @@ export const Borders = () => {
 };
 
 const SelectedBorders = () => {
-	const { selectedCountry } = useMapStore();
+	const { country: selectedCountry } = route.useSearch();
 
 	const countries = geoJSON.objects.countries;
 
@@ -62,7 +64,7 @@ const SelectedBorders = () => {
 };
 
 const UnselectedBorders = () => {
-	const { selectedCountry } = useMapStore();
+	const { country: selectedCountry } = route.useSearch();
 
 	const outerBorders = topojson.mesh(
 		geoJSON,

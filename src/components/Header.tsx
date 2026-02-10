@@ -6,14 +6,14 @@ import {
 } from "@heroicons/react/24/solid";
 import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
-import { useMapStore } from "~/data/store";
+import { parseDateParam } from "~/routes/index";
 
 const route = getRouteApi("/");
 
 export const Header = () => {
-	const { timeline } = route.useSearch();
+	const { timeline, date: dateParam } = route.useSearch();
 	const navigate = useNavigate();
-	const { date } = useMapStore();
+	const date = parseDateParam(dateParam);
 
 	const formatDate = (d: Date | undefined) =>
 		d ? format(new Date(d), `MMMM do, yyy`) : undefined;

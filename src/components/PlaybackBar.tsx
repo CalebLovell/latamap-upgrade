@@ -4,9 +4,12 @@ import {
 	PauseCircleIcon,
 	PlayCircleIcon,
 } from "@heroicons/react/24/solid";
+import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import * as React from "react";
 import { timelineConfig } from "~/components/Timeline";
-import { useMapStore } from "~/data/store";
+import { formatDateParam, parseDateParam } from "~/routes/index";
+
+const route = getRouteApi("/");
 
 type Props = {
 	selectedYear: number;
@@ -15,7 +18,9 @@ type Props = {
 
 export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 	const { min, max } = timelineConfig;
-	const { date, setDate } = useMapStore();
+	const { date: dateParam } = route.useSearch();
+	const navigate = useNavigate();
+	const date = parseDateParam(dateParam);
 
 	const [isPlaying, setIsPlaying] = React.useState(false);
 	const speeds = [
@@ -41,13 +46,17 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 		const interval = setInterval(() => {
 			if (selectedYear === max) {
 				clearInterval(interval);
-				setDate(new Date(min, date.getMonth(), date.getDate()));
+				const newDate = new Date(min, date.getMonth(), date.getDate());
+				navigate({
+					from: "/",
+					search: (prev) => ({ ...prev, date: formatDateParam(newDate) }),
+				});
 				return;
 			}
 			increment();
 		}, speed.value);
 		return () => clearInterval(interval);
-	}, [date, increment, isPlaying, selectedYear, setDate, speed, max, min]);
+	}, [date, increment, isPlaying, selectedYear, navigate, speed, max, min]);
 
 	const increaseSpeed = () => {
 		const index = speeds.findIndex((s) => s.value === speed.value);

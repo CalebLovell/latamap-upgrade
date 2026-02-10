@@ -4,14 +4,15 @@ import * as React from "react";
 import { Borders } from "~/components/Borders";
 import { Country } from "~/components/Country";
 import { adjustCentroids, laTopoJson, mapHeight, mapWidth } from "~/data/map";
-import { useMapStore } from "~/data/store";
 import { getLeadersByDate } from "~/data/types";
+import { parseDateParam } from "~/routes/index";
 
 const route = getRouteApi("/");
 
 export const Latamap = () => {
 	const { leaders } = route.useLoaderData();
-	const { date } = useMapStore();
+	const { date: dateParam } = route.useSearch();
+	const date = parseDateParam(dateParam);
 	const leadersByDate = getLeadersByDate(leaders, date);
 	const svgRef = React.useRef(null);
 	const gRef = React.useRef(null);

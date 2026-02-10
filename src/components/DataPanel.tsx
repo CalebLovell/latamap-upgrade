@@ -4,12 +4,12 @@ import {
 	LightBulbIcon,
 	UserCircleIcon,
 } from "@heroicons/react/24/solid";
-import { getRouteApi } from "@tanstack/react-router";
+import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
 import { useRef } from "react";
 import Draggable from "react-draggable";
-import { useMapStore } from "~/data/store";
 import { getLeadersByDate, leaningLabels } from "~/data/types";
+import { formatDateParam, parseDateParam } from "~/routes/index";
 
 const route = getRouteApi("/");
 
@@ -18,9 +18,14 @@ const formatDate = (date: Date | undefined) =>
 
 export const DataPanel = () => {
 	const nodeRef = useRef<HTMLDivElement>(null);
-	const { panel } = route.useSearch();
+	const {
+		panel,
+		date: dateParam,
+		country: selectedCountry,
+	} = route.useSearch();
+	const navigate = useNavigate();
 	const { leaders } = route.useLoaderData();
-	const { date, selectedCountry, setSelectedCountry } = useMapStore();
+	const date = parseDateParam(dateParam);
 	const leadersByDate = getLeadersByDate(leaders, date);
 	const leader = leadersByDate?.find((x) => x.Country.name === selectedCountry);
 
@@ -38,7 +43,14 @@ export const DataPanel = () => {
 	}`;
 
 	const clearData = () => {
-		setSelectedCountry(undefined);
+		navigate({
+			from: "/",
+			search: (prev) => ({
+				...prev,
+				country: "United States of America",
+				date: formatDateParam(new Date()),
+			}),
+		});
 	};
 
 	if (!panel) return null;

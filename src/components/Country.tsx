@@ -1,6 +1,5 @@
-import { getRouteApi } from "@tanstack/react-router";
+import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { path } from "~/data/map";
-import { useMapStore } from "~/data/store";
 import type { LeaderReturn } from "~/data/types";
 import { getLeaningColors } from "~/data/types";
 
@@ -14,7 +13,7 @@ type Props = {
 
 export const Country = ({ feature, centroid, leader }: Props) => {
 	const { scheme } = route.useSearch();
-	const { setSelectedCountry } = useMapStore();
+	const navigate = useNavigate();
 
 	const name = feature.properties.ADMIN;
 	const ISO_A3 = feature.properties?.ISO_A3;
@@ -25,7 +24,10 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 	const d = path(feature) ? String(path(feature)) : undefined;
 
 	const onClick = () => {
-		setSelectedCountry(name);
+		navigate({
+			from: "/",
+			search: (prev) => ({ ...prev, country: name }),
+		});
 	};
 
 	return (

@@ -9,6 +9,15 @@ import { Latamap } from "~/components/Latamap";
 import { Sidebar } from "~/components/Sidebar";
 import { Timeline } from "~/components/Timeline";
 import { fetchData } from "~/data/fetchData";
+import { countryNames } from "~/data/map";
+
+export const formatDateParam = (d: Date) =>
+	`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+
+export const parseDateParam = (s: string) => {
+	const [y, m, d] = s.split("-").map(Number);
+	return new Date(y, m - 1, d);
+};
 
 const searchDefaults = {
 	menu: false,
@@ -18,6 +27,8 @@ const searchDefaults = {
 	dateModal: false,
 	disclaimerModal: false,
 	scheme: "default" as const,
+	date: formatDateParam(new Date()),
+	country: "United States of America",
 };
 
 export const Route = createFileRoute("/")({
@@ -31,6 +42,14 @@ export const Route = createFileRoute("/")({
 		scheme: (search.scheme === "inverted" ? "inverted" : "default") as
 			| "default"
 			| "inverted",
+		date:
+			typeof search.date === "string"
+				? search.date
+				: formatDateParam(new Date()),
+		country:
+			typeof search.country === "string" && countryNames.has(search.country)
+				? search.country
+				: "United States of America",
 	}),
 	search: {
 		middlewares: [stripSearchParams(searchDefaults)],

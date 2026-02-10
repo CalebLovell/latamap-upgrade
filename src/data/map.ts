@@ -21,6 +21,10 @@ const projection = d3
 
 export const path = d3.geoPath().projection(projection);
 
+export const countryNames = new Set(
+	laTopoJson.features.map((f) => f.properties?.ADMIN as string),
+);
+
 export const adjustCentroids = (feature: any) => {
 	const name = feature.properties?.ADMIN;
 	const centroid = path.centroid(feature);
