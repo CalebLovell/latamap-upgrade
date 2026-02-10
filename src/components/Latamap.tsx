@@ -1,14 +1,16 @@
+import { getRouteApi } from "@tanstack/react-router";
 import * as d3 from "d3";
 import * as React from "react";
-
 import { Borders } from "~/components/Borders";
 import { Country } from "~/components/Country";
 import { adjustCentroids, laTopoJson, mapHeight, mapWidth } from "~/data/map";
 import { useMapStore } from "~/data/store";
 import { getLeadersByDate } from "~/data/types";
 
+const route = getRouteApi("/");
+
 export const Latamap = () => {
-	const { leaders } = useMapStore();
+	const { leaders } = route.useLoaderData();
 	const { date } = useMapStore();
 	const leadersByDate = getLeadersByDate(leaders, date);
 	const svgRef = React.useRef(null);

@@ -19,7 +19,8 @@ const formatDate = (date: Date | undefined) =>
 export const DataPanel = () => {
 	const nodeRef = useRef<HTMLDivElement>(null);
 	const { panel } = route.useSearch();
-	const { leaders, date, selectedCountry, setSelectedCountry } = useMapStore();
+	const { leaders } = route.useLoaderData();
+	const { date, selectedCountry, setSelectedCountry } = useMapStore();
 	const leadersByDate = getLeadersByDate(leaders, date);
 	const leader = leadersByDate?.find((x) => x.Country.name === selectedCountry);
 

@@ -1,5 +1,4 @@
 import { createFileRoute, stripSearchParams } from "@tanstack/react-router";
-import { useEffect } from "react";
 import { DataPanel } from "~/components/DataPanel";
 import { DateModal } from "~/components/DateModal";
 import { DisclaimerModal } from "~/components/DisclaimerModal";
@@ -10,7 +9,6 @@ import { Latamap } from "~/components/Latamap";
 import { Sidebar } from "~/components/Sidebar";
 import { Timeline } from "~/components/Timeline";
 import { fetchData } from "~/data/fetchData";
-import { useMapStore } from "~/data/store";
 
 const searchDefaults = {
 	menu: false,
@@ -42,13 +40,7 @@ export const Route = createFileRoute("/")({
 });
 
 function App() {
-	const { leaders, lastUpdated, mostRecentLeader } = Route.useLoaderData();
-	const { setLeaders } = useMapStore();
-
-	useEffect(() => {
-		setLeaders(leaders);
-		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, []);
+	const { lastUpdated, mostRecentLeader } = Route.useLoaderData();
 
 	return (
 		<>
