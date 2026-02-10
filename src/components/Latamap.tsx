@@ -22,8 +22,8 @@ export const Latamap = () => {
 			d3
 				.zoom()
 				.scaleExtent([1, 8])
-				.on(`zoom`, (event: any) => {
-					d3.select(gRef.current).attr(`transform`, event.transform);
+				.on(`zoom`, (event: d3.D3ZoomEvent<SVGElement, unknown>) => {
+					d3.select(gRef.current).attr(`transform`, event.transform.toString());
 				}),
 		[],
 	);
@@ -31,10 +31,11 @@ export const Latamap = () => {
 	function reset() {
 		if (!svgRef.current) return;
 		const svg = d3.select(svgRef.current);
-		svg
+		(svg as unknown as d3.Selection<SVGSVGElement, unknown, null, undefined>)
 			.transition()
 			.duration(750)
 			.call(
+				// @ts-expect-error types are unknown
 				zoom.transform,
 				d3.zoomIdentity,
 				d3.zoomTransform(svgRef.current).invert([mapWidth / 2, mapHeight / 2]),
@@ -48,8 +49,21 @@ export const Latamap = () => {
 			height="100%"
 			viewBox="-4 10 360 480"
 			onClick={reset}
-			onDoubleClick={() => d3.select(svgRef.current).call(zoom)}
+			onKeyDown={(e) => {
+				if (e.key === "Enter" || e.key === " ") {
+					reset();
+				}
+			}}
+			aria-label="Latin America Map"
+			onDoubleClick={() => {
+				if (svgRef.current) {
+					d3.select<SVGSVGElement, unknown>(svgRef.current).call(
+						zoom as unknown as d3.ZoomBehavior<SVGSVGElement, unknown>,
+					);
+				}
+			}}
 		>
+			<title>Latin America Map</title>
 			<g ref={gRef}>
 				{laTopoJson.features.map((feature) => {
 					const name = feature.properties?.ADMIN;

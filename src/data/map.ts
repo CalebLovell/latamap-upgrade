@@ -1,5 +1,10 @@
 import * as d3 from "d3";
-import type { FeatureCollection } from "geojson";
+import type {
+	Feature,
+	FeatureCollection,
+	GeoJsonProperties,
+	Geometry,
+} from "geojson";
 import * as topojson from "topojson-client";
 
 import { geoJSON } from "~/data/worldGeojson";
@@ -25,7 +30,9 @@ export const countryNames = new Set(
 	laTopoJson.features.map((f) => f.properties?.ADMIN as string),
 );
 
-export const adjustCentroids = (feature: any) => {
+export const adjustCentroids = (
+	feature: Feature<Geometry, GeoJsonProperties>,
+) => {
 	const name = feature.properties?.ADMIN;
 	const centroid = path.centroid(feature);
 	switch (name) {

@@ -39,7 +39,7 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 	const increment = React.useCallback(() => {
 		if (selectedYear === max) return;
 		setSelectedYear(selectedYear + 1);
-	}, [selectedYear, setSelectedYear, max]);
+	}, [selectedYear, setSelectedYear]);
 
 	React.useEffect(() => {
 		if (!isPlaying) return;
@@ -56,7 +56,7 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 			increment();
 		}, speed.value);
 		return () => clearInterval(interval);
-	}, [date, increment, isPlaying, selectedYear, navigate, speed, max, min]);
+	}, [date, increment, isPlaying, selectedYear, navigate, speed]);
 
 	const increaseSpeed = () => {
 		const index = speeds.findIndex((s) => s.value === speed.value);

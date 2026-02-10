@@ -32,8 +32,9 @@ export const DataPanel = () => {
 	const country = selectedCountry ? selectedCountry : `Select a Country`;
 	const name = leader?.name ? leader?.name : `-`;
 	const party = leader?.party ? leader?.party : `-`;
-	// @ts-expect-error
-	const leaning = leader?.leaning ? leaningLabels[leader?.leaning] : `-`;
+	const leaning = leader?.leaning
+		? leaningLabels[leader?.leaning as keyof typeof leaningLabels]
+		: `-`;
 	const inOffice = `${leader?.tookOffice ? formatDate(leader?.tookOffice) : ``} - ${
 		leader?.leftOffice
 			? formatDate(leader?.leftOffice)

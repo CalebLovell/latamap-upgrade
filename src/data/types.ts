@@ -1,4 +1,4 @@
-import type { Country, Leader } from "@prisma/client";
+import type { Country, Leader } from "~/generated/prisma/client";
 
 export type CountryReturn = Country;
 

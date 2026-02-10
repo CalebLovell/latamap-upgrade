@@ -1,4 +1,6 @@
 import { getRouteApi, useNavigate } from "@tanstack/react-router";
+import type { Feature, GeoJsonProperties, Geometry } from "geojson";
+import { useId } from "react";
 import { path } from "~/data/map";
 import type { LeaderReturn } from "~/data/types";
 import { getLeaningColors } from "~/data/types";
@@ -6,7 +8,7 @@ import { getLeaningColors } from "~/data/types";
 const route = getRouteApi("/");
 
 type Props = {
-	feature: any;
+	feature: Feature<Geometry, GeoJsonProperties>;
 	centroid: [number, number];
 	leader: LeaderReturn | undefined;
 };
@@ -14,13 +16,15 @@ type Props = {
 export const Country = ({ feature, centroid, leader }: Props) => {
 	const { scheme } = route.useSearch();
 	const navigate = useNavigate();
+	const patternId = useId();
 
-	const name = feature.properties.ADMIN;
+	const name = feature.properties?.ADMIN;
 	const ISO_A3 = feature.properties?.ISO_A3;
-	// @ts-expect-error
 	const fill = leader
-		? getLeaningColors(scheme)[leader.leaning]
-		: `url(#diagonal)`;
+		? getLeaningColors(scheme)[
+				leader.leaning as keyof ReturnType<typeof getLeaningColors>
+			]
+		: `url(#${patternId})`;
 	const d = path(feature) ? String(path(feature)) : undefined;
 
 	const onClick = () => {
@@ -32,17 +36,26 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 
 	return (
 		<>
+			{/** biome-ignore lint/a11y/useSemanticElements: <must be a path element> */}
 			<path
+				role="button"
+				tabIndex={0}
+				aria-label={`Select ${name}`}
+				onKeyDown={(e) => {
+					if (e.key === "Enter" || e.key === " ") {
+						onClick();
+					}
+				}}
 				id={name}
 				d={d}
 				fill={fill}
 				onClick={onClick}
-				className="cursor-pointer transition duration-500 ease-in-out hover:opacity-80 active:opacity-50"
+				className="cursor-pointer transition duration-500 ease-in-out hover:opacity-80 focus:opacity-80 active:opacity-50 focus:none outline-none"
 				style={{ WebkitTapHighlightColor: `transparent` }}
 			/>
 			<defs>
 				<pattern
-					id="diagonal"
+					id={patternId}
 					width="5"
 					height="5"
 					patternUnits="userSpaceOnUse"

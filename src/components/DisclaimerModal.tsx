@@ -49,8 +49,8 @@ export const DisclaimerModal = () => {
 				>
 					<div className="relative mx-auto flex h-full w-full max-w-3xl items-center px-2 py-14">
 						<div className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
-							<div className="flex flex-shrink-0 items-center justify-between rounded-t border-b border-gray-300 p-4">
-								<Dialog.Title className="text-2xl font-bold">
+							<div className="flex flex-shrink-0 items-center justify-between rounded-t border-gray-300 border-b p-4">
+								<Dialog.Title className="font-bold text-2xl">
 									Map Explanation
 								</Dialog.Title>
 							</div>

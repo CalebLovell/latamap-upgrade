@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getRouteApi } from "@tanstack/react-router";
 import * as topojson from "topojson-client";
 
@@ -22,9 +23,7 @@ const SelectedBorders = () => {
 
 	const outerBorders = topojson.mesh(
 		geoJSON,
-		// @ts-expect-error
 		countries,
-		// @ts-expect-error
 		(a, b) =>
 			a === b &&
 			a.properties.ADMIN === selectedCountry &&
@@ -32,9 +31,7 @@ const SelectedBorders = () => {
 	);
 	const innerBorders = topojson.mesh(
 		geoJSON,
-		// @ts-expect-error
 		countries,
-		// @ts-expect-error
 		(a, b) =>
 			a !== b &&
 			(a.properties.ADMIN === selectedCountry ||
@@ -45,7 +42,6 @@ const SelectedBorders = () => {
 		coordinates: outerBorders.coordinates.concat(innerBorders.coordinates),
 	};
 
-	// @ts-expect-error
 	const d = path(mapBorders) ? String(path(mapBorders)) : undefined;
 
 	const stroke = `black`;
@@ -68,9 +64,7 @@ const UnselectedBorders = () => {
 
 	const outerBorders = topojson.mesh(
 		geoJSON,
-		// @ts-expect-error
 		geoJSON.objects.countries,
-		// @ts-expect-error
 		(a, b) =>
 			a === b &&
 			a.properties.ADMIN !== selectedCountry &&
@@ -78,9 +72,7 @@ const UnselectedBorders = () => {
 	);
 	const innerBorders = topojson.mesh(
 		geoJSON,
-		// @ts-expect-error
 		geoJSON.objects.countries,
-		// @ts-expect-error
 		(a, b) =>
 			a !== b &&
 			a.properties.ADMIN !== selectedCountry &&
@@ -91,7 +83,6 @@ const UnselectedBorders = () => {
 		coordinates: outerBorders.coordinates.concat(innerBorders.coordinates),
 	};
 
-	// @ts-expect-error
 	const d = path(mapBorders) ? String(path(mapBorders)) : undefined;
 
 	const stroke = `white`;

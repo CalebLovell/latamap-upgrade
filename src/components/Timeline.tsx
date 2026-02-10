@@ -64,12 +64,12 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 	const increment = React.useCallback(() => {
 		if (selectedYear === max) return;
 		setSelectedYear(selectedYear + 1);
-	}, [selectedYear, setSelectedYear, max]);
+	}, [selectedYear, setSelectedYear]);
 
 	const decrement = React.useCallback(() => {
 		if (selectedYear === min) return setSelectedYear(max);
 		setSelectedYear(selectedYear - 1);
-	}, [selectedYear, setSelectedYear, min, max]);
+	}, [selectedYear, setSelectedYear]);
 
 	React.useEffect(() => {
 		const handleKeyDown = (e: KeyboardEvent) => {
@@ -98,6 +98,12 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 				onChange={onChange}
 				renderTrack={({ props, children }) => (
 					<div
+						role="slider"
+						tabIndex={-1}
+						aria-valuenow={selectedYear}
+						aria-valuemin={min}
+						aria-valuemax={max}
+						aria-valuetext={`${selectedYear}`}
 						onMouseDown={props.onMouseDown}
 						onTouchStart={props.onTouchStart}
 						className="flex h-full w-full px-6"

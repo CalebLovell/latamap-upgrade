@@ -8,7 +8,7 @@ type Props = {
 	values: { id: number; name: string | number }[];
 	title: string;
 	selected: { id: number; name: string | number };
-	setSelected: any;
+	setSelected: (value: { id: number; name: string | number }) => void;
 };
 
 export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {

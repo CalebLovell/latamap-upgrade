@@ -4,6 +4,7 @@ import {
 	DialogPanel,
 	DialogTitle,
 	Transition,
+	TransitionChild,
 } from "@headlessui/react";
 import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
@@ -29,7 +30,7 @@ export const DateModal = () => {
 
 	const year = years.find((y) => y.id === date.getFullYear());
 	const setYear = React.useCallback(
-		(y: { id: number; name: number }) => {
+		(y: { id: number; name: string | number }) => {
 			setDate(new Date(y.id, date.getMonth(), date.getDate()));
 		},
 		[date, setDate],
@@ -37,7 +38,7 @@ export const DateModal = () => {
 
 	const month = months.find((m) => m.id === date.getMonth() + 1);
 	const setMonth = React.useCallback(
-		(m: { id: number; name: string }) => {
+		(m: { id: number; name: string | number }) => {
 			setDate(new Date(date.getFullYear(), m.id - 1, date.getDate()));
 		},
 		[date, setDate],
@@ -45,7 +46,7 @@ export const DateModal = () => {
 
 	const day = days.find((d) => d.id === date.getDate());
 	const setDay = React.useCallback(
-		(d: { id: number; name: number }) => {
+		(d: { id: number; name: string | number }) => {
 			setDate(new Date(date.getFullYear(), date.getMonth(), d.id));
 		},
 		[date, setDate],
@@ -67,7 +68,7 @@ export const DateModal = () => {
 				}
 				className="fixed left-0 top-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
 			>
-				<Transition.Child
+				<TransitionChild
 					as={React.Fragment}
 					enter="ease-out duration-300"
 					enterFrom="opacity-0"
@@ -77,9 +78,9 @@ export const DateModal = () => {
 					leaveTo="opacity-0"
 				>
 					<div className="fixed inset-0 bg-black/75" aria-hidden="true" />
-				</Transition.Child>
+				</TransitionChild>
 
-				<Transition.Child
+				<TransitionChild
 					as={React.Fragment}
 					enter="ease-out duration-300"
 					enterFrom="opacity-0 scale-95"
@@ -136,7 +137,7 @@ export const DateModal = () => {
 							</div>
 						</div>
 					</div>
-				</Transition.Child>
+				</TransitionChild>
 			</Dialog>
 		</Transition>
 	);
@@ -151,7 +152,7 @@ const years = Array.from(
 	}),
 );
 
-const months = [
+const months: { id: number; name: string | number }[] = [
 	{ id: 1, name: `January` },
 	{ id: 2, name: `February` },
 	{ id: 3, name: `March` },
