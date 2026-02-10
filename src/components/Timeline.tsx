@@ -53,6 +53,8 @@ type Props = {
 };
 
 const Slider = ({ selectedYear, setSelectedYear }: Props) => {
+	const [mounted, setMounted] = React.useState(false);
+	React.useEffect(() => setMounted(true), []);
 	const { step, min, max, background, accent } = timelineConfig;
 
 	const onChange = (vals: number[]) => {
@@ -118,6 +120,7 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 				)}
 				renderThumb={({ props, isDragged }) => {
 					const { key, ...restProps } = props;
+					if (!mounted) return <div key={key} {...restProps} />;
 					return (
 						<div
 							key={key}
