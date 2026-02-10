@@ -65,18 +65,18 @@ export const DataPanel = () => {
 		>
 			<div
 				ref={nodeRef}
-				className="absolute right-2 top-2 w-40 rounded-lg border border-gray-300 bg-white md:right-8 md:top-8 md:w-60"
+				className="absolute top-2 right-2 w-40 rounded-lg border border-gray-300 bg-white md:top-8 md:right-8 md:w-60"
 			>
 				<dl className="flex flex-col">
 					<div className="relative flex-auto p-1 md:p-2">
-						<dt className="truncate text-center text-xs font-semibold leading-tight text-gray-900 md:whitespace-normal md:text-base">
+						<dt className="truncate text-center font-semibold text-gray-900 text-xs leading-tight md:whitespace-normal md:text-base">
 							{country}
 						</dt>
 					</div>
 
 					{leader?.name ? (
 						<>
-							<div className="space-y-0 border-y border-gray-300 p-1 md:space-y-1 md:p-2">
+							<div className="space-y-0 border-gray-300 border-y p-1 md:space-y-1 md:p-2">
 								<div className="flex w-full flex-none items-center gap-x-1">
 									<dt className="flex-none">
 										<span className="sr-only">Leader</span>
@@ -85,7 +85,7 @@ export const DataPanel = () => {
 											aria-hidden="true"
 										/>
 									</dt>
-									<dd className="text-xs font-medium leading-tight text-gray-900 md:text-sm">
+									<dd className="font-medium text-gray-900 text-xs leading-tight md:text-sm">
 										{name}
 									</dd>
 								</div>
@@ -97,7 +97,7 @@ export const DataPanel = () => {
 											aria-hidden="true"
 										/>
 									</dt>
-									<dd className="text-xs italic leading-tight text-gray-500 md:text-sm">
+									<dd className="text-gray-500 text-xs italic leading-tight md:text-sm">
 										<time dateTime="2023-01-31">{inOffice}</time>
 									</dd>
 								</div>
@@ -109,7 +109,7 @@ export const DataPanel = () => {
 											aria-hidden="true"
 										/>
 									</dt>
-									<dd className="text-xs leading-tight text-gray-800 md:text-sm">
+									<dd className="text-gray-800 text-xs leading-tight md:text-sm">
 										{party}
 									</dd>
 								</div>
@@ -121,7 +121,7 @@ export const DataPanel = () => {
 											aria-hidden="true"
 										/>
 									</dt>
-									<dd className="text-xs leading-tight text-gray-800 md:text-sm">
+									<dd className="text-gray-800 text-xs leading-tight md:text-sm">
 										{leaning}
 									</dd>
 								</div>
@@ -131,7 +131,7 @@ export const DataPanel = () => {
 								<button
 									type="button"
 									onClick={clearData}
-									className="w-full rounded-md bg-white px-2.5 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 active:scale-95"
+									className="w-full rounded-md bg-white px-2.5 py-1 font-semibold text-gray-900 text-xs shadow-sm ring-1 ring-gray-300 ring-inset hover:bg-gray-50 active:scale-95"
 								>
 									Clear
 								</button>

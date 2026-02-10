@@ -24,7 +24,7 @@ export const DisclaimerModal = () => {
 						search: (prev) => ({ ...prev, disclaimerModal: false }),
 					})
 				}
-				className="fixed left-0 top-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
+				className="fixed top-0 left-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
 			>
 				<Transition.Child
 					as={React.Fragment}
@@ -57,7 +57,7 @@ export const DisclaimerModal = () => {
 							<Dialog.Panel className="relative flex-auto overflow-y-auto p-4">
 								<div className="mb-2 flex items-center">
 									<ExclamationTriangleIcon className="mr-2 h-5 w-5 text-red-700" />
-									<Dialog.Title as="h3" className="text-xl font-semibold">
+									<Dialog.Title as="h3" className="font-semibold text-xl">
 										Disclaimer
 									</Dialog.Title>
 								</div>
@@ -76,7 +76,7 @@ export const DisclaimerModal = () => {
 								</Dialog.Description>
 								<div className="mb-2 flex items-center">
 									<LightBulbIcon className="mr-2 h-5 w-5 text-orange-400" />
-									<Dialog.Title as="h3" className="text-xl font-semibold">
+									<Dialog.Title as="h3" className="font-semibold text-xl">
 										Methodology
 									</Dialog.Title>
 								</div>
@@ -96,7 +96,7 @@ export const DisclaimerModal = () => {
 								</Dialog.Description>
 								<div className="mb-2 flex items-center">
 									<EnvelopeIcon className="mr-2 h-5 w-5 text-blue-600" />
-									<Dialog.Title as="h3" className="text-xl font-semibold">
+									<Dialog.Title as="h3" className="font-semibold text-xl">
 										Contact Me
 									</Dialog.Title>
 								</div>
@@ -115,10 +115,10 @@ export const DisclaimerModal = () => {
 									, or on my social media listed below.
 								</Dialog.Description>
 							</Dialog.Panel>
-							<div className="flex flex-shrink-0 flex-wrap items-center justify-end rounded-b border-t border-gray-300 p-4">
+							<div className="flex flex-shrink-0 flex-wrap items-center justify-end rounded-b border-gray-300 border-t p-4">
 								<button
 									type="button"
-									className="rounded bg-gray-800 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 hover:shadow-lg active:bg-gray-800 active:shadow-lg"
+									className="rounded bg-gray-800 px-6 py-2.5 font-medium text-white text-xs uppercase leading-tight transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 hover:shadow-lg active:bg-gray-800 active:shadow-lg"
 								>
 									Close
 								</button>

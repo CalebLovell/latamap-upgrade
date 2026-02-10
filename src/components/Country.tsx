@@ -50,7 +50,7 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 				d={d}
 				fill={fill}
 				onClick={onClick}
-				className="cursor-pointer transition duration-500 ease-in-out hover:opacity-80 focus:opacity-80 active:opacity-50 focus:none outline-none"
+				className="focus:none cursor-pointer outline-none transition duration-500 ease-in-out hover:opacity-80 focus:opacity-80 active:opacity-50"
 				style={{ WebkitTapHighlightColor: `transparent` }}
 			/>
 			<defs>

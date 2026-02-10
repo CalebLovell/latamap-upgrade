@@ -16,11 +16,11 @@ export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 		<Listbox value={selected} onChange={setSelected}>
 			{({ open }) => (
 				<>
-					<Listbox.Label className="block text-sm font-medium leading-6 text-gray-900">
+					<Listbox.Label className="block font-medium text-gray-900 text-sm leading-6">
 						{title}
 					</Listbox.Label>
 					<div className="relative mt-2">
-						<Listbox.Button className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-600 sm:text-sm sm:leading-6">
+						<Listbox.Button className="relative w-full cursor-default rounded-md bg-white py-1.5 pr-10 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-gray-300 ring-inset focus:outline-none focus:ring-2 focus:ring-gray-600 sm:text-sm sm:leading-6">
 							<span className="block truncate">{selected.name}</span>
 							<span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
 								<ChevronUpDownIcon
@@ -44,7 +44,7 @@ export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 										className={({ active }) =>
 											classNames(
 												active ? `bg-gray-600 text-white` : `text-gray-900`,
-												`relative cursor-default select-none py-2 pl-3 pr-9`,
+												`relative cursor-default select-none py-2 pr-9 pl-3`,
 											)
 										}
 										value={x}

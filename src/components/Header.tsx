@@ -50,7 +50,7 @@ export const Header = () => {
 						>
 							<CalendarIcon className="h-6 w-6" />
 						</button>
-						<h1 className="text-center text-base font-bold text-gray-900 sm:text-xl">
+						<h1 className="text-center font-bold text-base text-gray-900 sm:text-xl">
 							{formatDate(date)}
 						</h1>
 					</div>

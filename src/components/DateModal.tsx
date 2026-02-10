@@ -66,7 +66,7 @@ export const DateModal = () => {
 						search: (prev) => ({ ...prev, dateModal: false }),
 					})
 				}
-				className="fixed left-0 top-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
+				className="fixed top-0 left-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
 			>
 				<TransitionChild
 					as={React.Fragment}
@@ -91,8 +91,8 @@ export const DateModal = () => {
 				>
 					<div className="relative mx-auto flex h-full w-full max-w-xl items-center px-2 py-14">
 						<div className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
-							<div className="flex shrink-0 items-center justify-center rounded-t border-b border-gray-300 p-4">
-								<DialogTitle className="text-center text-2xl font-bold">
+							<div className="flex shrink-0 items-center justify-center rounded-t border-gray-300 border-b p-4">
+								<DialogTitle className="text-center font-bold text-2xl">
 									{formatDate(date)}
 								</DialogTitle>
 							</div>
@@ -122,15 +122,15 @@ export const DateModal = () => {
 									/>
 								</Description>
 							</DialogPanel>
-							<div className="flex shrink-0 flex-wrap items-center justify-between rounded-b border-t border-gray-300 p-4">
+							<div className="flex shrink-0 flex-wrap items-center justify-between rounded-b border-gray-300 border-t p-4">
 								<div className="flex items-center justify-center space-x-2">
-									<p className="text-sm font-semibold text-gray-900">
+									<p className="font-semibold text-gray-900 text-sm">
 										Pick any date between 1789 and today!
 									</p>
 								</div>
 								<button
 									type="button"
-									className="rounded bg-gray-800 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg"
+									className="rounded bg-gray-800 px-6 py-2.5 font-medium text-white text-xs uppercase leading-tight transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg"
 								>
 									Close
 								</button>

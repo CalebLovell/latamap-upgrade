@@ -157,10 +157,10 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 								<div className="h-0.5 w-full bg-linear-to-r from-blue-400 via-orange-400 to-red-400" />
 								<div className="flex h-full w-full flex-col justify-between overflow-auto bg-radial-[at_bottom_right] from-red-50 via-orange-50 to-blue-50 p-2">
 									<div>
-										<div className="mb-2 text-xs font-semibold leading-6 text-gray-900">
+										<div className="mb-2 font-semibold text-gray-900 text-xs leading-6">
 											Map Information
 										</div>
-										<div className="flex flex-col space-y-2 text-sm text-gray-900">
+										<div className="flex flex-col space-y-2 text-gray-900 text-sm">
 											<p>
 												This website is a visualization of the political history
 												of Latin America. Use the timeline or calendar to select
@@ -178,7 +178,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 										</div>
 										{sections.map(({ title, options }) => (
 											<React.Fragment key={title}>
-												<div className="my-2 text-xs font-semibold leading-6 text-gray-900">
+												<div className="my-2 font-semibold text-gray-900 text-xs leading-6">
 													{title}
 												</div>
 												<div className="space-y-2">
@@ -187,13 +187,13 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 															type="button"
 															key={x.title}
 															onClick={x.onClick}
-															className="flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
+															className="flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center font-medium text-gray-900 text-sm transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
 														>
 															{x.title}
 															{x.icon}
 														</button>
 													))}
-													<div className="my-2 text-xs font-semibold leading-6 text-gray-900">
+													<div className="my-2 font-semibold text-gray-900 text-xs leading-6">
 														Read More
 													</div>
 													<button
@@ -209,13 +209,13 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 																}),
 															});
 														}}
-														className="plausible-event-name=Disclaimer flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
+														className="plausible-event-name=Disclaimer flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center font-medium text-gray-900 text-sm transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
 													>
 														Methodology Disclaimer
 														<ExclamationTriangleIcon className="h-6 w-6 text-blue-900" />
 													</button>
 													<a
-														className="flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
+														className="flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center font-medium text-gray-900 text-sm transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
 														href="https://www.caleblovell.com/blog/building-latamap-website"
 														target="_blank"
 														rel="noreferrer"
@@ -224,7 +224,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 														<BookOpenIcon className="h-6 w-6 text-blue-900" />
 													</a>
 													<a
-														className="flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center text-sm font-medium text-gray-900 transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
+														className="flex w-full items-center justify-between rounded-md border border-gray-400 bg-gray-200 p-2 text-center font-medium text-gray-900 text-sm transition duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
 														href="https://www.caleblovell.com/blog/going-viral-on-twitter"
 														target="_blank"
 														rel="noreferrer"
@@ -246,19 +246,19 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 									<div className="flex flex-col justify-center pt-2">
 										<div className="flex items-center justify-center space-x-1 pt-2">
 											<ArrowPathRoundedSquareIcon className="h-3.5 w-3.5 text-gray-900" />
-											<p className="text-xs font-semibold italic text-gray-900">
+											<p className="font-semibold text-gray-900 text-xs italic">
 												{formattedLastUpdated}
 											</p>
 										</div>
 										<div className="flex items-center justify-center space-x-1 pt-2">
 											<ClockIcon className="h-3.5 w-3.5 text-gray-900" />
-											<p className="text-xs font-semibold italic text-gray-900">
+											<p className="font-semibold text-gray-900 text-xs italic">
 												{formattedMostRecentLeader}
 											</p>
 										</div>
 										<div className="flex items-center justify-center space-x-1 pt-2">
 											<CalendarIcon className="h-3.5 w-3.5 text-gray-900" />
-											<p className="text-xs font-semibold italic text-gray-900">
+											<p className="font-semibold text-gray-900 text-xs italic">
 												{formattedTookOffice}
 											</p>
 										</div>

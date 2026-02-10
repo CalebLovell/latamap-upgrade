@@ -32,7 +32,7 @@ export const Key = () => {
 								backgroundColor: colors[(index + 1) as keyof typeof colors],
 							}}
 						/>
-						<p className="text-xs font-semibold text-black sm:text-sm">
+						<p className="font-semibold text-black text-xs sm:text-sm">
 							{label}
 						</p>
 					</div>

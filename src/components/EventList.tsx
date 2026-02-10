@@ -45,7 +45,7 @@ const SlideoverContent = () => {
 
 	return (
 		<section className="overflow-auto pb-4">
-			<ol className="relative pb-1 pl-4 pr-1">
+			<ol className="relative pr-1 pb-1 pl-4">
 				<div
 					className="absolute bottom-1 left-3 inline-block border border-gray-900"
 					style={{
@@ -61,7 +61,7 @@ const SlideoverContent = () => {
 							key={x.title}
 							className={classNames(
 								i === 0 ? `pt-0 lg:pt-2` : ``,
-								` relative border-l border-gray-900 pl-4`,
+								`relative border-gray-900 border-l pl-4`,
 							)}
 						>
 							<button
@@ -86,13 +86,13 @@ const SlideoverContent = () => {
 								{i !== events.length - 1 && (
 									<div className="absolute -bottom-[1.6rem] -left-[.27rem] h-2 w-2 rounded-full bg-gray-900 pt-2" />
 								)}
-								<time className="pb-1 text-xs font-semibold leading-none text-gray-500">
+								<time className="pb-1 font-semibold text-gray-500 text-xs leading-none">
 									{formatDate(x.date)}
 								</time>
-								<h3 className="text-lg font-semibold text-gray-900">
+								<h3 className="font-semibold text-gray-900 text-lg">
 									{x.title}
 								</h3>
-								<p className="text-base font-normal text-gray-900">
+								<p className="font-normal text-base text-gray-900">
 									{x.description}
 								</p>
 							</button>

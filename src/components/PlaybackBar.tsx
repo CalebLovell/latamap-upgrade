@@ -72,7 +72,7 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 
 	return (
 		<div className="relative flex items-center gap-4">
-			<p className="absolute -left-19 text-sm font-bold">Speed</p>
+			<p className="absolute -left-19 font-bold text-sm">Speed</p>
 			<button
 				title="Decrease Timeline Speed"
 				type="button"
@@ -101,7 +101,7 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 			>
 				<ForwardIcon className="h-8 w-8" />
 			</button>
-			<p className="absolute -right-12 text-sm font-bold">{speed.label}x</p>
+			<p className="absolute -right-12 font-bold text-sm">{speed.label}x</p>
 		</div>
 	);
 };
