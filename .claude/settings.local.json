@@ -17,7 +17,11 @@
       "Bash(grep:*)",
       "Bash(find:*)",
       "Bash(node prisma/add-ids.cjs:*)",
-      "Bash(node prisma/fix-ids.cjs:*)"
+      "Bash(node prisma/fix-ids.cjs:*)",
+      "WebSearch",
+      "WebFetch(domain:tanstack.com)",
+      "Bash(npm i:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }
