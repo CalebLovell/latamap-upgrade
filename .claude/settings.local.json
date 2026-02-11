@@ -12,7 +12,12 @@
       "Bash(npx dotenv -e .env.local -- tsx test-db.ts)",
       "Bash(ls:*)",
       "Bash(python:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(node prisma/add-ids.cjs:*)",
+      "Bash(node prisma/fix-ids.cjs:*)"
     ]
   }
 }

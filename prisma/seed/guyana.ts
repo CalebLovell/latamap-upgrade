@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Guyana`;
 
 const countryId = 13;
 
-export const guyana: LeaderNoId[] = [
+export const guyana: LeaderSeed[] = [
 	{
+		id: 14000,
 		countryId,
 		name: `Elizabeth II`,
 		party: `British Monarchy`,
@@ -15,6 +16,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `17 March 1970`,
 	},
 	{
+		id: 14001,
 		countryId,
 		name: `Elizabeth II`,
 		party: `British Monarchy`,
@@ -23,6 +25,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `17 March 1970`,
 	},
 	{
+		id: 14002,
 		countryId,
 		name: `Arthur Chung`,
 		party: `Independent`,
@@ -31,6 +34,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `6 October 1980`,
 	},
 	{
+		id: 14003,
 		countryId,
 		name: `Forbes Burnham`,
 		party: `People's National Congress Reform`,
@@ -39,6 +43,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `6 August 1985`,
 	},
 	{
+		id: 14004,
 		countryId,
 		name: `Desmond Hoyte`,
 		party: `People's National Congress Reform`,
@@ -47,6 +52,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `9 October 1992`,
 	},
 	{
+		id: 14005,
 		countryId,
 		name: `Cheddi Jagan`,
 		party: `People's Progressive Party`,
@@ -55,6 +61,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `6 March 1997`,
 	},
 	{
+		id: 14006,
 		countryId,
 		name: `Sam Hinds`,
 		party: `People's Progressive Party`,
@@ -63,6 +70,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `19 December 1997`,
 	},
 	{
+		id: 14007,
 		countryId,
 		name: `Janet Jagan`,
 		party: `People's Progressive Party`,
@@ -71,6 +79,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `11 August 1999`,
 	},
 	{
+		id: 14008,
 		countryId,
 		name: `Bharrat Jagdeo`,
 		party: `People's Progressive Party`,
@@ -79,6 +88,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `3 December 2011`,
 	},
 	{
+		id: 14009,
 		countryId,
 		name: `Donald Ramotar`,
 		party: `People's Progressive Party`,
@@ -87,6 +97,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `16 May 2015`,
 	},
 	{
+		id: 14010,
 		countryId,
 		name: `David Granger`,
 		party: `People's National Congress Reform`,
@@ -95,6 +106,7 @@ export const guyana: LeaderNoId[] = [
 		leftOffice: `2 August 2020`,
 	},
 	{
+		id: 14011,
 		countryId,
 		name: `Irfaan Ali`,
 		party: `People's Progressive Party`,

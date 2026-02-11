@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_Colombia`;
 
 const countryId = 10;
 
-export const colombia: LeaderNoId[] = [
+export const colombia: LeaderSeed[] = [
 	{
+		id: 7000,
 		countryId,
 		name: `Viceroyalty of New Granada`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `22 May 1810`,
 	},
 	{
+		id: 7001,
 		countryId,
 		name: `First Republic of New Granada`,
 		party: `First Republic of New Granada`,
@@ -23,6 +25,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `6 May 1816`,
 	},
 	{
+		id: 7002,
 		countryId,
 		name: `Viceroyalty of New Granada`,
 		party: `Kingdom of Spain`,
@@ -31,6 +34,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `15 February 1819`,
 	},
 	{
+		id: 7003,
 		countryId,
 		name: `Simón Bolívar - Gran Colombia`,
 		party: `Military`,
@@ -39,6 +43,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `4 May 1830`,
 	},
 	{
+		id: 7004,
 		countryId,
 		name: `Joaquín de Mosquera y Arboleda - Gran Colombia`,
 		party: `Military`,
@@ -47,6 +52,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `4 September 1830`,
 	},
 	{
+		id: 7005,
 		countryId,
 		name: `Rafael Urdaneta y Faría - Gran Colombia`,
 		party: `Military`,
@@ -55,6 +61,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `30 April 1831`,
 	},
 	{
+		id: 7006,
 		countryId,
 		name: `Domingo Caycedo y Sanz de Santamaría - Gran Colombia`,
 		party: `Military`,
@@ -63,6 +70,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `21 November 1831`,
 	},
 	{
+		id: 7007,
 		countryId,
 		name: `José María Obando del Campo - Gran Colombia`,
 		party: `Military`,
@@ -71,6 +79,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `10 March 1832`,
 	},
 	{
+		id: 7008,
 		countryId,
 		name: `Francisco de Paula Santander y Omaña - Republic of New Granada`,
 		party: `Military`,
@@ -79,6 +88,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1837`,
 	},
 	{
+		id: 7009,
 		countryId,
 		name: `José Ignacio de Márquez Barreto - Republic of New Granada`,
 		party: `Military`,
@@ -87,6 +97,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1841`,
 	},
 	{
+		id: 7010,
 		countryId,
 		name: `Pedro Alcántara Herrán Martínez - Republic of New Granada`,
 		party: `Military`,
@@ -95,6 +106,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1845`,
 	},
 	{
+		id: 7011,
 		countryId,
 		name: `Tomás Cipriano de Mosquera y Arboleda - Republic of New Granada`,
 		party: `Military`,
@@ -103,6 +115,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1849`,
 	},
 	{
+		id: 7012,
 		countryId,
 		name: `José Hilario López Valdéz - Republic of New Granada`,
 		party: `Colombian Liberal Party`,
@@ -111,6 +124,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1853`,
 	},
 	{
+		id: 7013,
 		countryId,
 		name: `José María Obando del Campo - Republic of New Granada`,
 		party: `Colombian Liberal Party`,
@@ -119,6 +133,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `17 April 1854`,
 	},
 	{
+		id: 7014,
 		countryId,
 		name: `José María Melo y Ortiz - Republic of New Granada`,
 		party: `Colombian Liberal Party`,
@@ -127,6 +142,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `4 December 1854`,
 	},
 	{
+		id: 7015,
 		countryId,
 		name: `Manuel María Mallarino Ibargüen - Republic of New Granada`,
 		party: `Colombian Conservative Party`,
@@ -135,6 +151,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1857`,
 	},
 	{
+		id: 7016,
 		countryId,
 		name: `Mariano Ospina Rodríguez - Granadine Confederation`,
 		party: `Colombian Conservative Party`,
@@ -143,6 +160,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1861`,
 	},
 	{
+		id: 7017,
 		countryId,
 		name: `Bartolomé Calvo Díaz - Granadine Confederation`,
 		party: `Colombian Conservative Party`,
@@ -151,6 +169,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `18 July 1861`,
 	},
 	{
+		id: 7018,
 		countryId,
 		name: `Juan José Nieto Gil - Granadine Confederation`,
 		party: `Colombian Liberal Party`,
@@ -159,6 +178,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `18 July 1861`,
 	},
 	{
+		id: 7019,
 		countryId,
 		name: `Tomás Cipriano de Mosquera y Arboleda - Granadine Confederation`,
 		party: `Colombian Liberal Party`,
@@ -167,6 +187,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `4 February 1863`,
 	},
 	{
+		id: 7020,
 		countryId,
 		name: `Tomás Cipriano de Mosquera y Arboleda - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -175,6 +196,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1864`,
 	},
 	{
+		id: 7021,
 		countryId,
 		name: `Manuel Murillo Toro - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -183,6 +205,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1866`,
 	},
 	{
+		id: 7022,
 		countryId,
 		name: `Tomás Cipriano de Mosquera y Arboleda - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -191,6 +214,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `23 May 1867`,
 	},
 	{
+		id: 7023,
 		countryId,
 		name: `Santos Acosta Castillo - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -199,6 +223,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1868`,
 	},
 	{
+		id: 7024,
 		countryId,
 		name: `Santos Gutiérrez Prieto - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -207,6 +232,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1870`,
 	},
 	{
+		id: 7025,
 		countryId,
 		name: `Eustorgio Salgar Moreno - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -215,6 +241,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1872`,
 	},
 	{
+		id: 7026,
 		countryId,
 		name: `Manuel Murillo Toro - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -223,6 +250,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1874`,
 	},
 	{
+		id: 7027,
 		countryId,
 		name: `Santiago Pérez de Manosalbas - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -231,6 +259,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1876`,
 	},
 	{
+		id: 7028,
 		countryId,
 		name: `Aquileo Parra Gómez - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -239,6 +268,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1878`,
 	},
 	{
+		id: 7029,
 		countryId,
 		name: `Julián Trujillo Largacha - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -247,6 +277,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1880`,
 	},
 	{
+		id: 7030,
 		countryId,
 		name: `Rafael Núñez Moledo - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -255,6 +286,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1882`,
 	},
 	{
+		id: 7031,
 		countryId,
 		name: `Rafael Núñez MoledoFrancisco Javier Zaldúa y Racines - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -263,6 +295,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `21 December 1882`,
 	},
 	{
+		id: 7032,
 		countryId,
 		name: `José Eusebio Otálora Martínez - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -271,6 +304,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1884`,
 	},
 	{
+		id: 7033,
 		countryId,
 		name: `Rafael Núñez Moledo - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -279,6 +313,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `1 April 1886`,
 	},
 	{
+		id: 7034,
 		countryId,
 		name: `Rafael Núñez Moledo - United States of Colombia`,
 		party: `National Party`,
@@ -287,6 +322,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `18 September 1894`,
 	},
 	{
+		id: 7035,
 		countryId,
 		name: `Miguel Antonio Caro Tobar`,
 		party: `National Party`,
@@ -295,6 +331,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1898`,
 	},
 	{
+		id: 7036,
 		countryId,
 		name: `Rafael Núñez Moledo`,
 		party: `National Party`,
@@ -303,6 +340,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `18 September 1894`,
 	},
 	{
+		id: 7037,
 		countryId,
 		name: `Miguel Antonio Caro`,
 		party: `National Party`,
@@ -311,6 +349,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1898`,
 	},
 	{
+		id: 7038,
 		countryId,
 		name: `Manuel Antonio Sanclemente`,
 		party: `National Party`,
@@ -319,6 +358,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `31 July 1900`,
 	},
 	{
+		id: 7039,
 		countryId,
 		name: `José Manuel Marroquín`,
 		party: `Colombian Conservative Party`,
@@ -327,6 +367,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1904`,
 	},
 	{
+		id: 7040,
 		countryId,
 		name: `Rafael Reyes Prieto`,
 		party: `Colombian Conservative Party`,
@@ -335,6 +376,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `27 July 1909`,
 	},
 	{
+		id: 7041,
 		countryId,
 		name: `Ramón González Valencia`,
 		party: `Colombian Conservative Party`,
@@ -343,6 +385,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1910`,
 	},
 	{
+		id: 7042,
 		countryId,
 		name: `Carlos Eugenio Restrepo`,
 		party: `Colombian Conservative Party`,
@@ -351,6 +394,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1914`,
 	},
 	{
+		id: 7043,
 		countryId,
 		name: `José Vicente Concha`,
 		party: `Colombian Conservative Party`,
@@ -359,6 +403,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1918`,
 	},
 	{
+		id: 7044,
 		countryId,
 		name: `Marco Fidel Suárez`,
 		party: `Colombian Conservative Party`,
@@ -367,6 +412,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `11 November 1921`,
 	},
 	{
+		id: 7045,
 		countryId,
 		name: `Jorge Holguín`,
 		party: `Colombian Conservative Party`,
@@ -375,6 +421,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1922`,
 	},
 	{
+		id: 7046,
 		countryId,
 		name: `Pedro Nel Ospina`,
 		party: `Colombian Conservative Party`,
@@ -383,6 +430,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1926`,
 	},
 	{
+		id: 7047,
 		countryId,
 		name: `Miguel Abadía Méndez`,
 		party: `Colombian Conservative Party`,
@@ -391,6 +439,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1930`,
 	},
 	{
+		id: 7048,
 		countryId,
 		name: `Enrique Olaya Herrera`,
 		party: `Colombian Liberal Party`,
@@ -399,6 +448,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1934`,
 	},
 	{
+		id: 7049,
 		countryId,
 		name: `Alfonso López Pumarejo`,
 		party: `Colombian Liberal Party`,
@@ -407,6 +457,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1938`,
 	},
 	{
+		id: 7050,
 		countryId,
 		name: `Eduardo Santos Montejo`,
 		party: `Colombian Liberal Party`,
@@ -415,6 +466,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1942`,
 	},
 	{
+		id: 7051,
 		countryId,
 		name: `Alfonso López Pumarejo`,
 		party: `Colombian Liberal Party`,
@@ -423,6 +475,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1946`,
 	},
 	{
+		id: 7052,
 		countryId,
 		name: `Mariano Ospina Pérez`,
 		party: `Colombian Conservative Party`,
@@ -431,6 +484,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1950`,
 	},
 	{
+		id: 7053,
 		countryId,
 		name: `Laureano Gómez`,
 		party: `Colombian Conservative Party`,
@@ -439,6 +493,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `5 November 1951`,
 	},
 	{
+		id: 7054,
 		countryId,
 		name: `Roberto Urdaneta Arbeláez`,
 		party: `Colombian Conservative Party`,
@@ -447,6 +502,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `13 June 1953`,
 	},
 	{
+		id: 7055,
 		countryId,
 		name: `Gustavo Rojas Pinilla`,
 		party: `National Popular Alliance`,
@@ -455,6 +511,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `10 May 1957`,
 	},
 	{
+		id: 7056,
 		countryId,
 		name: `Military Junta`,
 		party: `Military`,
@@ -463,6 +520,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1958`,
 	},
 	{
+		id: 7057,
 		countryId,
 		name: `Alberto Lleras Camargo`,
 		party: `Colombian Liberal Party`,
@@ -471,6 +529,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1962`,
 	},
 	{
+		id: 7058,
 		countryId,
 		name: `Guillermo León Valencia`,
 		party: `Colombian Conservative Party`,
@@ -479,6 +538,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1966`,
 	},
 	{
+		id: 7059,
 		countryId,
 		name: `Carlos Lleras Restrepo`,
 		party: `Colombian Liberal Party`,
@@ -487,6 +547,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1970`,
 	},
 	{
+		id: 7060,
 		countryId,
 		name: `Misael Pastrana Borrero`,
 		party: `Colombian Conservative Party`,
@@ -495,6 +556,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1974`,
 	},
 	{
+		id: 7061,
 		countryId,
 		name: `Alfonso López Michelsen`,
 		party: `Colombian Liberal Party`,
@@ -503,6 +565,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1978`,
 	},
 	{
+		id: 7062,
 		countryId,
 		name: `Julio César Turbay Ayala`,
 		party: `Colombian Liberal Party`,
@@ -511,6 +574,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1982`,
 	},
 	{
+		id: 7063,
 		countryId,
 		name: `Belisario Betancur Cuartas`,
 		party: `Colombian Conservative Party`,
@@ -519,6 +583,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1986`,
 	},
 	{
+		id: 7064,
 		countryId,
 		name: `Virgilio Barco Vargas`,
 		party: `Colombian Liberal Party`,
@@ -527,6 +592,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1990`,
 	},
 	{
+		id: 7065,
 		countryId,
 		name: `César Gaviria`,
 		party: `Colombian Liberal Party`,
@@ -535,6 +601,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1994`,
 	},
 	{
+		id: 7066,
 		countryId,
 		name: `Ernesto Samper Pizano`,
 		party: `Colombian Liberal Party`,
@@ -543,6 +610,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 1998`,
 	},
 	{
+		id: 7067,
 		countryId,
 		name: `Andrés Pastrana Arango`,
 		party: `Colombian Conservative Party`,
@@ -551,6 +619,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 2002`,
 	},
 	{
+		id: 7068,
 		countryId,
 		name: `Álvaro Uribe`,
 		party: `Colombia First`,
@@ -559,6 +628,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 2010`,
 	},
 	{
+		id: 7069,
 		countryId,
 		name: `Juan Manuel Santos Calderón`,
 		party: `Union Party for the People`,
@@ -567,6 +637,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 2018`,
 	},
 	{
+		id: 7070,
 		countryId,
 		name: `Iván Duque Márquez`,
 		party: `Democratic Center`,
@@ -575,6 +646,7 @@ export const colombia: LeaderNoId[] = [
 		leftOffice: `7 August 2022`,
 	},
 	{
+		id: 7071,
 		countryId,
 		name: `Gustavo Petro`,
 		party: `Historic Pact`,

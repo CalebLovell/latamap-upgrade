@@ -15,7 +15,7 @@ model Country {
 }
 
 model Leader {
-   id         String    @id @default(uuid())
+   id         Int       @id @default(autoincrement())
    countryId  Int
    name       String
    party      String

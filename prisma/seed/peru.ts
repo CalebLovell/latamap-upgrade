@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_Peru`;
 
 const countryId = 16;
 
-export const peru: LeaderNoId[] = [
+export const peru: LeaderSeed[] = [
 	{
+		id: 22000,
 		countryId,
 		name: `Viceroyalty of Peru`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `3 August 1821`,
 	},
 	{
+		id: 22001,
 		countryId,
 		name: `José de San Martín`,
 		party: `Military`,
@@ -23,6 +25,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `20 September 1822`,
 	},
 	{
+		id: 22002,
 		countryId,
 		name: `José de la Riva Agüero`,
 		party: `Military`,
@@ -31,6 +34,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `23 June 1823`,
 	},
 	{
+		id: 22003,
 		countryId,
 		name: `José Bernardo de Tagle`,
 		party: `Military`,
@@ -39,6 +43,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `10 February 1824`,
 	},
 	{
+		id: 22004,
 		countryId,
 		name: `Simón Bolívar`,
 		party: `Military`,
@@ -47,6 +52,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `10 June 1827`,
 	},
 	{
+		id: 22005,
 		countryId,
 		name: `José de La Mar`,
 		party: `Military`,
@@ -55,6 +61,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `7 June 1829`,
 	},
 	{
+		id: 22006,
 		countryId,
 		name: `Agustín Gamarra`,
 		party: `Military`,
@@ -63,6 +70,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `19 December 1833`,
 	},
 	{
+		id: 22007,
 		countryId,
 		name: `Luis José de Orbegoso`,
 		party: `Military`,
@@ -71,6 +79,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `25 February 1835`,
 	},
 	{
+		id: 22008,
 		countryId,
 		name: `Felipe Salaverry`,
 		party: `Military`,
@@ -79,6 +88,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `7 February 1836`,
 	},
 	{
+		id: 22009,
 		countryId,
 		name: `Andrés de Santa Cruz`,
 		party: `Peru–Bolivian Confederation`,
@@ -87,6 +97,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `20 January 1839`,
 	},
 	{
+		id: 22010,
 		countryId,
 		name: `Agustín Gamarra`,
 		party: `Military`,
@@ -95,6 +106,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `18 November 1841`,
 	},
 	{
+		id: 22011,
 		countryId,
 		name: `Manuel Menéndez`,
 		party: `Independent`,
@@ -103,6 +115,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `16 August 1842`,
 	},
 	{
+		id: 22012,
 		countryId,
 		name: `Juan Francisco de Vidal`,
 		party: `Military`,
@@ -111,6 +124,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `15 March 1843`,
 	},
 	{
+		id: 22013,
 		countryId,
 		name: `Manuel Ignacio de Vivanco`,
 		party: `Military`,
@@ -119,6 +133,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `17 June 1844`,
 	},
 	{
+		id: 22014,
 		countryId,
 		name: `Manuel Menéndez`,
 		party: `Independent`,
@@ -127,6 +142,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `20 April 1845`,
 	},
 	{
+		id: 22015,
 		countryId,
 		name: `Ramón Castilla`,
 		party: `Military`,
@@ -135,6 +151,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `20 April 1851`,
 	},
 	{
+		id: 22016,
 		countryId,
 		name: `José Rufino Echenique`,
 		party: `Military`,
@@ -143,6 +160,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `5 January 1855`,
 	},
 	{
+		id: 22017,
 		countryId,
 		name: `Ramón Castilla`,
 		party: `Military`,
@@ -151,6 +169,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `24 October 1862`,
 	},
 	{
+		id: 22018,
 		countryId,
 		name: `Miguel de San Román`,
 		party: `Military`,
@@ -159,6 +178,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `3 April 1863`,
 	},
 	{
+		id: 22019,
 		countryId,
 		name: `Pedro Diez Canseco`,
 		party: `Military`,
@@ -167,6 +187,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `5 August 1863`,
 	},
 	{
+		id: 22020,
 		countryId,
 		name: `Juan Antonio Pezet`,
 		party: `Military`,
@@ -175,6 +196,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `8 November 1865`,
 	},
 	{
+		id: 22021,
 		countryId,
 		name: `Mariano Ignacio Prado`,
 		party: `Military`,
@@ -183,6 +205,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `15 February 1867`,
 	},
 	{
+		id: 22022,
 		countryId,
 		name: `Mariano Ignacio Prado`,
 		party: `Military`,
@@ -191,6 +214,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `31 August 1867`,
 	},
 	{
+		id: 22023,
 		countryId,
 		name: `Mariano Ignacio Prado`,
 		party: `Military`,
@@ -199,6 +223,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `7 January 1868`,
 	},
 	{
+		id: 22024,
 		countryId,
 		name: `Mariano Ignacio Prado`,
 		party: `Military`,
@@ -207,6 +232,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `2 August 1868`,
 	},
 	{
+		id: 22025,
 		countryId,
 		name: `José Balta`,
 		party: `Military`,
@@ -215,6 +241,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `22 July 1872`,
 	},
 	{
+		id: 22026,
 		countryId,
 		name: `Tomás Gutiérrez`,
 		party: `Military`,
@@ -223,6 +250,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `26 July 1872`,
 	},
 	{
+		id: 22027,
 		countryId,
 		name: `Mariano Herencia Zevallos`,
 		party: `Civilista Party`,
@@ -231,6 +259,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `2 August 1872`,
 	},
 	{
+		id: 22028,
 		countryId,
 		name: `Manuel Pardo y Lavalle`,
 		party: `Civilista Party`,
@@ -239,6 +268,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `2 August 1876`,
 	},
 	{
+		id: 22029,
 		countryId,
 		name: `Mariano Ignacio Prado`,
 		party: `Civilista Party`,
@@ -247,6 +277,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `18 December 1879`,
 	},
 	{
+		id: 22030,
 		countryId,
 		name: `Luis La Puerta`,
 		party: `Military`,
@@ -255,6 +286,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `23 December 1879`,
 	},
 	{
+		id: 22031,
 		countryId,
 		name: `Nicolás de Piérola`,
 		party: `Independent`,
@@ -263,6 +295,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 1881`,
 	},
 	{
+		id: 22032,
 		countryId,
 		name: `Nicolás de Piérola`,
 		party: `Independent`,
@@ -271,6 +304,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 December 1881`,
 	},
 	{
+		id: 22033,
 		countryId,
 		name: `Francisco García Calderón`,
 		party: `Independent`,
@@ -279,6 +313,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `10 July 1881`,
 	},
 	{
+		id: 22034,
 		countryId,
 		name: `Francisco García Calderón`,
 		party: `Independent`,
@@ -287,6 +322,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `6 November 1881`,
 	},
 	{
+		id: 22035,
 		countryId,
 		name: `Lizardo Montero`,
 		party: `Civilista Party`,
@@ -295,6 +331,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 October 1883`,
 	},
 	{
+		id: 22036,
 		countryId,
 		name: `Miguel Iglesias`,
 		party: `Military`,
@@ -303,6 +340,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `3 December 1885`,
 	},
 	{
+		id: 22037,
 		countryId,
 		name: `Antonio Arenas`,
 		party: `President of the Government Junta of Peru`,
@@ -311,6 +349,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `5 June 1886`,
 	},
 	{
+		id: 22038,
 		countryId,
 		name: `Andrés Avelino Cáceres`,
 		party: `Constitutional Party`,
@@ -319,6 +358,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `10 August 1890`,
 	},
 	{
+		id: 22039,
 		countryId,
 		name: `Remigio Morales Bermúdez`,
 		party: `Constitutional Party`,
@@ -327,6 +367,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `1 April 1894`,
 	},
 	{
+		id: 22040,
 		countryId,
 		name: `Justiniano Borgoño Castañeda`,
 		party: `Constitutional Party`,
@@ -335,6 +376,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `10 August 1894`,
 	},
 	{
+		id: 22041,
 		countryId,
 		name: `Andrés Avelino Cáceres`,
 		party: `Constitutional Party`,
@@ -343,6 +385,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `20 March 1895`,
 	},
 	{
+		id: 22042,
 		countryId,
 		name: `Manuel Candamo`,
 		party: `Civilista Party`,
@@ -351,6 +394,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `8 September 1895`,
 	},
 	{
+		id: 22043,
 		countryId,
 		name: `Nicolás de Piérola`,
 		party: `Democratic Party of Peru`,
@@ -359,6 +403,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `8 September 1899`,
 	},
 	{
+		id: 22044,
 		countryId,
 		name: `Eduardo López de Romaña`,
 		party: `Civilista Party`,
@@ -367,6 +412,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `8 September 1903`,
 	},
 	{
+		id: 22045,
 		countryId,
 		name: `Manuel Candamo`,
 		party: `Civilista Party`,
@@ -375,6 +421,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `7 May 1904`,
 	},
 	{
+		id: 22046,
 		countryId,
 		name: `Serapio Calderón`,
 		party: `Civilista Party`,
@@ -383,6 +430,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `24 September 1904`,
 	},
 	{
+		id: 22047,
 		countryId,
 		name: `José Pardo`,
 		party: `Civilista Party`,
@@ -391,6 +439,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `24 September 1908`,
 	},
 	{
+		id: 22048,
 		countryId,
 		name: `Augusto B. Leguía`,
 		party: `Civilista Party`,
@@ -399,6 +448,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `24 September 1912`,
 	},
 	{
+		id: 22049,
 		countryId,
 		name: `Guillermo Billinghurst`,
 		party: `Democratic Party of Peru`,
@@ -407,6 +457,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `4 February 1914`,
 	},
 	{
+		id: 22050,
 		countryId,
 		name: `Óscar R. Benavides`,
 		party: `Peruvian Armed Forces`,
@@ -415,6 +466,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `18 August 1915`,
 	},
 	{
+		id: 22051,
 		countryId,
 		name: `José Pardo`,
 		party: `Civilista Party`,
@@ -423,6 +475,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `4 July 1919`,
 	},
 	{
+		id: 22052,
 		countryId,
 		name: `Augusto B. Leguía`,
 		party: `Reformist Democratic Party`,
@@ -431,6 +484,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `25 August 1930`,
 	},
 	{
+		id: 22053,
 		countryId,
 		name: `Manuel María Ponce Brousset`,
 		party: `Peruvian Armed Forces`,
@@ -439,6 +493,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `27 August 1930`,
 	},
 	{
+		id: 22054,
 		countryId,
 		name: `Luis Miguel Sánchez Cerro`,
 		party: `Revolutionary Union`,
@@ -447,6 +502,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `1 March 1931`,
 	},
 	{
+		id: 22055,
 		countryId,
 		name: `Ricardo Leoncio Elías Arias`,
 		party: `Peruvian Armed Forces`,
@@ -455,6 +511,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `5 March 1931`,
 	},
 	{
+		id: 22056,
 		countryId,
 		name: `Gustavo Jiménez`,
 		party: `Peruvian Armed Forces`,
@@ -463,6 +520,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `11 March 1931`,
 	},
 	{
+		id: 22057,
 		countryId,
 		name: `David Samanez Ocampo`,
 		party: `Democratic Party of Peru`,
@@ -471,6 +529,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `8 December 1931`,
 	},
 	{
+		id: 22058,
 		countryId,
 		name: `Luis Miguel Sánchez Cerro`,
 		party: `Revolutionary Union`,
@@ -479,6 +538,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `30 April 1933`,
 	},
 	{
+		id: 22059,
 		countryId,
 		name: `Óscar R. Benavides`,
 		party: `Peruvian Armed Forces`,
@@ -487,6 +547,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `8 December 1939`,
 	},
 	{
+		id: 22060,
 		countryId,
 		name: `Manuel Prado`,
 		party: `Pradist Democratic Movement`,
@@ -495,6 +556,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 1945`,
 	},
 	{
+		id: 22061,
 		countryId,
 		name: `José Bustamante`,
 		party: `National Democratic Front`,
@@ -503,6 +565,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `29 October 1948`,
 	},
 	{
+		id: 22062,
 		countryId,
 		name: `Manuel A. Odría`,
 		party: `Unión Nacional Odriista`,
@@ -511,6 +574,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `1 June 1950`,
 	},
 	{
+		id: 22063,
 		countryId,
 		name: `Zenón Noriega Agüero`,
 		party: `Peruvian Armed Forces`,
@@ -519,6 +583,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 1950`,
 	},
 	{
+		id: 22064,
 		countryId,
 		name: `Manuel A. Odría`,
 		party: `Unión Nacional Odriista`,
@@ -527,6 +592,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 1956`,
 	},
 	{
+		id: 22065,
 		countryId,
 		name: `Manuel Prado`,
 		party: `Pradist Democratic Movement`,
@@ -535,6 +601,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `18 July 1962`,
 	},
 	{
+		id: 22066,
 		countryId,
 		name: `Ricardo Pérez Godoy`,
 		party: `Peruvian Armed Forces - Independent`,
@@ -543,6 +610,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `3 March 1963`,
 	},
 	{
+		id: 22067,
 		countryId,
 		name: `Nicolás Lindley`,
 		party: `Peruvian Armed Forces - Independent`,
@@ -551,6 +619,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 1963`,
 	},
 	{
+		id: 22068,
 		countryId,
 		name: `Fernando Belaúnde Terry`,
 		party: `Popular Action`,
@@ -559,6 +628,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `3 October 1968`,
 	},
 	{
+		id: 22069,
 		countryId,
 		name: `Juan Velasco Alvarado`,
 		party: `Peruvian Armed Forces`,
@@ -567,6 +637,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `30 August 1975`,
 	},
 	{
+		id: 22070,
 		countryId,
 		name: `Francisco Morales Bermúdez`,
 		party: `Peruvian Armed Forces`,
@@ -575,6 +646,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 1980`,
 	},
 	{
+		id: 22071,
 		countryId,
 		name: `Fernando Belaúnde Terry`,
 		party: `Popular Action`,
@@ -583,6 +655,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 1985`,
 	},
 	{
+		id: 22072,
 		countryId,
 		name: `Alan García`,
 		party: `American Popular Revolutionary Alliance`,
@@ -591,6 +664,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 1990`,
 	},
 	{
+		id: 22073,
 		countryId,
 		name: `Alberto Fujimori`,
 		party: `Peru 2000`,
@@ -599,6 +673,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `22 November 2000`,
 	},
 	{
+		id: 22074,
 		countryId,
 		name: `Valentín Paniagua`,
 		party: `Popular Action`,
@@ -607,6 +682,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 2001`,
 	},
 	{
+		id: 22075,
 		countryId,
 		name: `Alejandro Toledo`,
 		party: `Possible Peru`,
@@ -615,6 +691,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 2006`,
 	},
 	{
+		id: 22076,
 		countryId,
 		name: `Alan García`,
 		party: `American Popular Revolutionary Alliance`,
@@ -623,6 +700,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 2011`,
 	},
 	{
+		id: 22077,
 		countryId,
 		name: `Ollanta Humala`,
 		party: `Peruvian Nationalist Party`,
@@ -631,6 +709,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `July 28, 2016`,
 	},
 	{
+		id: 22078,
 		countryId,
 		name: `Pedro Pablo Kuczynski Godard`,
 		party: `Peruvians for Change`,
@@ -639,6 +718,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `March 21, 2018`,
 	},
 	{
+		id: 22079,
 		countryId,
 		name: `Martín Vizcarra`,
 		party: `Peruvians for Change`,
@@ -647,6 +727,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `9 November 2020`,
 	},
 	{
+		id: 22080,
 		countryId,
 		name: `Manuel Merino`,
 		party: `Popular Action`,
@@ -655,6 +736,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `15 November 2020`,
 	},
 	{
+		id: 22081,
 		countryId,
 		name: `Francisco Sagasti`,
 		party: `Purple Party`,
@@ -663,6 +745,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `28 July 2021`,
 	},
 	{
+		id: 22082,
 		countryId,
 		name: `Pedro Castillo`,
 		party: `Free Peru`,
@@ -671,6 +754,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `7 December 2022`,
 	},
 	{
+		id: 22083,
 		countryId,
 		name: `Dina Boluarte`,
 		party: `Independent`,
@@ -679,6 +763,7 @@ export const peru: LeaderNoId[] = [
 		leftOffice: `10 October 2025`,
 	},
 	{
+		id: 22084,
 		countryId,
 		name: `José Jerí`,
 		party: `We Are Peru`,

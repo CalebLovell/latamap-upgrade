@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Federal_Republic_of_Central_America`;
 
 const countryId = 9999;
 
-export const guatemala: LeaderNoId[] = [
+export const guatemala: LeaderSeed[] = [
 	{
+		id: 5000,
 		countryId,
 		name: `Captaincy General of Guatemala`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `15 September 1821`,
 	},
 	{
+		id: 5001,
 		countryId,
 		name: `Gabino Gaínza`,
 		party: `Military / Central American Independence`,
@@ -23,6 +25,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `5 January 1822`,
 	},
 	{
+		id: 5002,
 		countryId,
 		name: `Agustín de Iturbide`,
 		party: `First Mexican Empire`,
@@ -31,6 +34,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `1 July 1823`,
 	},
 	{
+		id: 5003,
 		countryId,
 		name: `Vicente Filísola - Federal Republic of Central America`,
 		party: `Independent`,
@@ -39,6 +43,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `10 July 1823`,
 	},
 	{
+		id: 5004,
 		countryId,
 		name: `First Triumvirate - Federal Republic of Central America`,
 		party: `Independent`,
@@ -47,6 +52,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `4 October 1823`,
 	},
 	{
+		id: 5005,
 		countryId,
 		name: `Second Triumvirate - Federal Republic of Central America`,
 		party: `Independent`,
@@ -55,6 +61,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `29 April 1825`,
 	},
 	{
+		id: 5006,
 		countryId,
 		name: `Manuel José Arce - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -63,6 +70,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `13 April 1829`,
 	},
 	{
+		id: 5007,
 		countryId,
 		name: `Mariano Beltranena y Llano - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -71,6 +79,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `14 June 1829`,
 	},
 	{
+		id: 5008,
 		countryId,
 		name: `Francisco Morazán - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -79,6 +88,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `25 June 1829`,
 	},
 	{
+		id: 5009,
 		countryId,
 		name: `José Francisco Barrundia - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -87,6 +97,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `16 September 1830`,
 	},
 	{
+		id: 5010,
 		countryId,
 		name: `Francisco Morazán - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -95,6 +106,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `16 September 1834`,
 	},
 	{
+		id: 5011,
 		countryId,
 		name: `José Gregorio Salazar - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -103,6 +115,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `14 February 1835`,
 	},
 	{
+		id: 5012,
 		countryId,
 		name: `Francisco Morazán - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -111,6 +124,7 @@ export const guatemala: LeaderNoId[] = [
 		leftOffice: `1 February 1839`,
 	},
 	{
+		id: 5013,
 		countryId,
 		name: `Diego Vigil y Cocaña - Federal Republic of Central America`,
 		party: `Liberal`,

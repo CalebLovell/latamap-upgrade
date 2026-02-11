@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil`;
 
 const countryId = 19;
 
-export const brazil: LeaderNoId[] = [
+export const brazil: LeaderSeed[] = [
 	{
+		id: 4000,
 		countryId,
 		name: `Colonial Brazil`,
 		party: `Portuguese Empire`,
@@ -15,6 +16,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `12 October 1822`,
 	},
 	{
+		id: 4001,
 		countryId,
 		name: `Dom Pedro I`,
 		party: `Empire of Brazil`,
@@ -23,6 +25,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `7 April 1831`,
 	},
 	{
+		id: 4002,
 		countryId,
 		name: `Dom Pedro II`,
 		party: `Empire of Brazil`,
@@ -31,6 +34,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `15 November 1889`,
 	},
 	{
+		id: 4003,
 		countryId,
 		name: `Deodoro da Fonseca`,
 		party: `Brazilian Armed Forces`,
@@ -39,6 +43,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `23 November 1891`,
 	},
 	{
+		id: 4004,
 		countryId,
 		name: `Floriano Peixoto`,
 		party: `Brazilian Armed Forces`,
@@ -47,6 +52,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 November 1894`,
 	},
 	{
+		id: 4005,
 		countryId,
 		name: `Prudente de Morais`,
 		party: `Federal Republican Party`,
@@ -55,6 +61,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 November 1898`,
 	},
 	{
+		id: 4006,
 		countryId,
 		name: `Manuel Ferraz de Campos Sales`,
 		party: `Paulista Republican Party`,
@@ -63,6 +70,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 November 1902`,
 	},
 	{
+		id: 4007,
 		countryId,
 		name: `Francisco de Paula Rodrigues Alves`,
 		party: `Paulista Republican Party`,
@@ -71,6 +79,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 November 1906`,
 	},
 	{
+		id: 4008,
 		countryId,
 		name: `Afonso Pena`,
 		party: `Minas Republican Party`,
@@ -79,6 +88,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 June 1909`,
 	},
 	{
+		id: 4009,
 		countryId,
 		name: `Nilo Peçanha`,
 		party: `Fluminense Republican Party`,
@@ -87,6 +97,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 November 1910`,
 	},
 	{
+		id: 4010,
 		countryId,
 		name: `Hermes da Fonseca`,
 		party: `Conservative Republican Party`,
@@ -95,6 +106,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 November 1914`,
 	},
 	{
+		id: 4011,
 		countryId,
 		name: `Venceslau Brás`,
 		party: `Minas Republican Party`,
@@ -103,6 +115,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 November 1918`,
 	},
 	{
+		id: 4012,
 		countryId,
 		name: `Delfim Moreira`,
 		party: `Minas Republican Party`,
@@ -111,6 +124,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `28 July 1919`,
 	},
 	{
+		id: 4013,
 		countryId,
 		name: `Epitacio Pessoa`,
 		party: `Minas Republican Party`,
@@ -119,6 +133,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 November 1922`,
 	},
 	{
+		id: 4014,
 		countryId,
 		name: `Artur Bernardes`,
 		party: `Minas Republican Party`,
@@ -127,6 +142,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `14 November 1926`,
 	},
 	{
+		id: 4015,
 		countryId,
 		name: `Washington Luís`,
 		party: `Paulista Republican Party`,
@@ -135,6 +151,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `24 October 1930`,
 	},
 	{
+		id: 4016,
 		countryId,
 		name: `Augusto Tasso Fragoso, Isaías de Noronha, João de Deus Mena Barreto`,
 		party: `Brazilian Military Junta of 1930`,
@@ -143,6 +160,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `3 November 1930`,
 	},
 	{
+		id: 4017,
 		countryId,
 		name: `Getúlio Vargas`,
 		party: `Independent`,
@@ -151,6 +169,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `10 November 1937`,
 	},
 	{
+		id: 4018,
 		countryId,
 		name: `Getúlio Vargas`,
 		party: `Estado Novo`,
@@ -159,6 +178,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `29 October 1945`,
 	},
 	{
+		id: 4019,
 		countryId,
 		name: `José Linhares`,
 		party: `Independent`,
@@ -167,6 +187,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `30 January 1946`,
 	},
 	{
+		id: 4020,
 		countryId,
 		name: `Eurico Gaspar Dutra`,
 		party: `Social Democratic Party`,
@@ -175,6 +196,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `30 January 1951`,
 	},
 	{
+		id: 4021,
 		countryId,
 		name: `Getúlio Vargas`,
 		party: `Brazilian Labour Party`,
@@ -183,6 +205,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `24 August 1954`,
 	},
 	{
+		id: 4022,
 		countryId,
 		name: `João Café Filho`,
 		party: `Social Progressive Party`,
@@ -191,6 +214,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `8 November 1955`,
 	},
 	{
+		id: 4023,
 		countryId,
 		name: `Carlos Luz`,
 		party: `Social Democratic Party`,
@@ -199,6 +223,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `11 November 1955`,
 	},
 	{
+		id: 4024,
 		countryId,
 		name: `Nereu Ramos`,
 		party: `Social Democratic Party`,
@@ -207,6 +232,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `30 January 1956`,
 	},
 	{
+		id: 4025,
 		countryId,
 		name: `Juscelino Kubitschek`,
 		party: `Social Democratic Party`,
@@ -215,6 +241,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `30 January 1961`,
 	},
 	{
+		id: 4026,
 		countryId,
 		name: `Jânio Quadros`,
 		party: `National Labour Party`,
@@ -223,6 +250,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `25 August 1961`,
 	},
 	{
+		id: 4027,
 		countryId,
 		name: `Pascoal Ranieri Mazzilli`,
 		party: `Social Democratic Party`,
@@ -231,6 +259,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `7 September 1961`,
 	},
 	{
+		id: 4028,
 		countryId,
 		name: `João Goulart`,
 		party: `Brazilian Labour Party`,
@@ -239,6 +268,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `1 April 1964`,
 	},
 	{
+		id: 4029,
 		countryId,
 		name: `Pascoal Ranieri Mazzilli`,
 		party: `Social Democratic Party`,
@@ -247,6 +277,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `15 April 1964`,
 	},
 	{
+		id: 4030,
 		countryId,
 		name: `Alencar Castelo Branco`,
 		party: `National Renewal Alliance`,
@@ -255,6 +286,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `15 March 1967`,
 	},
 	{
+		id: 4031,
 		countryId,
 		name: `Artur da Costa e Silva`,
 		party: `National Renewal Alliance`,
@@ -263,6 +295,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `31 August 1969`,
 	},
 	{
+		id: 4032,
 		countryId,
 		name: `Augusto Hamann Rademaker Grünewald, Aurélio de Lira Tavares, Márcio Melo`,
 		party: `Brazilian Military Junta of 1969`,
@@ -271,6 +304,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `30 October 1969`,
 	},
 	{
+		id: 4033,
 		countryId,
 		name: `Emílio Garrastazu Médici`,
 		party: `National Renewal Alliance`,
@@ -279,6 +313,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `15 March 1974`,
 	},
 	{
+		id: 4034,
 		countryId,
 		name: `Ernesto Geisel`,
 		party: `National Renewal Alliance`,
@@ -287,6 +322,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `15 March 1979`,
 	},
 	{
+		id: 4035,
 		countryId,
 		name: `João Figueiredo`,
 		party: `Democratic Social Party`,
@@ -295,6 +331,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `15 March 1985`,
 	},
 	{
+		id: 4036,
 		countryId,
 		name: `José Sarney`,
 		party: `Brazilian Democratic Movement`,
@@ -303,6 +340,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `15 March 1990`,
 	},
 	{
+		id: 4037,
 		countryId,
 		name: `Fernando Collor de Mello`,
 		party: `Christian Labour Party`,
@@ -311,6 +349,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `2 October 1992`,
 	},
 	{
+		id: 4038,
 		countryId,
 		name: `Itamar Augusto Cautiero Franco`,
 		party: `Brazilian Democratic Movement`,
@@ -319,6 +358,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `1 January 1995`,
 	},
 	{
+		id: 4039,
 		countryId,
 		name: `Fernando Henrique Cardoso`,
 		party: `Brazilian Social Democracy Party`,
@@ -327,6 +367,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `31 December 2002`,
 	},
 	{
+		id: 4040,
 		countryId,
 		name: `Luiz Inácio Lula da Silva`,
 		party: `Workers' Party`,
@@ -335,6 +376,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `31 December 2010`,
 	},
 	{
+		id: 4041,
 		countryId,
 		name: `Dilma Rousseff`,
 		party: `Workers' Party`,
@@ -343,6 +385,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `12 May 2016`,
 	},
 	{
+		id: 4042,
 		countryId,
 		name: `Michel Temer`,
 		party: `Brazilian Democratic Movement`,
@@ -351,6 +394,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `1 January 2019`,
 	},
 	{
+		id: 4043,
 		countryId,
 		name: `Jair Bolsonaro`,
 		party: `Social Liberal Party Brazil, Independent, Liberal Party`,
@@ -359,6 +403,7 @@ export const brazil: LeaderNoId[] = [
 		leftOffice: `1 January 2023`,
 	},
 	{
+		id: 4044,
 		countryId,
 		name: `Luiz Inácio Lula da Silva`,
 		party: `Workers' Party`,

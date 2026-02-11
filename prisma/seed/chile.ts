@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_Chile`;
 
 const countryId = 22;
 
-export const chile: LeaderNoId[] = [
+export const chile: LeaderSeed[] = [
 	{
+		id: 6000,
 		countryId,
 		name: `Viceroyalty of Peru`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1810`,
 	},
 	{
+		id: 6001,
 		countryId,
 		name: `Mateo de Toro y Zambrano`,
 		party: `President of the First Government Junta`,
@@ -23,6 +25,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `26 February 1811`,
 	},
 	{
+		id: 6002,
 		countryId,
 		name: `Juan Martínez de Rozas`,
 		party: `Interim President of the First Government Junta`,
@@ -31,6 +34,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `2 April 1811`,
 	},
 	{
+		id: 6003,
 		countryId,
 		name: `Fernando Márquez de la Plata`,
 		party: `President of the First Government Junta`,
@@ -39,6 +43,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `4 July 1811`,
 	},
 	{
+		id: 6004,
 		countryId,
 		name: `Juan Antonio Ovalle`,
 		party: `President of the First National Congress`,
@@ -47,6 +52,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `20 July 1811`,
 	},
 	{
+		id: 6005,
 		countryId,
 		name: `Martín Calvo Encalada`,
 		party: `President of the Provisional Executive Authority`,
@@ -55,6 +61,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `4 September 1811`,
 	},
 	{
+		id: 6006,
 		countryId,
 		name: `Juan Enrique Rosales`,
 		party: `President of the Executive Court`,
@@ -63,6 +70,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `16 November 1811`,
 	},
 	{
+		id: 6007,
 		countryId,
 		name: `José Miguel Carrera`,
 		party: `President of the Provisional Government Junta`,
@@ -71,6 +79,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `8 April 1812`,
 	},
 	{
+		id: 6008,
 		countryId,
 		name: `José Santiago Portales y Larraín`,
 		party: `President of the Provisional Government Junta`,
@@ -79,6 +88,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `6 August 1812`,
 	},
 	{
+		id: 6009,
 		countryId,
 		name: `Pedro José Prado Jaraquemada`,
 		party: `President of the Provisional Government Junta`,
@@ -87,6 +97,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `6 December 1812`,
 	},
 	{
+		id: 6010,
 		countryId,
 		name: `José Miguel Carrera`,
 		party: `President of the Provisional Government Junta`,
@@ -95,6 +106,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `30 March 1813`,
 	},
 	{
+		id: 6011,
 		countryId,
 		name: `Juan José Carrera`,
 		party: `President of the Provisional Government Junta`,
@@ -103,6 +115,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `13 April 1813`,
 	},
 	{
+		id: 6012,
 		countryId,
 		name: `Francisco Antonio Pérez`,
 		party: `President of the Superior Governmental Junta`,
@@ -111,6 +124,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `23 August 1813`,
 	},
 	{
+		id: 6013,
 		countryId,
 		name: `José Miguel Infante`,
 		party: `President of the Superior Governmental Junta`,
@@ -119,6 +133,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 January 1814`,
 	},
 	{
+		id: 6014,
 		countryId,
 		name: `Agustín Eyzaguirre`,
 		party: `President of the Superior Governmental Junta`,
@@ -127,6 +142,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `7 March 1814`,
 	},
 	{
+		id: 6015,
 		countryId,
 		name: `Antonio José de Irisarri`,
 		party: `Interim Supreme Director`,
@@ -135,6 +151,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `14 March 1814`,
 	},
 	{
+		id: 6016,
 		countryId,
 		name: `Francisco de la Lastra`,
 		party: `Supreme Director`,
@@ -143,6 +160,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `23 July 1814`,
 	},
 	{
+		id: 6017,
 		countryId,
 		name: `José Miguel Carrera`,
 		party: `President of the Government Junta`,
@@ -151,6 +169,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `2 October 1814`,
 	},
 	{
+		id: 6018,
 		countryId,
 		name: `Mariano Osorio`,
 		party: `Royal Governor`,
@@ -159,6 +178,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `26 December 1815`,
 	},
 	{
+		id: 6019,
 		countryId,
 		name: `Casimiro Marcó del Pont`,
 		party: `Royal Governor`,
@@ -167,6 +187,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `12 February 1817`,
 	},
 	{
+		id: 6020,
 		countryId,
 		name: `Bernardo O'Higgins`,
 		party: `Supreme Director`,
@@ -175,6 +196,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `28 January 1823`,
 	},
 	{
+		id: 6021,
 		countryId,
 		name: `Agustín Eyzaguirre`,
 		party: `President of the Government Junta`,
@@ -183,6 +205,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `4 April 1823`,
 	},
 	{
+		id: 6022,
 		countryId,
 		name: `Ramón Freire`,
 		party: `Interim Supreme Director`,
@@ -191,6 +214,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `9 July 1826`,
 	},
 	{
+		id: 6023,
 		countryId,
 		name: `Manuel Blanco Encalada`,
 		party: `Independent`,
@@ -199,6 +223,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `9 September 1826`,
 	},
 	{
+		id: 6024,
 		countryId,
 		name: `Agustín Eyzaguirre`,
 		party: `Independent`,
@@ -207,6 +232,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `25 January 1827`,
 	},
 	{
+		id: 6025,
 		countryId,
 		name: `Ramón Freire`,
 		party: `Pipiolos`,
@@ -215,6 +241,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `15 February 1827`,
 	},
 	{
+		id: 6026,
 		countryId,
 		name: `Francisco Antonio Pinto`,
 		party: `Pipiolos`,
@@ -223,6 +250,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `16 July 1829`,
 	},
 	{
+		id: 6027,
 		countryId,
 		name: `Francisco Ramón Vicuña`,
 		party: `Pipiolos`,
@@ -231,6 +259,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `19 October 1829`,
 	},
 	{
+		id: 6028,
 		countryId,
 		name: `Francisco Antonio Pinto`,
 		party: `Pipiolos`,
@@ -239,6 +268,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `2 November 1829`,
 	},
 	{
+		id: 6029,
 		countryId,
 		name: `Francisco Ramón Vicuña`,
 		party: `Pipiolos`,
@@ -247,6 +277,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `7 November 1829`,
 	},
 	{
+		id: 6030,
 		countryId,
 		name: `Ramón Freire`,
 		party: `Pipiolos`,
@@ -255,6 +286,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `8 November 1829`,
 	},
 	{
+		id: 6031,
 		countryId,
 		name: `Francisco Ramón Vicuña`,
 		party: `Pipiolos`,
@@ -263,6 +295,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `7 December 1829`,
 	},
 	{
+		id: 6032,
 		countryId,
 		name: `José Tomás Ovalle y Bezanilla`,
 		party: `Pelucones`,
@@ -271,6 +304,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 February 1830`,
 	},
 	{
+		id: 6033,
 		countryId,
 		name: `Francisco Ruiz-Tagle Portales`,
 		party: `Pelucones`,
@@ -279,6 +313,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `1 April 1830`,
 	},
 	{
+		id: 6034,
 		countryId,
 		name: `José Tomás Ovalle y Bezanilla`,
 		party: `Pelucones`,
@@ -287,6 +322,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `8 March 1831`,
 	},
 	{
+		id: 6035,
 		countryId,
 		name: `Fernando Errázuriz Aldunate`,
 		party: `Pelucones`,
@@ -295,6 +331,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1831`,
 	},
 	{
+		id: 6036,
 		countryId,
 		name: `Joaquín Prieto`,
 		party: `Pelucones`,
@@ -303,6 +340,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1836`,
 	},
 	{
+		id: 6037,
 		countryId,
 		name: `Joaquín Prieto`,
 		party: `Conservative Party`,
@@ -311,6 +349,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1841`,
 	},
 	{
+		id: 6038,
 		countryId,
 		name: `Manuel Bulnes`,
 		party: `Conservative Party`,
@@ -319,6 +358,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1851`,
 	},
 	{
+		id: 6039,
 		countryId,
 		name: `Manuel Montt`,
 		party: `Conservative Party`,
@@ -327,6 +367,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1856`,
 	},
 	{
+		id: 6040,
 		countryId,
 		name: `Manuel Montt`,
 		party: `National Party`,
@@ -335,6 +376,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1861`,
 	},
 	{
+		id: 6041,
 		countryId,
 		name: `José Joaquín Pérez`,
 		party: `National Party`,
@@ -343,6 +385,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1871`,
 	},
 	{
+		id: 6042,
 		countryId,
 		name: `Federico Errázuriz Zañartu`,
 		party: `Liberal Party`,
@@ -351,6 +394,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1876`,
 	},
 	{
+		id: 6043,
 		countryId,
 		name: `Aníbal Pinto`,
 		party: `Liberal Party`,
@@ -359,6 +403,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1881`,
 	},
 	{
+		id: 6044,
 		countryId,
 		name: `Domingo Santa María`,
 		party: `Liberal Party`,
@@ -367,6 +412,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1886`,
 	},
 	{
+		id: 6045,
 		countryId,
 		name: `José Manuel Balmaceda`,
 		party: `Liberal Party`,
@@ -375,6 +421,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `29 August 1891`,
 	},
 	{
+		id: 6046,
 		countryId,
 		name: `Claudio Vicuña Guerrero`,
 		party: `Liberal Party`,
@@ -383,6 +430,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `29 August 1891`,
 	},
 	{
+		id: 6047,
 		countryId,
 		name: `Manuel Baquedano`,
 		party: `Military`,
@@ -391,6 +439,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `31 August 1891`,
 	},
 	{
+		id: 6048,
 		countryId,
 		name: `Jorge Montt`,
 		party: `Military`,
@@ -399,6 +448,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `26 December 1891`,
 	},
 	{
+		id: 6049,
 		countryId,
 		name: `Jorge Montt`,
 		party: `Independent`,
@@ -407,6 +457,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1896`,
 	},
 	{
+		id: 6050,
 		countryId,
 		name: `Federico Errázuriz Echaurren`,
 		party: `Liberal Party`,
@@ -415,6 +466,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `12 July 1901`,
 	},
 	{
+		id: 6051,
 		countryId,
 		name: `Aníbal Zañartu`,
 		party: `Liberal Party`,
@@ -423,6 +475,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1901`,
 	},
 	{
+		id: 6052,
 		countryId,
 		name: `Germán Riesco`,
 		party: `Liberal Party`,
@@ -431,6 +484,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `18 September 1906`,
 	},
 	{
+		id: 6053,
 		countryId,
 		name: `Pedro Montt`,
 		party: `National Party`,
@@ -439,6 +493,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `16 August 1910`,
 	},
 	{
+		id: 6054,
 		countryId,
 		name: `Elías Fernández Albano`,
 		party: `National Party`,
@@ -447,6 +502,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `6 September 1910`,
 	},
 	{
+		id: 6055,
 		countryId,
 		name: `Emiliano Figueroa`,
 		party: `Liberal Democratic Party`,
@@ -455,6 +511,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `23 December 1910`,
 	},
 	{
+		id: 6056,
 		countryId,
 		name: `Ramón Barros Luco`,
 		party: `Liberal Party`,
@@ -463,6 +520,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `23 December 1915`,
 	},
 	{
+		id: 6057,
 		countryId,
 		name: `Juan Luis Sanfuentes`,
 		party: `Liberal Democratic Party`,
@@ -471,6 +529,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `23 December 1920`,
 	},
 	{
+		id: 6058,
 		countryId,
 		name: `Arturo Alessandri`,
 		party: `Liberal Party`,
@@ -479,6 +538,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `12 September 1924`,
 	},
 	{
+		id: 6059,
 		countryId,
 		name: `Luis Altamirano`,
 		party: `Military`,
@@ -487,6 +547,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `23 January 1925`,
 	},
 	{
+		id: 6060,
 		countryId,
 		name: `Pedro Dartnell`,
 		party: `Military`,
@@ -495,6 +556,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `27 January 1925`,
 	},
 	{
+		id: 6061,
 		countryId,
 		name: `Emilio Bello Codesido`,
 		party: `Liberal Democratic Party`,
@@ -503,6 +565,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `12 March 1925`,
 	},
 	{
+		id: 6062,
 		countryId,
 		name: `Arturo Alessandri`,
 		party: `Liberal Party`,
@@ -511,6 +574,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `1 October 1925`,
 	},
 	{
+		id: 6063,
 		countryId,
 		name: `Luis Barros Borgoño`,
 		party: `Liberal Party`,
@@ -519,6 +583,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `23 December 1925`,
 	},
 	{
+		id: 6064,
 		countryId,
 		name: `Emiliano Figueroa`,
 		party: `Liberal Democratic Party`,
@@ -527,6 +592,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `10 May 1927`,
 	},
 	{
+		id: 6065,
 		countryId,
 		name: `Carlos Ibáñez del Campo`,
 		party: `Independent`,
@@ -535,6 +601,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `26 July 1931`,
 	},
 	{
+		id: 6066,
 		countryId,
 		name: `Pedro Opaso`,
 		party: `Liberal Democratic Party`,
@@ -543,6 +610,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `27 July 1931`,
 	},
 	{
+		id: 6067,
 		countryId,
 		name: `Juan Esteban Montero`,
 		party: `Radical Party`,
@@ -551,6 +619,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `20 August 1931`,
 	},
 	{
+		id: 6068,
 		countryId,
 		name: `Manuel Trucco`,
 		party: `Radical Party`,
@@ -559,6 +628,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `15 November 1931`,
 	},
 	{
+		id: 6069,
 		countryId,
 		name: `Juan Esteban Montero`,
 		party: `Radical Party`,
@@ -567,6 +637,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `4 June 1932`,
 	},
 	{
+		id: 6070,
 		countryId,
 		name: `Arturo Puga`,
 		party: `Military`,
@@ -575,6 +646,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `16 June 1932`,
 	},
 	{
+		id: 6071,
 		countryId,
 		name: `Carlos Dávila`,
 		party: `Socialist Party`,
@@ -583,6 +655,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `13 September 1932`,
 	},
 	{
+		id: 6072,
 		countryId,
 		name: `Bartolomé Blanche`,
 		party: `Military`,
@@ -591,6 +664,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `2 October 1932`,
 	},
 	{
+		id: 6073,
 		countryId,
 		name: `Abraham Oyanedel`,
 		party: `Independent`,
@@ -599,6 +673,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `24 December 1932`,
 	},
 	{
+		id: 6074,
 		countryId,
 		name: `Arturo Alessandri`,
 		party: `Liberal Party`,
@@ -607,6 +682,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `24 December 1938`,
 	},
 	{
+		id: 6075,
 		countryId,
 		name: `Pedro Aguirre Cerda`,
 		party: `Radical Party`,
@@ -615,6 +691,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `25 November 1941`,
 	},
 	{
+		id: 6076,
 		countryId,
 		name: `Jerónimo Méndez`,
 		party: `Radical Party`,
@@ -623,6 +700,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `2 April 1942`,
 	},
 	{
+		id: 6077,
 		countryId,
 		name: `Juan Antonio Ríos`,
 		party: `Radical Party`,
@@ -631,6 +709,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `27 June 1946`,
 	},
 	{
+		id: 6078,
 		countryId,
 		name: `Alfredo Duhalde`,
 		party: `Radical Party`,
@@ -639,6 +718,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `3 August 1946`,
 	},
 	{
+		id: 6079,
 		countryId,
 		name: `Vicente Merino`,
 		party: `Independent`,
@@ -647,6 +727,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `13 August 1946`,
 	},
 	{
+		id: 6080,
 		countryId,
 		name: `Alfredo Duhalde`,
 		party: `Radical Party`,
@@ -655,6 +736,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `17 October 1946`,
 	},
 	{
+		id: 6081,
 		countryId,
 		name: `Juan Antonio Iribarren`,
 		party: `Radical Party`,
@@ -663,6 +745,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `3 November 1946`,
 	},
 	{
+		id: 6082,
 		countryId,
 		name: `Gabriel González Videla`,
 		party: `Radical Party`,
@@ -671,6 +754,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `3 November 1952`,
 	},
 	{
+		id: 6083,
 		countryId,
 		name: `Carlos Ibáñez del Campo`,
 		party: `Independent`,
@@ -679,6 +763,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `3 November 1958`,
 	},
 	{
+		id: 6084,
 		countryId,
 		name: `Jorge Alessandri`,
 		party: `Independent`,
@@ -687,6 +772,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `3 November 1964`,
 	},
 	{
+		id: 6085,
 		countryId,
 		name: `Eduardo Frei Montalva`,
 		party: `Christian Democratic Party`,
@@ -695,6 +781,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `3 November 1970`,
 	},
 	{
+		id: 6086,
 		countryId,
 		name: `Salvador Allende`,
 		party: `Socialist Party`,
@@ -703,6 +790,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 September 1973`,
 	},
 	{
+		id: 6087,
 		countryId,
 		name: `Augusto Pinochet`,
 		party: `Military`,
@@ -711,6 +799,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 March 1990`,
 	},
 	{
+		id: 6088,
 		countryId,
 		name: `Patricio Aylwin`,
 		party: `Christian Democratic Party`,
@@ -719,6 +808,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 March 1994`,
 	},
 	{
+		id: 6089,
 		countryId,
 		name: `Eduardo Frei Ruiz-Tagle`,
 		party: `Christian Democratic Party`,
@@ -727,6 +817,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 March 2000`,
 	},
 	{
+		id: 6090,
 		countryId,
 		name: `Ricardo Lagos`,
 		party: `Party for Democracy`,
@@ -735,6 +826,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 March 2006`,
 	},
 	{
+		id: 6091,
 		countryId,
 		name: `Michelle Bachelet`,
 		party: `Socialist Party`,
@@ -743,6 +835,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 March 2010`,
 	},
 	{
+		id: 6092,
 		countryId,
 		name: `Sebastián Piñera`,
 		party: `National Renewal`,
@@ -751,6 +844,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 March 2014`,
 	},
 	{
+		id: 6093,
 		countryId,
 		name: `Michelle Bachelet`,
 		party: `Socialist Party`,
@@ -759,6 +853,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 March 2018`,
 	},
 	{
+		id: 6094,
 		countryId,
 		name: `Sebastián Piñera`,
 		party: `Chile Vamos`,
@@ -767,6 +862,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 March 2022`,
 	},
 	{
+		id: 6095,
 		countryId,
 		name: `Gabriel Boric`,
 		party: `Social Convergence`,
@@ -775,6 +871,7 @@ export const chile: LeaderNoId[] = [
 		leftOffice: `11 March 2026`,
 	},
 	{
+		id: 6096,
 		countryId,
 		name: `José Antonio Kast`,
 		party: `Republican Party`,

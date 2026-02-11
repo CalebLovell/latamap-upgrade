@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/President_of_Suriname`;
 
 const countryId = 14;
 
-export const suriname: LeaderNoId[] = [
+export const suriname: LeaderSeed[] = [
 	{
+		id: 23000,
 		countryId,
 		name: `Kingdom of the Netherlands`,
 		tookOffice: `15 December 1954`,
@@ -15,6 +16,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.MONARCHY,
 	},
 	{
+		id: 23001,
 		countryId,
 		name: `Johan Ferrier`,
 		tookOffice: `25 November 1975`,
@@ -23,6 +25,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.CENTER_LEFT,
 	},
 	{
+		id: 23002,
 		countryId,
 		name: `Henk Chin A Sen`,
 		tookOffice: `15 August 1980`,
@@ -31,6 +34,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.CENTER_LEFT,
 	},
 	{
+		id: 23003,
 		countryId,
 		name: `Fred Ramdat Misier`,
 		tookOffice: `8 February 1982`,
@@ -39,6 +43,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.CENTRIST,
 	},
 	{
+		id: 23004,
 		countryId,
 		name: `Ramsewak Shankar`,
 		tookOffice: `25 January 1988`,
@@ -47,6 +52,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.CENTER_LEFT,
 	},
 	{
+		id: 23005,
 		countryId,
 		name: `Johan Kraag`,
 		tookOffice: `29 December 1990`,
@@ -55,6 +61,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.CENTER_LEFT,
 	},
 	{
+		id: 23006,
 		countryId,
 		name: `Ronald Venetiaan`,
 		tookOffice: `16 September 1991`,
@@ -63,6 +70,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.CENTER_LEFT,
 	},
 	{
+		id: 23007,
 		countryId,
 		name: `Jules Wijdenbosch`,
 		tookOffice: `15 September 1996`,
@@ -71,6 +79,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.LEFT,
 	},
 	{
+		id: 23008,
 		countryId,
 		name: `Ronald Venetiaan`,
 		tookOffice: `12 August 2000`,
@@ -79,6 +88,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.CENTER_LEFT,
 	},
 	{
+		id: 23009,
 		countryId,
 		name: `Dési Bouterse`,
 		tookOffice: `12 August 2010`,
@@ -87,6 +97,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.LEFT,
 	},
 	{
+		id: 23010,
 		countryId,
 		name: `Chan Santokhi`,
 		tookOffice: `16 July 2020`,
@@ -95,6 +106,7 @@ export const suriname: LeaderNoId[] = [
 		leaning: leanings.CENTER_LEFT,
 	},
 	{
+		id: 23011,
 		countryId,
 		name: `Jennifer Geerlings-Simons`,
 		tookOffice: `16 July 2025`,

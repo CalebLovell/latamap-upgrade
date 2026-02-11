@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Mexico`;
 
 const countryId = 2;
 
-export const mexico: LeaderNoId[] = [
+export const mexico: LeaderSeed[] = [
 	{
+		id: 18000,
 		countryId,
 		name: `Viceroyalty of New Spain`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `28 September 1821`,
 	},
 	{
+		id: 18001,
 		countryId,
 		name: `First Regency`,
 		party: `First Mexican Empire`,
@@ -23,6 +25,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `11 April 1822`,
 	},
 	{
+		id: 18002,
 		countryId,
 		name: `Second Regency`,
 		party: `Second Mexican Empire`,
@@ -31,6 +34,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `18 May 1822`,
 	},
 	{
+		id: 18003,
 		countryId,
 		name: `Agustín I`,
 		party: `Royal House of Agustín de Iturbide I`,
@@ -39,6 +43,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 April 1823`,
 	},
 	{
+		id: 18004,
 		countryId,
 		name: `Provisional Government of Mexico`,
 		party: `Provisional Government of Mexico`,
@@ -47,6 +52,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `10 October 1824`,
 	},
 	{
+		id: 18005,
 		countryId,
 		name: `Guadalupe Victoria`,
 		party: `Independent`,
@@ -55,6 +61,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `31 March 1829`,
 	},
 	{
+		id: 18006,
 		countryId,
 		name: `Vicente Guerrero`,
 		party: `Liberal Party`,
@@ -63,6 +70,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `17 December 1829`,
 	},
 	{
+		id: 18007,
 		countryId,
 		name: `José María Bocanegra`,
 		party: `Liberal Party`,
@@ -71,6 +79,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `23 December 1829`,
 	},
 	{
+		id: 18008,
 		countryId,
 		name: `Vélez -Quintanar-Alaman`,
 		party: `Liberal Party`,
@@ -79,6 +88,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `31 December 1829`,
 	},
 	{
+		id: 18009,
 		countryId,
 		name: `Anastasio Bustamante`,
 		party: `Conservative Party`,
@@ -87,6 +97,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `13 August 1832`,
 	},
 	{
+		id: 18010,
 		countryId,
 		name: `Melchor Múzquiz`,
 		party: `Liberal Party`,
@@ -95,6 +106,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `24 December 1832`,
 	},
 	{
+		id: 18011,
 		countryId,
 		name: `Manuel Gómez Pedraza`,
 		party: `Liberal Party`,
@@ -103,6 +115,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `31 March 1833`,
 	},
 	{
+		id: 18012,
 		countryId,
 		name: `Valentín Gómez Farías`,
 		party: `Liberal Party`,
@@ -111,6 +124,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `16 May 1833`,
 	},
 	{
+		id: 18013,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Liberal Party`,
@@ -119,6 +133,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `3 June 1833`,
 	},
 	{
+		id: 18014,
 		countryId,
 		name: `Valentín Gómez Farías`,
 		party: `Liberal Party`,
@@ -127,6 +142,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `18 June 1833`,
 	},
 	{
+		id: 18015,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Liberal Party`,
@@ -135,6 +151,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `5 July 1833`,
 	},
 	{
+		id: 18016,
 		countryId,
 		name: `Valentín Gómez Farías`,
 		party: `Liberal Party`,
@@ -143,6 +160,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `27 October 1833`,
 	},
 	{
+		id: 18017,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Conservative Party`,
@@ -151,6 +169,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `15 December 1833`,
 	},
 	{
+		id: 18018,
 		countryId,
 		name: `Valentín Gómez Farías`,
 		party: `Liberal Party`,
@@ -159,6 +178,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `24 April 1834`,
 	},
 	{
+		id: 18019,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Conservative Party`,
@@ -167,6 +187,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `27 January 1835`,
 	},
 	{
+		id: 18020,
 		countryId,
 		name: `Miguel Barragán`,
 		party: `Liberal Party`,
@@ -175,6 +196,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `27 February 1836`,
 	},
 	{
+		id: 18021,
 		countryId,
 		name: `José Justo Corro`,
 		party: `Conservative Party`,
@@ -183,6 +205,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `19 April 1837`,
 	},
 	{
+		id: 18022,
 		countryId,
 		name: `Anastasio Bustamante`,
 		party: `Conservative Party`,
@@ -191,6 +214,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `18 March 1839`,
 	},
 	{
+		id: 18023,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Conservative Party`,
@@ -199,6 +223,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `10 July 1839`,
 	},
 	{
+		id: 18024,
 		countryId,
 		name: `Nicolás Bravo`,
 		party: `Conservative Party`,
@@ -207,6 +232,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `19 July 1839`,
 	},
 	{
+		id: 18025,
 		countryId,
 		name: `Anastasio Bustamante`,
 		party: `Conservative Party`,
@@ -215,6 +241,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `22 September 1841`,
 	},
 	{
+		id: 18026,
 		countryId,
 		name: `Francisco Javier Echeverría`,
 		party: `Conservative Party`,
@@ -223,6 +250,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `10 October 1841`,
 	},
 	{
+		id: 18027,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Conservative Party`,
@@ -231,6 +259,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `26 October 1842`,
 	},
 	{
+		id: 18028,
 		countryId,
 		name: `Nicolás Bravo`,
 		party: `Conservative Party`,
@@ -239,6 +268,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `4 March 1843`,
 	},
 	{
+		id: 18029,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Conservative Party`,
@@ -247,6 +277,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `4 October 1843`,
 	},
 	{
+		id: 18030,
 		countryId,
 		name: `Valentín Canalizo`,
 		party: `Conservative Party`,
@@ -255,6 +286,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `4 June 1844`,
 	},
 	{
+		id: 18031,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Conservative Party`,
@@ -263,6 +295,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `12 September 1844`,
 	},
 	{
+		id: 18032,
 		countryId,
 		name: `José Joaquín de Herrera`,
 		party: `Liberal Party`,
@@ -271,6 +304,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `21 September 1844`,
 	},
 	{
+		id: 18033,
 		countryId,
 		name: `Valentín Canalizo`,
 		party: `Conservative Party`,
@@ -279,6 +313,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `6 December 1844`,
 	},
 	{
+		id: 18034,
 		countryId,
 		name: `José Joaquín de Herrera`,
 		party: `Liberal Party`,
@@ -287,6 +322,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `30 December 1845`,
 	},
 	{
+		id: 18035,
 		countryId,
 		name: `Mariano Paredes`,
 		party: `Conservative Party`,
@@ -295,6 +331,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `28 July 1846`,
 	},
 	{
+		id: 18036,
 		countryId,
 		name: `Nicolás Bravo`,
 		party: `Conservative Party`,
@@ -303,6 +340,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `4 August 1846`,
 	},
 	{
+		id: 18037,
 		countryId,
 		name: `José Mariano Salas`,
 		party: `Conservative Party`,
@@ -311,6 +349,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `23 December 1846`,
 	},
 	{
+		id: 18038,
 		countryId,
 		name: `Valentín Gómez Farías`,
 		party: `Liberal Party`,
@@ -319,6 +358,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `21 March 1847`,
 	},
 	{
+		id: 18039,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Conservative Party`,
@@ -327,6 +367,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `2 April 1847`,
 	},
 	{
+		id: 18040,
 		countryId,
 		name: `Pedro María de Anaya`,
 		party: `Liberal Party`,
@@ -335,6 +376,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `20 May 1847`,
 	},
 	{
+		id: 18041,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Conservative Party`,
@@ -343,6 +385,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `15 September 1847`,
 	},
 	{
+		id: 18042,
 		countryId,
 		name: `Manuel de la Peña y Peña`,
 		party: `Liberal Party`,
@@ -351,6 +394,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `13 November 1847`,
 	},
 	{
+		id: 18043,
 		countryId,
 		name: `Pedro María de Anaya`,
 		party: `Liberal Party`,
@@ -359,6 +403,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `8 January 1848`,
 	},
 	{
+		id: 18044,
 		countryId,
 		name: `Manuel de la Peña y Peña`,
 		party: `Liberal Party`,
@@ -367,6 +412,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `3 June 1848`,
 	},
 	{
+		id: 18045,
 		countryId,
 		name: `José Joaquín de Herrera`,
 		party: `Liberal Party`,
@@ -375,6 +421,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `15 January 1851`,
 	},
 	{
+		id: 18046,
 		countryId,
 		name: `Mariano Arista`,
 		party: `Liberal Party`,
@@ -383,6 +430,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `5 January 1853`,
 	},
 	{
+		id: 18047,
 		countryId,
 		name: `Juan Bautista Ceballos`,
 		party: `Liberal Party`,
@@ -391,6 +439,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `7 February 1853`,
 	},
 	{
+		id: 18048,
 		countryId,
 		name: `Manuel María Lombardini`,
 		party: `Conservative Party`,
@@ -399,6 +448,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `20 April 1853`,
 	},
 	{
+		id: 18049,
 		countryId,
 		name: `Antonio López de Santa Anna`,
 		party: `Conservative Party`,
@@ -407,6 +457,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `5 August 1855`,
 	},
 	{
+		id: 18050,
 		countryId,
 		name: `Martín Carrera`,
 		party: `Conservative Party`,
@@ -415,6 +466,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `12 September 1855`,
 	},
 	{
+		id: 18051,
 		countryId,
 		name: `Rómulo Díaz de la Vega`,
 		party: `Conservative Party`,
@@ -423,6 +475,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `3 October 1855`,
 	},
 	{
+		id: 18052,
 		countryId,
 		name: `Juan Álvarez`,
 		party: `Liberal Party`,
@@ -431,6 +484,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `11 December 1855`,
 	},
 	{
+		id: 18053,
 		countryId,
 		name: `Ignacio Comonfort`,
 		party: `Liberal Party`,
@@ -439,6 +493,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `17 December 1857`,
 	},
 	{
+		id: 18054,
 		countryId,
 		name: `Ignacio Comonfort`,
 		party: `Liberal Party`,
@@ -447,6 +502,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `21 January 1858`,
 	},
 	{
+		id: 18055,
 		countryId,
 		name: `Félix María Zuloaga`,
 		party: `Conservative Party`,
@@ -455,6 +511,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `24 December 1858`,
 	},
 	{
+		id: 18056,
 		countryId,
 		name: `Manuel Robles Pezuela`,
 		party: `Conservative Party`,
@@ -463,6 +520,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `23 January 1859`,
 	},
 	{
+		id: 18057,
 		countryId,
 		name: `Félix María Zuloaga`,
 		party: `Conservative Party`,
@@ -471,6 +529,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 February 1859`,
 	},
 	{
+		id: 18058,
 		countryId,
 		name: `Miguel Miramón`,
 		party: `Conservative Party`,
@@ -479,6 +538,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `13 August 1860`,
 	},
 	{
+		id: 18059,
 		countryId,
 		name: `José Ignacio Pavón`,
 		party: `Conservative Party`,
@@ -487,6 +547,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `15 August 1860`,
 	},
 	{
+		id: 18060,
 		countryId,
 		name: `Miguel Miramón`,
 		party: `Conservative Party`,
@@ -495,6 +556,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `24 December 1860`,
 	},
 	{
+		id: 18061,
 		countryId,
 		name: `Félix María Zuloaga`,
 		party: `Conservative Party`,
@@ -503,6 +565,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `28 December 1862`,
 	},
 	{
+		id: 18062,
 		countryId,
 		name: `Juan Nepomuceno Almonte`,
 		party: `Conservative Party`,
@@ -511,6 +574,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `10 April 1864`,
 	},
 	{
+		id: 18063,
 		countryId,
 		name: `José Mariano Salas`,
 		party: `Conservative Party`,
@@ -519,6 +583,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `10 April 1864`,
 	},
 	{
+		id: 18064,
 		countryId,
 		name: `Pelagio Antonio de Labastida`,
 		party: `Conservative Party`,
@@ -527,6 +592,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `10 April 1864`,
 	},
 	{
+		id: 18065,
 		countryId,
 		name: `Benito Juárez`,
 		party: `Liberal Party`,
@@ -535,6 +601,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `18 July 1872`,
 	},
 	{
+		id: 18066,
 		countryId,
 		name: `Sebastián Lerdo de Tejada`,
 		party: `Liberal Party`,
@@ -543,6 +610,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `20 November 1876`,
 	},
 	{
+		id: 18067,
 		countryId,
 		name: `José María Iglesias`,
 		party: `Liberal Party`,
@@ -551,6 +619,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `28 November 1876`,
 	},
 	{
+		id: 18068,
 		countryId,
 		name: `Porfirio Díaz`,
 		party: `Liberal Party`,
@@ -559,6 +628,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `6 December 1876`,
 	},
 	{
+		id: 18069,
 		countryId,
 		name: `Juan N. Méndez`,
 		party: `Liberal Party`,
@@ -567,6 +637,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `17 February 1877`,
 	},
 	{
+		id: 18070,
 		countryId,
 		name: `Porfirio Díaz`,
 		party: `Liberal Party`,
@@ -575,6 +646,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `30 November 1880`,
 	},
 	{
+		id: 18071,
 		countryId,
 		name: `Manuel González Flores`,
 		party: `Liberal Party`,
@@ -583,6 +655,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `30 November 1884`,
 	},
 	{
+		id: 18072,
 		countryId,
 		name: `Porfirio Díaz`,
 		party: `National Porfirist party`,
@@ -591,6 +664,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `25 May 1911`,
 	},
 	{
+		id: 18073,
 		countryId,
 		name: `Francisco León de la Barra`,
 		party: `Independent`,
@@ -599,6 +673,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `5 November 1911`,
 	},
 	{
+		id: 18074,
 		countryId,
 		name: `Francisco I. Madero`,
 		party: `Progressive Constitutionalist Party`,
@@ -607,6 +682,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `19 February 1913`,
 	},
 	{
+		id: 18075,
 		countryId,
 		name: `Pedro Lascuráin`,
 		party: `Independent`,
@@ -615,6 +691,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `19 February 1913`,
 	},
 	{
+		id: 18076,
 		countryId,
 		name: `Victoriano Huerta`,
 		party: `Independent`,
@@ -623,6 +700,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `15 July 1914`,
 	},
 	{
+		id: 18077,
 		countryId,
 		name: `Francisco S. Carvajal`,
 		party: `Independent`,
@@ -631,6 +709,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `13 August 1914`,
 	},
 	{
+		id: 18078,
 		countryId,
 		name: `Venustiano Carranza`,
 		party: `Liberal Constitutionalist Party`,
@@ -639,6 +718,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `21 May 1920`,
 	},
 	{
+		id: 18079,
 		countryId,
 		name: `Adolfo de la Huerta`,
 		party: `Liberal Constitutionalist Party`,
@@ -647,6 +727,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `30 November 1920`,
 	},
 	{
+		id: 18080,
 		countryId,
 		name: `Álvaro Obregón`,
 		party: `Laborist Party`,
@@ -655,6 +736,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `30 November 1924`,
 	},
 	{
+		id: 18081,
 		countryId,
 		name: `Plutarco Elías Calles`,
 		party: `Laborist Party`,
@@ -663,6 +745,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `30 November 1928`,
 	},
 	{
+		id: 18082,
 		countryId,
 		name: `Emilio Portes Gil`,
 		party: `Institutional Revolutionary Party`,
@@ -671,6 +754,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `4 February 1930`,
 	},
 	{
+		id: 18083,
 		countryId,
 		name: `Pascual Ortiz Rubio`,
 		party: `Institutional Revolutionary Party`,
@@ -679,6 +763,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `4 September 1932`,
 	},
 	{
+		id: 18084,
 		countryId,
 		name: `Abelardo L. Rodríguez`,
 		party: `Institutional Revolutionary Party`,
@@ -687,6 +772,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1934`,
 	},
 	{
+		id: 18085,
 		countryId,
 		name: `Lázaro Cárdenas`,
 		party: `Institutional Revolutionary Party`,
@@ -695,6 +781,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1940`,
 	},
 	{
+		id: 18086,
 		countryId,
 		name: `Manuel Ávila Camacho`,
 		party: `Institutional Revolutionary Party`,
@@ -703,6 +790,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1946`,
 	},
 	{
+		id: 18087,
 		countryId,
 		name: `Miguel Alemán Valdés`,
 		party: `Institutional Revolutionary Party`,
@@ -711,6 +799,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1952`,
 	},
 	{
+		id: 18088,
 		countryId,
 		name: `Adolfo Ruiz Cortines`,
 		party: `Institutional Revolutionary Party`,
@@ -719,6 +808,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1958`,
 	},
 	{
+		id: 18089,
 		countryId,
 		name: `Adolfo López Mateos`,
 		party: `Institutional Revolutionary Party`,
@@ -727,6 +817,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1964`,
 	},
 	{
+		id: 18090,
 		countryId,
 		name: `Gustavo Díaz Ordaz`,
 		party: `Institutional Revolutionary Party`,
@@ -735,6 +826,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1970`,
 	},
 	{
+		id: 18091,
 		countryId,
 		name: `Luis Echeverría Álvarez`,
 		party: `Institutional Revolutionary Party`,
@@ -743,6 +835,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1976`,
 	},
 	{
+		id: 18092,
 		countryId,
 		name: `Lopez Portillo`,
 		party: `Institutional Revolutionary Party`,
@@ -751,6 +844,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1982`,
 	},
 	{
+		id: 18093,
 		countryId,
 		name: `Miguel de la Madrid`,
 		party: `Institutional Revolutionary Party`,
@@ -759,6 +853,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1988`,
 	},
 	{
+		id: 18094,
 		countryId,
 		name: `Carlos Salinas de Gortari`,
 		party: `Institutional Revolutionary Party`,
@@ -767,6 +862,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 1994`,
 	},
 	{
+		id: 18095,
 		countryId,
 		name: `Ernesto Zedillo Ponce de Leon`,
 		party: `Institutional Revolutionary Party`,
@@ -775,6 +871,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 2000`,
 	},
 	{
+		id: 18096,
 		countryId,
 		name: `Vicente Fox`,
 		party: `National Action Party`,
@@ -783,6 +880,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 2006`,
 	},
 	{
+		id: 18097,
 		countryId,
 		name: `Felipe Calderon`,
 		party: `National Action Party`,
@@ -791,6 +889,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 2012`,
 	},
 	{
+		id: 18098,
 		countryId,
 		name: `Enrique Pena Nieto`,
 		party: `Institutional Revolutionary Party`,
@@ -799,6 +898,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 December 2018`,
 	},
 	{
+		id: 18099,
 		countryId,
 		name: `Andrés Manuel López Obrador`,
 		party: `National Regeneration Movement`,
@@ -807,6 +907,7 @@ export const mexico: LeaderNoId[] = [
 		leftOffice: `1 October 2024`,
 	},
 	{
+		id: 18100,
 		countryId,
 		name: `Claudia Sheinbaum`,
 		party: `National Regeneration Movement`,

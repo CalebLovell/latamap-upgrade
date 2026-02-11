@@ -6,7 +6,8 @@ export type LeaderReturn = Leader & {
 	Country: Country;
 };
 
-export type LeaderNoId = {
+export type LeaderSeed = {
+	id: number;
 	countryId: Leader[`countryId`];
 	name: Leader[`name`];
 	party: Leader[`party`];

@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_Uruguay`;
 
 const countryId = 21;
 
-export const uruguay: LeaderNoId[] = [
+export const uruguay: LeaderSeed[] = [
 	{
+		id: 25000,
 		countryId,
 		name: `Viceroyalty of the Río de la Plata`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `9 July 1814`,
 	},
 	{
+		id: 25001,
 		countryId,
 		name: `Nicolás Rodríguez Peña - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
@@ -23,6 +25,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `25 August 1814`,
 	},
 	{
+		id: 25002,
 		countryId,
 		name: `Miguel Estanislao Soler - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
@@ -31,6 +34,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `25 February 1815`,
 	},
 	{
+		id: 25003,
 		countryId,
 		name: `Fernando Otorgués - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
@@ -39,6 +43,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `July 1815`,
 	},
 	{
+		id: 25004,
 		countryId,
 		name: `Miguel Barreiro - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
@@ -47,6 +52,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `20 January 1817`,
 	},
 	{
+		id: 25005,
 		countryId,
 		name: `Carlos Frederico Lecor - United Kingdom of Portugal, Brazil and the Algarves`,
 		party: `Independent`,
@@ -55,6 +61,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `3 February 1826`,
 	},
 	{
+		id: 25006,
 		countryId,
 		name: `Francisco de Paula Magessi Tavares de Carvalho - Empire of Brazil`,
 		party: `Independent`,
@@ -63,6 +70,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `27 August 1828`,
 	},
 	{
+		id: 25007,
 		countryId,
 		name: `Juan Antonio Lavalleja - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
@@ -71,6 +79,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `5 July 1826`,
 	},
 	{
+		id: 25008,
 		countryId,
 		name: `Joaquín Suárez - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
@@ -79,6 +88,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `12 October 1827`,
 	},
 	{
+		id: 25009,
 		countryId,
 		name: `Luis Eduardo Pérez - United Provinces of the Rio de la Plata`,
 		party: `Independent`,
@@ -87,6 +97,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `27 August 1828`,
 	},
 	{
+		id: 25010,
 		countryId,
 		name: `Luis Eduardo Pérez`,
 		party: `Independent`,
@@ -95,6 +106,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 December 1828`,
 	},
 	{
+		id: 25011,
 		countryId,
 		name: `Joaquín Suárez`,
 		party: `Independent`,
@@ -103,6 +115,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `22 December 1828`,
 	},
 	{
+		id: 25012,
 		countryId,
 		name: `José Rondeau`,
 		party: `Independent`,
@@ -111,6 +124,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `17 April 1830`,
 	},
 	{
+		id: 25013,
 		countryId,
 		name: `Juan Antonio Lavalleja`,
 		party: `Independent`,
@@ -119,6 +133,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `28 June 1830`,
 	},
 	{
+		id: 25014,
 		countryId,
 		name: `Juan Antonio Lavalleja`,
 		party: `Independent`,
@@ -127,6 +142,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `24 October 1830`,
 	},
 	{
+		id: 25015,
 		countryId,
 		name: `Luis Eduardo Pérez`,
 		party: `Independent`,
@@ -135,6 +151,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `6 November 1830`,
 	},
 	{
+		id: 25016,
 		countryId,
 		name: `Fructuoso Rivera`,
 		party: `Independent`,
@@ -143,6 +160,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `24 October 1834`,
 	},
 	{
+		id: 25017,
 		countryId,
 		name: `Carlos Anaya`,
 		party: `Colorado Party`,
@@ -151,6 +169,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1835`,
 	},
 	{
+		id: 25018,
 		countryId,
 		name: `Manuel Oribe`,
 		party: `National Party / White Party`,
@@ -159,6 +178,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `24 October 1838`,
 	},
 	{
+		id: 25019,
 		countryId,
 		name: `Gabriel Antonio Pereira`,
 		party: `Colorado Party`,
@@ -167,6 +187,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1839`,
 	},
 	{
+		id: 25020,
 		countryId,
 		name: `Fructuoso Rivera`,
 		party: `Colorado Party`,
@@ -175,6 +196,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1843`,
 	},
 	{
+		id: 25021,
 		countryId,
 		name: `Manuel Oribe`,
 		party: `National Party / White Party`,
@@ -183,6 +205,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `8 October 1851`,
 	},
 	{
+		id: 25022,
 		countryId,
 		name: `Joaquín Suárez`,
 		party: `Colorado Party`,
@@ -191,6 +214,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `15 February 1852`,
 	},
 	{
+		id: 25023,
 		countryId,
 		name: `Bernardo Prudencio Berro`,
 		party: `National Party / White Party`,
@@ -199,6 +223,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1852`,
 	},
 	{
+		id: 25024,
 		countryId,
 		name: `Juan Francisco Giró`,
 		party: `National Party / White Party`,
@@ -207,6 +232,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `25 September 1853`,
 	},
 	{
+		id: 25025,
 		countryId,
 		name: `Juan Antonio Lavalleja`,
 		party: `Independent`,
@@ -215,6 +241,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `22 October 1853`,
 	},
 	{
+		id: 25026,
 		countryId,
 		name: `Venancio Flores`,
 		party: `Colorado Party`,
@@ -223,6 +250,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `12 March 1854`,
 	},
 	{
+		id: 25027,
 		countryId,
 		name: `Fructuoso Rivera`,
 		party: `Colorado Party`,
@@ -231,6 +259,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `13 January 1854`,
 	},
 	{
+		id: 25028,
 		countryId,
 		name: `Venancio Flores`,
 		party: `Colorado Party`,
@@ -239,6 +268,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `10 September 1855`,
 	},
 	{
+		id: 25029,
 		countryId,
 		name: `Luis María Lamas`,
 		party: `Rebellion of the Conservatives`,
@@ -247,6 +277,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `10 September 1855`,
 	},
 	{
+		id: 25030,
 		countryId,
 		name: `Manuel Basilio Bustamante`,
 		party: `Colorado Party`,
@@ -255,6 +286,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `15 February 1856`,
 	},
 	{
+		id: 25031,
 		countryId,
 		name: `José María Plá`,
 		party: `Colorado Party`,
@@ -263,6 +295,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1856`,
 	},
 	{
+		id: 25032,
 		countryId,
 		name: `Gabriel Antonio Pereira`,
 		party: `Colorado Party`,
@@ -271,6 +304,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1860`,
 	},
 	{
+		id: 25033,
 		countryId,
 		name: `Bernardo Prudencio Berro`,
 		party: `National Party / White Party`,
@@ -279,6 +313,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1864`,
 	},
 	{
+		id: 25034,
 		countryId,
 		name: `Atanasio Cruz Aguirre`,
 		party: `National Party / White Party`,
@@ -287,6 +322,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `15 February 1865`,
 	},
 	{
+		id: 25035,
 		countryId,
 		name: `Tomás Villalba`,
 		party: `National Party / White Party`,
@@ -295,6 +331,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `20 February 1865`,
 	},
 	{
+		id: 25036,
 		countryId,
 		name: `Venancio Flores`,
 		party: `Colorado Party`,
@@ -303,6 +340,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `15 February 1868`,
 	},
 	{
+		id: 25037,
 		countryId,
 		name: `Pedro Varela`,
 		party: `Colorado Party`,
@@ -311,6 +349,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1868`,
 	},
 	{
+		id: 25038,
 		countryId,
 		name: `Lorenzo Batlle`,
 		party: `Colorado Party`,
@@ -319,6 +358,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1872`,
 	},
 	{
+		id: 25039,
 		countryId,
 		name: `Tomás Gomensoro Albín`,
 		party: `Colorado Party`,
@@ -327,6 +367,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1873`,
 	},
 	{
+		id: 25040,
 		countryId,
 		name: `José Eugenio Ellauri`,
 		party: `Colorado Party`,
@@ -335,6 +376,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `22 January 1875`,
 	},
 	{
+		id: 25041,
 		countryId,
 		name: `Pedro Varela`,
 		party: `Colorado Party`,
@@ -343,6 +385,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `10 March 1876`,
 	},
 	{
+		id: 25042,
 		countryId,
 		name: `Lorenzo Latorre`,
 		party: `Colorado Party`,
@@ -351,6 +394,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1879`,
 	},
 	{
+		id: 25043,
 		countryId,
 		name: `Pedro Varela`,
 		party: `Colorado Party`,
@@ -359,6 +403,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `10 March 1876`,
 	},
 	{
+		id: 25044,
 		countryId,
 		name: `Lorenzo Latorre`,
 		party: `Colorado Party`,
@@ -367,6 +412,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `15 March 1880`,
 	},
 	{
+		id: 25045,
 		countryId,
 		name: `Francisco Antonino Vidal`,
 		party: `Colorado Party`,
@@ -375,6 +421,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 February 1882`,
 	},
 	{
+		id: 25046,
 		countryId,
 		name: `Máximo Santos`,
 		party: `Colorado Party`,
@@ -383,6 +430,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1886`,
 	},
 	{
+		id: 25047,
 		countryId,
 		name: `Francisco Antonino Vidal`,
 		party: `Colorado Party`,
@@ -391,6 +439,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `24 May 1886`,
 	},
 	{
+		id: 25048,
 		countryId,
 		name: `Máximo Santos`,
 		party: `Colorado Party`,
@@ -399,6 +448,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `18 November 1886`,
 	},
 	{
+		id: 25049,
 		countryId,
 		name: `Máximo Tajes`,
 		party: `Colorado Party`,
@@ -407,6 +457,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1890`,
 	},
 	{
+		id: 25050,
 		countryId,
 		name: `Julio Herrera y Obes`,
 		party: `Colorado Party`,
@@ -415,6 +466,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1894`,
 	},
 	{
+		id: 25051,
 		countryId,
 		name: `Duncan Stewart`,
 		party: `Colorado Party`,
@@ -423,6 +475,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `21 March 1894`,
 	},
 	{
+		id: 25052,
 		countryId,
 		name: `Juan Idiarte Borda`,
 		party: `Colorado Party`,
@@ -431,6 +484,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `25 August 1897`,
 	},
 	{
+		id: 25053,
 		countryId,
 		name: `Juan Lindolfo Cuestas`,
 		party: `Colorado Party`,
@@ -439,6 +493,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `5 February 1899`,
 	},
 	{
+		id: 25054,
 		countryId,
 		name: `José Batlle y Ordoñez`,
 		party: `Colorado Party`,
@@ -447,6 +502,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1899`,
 	},
 	{
+		id: 25055,
 		countryId,
 		name: `Juan Lindolfo Cuestas`,
 		party: `Colorado Party`,
@@ -455,6 +511,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1903`,
 	},
 	{
+		id: 25056,
 		countryId,
 		name: `José Batlle y Ordoñez`,
 		party: `Colorado Party`,
@@ -463,6 +520,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1907`,
 	},
 	{
+		id: 25057,
 		countryId,
 		name: `Claudio Wílliman`,
 		party: `Colorado Party`,
@@ -471,6 +529,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1911`,
 	},
 	{
+		id: 25058,
 		countryId,
 		name: `José Batlle y Ordoñez`,
 		party: `Colorado Party`,
@@ -479,6 +538,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1915`,
 	},
 	{
+		id: 25059,
 		countryId,
 		name: `Feliciano Viera`,
 		party: `Colorado Party`,
@@ -487,6 +547,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1919`,
 	},
 	{
+		id: 25060,
 		countryId,
 		name: `Baltasar Brum`,
 		party: `Colorado Party`,
@@ -495,6 +556,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1923`,
 	},
 	{
+		id: 25061,
 		countryId,
 		name: `José Serrato`,
 		party: `Colorado Party`,
@@ -503,6 +565,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1927`,
 	},
 	{
+		id: 25062,
 		countryId,
 		name: `Juan Campisteguy`,
 		party: `Colorado Party`,
@@ -511,6 +574,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `19 June 1938`,
 	},
 	{
+		id: 25063,
 		countryId,
 		name: `Gabriel Terra`,
 		party: `Colorado Party`,
@@ -519,6 +583,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `19 June 1938`,
 	},
 	{
+		id: 25064,
 		countryId,
 		name: `Alfredo Baldomir Ferrari`,
 		party: `Colorado Party`,
@@ -527,6 +592,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1943`,
 	},
 	{
+		id: 25065,
 		countryId,
 		name: `Juan José de Amézaga`,
 		party: `Colorado Party`,
@@ -535,6 +601,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1947`,
 	},
 	{
+		id: 25066,
 		countryId,
 		name: `Tomás Berreta`,
 		party: `Colorado Party`,
@@ -543,6 +610,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `2 August 1947`,
 	},
 	{
+		id: 25067,
 		countryId,
 		name: `Luis Batlle Berres`,
 		party: `Colorado Party`,
@@ -551,6 +619,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1951`,
 	},
 	{
+		id: 25068,
 		countryId,
 		name: `Andres Martínez Trueba`,
 		party: `Colorado Party`,
@@ -559,6 +628,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1952`,
 	},
 	{
+		id: 25069,
 		countryId,
 		name: `National Council of Government`,
 		party: `National Council of Government`,
@@ -567,6 +637,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1967`,
 	},
 	{
+		id: 25070,
 		countryId,
 		name: `Óscar Diego Gestido`,
 		party: `Colorado Party`,
@@ -575,6 +646,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `6 December 1967`,
 	},
 	{
+		id: 25071,
 		countryId,
 		name: `Jorge Pacheco`,
 		party: `Colorado Party`,
@@ -583,6 +655,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1972`,
 	},
 	{
+		id: 25072,
 		countryId,
 		name: `Juan María Bordaberry`,
 		party: `Colorado Party / Civic-Military Dictatorship`,
@@ -591,6 +664,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `12 June 1976`,
 	},
 	{
+		id: 25073,
 		countryId,
 		name: `Alberto Demicheli`,
 		party: `Colorado Party / Civic-Military Dictatorship`,
@@ -599,6 +673,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 September 1976`,
 	},
 	{
+		id: 25074,
 		countryId,
 		name: `Aparicio Méndez`,
 		party: `National Party / White Party / Civic-Military Dictatorship`,
@@ -607,6 +682,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 September 1981`,
 	},
 	{
+		id: 25075,
 		countryId,
 		name: `Gregorio Álvarez`,
 		party: `Independent - Armed Forces of Uruguay`,
@@ -615,6 +691,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `12 February 1985`,
 	},
 	{
+		id: 25076,
 		countryId,
 		name: `Rafael Addiego`,
 		party: `Civic Union Party`,
@@ -623,6 +700,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1985`,
 	},
 	{
+		id: 25077,
 		countryId,
 		name: `Julio María Sanguinetti`,
 		party: `Colorado Party`,
@@ -631,6 +709,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1990`,
 	},
 	{
+		id: 25078,
 		countryId,
 		name: `Luis Alberto Lacalle`,
 		party: `National Party / White Party`,
@@ -639,6 +718,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 1995`,
 	},
 	{
+		id: 25079,
 		countryId,
 		name: `Julio María Sanguinetti`,
 		party: `Colorado Party`,
@@ -647,6 +727,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 2000`,
 	},
 	{
+		id: 25080,
 		countryId,
 		name: `Jorge Batlle`,
 		party: `Colorado Party`,
@@ -655,6 +736,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 2005`,
 	},
 	{
+		id: 25081,
 		countryId,
 		name: `Tabaré Vázquez`,
 		party: `Broad Front`,
@@ -663,6 +745,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 2010`,
 	},
 	{
+		id: 25082,
 		countryId,
 		name: `José Mujica`,
 		party: `Broad Front`,
@@ -671,6 +754,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 2015`,
 	},
 	{
+		id: 25083,
 		countryId,
 		name: `Tabaré Vázquez`,
 		party: `Broad Front`,
@@ -679,6 +763,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 2020`,
 	},
 	{
+		id: 25084,
 		countryId,
 		name: `Luis Lacalle Pou`,
 		party: `National Party / White Party`,
@@ -687,6 +772,7 @@ export const uruguay: LeaderNoId[] = [
 		leftOffice: `1 March 2025`,
 	},
 	{
+		id: 25085,
 		countryId,
 		name: `Yamandú Orsi`,
 		party: `Broad Front`,

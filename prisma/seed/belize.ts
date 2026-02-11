@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Belize`;
 
 const countryId = 4;
 
-export const belize: LeaderNoId[] = [
+export const belize: LeaderSeed[] = [
 	{
+		id: 2000,
 		countryId,
 		name: `George Cadle Price`,
 		party: `People's United Party`,
@@ -15,6 +16,7 @@ export const belize: LeaderNoId[] = [
 		leftOffice: `17 December 1984`,
 	},
 	{
+		id: 2001,
 		countryId,
 		name: `Manuel Esquivel`,
 		party: `United Democratic Party`,
@@ -23,6 +25,7 @@ export const belize: LeaderNoId[] = [
 		leftOffice: `7 September 1989`,
 	},
 	{
+		id: 2002,
 		countryId,
 		name: `George Cadle Price`,
 		party: `People's United Party`,
@@ -31,6 +34,7 @@ export const belize: LeaderNoId[] = [
 		leftOffice: `13 July 1993`,
 	},
 	{
+		id: 2003,
 		countryId,
 		name: `Manuel Esquivel`,
 		party: `United Democratic Party`,
@@ -39,6 +43,7 @@ export const belize: LeaderNoId[] = [
 		leftOffice: `28 August 1998`,
 	},
 	{
+		id: 2004,
 		countryId,
 		name: `Said Musa`,
 		party: `People's United Party`,
@@ -47,6 +52,7 @@ export const belize: LeaderNoId[] = [
 		leftOffice: `8 February 2008`,
 	},
 	{
+		id: 2005,
 		countryId,
 		name: `Dean Barrow`,
 		party: `United Democratic Party`,
@@ -55,6 +61,7 @@ export const belize: LeaderNoId[] = [
 		leftOffice: `12 November 2020`,
 	},
 	{
+		id: 2006,
 		countryId,
 		name: `Johnny Briceño`,
 		party: `People's United Party`,

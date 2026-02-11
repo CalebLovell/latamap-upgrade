@@ -99,22 +99,29 @@ const leaders = [
 ];
 
 async function main() {
-	const createManyCountryPromises = countries.map(({ id, name }) => {
-		return prisma.country.create({ data: { id, name, createdAt } });
-	});
-	const seededCountries = await Promise.all(createManyCountryPromises);
-	console.log({ seededCountries });
-
-	const createManyLeadersPromises = leaders.map(({ countryId, name, party, leaning, tookOffice, leftOffice }) => {
-		return prisma.leader.create({
-			data: { countryId, name, party, leaning, tookOffice: new Date(tookOffice), leftOffice: leftOffice ? new Date(leftOffice) : null, createdAt },
+	const upsertCountryPromises = countries.map(({ id, name }) => {
+		return prisma.country.upsert({
+			where: { id },
+			update: { name },
+			create: { id, name, createdAt },
 		});
 	});
-	const seededLeaders = await Promise.all(createManyLeadersPromises);
-	console.log({ seededLeaders });
+	const seededCountries = await Promise.all(upsertCountryPromises);
+	console.log({ seededCountries });
+
+	const upsertLeaderPromises = leaders.map(({ id, countryId, name, party, leaning, tookOffice, leftOffice }) => {
+		const tookOfficeDate = new Date(tookOffice);
+		const leftOfficeDate = leftOffice ? new Date(leftOffice) : null;
+		return prisma.leader.upsert({
+			where: { id },
+			update: { countryId, name, party, leaning, tookOffice: tookOfficeDate, leftOffice: leftOfficeDate },
+			create: { id, countryId, name, party, leaning, tookOffice: tookOfficeDate, leftOffice: leftOfficeDate, createdAt },
+		});
+	});
+	const seededLeaders = await Promise.all(upsertLeaderPromises);
+	console.log({ seededLeaders: seededLeaders.length });
 }
 
-// eslint-disable-next-line promise/catch-or-return
 main()
 	.catch(e => {
 		console.error(e);

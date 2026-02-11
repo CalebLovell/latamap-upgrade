@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Cuba`;
 
 const countryId = 24;
 
-export const cuba: LeaderNoId[] = [
+export const cuba: LeaderSeed[] = [
 	{
+		id: 9000,
 		countryId,
 		name: `Captaincy General of Cuba`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `10 December 1898`,
 	},
 	{
+		id: 9001,
 		countryId,
 		name: `United States Occupation`,
 		party: `John R. Brooke`,
@@ -23,6 +25,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `20 May 1902`,
 	},
 	{
+		id: 9002,
 		countryId,
 		name: `Tomás Estrada Palma`,
 		party: `Republican Party of Havana`,
@@ -31,6 +34,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `28 September 1906`,
 	},
 	{
+		id: 9003,
 		countryId,
 		name: `William H. Taft`,
 		party: `United States Government`,
@@ -39,6 +43,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `13 October 1906`,
 	},
 	{
+		id: 9004,
 		countryId,
 		name: `Charles Edward Magoon`,
 		party: `United States Government`,
@@ -47,6 +52,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `28 January 1909`,
 	},
 	{
+		id: 9005,
 		countryId,
 		name: `José Miguel Gómez`,
 		party: `Liberal Party`,
@@ -55,6 +61,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `20 May 1913`,
 	},
 	{
+		id: 9006,
 		countryId,
 		name: `Mario García Menocal`,
 		party: `National Conservative Party`,
@@ -63,6 +70,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `20 May 1921`,
 	},
 	{
+		id: 9007,
 		countryId,
 		name: `Alfredo Zayas y Alfonso`,
 		party: `National Conservative Party`,
@@ -71,6 +79,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `20 May 1925`,
 	},
 	{
+		id: 9008,
 		countryId,
 		name: `Gerardo Machado`,
 		party: `National Conservative Party`,
@@ -79,6 +88,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `12 August 1933`,
 	},
 	{
+		id: 9009,
 		countryId,
 		name: `Alberto Herrera Franchi`,
 		party: `Military`,
@@ -87,6 +97,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `13 August 1933`,
 	},
 	{
+		id: 9010,
 		countryId,
 		name: `Carlos Manuel de Céspedes y Quesada`,
 		party: `Liberal Party`,
@@ -95,6 +106,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `5 September 1933`,
 	},
 	{
+		id: 9011,
 		countryId,
 		name: `Pentarchy of 1933`,
 		party: `Nonpartisan`,
@@ -103,6 +115,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `10 September 1933`,
 	},
 	{
+		id: 9012,
 		countryId,
 		name: `Ramón Grau`,
 		party: `Authentic Party`,
@@ -111,6 +124,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `15 January 1934`,
 	},
 	{
+		id: 9013,
 		countryId,
 		name: `Carlos Hevia`,
 		party: `Authentic Party`,
@@ -119,6 +133,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `18 January 1934`,
 	},
 	{
+		id: 9014,
 		countryId,
 		name: `Manuel Márquez Sterling`,
 		party: `Independent`,
@@ -127,6 +142,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `18 January 1934`,
 	},
 	{
+		id: 9015,
 		countryId,
 		name: `Carlos Mendieta`,
 		party: `National Union`,
@@ -135,6 +151,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `11 December 1935`,
 	},
 	{
+		id: 9016,
 		countryId,
 		name: `José Agripino Barnet`,
 		party: `National Union`,
@@ -143,6 +160,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `20 May 1936`,
 	},
 	{
+		id: 9017,
 		countryId,
 		name: `Miguel Mariano Gómez`,
 		party: `National Union`,
@@ -151,6 +169,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `24 December 1936`,
 	},
 	{
+		id: 9018,
 		countryId,
 		name: `Federico Laredo Brú`,
 		party: `National Union`,
@@ -159,6 +178,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `10 October 1940`,
 	},
 	{
+		id: 9019,
 		countryId,
 		name: `Fulgencio Batista`,
 		party: `Democratic Socialist Coalition`,
@@ -167,6 +187,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `10 October 1944`,
 	},
 	{
+		id: 9020,
 		countryId,
 		name: `Ramón Grau`,
 		party: `Authentic Party`,
@@ -175,6 +196,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `10 October 1948`,
 	},
 	{
+		id: 9021,
 		countryId,
 		name: `Carlos Prío Socarrás`,
 		party: `Authentic Party`,
@@ -183,6 +205,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `10 March 1952`,
 	},
 	{
+		id: 9022,
 		countryId,
 		name: `Fulgencio Batista`,
 		party: `Progressive Action Party`,
@@ -191,6 +214,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `14 August 1954`,
 	},
 	{
+		id: 9023,
 		countryId,
 		name: `Andrés Domingo del Castillo`,
 		party: `Progressive Action Party`,
@@ -199,6 +223,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `24 February 1955`,
 	},
 	{
+		id: 9024,
 		countryId,
 		name: `Fulgencio Batista`,
 		party: `Progressive Action Party`,
@@ -207,6 +232,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `1 January 1959`,
 	},
 	{
+		id: 9025,
 		countryId,
 		name: `Anselmo Alliegro y Milá`,
 		party: `Progressive Action Party`,
@@ -215,6 +241,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `2 January 1959`,
 	},
 	{
+		id: 9026,
 		countryId,
 		name: `Carlos Manuel Piedra`,
 		party: `Progressive Action Party`,
@@ -223,6 +250,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `3 January 1959`,
 	},
 	{
+		id: 9027,
 		countryId,
 		name: `Manuel Urrutia Lleó`,
 		party: `Independent`,
@@ -231,6 +259,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `18 July 1959`,
 	},
 	{
+		id: 9028,
 		countryId,
 		name: `Fidel Castro`,
 		party: `Communist Party`,
@@ -239,6 +268,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `24 February 2008`,
 	},
 	{
+		id: 9029,
 		countryId,
 		name: `Raúl Castro`,
 		party: `Communist Party`,
@@ -247,6 +277,7 @@ export const cuba: LeaderNoId[] = [
 		leftOffice: `19 April 2018`,
 	},
 	{
+		id: 9030,
 		countryId,
 		name: `Miguel Díaz-Canel`,
 		party: `Communist Party`,

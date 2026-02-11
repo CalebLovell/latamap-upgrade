@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_Venezuela`;
 
 const countryId = 11;
 
-export const venezuela: LeaderNoId[] = [
+export const venezuela: LeaderSeed[] = [
 	{
+		id: 27000,
 		countryId,
 		name: `Viceroyalty of New Granada`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `5 July 1811`,
 	},
 	{
+		id: 27001,
 		countryId,
 		name: `Cristóbal Mendoza`,
 		party: `First Republic of Venezuela`,
@@ -23,6 +25,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `3 April 1812`,
 	},
 	{
+		id: 27002,
 		countryId,
 		name: `Francisco Espejo`,
 		party: `First Republic of Venezuela`,
@@ -31,6 +34,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `25 July 1812`,
 	},
 	{
+		id: 27003,
 		countryId,
 		name: `Various Military Leaders`,
 		party: `Venezuelan War of Independence`,
@@ -39,6 +43,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `15 February 1819`,
 	},
 	{
+		id: 27004,
 		countryId,
 		name: `Simón Bolívar - Gran Colombia`,
 		party: `Military`,
@@ -47,6 +52,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `13 January 1830`,
 	},
 	{
+		id: 27005,
 		countryId,
 		name: `José Antonio Páez`,
 		party: `Conservative Party`,
@@ -55,6 +61,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `20 January 1835`,
 	},
 	{
+		id: 27006,
 		countryId,
 		name: `Andrés Narvarte`,
 		party: `Conservative Party`,
@@ -63,6 +70,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `9 February 1835`,
 	},
 	{
+		id: 27007,
 		countryId,
 		name: `José María Vargas`,
 		party: `Conservative Party`,
@@ -71,6 +79,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `9 July 1835`,
 	},
 	{
+		id: 27008,
 		countryId,
 		name: `José María Carreño`,
 		party: `Conservative Party`,
@@ -79,6 +88,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `20 August 1835`,
 	},
 	{
+		id: 27009,
 		countryId,
 		name: `José María Vargas`,
 		party: `Conservative Party`,
@@ -87,6 +97,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `24 April 1836`,
 	},
 	{
+		id: 27010,
 		countryId,
 		name: `Andrés Narvarte`,
 		party: `Conservative Party`,
@@ -95,6 +106,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `20 January 1837`,
 	},
 	{
+		id: 27011,
 		countryId,
 		name: `José María Carreño`,
 		party: `Conservative Party`,
@@ -103,6 +115,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `11 March 1837`,
 	},
 	{
+		id: 27012,
 		countryId,
 		name: `Carlos Soublette`,
 		party: `Conservative Party`,
@@ -111,6 +124,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `1 February 1839`,
 	},
 	{
+		id: 27013,
 		countryId,
 		name: `José Antonio Páez`,
 		party: `Conservative Party`,
@@ -119,6 +133,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `28 January 1843`,
 	},
 	{
+		id: 27014,
 		countryId,
 		name: `Carlos Soublette`,
 		party: `Conservative Party`,
@@ -127,6 +142,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `20 January 1847`,
 	},
 	{
+		id: 27015,
 		countryId,
 		name: `José Tadeo Monagas`,
 		party: `Conservative Party`,
@@ -135,6 +151,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `5 February 1851`,
 	},
 	{
+		id: 27016,
 		countryId,
 		name: `José Gregorio Monagas`,
 		party: `Great Liberal Party of Venezuela`,
@@ -143,6 +160,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `20 January 1855`,
 	},
 	{
+		id: 27017,
 		countryId,
 		name: `José Tadeo Monagas`,
 		party: `Great Liberal Party of Venezuela`,
@@ -151,6 +169,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `15 March 1858`,
 	},
 	{
+		id: 27018,
 		countryId,
 		name: `Pedro Gual Escandón`,
 		party: `Great Liberal Party of Venezuela`,
@@ -159,6 +178,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `18 March 1858`,
 	},
 	{
+		id: 27019,
 		countryId,
 		name: `Julián Castro`,
 		party: `Military`,
@@ -167,6 +187,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `2 August 1859`,
 	},
 	{
+		id: 27020,
 		countryId,
 		name: `Pedro Gual Escandón`,
 		party: `Independent`,
@@ -175,6 +196,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `29 September 1859`,
 	},
 	{
+		id: 27021,
 		countryId,
 		name: `Manuel Felipe de Tovar`,
 		party: `Great Liberal Party of Venezuela`,
@@ -183,6 +205,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `20 May 1861`,
 	},
 	{
+		id: 27022,
 		countryId,
 		name: `Pedro Gual Escandón`,
 		party: `Great Liberal Party of Venezuela`,
@@ -191,6 +214,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `29 August 1861`,
 	},
 	{
+		id: 27023,
 		countryId,
 		name: `José Antonio Páez`,
 		party: `Conservative Party`,
@@ -199,6 +223,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `15 June 1863`,
 	},
 	{
+		id: 27024,
 		countryId,
 		name: `Juan Crisóstomo Falcón`,
 		party: `Military`,
@@ -207,6 +232,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `25 April 1868`,
 	},
 	{
+		id: 27025,
 		countryId,
 		name: `José Antonio Páez`,
 		party: `Conservative Party`,
@@ -215,6 +241,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `15 June 1863`,
 	},
 	{
+		id: 27026,
 		countryId,
 		name: `Juan Crisóstomo Falcón`,
 		party: `Great Liberal Party of Venezuela`,
@@ -223,6 +250,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `25 April 1868`,
 	},
 	{
+		id: 27027,
 		countryId,
 		name: `Manuel Ezequiel Bruzual`,
 		party: `Great Liberal Party of Venezuela`,
@@ -231,6 +259,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `28 June 1868`,
 	},
 	{
+		id: 27028,
 		countryId,
 		name: `Guillermo Tell Villegas`,
 		party: `Great Liberal Party of Venezuela`,
@@ -239,6 +268,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `20 February 1869`,
 	},
 	{
+		id: 27029,
 		countryId,
 		name: `José Ruperto Monagas`,
 		party: `Great Liberal Party of Venezuela`,
@@ -247,6 +277,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `16 April 1870`,
 	},
 	{
+		id: 27030,
 		countryId,
 		name: `Guillermo Tell Villegas`,
 		party: `Great Liberal Party of Venezuela`,
@@ -255,6 +286,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `27 April 1870`,
 	},
 	{
+		id: 27031,
 		countryId,
 		name: `Antonio Guzmán Blanco`,
 		party: `Great Liberal Party of Venezuela`,
@@ -263,6 +295,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `27 February 1877`,
 	},
 	{
+		id: 27032,
 		countryId,
 		name: `Francisco Linares Alcántara`,
 		party: `Great Liberal Party of Venezuela`,
@@ -271,6 +304,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `30 November 1878`,
 	},
 	{
+		id: 27033,
 		countryId,
 		name: `José Gregorio Valera`,
 		party: `Great Liberal Party of Venezuela`,
@@ -279,6 +313,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `26 February 1879`,
 	},
 	{
+		id: 27034,
 		countryId,
 		name: `Antonio Guzmán Blanco`,
 		party: `Great Liberal Party of Venezuela`,
@@ -287,6 +322,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `26 April 1884`,
 	},
 	{
+		id: 27035,
 		countryId,
 		name: `Joaquín Crespo`,
 		party: `Great Liberal Party of Venezuela`,
@@ -295,6 +331,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `15 September 1886`,
 	},
 	{
+		id: 27036,
 		countryId,
 		name: `Antonio Guzmán Blanco`,
 		party: `Great Liberal Party of Venezuela`,
@@ -303,6 +340,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `8 August 1887`,
 	},
 	{
+		id: 27037,
 		countryId,
 		name: `Hermógenes López`,
 		party: `Independent`,
@@ -311,6 +349,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `2 July 1888`,
 	},
 	{
+		id: 27038,
 		countryId,
 		name: `Juan Pablo Rojas`,
 		party: `Great Liberal Party of Venezuela`,
@@ -319,6 +358,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `19 March 1890`,
 	},
 	{
+		id: 27039,
 		countryId,
 		name: `Raimundo Andueza`,
 		party: `Great Liberal Party of Venezuela`,
@@ -327,6 +367,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `17 June 1892`,
 	},
 	{
+		id: 27040,
 		countryId,
 		name: `Guillermo Tell Villegas`,
 		party: `Great Liberal Party of Venezuela`,
@@ -335,6 +376,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `31 August 1892`,
 	},
 	{
+		id: 27041,
 		countryId,
 		name: `Guillermo Tell Villegas Pulido`,
 		party: `Great Liberal Party of Venezuela`,
@@ -343,6 +385,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `7 October 1892`,
 	},
 	{
+		id: 27042,
 		countryId,
 		name: `Joaquín Crespo`,
 		party: `Great Liberal Party of Venezuela`,
@@ -351,6 +394,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `28 February 1898`,
 	},
 	{
+		id: 27043,
 		countryId,
 		name: `Ignacio Andrade`,
 		party: `Great Liberal Party of Venezuela`,
@@ -359,6 +403,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `20 October 1899`,
 	},
 	{
+		id: 27044,
 		countryId,
 		name: `Cipriano Castro`,
 		party: `Armed Forces of Venezuela`,
@@ -367,6 +412,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `19 December 1908`,
 	},
 	{
+		id: 27045,
 		countryId,
 		name: `Juan Vicente Gómez`,
 		party: `Armed Forces of Venezuela`,
@@ -375,6 +421,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `5 August 1913`,
 	},
 	{
+		id: 27046,
 		countryId,
 		name: `José Gil Fortoul`,
 		party: `Independent`,
@@ -383,6 +430,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `19 April 1914`,
 	},
 	{
+		id: 27047,
 		countryId,
 		name: `Victorino Márquez`,
 		party: `Independent`,
@@ -391,6 +439,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `24 June 1922`,
 	},
 	{
+		id: 27048,
 		countryId,
 		name: `Juan Vicente Gómez`,
 		party: `Armed Forces of Venezuela`,
@@ -399,6 +448,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `30 May 1929`,
 	},
 	{
+		id: 27049,
 		countryId,
 		name: `Juan Bautista Pérez`,
 		party: `Independent`,
@@ -407,6 +457,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `13 June 1931`,
 	},
 	{
+		id: 27050,
 		countryId,
 		name: `Juan Vicente Gómez`,
 		party: `Armed Forces of Venezuela`,
@@ -415,6 +466,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `18 December 1935`,
 	},
 	{
+		id: 27051,
 		countryId,
 		name: `Eleazar López Contreras`,
 		party: `Independent`,
@@ -423,6 +475,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `5 May 1941`,
 	},
 	{
+		id: 27052,
 		countryId,
 		name: `Isaías Medina Angarita`,
 		party: `Venezuelan Democratic Party`,
@@ -431,6 +484,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `19 October 1945`,
 	},
 	{
+		id: 27053,
 		countryId,
 		name: `Rómulo Betancourt`,
 		party: `Democratic Action`,
@@ -439,6 +493,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `17 February 1948`,
 	},
 	{
+		id: 27054,
 		countryId,
 		name: `Rómulo Gallegos`,
 		party: `Democratic Action`,
@@ -447,6 +502,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `24 November 1948`,
 	},
 	{
+		id: 27055,
 		countryId,
 		name: `Carlos Delgado Chalbaud`,
 		party: `Armed Forces of Venezuela`,
@@ -455,6 +511,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `13 November 1950`,
 	},
 	{
+		id: 27056,
 		countryId,
 		name: `Germán Suárez Flamerich`,
 		party: `Independent`,
@@ -463,6 +520,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `2 December 1952`,
 	},
 	{
+		id: 27057,
 		countryId,
 		name: `Marcos Pérez Jiménez`,
 		party: `Armed Forces of Venezuela`,
@@ -471,6 +529,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `23 January 1958`,
 	},
 	{
+		id: 27058,
 		countryId,
 		name: `Wolfgang Larrazábal`,
 		party: `Independent`,
@@ -479,6 +538,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `14 November 1958`,
 	},
 	{
+		id: 27059,
 		countryId,
 		name: `Edgar Sanabria`,
 		party: `Independent`,
@@ -487,6 +547,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `13 February 1959`,
 	},
 	{
+		id: 27060,
 		countryId,
 		name: `Rómulo Betancourt`,
 		party: `Democratic Action`,
@@ -495,6 +556,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `13 March 1964`,
 	},
 	{
+		id: 27061,
 		countryId,
 		name: `Raúl Leoni`,
 		party: `Democratic Action`,
@@ -503,6 +565,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `11 March 1969`,
 	},
 	{
+		id: 27062,
 		countryId,
 		name: `Rafael Caldera`,
 		party: `Copei`,
@@ -511,6 +574,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `12 March 1974`,
 	},
 	{
+		id: 27063,
 		countryId,
 		name: `Carlos Andrés Pérez`,
 		party: `Democratic Action`,
@@ -519,6 +583,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `12 March 1979`,
 	},
 	{
+		id: 27064,
 		countryId,
 		name: `Luis Herrera Campins`,
 		party: `Copei`,
@@ -527,6 +592,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `2 February 1984`,
 	},
 	{
+		id: 27065,
 		countryId,
 		name: `Jaime Lusinchi`,
 		party: `Democratic Action`,
@@ -535,6 +601,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `2 February 1989`,
 	},
 	{
+		id: 27066,
 		countryId,
 		name: `Carlos Andrés Pérez`,
 		party: `Democratic Action`,
@@ -543,6 +610,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `20 May 1993`,
 	},
 	{
+		id: 27067,
 		countryId,
 		name: `Octavio Lepage`,
 		party: `Democratic Action`,
@@ -551,6 +619,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `5 June 1993`,
 	},
 	{
+		id: 27068,
 		countryId,
 		name: `Ramón José Velásquez`,
 		party: `Democratic Action`,
@@ -559,6 +628,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `2 February 1994`,
 	},
 	{
+		id: 27069,
 		countryId,
 		name: `Rafael Caldera`,
 		party: `National Convergence`,
@@ -567,6 +637,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `2 February 1999`,
 	},
 	{
+		id: 27070,
 		countryId,
 		name: `Hugo Chávez`,
 		party: `United Socialist Party`,
@@ -575,6 +646,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `12 April 2002`,
 	},
 	{
+		id: 27071,
 		countryId,
 		name: `Pedro Carmona`,
 		party: `Independent`,
@@ -583,6 +655,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `13 April 2002`,
 	},
 	{
+		id: 27072,
 		countryId,
 		name: `Diosdado Cabello`,
 		party: `United Socialist Party`,
@@ -591,6 +664,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `14 April 2002`,
 	},
 	{
+		id: 27073,
 		countryId,
 		name: `Hugo Chávez`,
 		party: `United Socialist Party`,
@@ -599,6 +673,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `5 March 2013`,
 	},
 	{
+		id: 27074,
 		countryId,
 		name: `Nicolás Maduro`,
 		party: `United Socialist Party`,
@@ -607,6 +682,7 @@ export const venezuela: LeaderNoId[] = [
 		leftOffice: `3 January 2026`,
 	},
 	{
+		id: 27075,
 		countryId,
 		name: `Delcy Rodríguez`,
 		party: `United Socialist Party`,

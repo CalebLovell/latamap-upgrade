@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States`;
 
 const countryId = 1;
 
-export const usa: LeaderNoId[] = [
+export const usa: LeaderSeed[] = [
 	{
+		id: 26000,
 		countryId,
 		name: `George Washington`,
 		party: `Unaffiliated`,
@@ -15,6 +16,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1797-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26001,
 		countryId,
 		name: `John Adams`,
 		party: `Federalist Party`,
@@ -23,6 +25,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1801-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26002,
 		countryId,
 		name: `Thomas Jefferson`,
 		party: `Democratic-Republican Party`,
@@ -31,6 +34,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1809-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26003,
 		countryId,
 		name: `James Madison`,
 		party: `Democratic-Republican Party`,
@@ -39,6 +43,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1817-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26004,
 		countryId,
 		name: `James Monroe`,
 		party: `Democratic-Republican Party`,
@@ -47,6 +52,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1825-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26005,
 		countryId,
 		name: `John Quincy Adams`,
 		party: `Democratic-Republican Party`,
@@ -55,6 +61,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1829-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26006,
 		countryId,
 		name: `Andrew Jackson`,
 		party: `Democratic Party`,
@@ -63,6 +70,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1837-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26007,
 		countryId,
 		name: `Martin Van Buren`,
 		party: `Democratic Party`,
@@ -71,6 +79,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1841-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26008,
 		countryId,
 		name: `William Henry Harrison`,
 		party: `Whig Party`,
@@ -79,6 +88,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1841-04-04T00:00:00.000Z`,
 	},
 	{
+		id: 26009,
 		countryId,
 		name: `John Tyler`,
 		party: `Whig Party`,
@@ -87,6 +97,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1845-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26010,
 		countryId,
 		name: `James K. Polk`,
 		party: `Democratic Party`,
@@ -95,6 +106,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1849-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26011,
 		countryId,
 		name: `Zachary Taylor`,
 		party: `Whig Party`,
@@ -103,6 +115,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1850-07-09T00:00:00.000Z`,
 	},
 	{
+		id: 26012,
 		countryId,
 		name: `Millard Fillmore`,
 		party: `Whig Party`,
@@ -111,6 +124,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1853-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26013,
 		countryId,
 		name: `Franklin Pierce`,
 		party: `Democratic Party`,
@@ -119,6 +133,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1857-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26014,
 		countryId,
 		name: `James Buchanan`,
 		party: `Democratic Party`,
@@ -127,6 +142,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1861-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26015,
 		countryId,
 		name: `Abraham Lincoln`,
 		party: `Republican Party & National Union Party`,
@@ -135,6 +151,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1865-04-15T00:00:00.000Z`,
 	},
 	{
+		id: 26016,
 		countryId,
 		name: `Andrew Johnson`,
 		party: `Democratic Party & National Union Party`,
@@ -143,6 +160,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1869-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26017,
 		countryId,
 		name: `Ulysses S. Grant`,
 		party: `Republican Party`,
@@ -151,6 +169,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1877-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26018,
 		countryId,
 		name: `Rutherford B. Hayes`,
 		party: `Republican Party`,
@@ -159,6 +178,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1881-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26019,
 		countryId,
 		name: `James A. Garfield`,
 		party: `Republican Party`,
@@ -167,6 +187,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1881-09-19T00:00:00.000Z`,
 	},
 	{
+		id: 26020,
 		countryId,
 		name: `Chester A. Arthur`,
 		party: `Republican Party`,
@@ -175,6 +196,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1885-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26021,
 		countryId,
 		name: `Grover Cleveland`,
 		party: `Democratic Party`,
@@ -183,6 +205,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1889-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26022,
 		countryId,
 		name: `Benjamin Harrison`,
 		party: `Republican Party`,
@@ -191,6 +214,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1893-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26023,
 		countryId,
 		name: `Grover Cleveland`,
 		party: `Democratic Party`,
@@ -199,6 +223,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1897-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26024,
 		countryId,
 		name: `William McKinley`,
 		party: `Republican Party`,
@@ -207,6 +232,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1901-09-14T00:00:00.000Z`,
 	},
 	{
+		id: 26025,
 		countryId,
 		name: `Theodore Roosevelt`,
 		party: `Republican Party`,
@@ -215,6 +241,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1909-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26026,
 		countryId,
 		name: `William Howard Taft`,
 		party: `Republican Party`,
@@ -223,6 +250,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1913-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26027,
 		countryId,
 		name: `Woodrow Wilson`,
 		party: `Democratic Party`,
@@ -231,6 +259,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1921-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26028,
 		countryId,
 		name: `Warren G. Harding`,
 		party: `Republican Party`,
@@ -239,6 +268,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1923-08-02T00:00:00.000Z`,
 	},
 	{
+		id: 26029,
 		countryId,
 		name: `Calvin Coolidge`,
 		party: `Republican Party`,
@@ -247,6 +277,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1929-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26030,
 		countryId,
 		name: `Herbert Hoover`,
 		party: `Republican Party`,
@@ -255,6 +286,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1933-03-04T00:00:00.000Z`,
 	},
 	{
+		id: 26031,
 		countryId,
 		name: `Franklin D. Roosevelt`,
 		party: `Democratic Party`,
@@ -263,6 +295,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1945-04-12T00:00:00.000Z`,
 	},
 	{
+		id: 26032,
 		countryId,
 		name: `Harry S. Truman`,
 		party: `Democratic Party`,
@@ -271,6 +304,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1953-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26033,
 		countryId,
 		name: `Dwight D. Eisenhower`,
 		party: `Republican Party`,
@@ -279,6 +313,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1961-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26034,
 		countryId,
 		name: `John F. Kennedy`,
 		party: `Democratic Party`,
@@ -287,6 +322,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1963-11-22T00:00:00.000Z`,
 	},
 	{
+		id: 26035,
 		countryId,
 		name: `Lyndon B. Johnson`,
 		party: `Democratic Party`,
@@ -295,6 +331,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1969-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26036,
 		countryId,
 		name: `Richard Nixon`,
 		party: `Republican Party`,
@@ -303,6 +340,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1974-08-09T00:00:00.000Z`,
 	},
 	{
+		id: 26037,
 		countryId,
 		name: `Gerald Ford`,
 		party: `Republican Party`,
@@ -311,6 +349,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1977-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26038,
 		countryId,
 		name: `Jimmy Carter`,
 		party: `Democratic Party`,
@@ -319,6 +358,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1981-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26039,
 		countryId,
 		name: `Ronald Reagan`,
 		party: `Republican Party`,
@@ -327,6 +367,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1989-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26040,
 		countryId,
 		name: `George H. W. Bush`,
 		party: `Republican Party`,
@@ -335,6 +376,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `1993-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26041,
 		countryId,
 		name: `Bill Clinton`,
 		party: `Democratic Party`,
@@ -343,6 +385,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `2001-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26042,
 		countryId,
 		name: `George W. Bush`,
 		party: `Republican Party`,
@@ -351,6 +394,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `2009-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26043,
 		countryId,
 		name: `Barack Obama`,
 		party: `Democratic Party`,
@@ -359,6 +403,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `2017-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26044,
 		countryId,
 		name: `Donald Trump`,
 		party: `Republican Party`,
@@ -367,6 +412,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `2021-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26045,
 		countryId,
 		name: `Joe Biden`,
 		party: `Democratic Party`,
@@ -375,6 +421,7 @@ export const usa: LeaderNoId[] = [
 		leftOffice: `2025-01-20T00:00:00.000Z`,
 	},
 	{
+		id: 26046,
 		countryId,
 		name: `Donald Trump`,
 		party: `Republican Party`,
@@ -385,6 +432,7 @@ export const usa: LeaderNoId[] = [
 ];
 
 const spanishRule = {
+	id: 26998,
 	countryId: 23,
 	name: `Captain General of Puerto Rico`,
 	party: `Kingdom of Spain`,
@@ -394,6 +442,7 @@ const spanishRule = {
 };
 
 const firstAmericanPres = {
+	id: 26999,
 	countryId: 23,
 	name: `William McKinley`,
 	party: `Republican Party`,

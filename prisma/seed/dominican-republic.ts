@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_the_Dominican_Republic`;
 
 const countryId = 27;
 
-export const dominicanRepublic: LeaderNoId[] = [
+export const dominicanRepublic: LeaderSeed[] = [
 	{
+		id: 10000,
 		countryId,
 		name: `Captaincy General of Santo Domingo`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `22 July 1795`,
 	},
 	{
+		id: 10001,
 		countryId,
 		name: `French Santo Domingo`,
 		party: `French Empire`,
@@ -23,6 +25,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `9 July 1809`,
 	},
 	{
+		id: 10002,
 		countryId,
 		name: `España Boba`,
 		party: `Kingdom of Spain`,
@@ -31,6 +34,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `1 December 1821`,
 	},
 	{
+		id: 10003,
 		countryId,
 		name: `Independent State of Spanish Haiti`,
 		party: `Independent`,
@@ -39,6 +43,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `9 February 1822`,
 	},
 	{
+		id: 10004,
 		countryId,
 		name: `Haitian Occupation of Santo Domingo`,
 		party: `Republic of Haiti`,
@@ -47,6 +52,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `27 February 1844`,
 	},
 	{
+		id: 10005,
 		countryId,
 		name: `Tomás Bobadilla`,
 		party: `Independent`,
@@ -55,6 +61,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `9 June 1844`,
 	},
 	{
+		id: 10006,
 		countryId,
 		name: `Francisco del Rosario Sánchez`,
 		party: `Independent`,
@@ -63,6 +70,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `12 July 1844`,
 	},
 	{
+		id: 10007,
 		countryId,
 		name: `Pedro Santana`,
 		party: `Independent`,
@@ -71,6 +79,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `14 November 1844`,
 	},
 	{
+		id: 10008,
 		countryId,
 		name: `Pedro Santana`,
 		party: `Independent`,
@@ -79,6 +88,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `4 August 1848`,
 	},
 	{
+		id: 10009,
 		countryId,
 		name: `Manuel Jimenes`,
 		party: `Independent`,
@@ -87,6 +97,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `29 May 1849`,
 	},
 	{
+		id: 10010,
 		countryId,
 		name: `Pedro Santana`,
 		party: `Independent`,
@@ -95,6 +106,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `23 September 1849`,
 	},
 	{
+		id: 10011,
 		countryId,
 		name: `Buenaventura Báez`,
 		party: `Independent`,
@@ -103,6 +115,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `15 February 1853`,
 	},
 	{
+		id: 10012,
 		countryId,
 		name: `Pedro Santana`,
 		party: `Independent`,
@@ -111,6 +124,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `26 May 1856`,
 	},
 	{
+		id: 10013,
 		countryId,
 		name: `Manuel de Regla Mota`,
 		party: `Independent`,
@@ -119,6 +133,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `5 September 1855`,
 	},
 	{
+		id: 10014,
 		countryId,
 		name: `Manuel de Regla Mota`,
 		party: `Independent`,
@@ -127,6 +142,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `8 October 1856`,
 	},
 	{
+		id: 10015,
 		countryId,
 		name: `Buenaventura Báez`,
 		party: `Independent`,
@@ -135,6 +151,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `12 June 1858`,
 	},
 	{
+		id: 10016,
 		countryId,
 		name: `José Desiderio Valverde`,
 		party: `Independent`,
@@ -143,6 +160,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `31 August 1858`,
 	},
 	{
+		id: 10017,
 		countryId,
 		name: `Pedro Santana`,
 		party: `Independent`,
@@ -151,6 +169,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `31 January 1859`,
 	},
 	{
+		id: 10018,
 		countryId,
 		name: `Pedro Santana`,
 		party: `Independent`,
@@ -159,6 +178,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `18 March 1861`,
 	},
 	{
+		id: 10019,
 		countryId,
 		name: `Pedro Santana`,
 		party: `Independent`,
@@ -167,6 +187,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `20 July 1862`,
 	},
 	{
+		id: 10020,
 		countryId,
 		name: `Felipe Ribero y Lemoine`,
 		party: `Independent`,
@@ -175,6 +196,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `22 October 1863`,
 	},
 	{
+		id: 10021,
 		countryId,
 		name: `Carlos de Vargas y Cerveto`,
 		party: `Independent`,
@@ -183,6 +205,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `30 March 1864`,
 	},
 	{
+		id: 10022,
 		countryId,
 		name: `José de la Gándara y Navarro`,
 		party: `Independent`,
@@ -191,6 +214,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `11 July 1865`,
 	},
 	{
+		id: 10023,
 		countryId,
 		name: `José Antonio Salcedo`,
 		party: `Independent`,
@@ -199,6 +223,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `10 October 1864`,
 	},
 	{
+		id: 10024,
 		countryId,
 		name: `Gaspar Polanco`,
 		party: `Independent`,
@@ -207,6 +232,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `24 January 1865`,
 	},
 	{
+		id: 10025,
 		countryId,
 		name: `Benigno Filomeno de Rojas`,
 		party: `Independent`,
@@ -215,6 +241,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `24 March 1865`,
 	},
 	{
+		id: 10026,
 		countryId,
 		name: `Pedro Antonio Pimentel`,
 		party: `Independent`,
@@ -223,6 +250,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `11 July 1865`,
 	},
 	{
+		id: 10027,
 		countryId,
 		name: `Pedro Antonio Pimentel`,
 		party: `Independent`,
@@ -231,6 +259,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `4 August 1865`,
 	},
 	{
+		id: 10028,
 		countryId,
 		name: `José María Cabral`,
 		party: `Blue Party`,
@@ -239,6 +268,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `15 November 1865`,
 	},
 	{
+		id: 10029,
 		countryId,
 		name: `Pedro Guillermo`,
 		party: `Independent`,
@@ -247,6 +277,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `8 December 1865`,
 	},
 	{
+		id: 10030,
 		countryId,
 		name: `Buenaventura Báez`,
 		party: `Red Party`,
@@ -255,6 +286,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `29 May 1866`,
 	},
 	{
+		id: 10031,
 		countryId,
 		name: `Triumvirate`,
 		party: `Independent`,
@@ -263,6 +295,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `22 August 1866`,
 	},
 	{
+		id: 10032,
 		countryId,
 		name: `José María Cabral`,
 		party: `Blue Party`,
@@ -271,6 +304,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `29 September 1866`,
 	},
 	{
+		id: 10033,
 		countryId,
 		name: `José María Cabral`,
 		party: `Blue Party`,
@@ -279,6 +313,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `31 January 1868`,
 	},
 	{
+		id: 10034,
 		countryId,
 		name: `Manuel Altagracia Cáceres`,
 		party: `Independent`,
@@ -287,6 +322,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `13 February 1868`,
 	},
 	{
+		id: 10035,
 		countryId,
 		name: `Junta of Generals`,
 		party: `Independent`,
@@ -295,6 +331,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `2 May 1868`,
 	},
 	{
+		id: 10036,
 		countryId,
 		name: `Buenaventura Báez`,
 		party: `Red Party`,
@@ -303,6 +340,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `2 January 1874`,
 	},
 	{
+		id: 10037,
 		countryId,
 		name: `Ignacio María González`,
 		party: `Green Party`,
@@ -311,6 +349,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `21 January 1874`,
 	},
 	{
+		id: 10038,
 		countryId,
 		name: `Ignacio María González`,
 		party: `Green Party`,
@@ -319,6 +358,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `5 February 1874`,
 	},
 	{
+		id: 10039,
 		countryId,
 		name: `Manuel Altagracia Cáceres`,
 		party: `Green Party`,
@@ -327,6 +367,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `5 February 1874`,
 	},
 	{
+		id: 10040,
 		countryId,
 		name: `Ignacio María González`,
 		party: `Green Party`,
@@ -335,6 +376,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `23 February 1876`,
 	},
 	{
+		id: 10041,
 		countryId,
 		name: `Council of Secretaries of State`,
 		party: `Independent`,
@@ -343,6 +385,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `29 April 1876`,
 	},
 	{
+		id: 10042,
 		countryId,
 		name: `Ulises Francisco Espaillat`,
 		party: `Blue Party`,
@@ -351,6 +394,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `5 October 1876`,
 	},
 	{
+		id: 10043,
 		countryId,
 		name: `Superior Governing Junta`,
 		party: `Independent`,
@@ -359,6 +403,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `11 November 1876`,
 	},
 	{
+		id: 10044,
 		countryId,
 		name: `Ignacio María González`,
 		party: `Green Party`,
@@ -367,6 +412,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `9 December 1876`,
 	},
 	{
+		id: 10045,
 		countryId,
 		name: `Marcos Antonio Cabral`,
 		party: `Independent`,
@@ -375,6 +421,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `26 December 1876`,
 	},
 	{
+		id: 10046,
 		countryId,
 		name: `Buenaventura Báez`,
 		party: `Red Party`,
@@ -383,6 +430,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `2 March 1878`,
 	},
 	{
+		id: 10047,
 		countryId,
 		name: `Ignacio María González`,
 		party: `Green Party`,
@@ -391,6 +439,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `3 May 1878`,
 	},
 	{
+		id: 10048,
 		countryId,
 		name: `Council of Secretaries of State`,
 		party: `Independent`,
@@ -399,6 +448,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `5 March 1878`,
 	},
 	{
+		id: 10049,
 		countryId,
 		name: `Cesáreo Guillermo`,
 		party: `Red Party`,
@@ -407,6 +457,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `6 July 1878`,
 	},
 	{
+		id: 10050,
 		countryId,
 		name: `Ignacio María González`,
 		party: `Green Party`,
@@ -415,6 +466,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `2 September 1878`,
 	},
 	{
+		id: 10051,
 		countryId,
 		name: `Superior Leaders of the Revolutionary Movement`,
 		party: `Independent`,
@@ -423,6 +475,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `6 September 1878`,
 	},
 	{
+		id: 10052,
 		countryId,
 		name: `Jacinto de Castro`,
 		party: `Independent`,
@@ -431,6 +484,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `29 September 1878`,
 	},
 	{
+		id: 10053,
 		countryId,
 		name: `Council of Secretaries of State`,
 		party: `Independent`,
@@ -439,6 +493,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `27 February 1879`,
 	},
 	{
+		id: 10054,
 		countryId,
 		name: `Cesáreo Guillermo`,
 		party: `Red Party`,
@@ -447,6 +502,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `6 December 1879`,
 	},
 	{
+		id: 10055,
 		countryId,
 		name: `Gregorio Luperón`,
 		party: `Blue Party`,
@@ -455,6 +511,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `1 September 1880`,
 	},
 	{
+		id: 10056,
 		countryId,
 		name: `Fernando Arturo de Meriño`,
 		party: `Blue Party`,
@@ -463,6 +520,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `1 September 1882`,
 	},
 	{
+		id: 10057,
 		countryId,
 		name: `Ulises Heureaux`,
 		party: `Blue Party`,
@@ -471,6 +529,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `1 September 1884`,
 	},
 	{
+		id: 10058,
 		countryId,
 		name: `Francisco Gregorio Billini`,
 		party: `Blue Party`,
@@ -479,6 +538,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `16 May 1885`,
 	},
 	{
+		id: 10059,
 		countryId,
 		name: `Alejandro Woss y Gil`,
 		party: `Blue Party`,
@@ -487,6 +547,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `6 January 1887`,
 	},
 	{
+		id: 10060,
 		countryId,
 		name: `Ulises Heureaux`,
 		party: `Blue Party`,
@@ -495,6 +556,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `27 February 1889`,
 	},
 	{
+		id: 10061,
 		countryId,
 		name: `Ulises Heureaux`,
 		party: `Blue Party`,
@@ -503,6 +565,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `27 February 1893`,
 	},
 	{
+		id: 10062,
 		countryId,
 		name: `Ulises Heureaux`,
 		party: `Blue Party`,
@@ -511,6 +574,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `27 February 1897`,
 	},
 	{
+		id: 10063,
 		countryId,
 		name: `Ulises Heureaux`,
 		party: `Blue Party`,
@@ -519,6 +583,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `26 July 1899`,
 	},
 	{
+		id: 10064,
 		countryId,
 		name: `Wenceslao Figuereo`,
 		party: `Blue Party`,
@@ -527,6 +592,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `30 August 1899`,
 	},
 	{
+		id: 10065,
 		countryId,
 		name: `Horacio Vásquez`,
 		party: `Red Party`,
@@ -535,6 +601,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `15 November 1899`,
 	},
 	{
+		id: 10066,
 		countryId,
 		name: `Juan Isidro Jimenes`,
 		party: `Blue Party`,
@@ -543,6 +610,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `2 May 1902`,
 	},
 	{
+		id: 10067,
 		countryId,
 		name: `Horacio Vásquez`,
 		party: `Red Party`,
@@ -551,6 +619,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `23 April 1903`,
 	},
 	{
+		id: 10068,
 		countryId,
 		name: `Alejandro Woss y Gil`,
 		party: `Blue Party`,
@@ -559,6 +628,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `24 November 1903`,
 	},
 	{
+		id: 10069,
 		countryId,
 		name: `Carlos Felipe Morales Languasco`,
 		party: `Red Party`,
@@ -567,6 +637,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `25 December 1905`,
 	},
 	{
+		id: 10070,
 		countryId,
 		name: `Council of Secretaries of State`,
 		party: `Independent`,
@@ -575,6 +646,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `29 December 1905`,
 	},
 	{
+		id: 10071,
 		countryId,
 		name: `Ramón Cáceres`,
 		party: `Red Party`,
@@ -583,6 +655,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `19 November 1911`,
 	},
 	{
+		id: 10072,
 		countryId,
 		name: `Council of Secretaries of State`,
 		party: `Independent`,
@@ -591,6 +664,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `5 December 1911`,
 	},
 	{
+		id: 10073,
 		countryId,
 		name: `Eladio Victoria`,
 		party: `Independent`,
@@ -599,6 +673,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `1 December 1912`,
 	},
 	{
+		id: 10074,
 		countryId,
 		name: `Adolfo Alejandro Nouel`,
 		party: `Independent`,
@@ -607,6 +682,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `13 April 1913`,
 	},
 	{
+		id: 10075,
 		countryId,
 		name: `José Bordas Valdez`,
 		party: `Independent`,
@@ -615,6 +691,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `27 August 1914`,
 	},
 	{
+		id: 10076,
 		countryId,
 		name: `Ramón Báez`,
 		party: `Indepedent`,
@@ -623,6 +700,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `5 December 1914`,
 	},
 	{
+		id: 10077,
 		countryId,
 		name: `Juan Isidro Jimenes Pereyra`,
 		party: `Blue Party`,
@@ -631,6 +709,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `4 May 1916`,
 	},
 	{
+		id: 10078,
 		countryId,
 		name: `United States Occupation of the Dominican Republic`,
 		party: `Independent`,
@@ -639,6 +718,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `27 December 1924`,
 	},
 	{
+		id: 10079,
 		countryId,
 		name: `Horacio Vásquez`,
 		party: `Red Party`,
@@ -647,6 +727,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `3 March 1930`,
 	},
 	{
+		id: 10080,
 		countryId,
 		name: `Rafael Trujillo`,
 		party: `Dominican Party`,
@@ -655,6 +736,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `30 May 1961`,
 	},
 	{
+		id: 10081,
 		countryId,
 		name: `Joaquín Balaguer`,
 		party: `Dominican Party`,
@@ -663,6 +745,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `31 December 1961`,
 	},
 	{
+		id: 10082,
 		countryId,
 		name: `Civic-Military Council`,
 		party: `Independent`,
@@ -671,6 +754,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `18 January 1962`,
 	},
 	{
+		id: 10083,
 		countryId,
 		name: `Rafael Bonnelly`,
 		party: `Dominican Revolutionary Party`,
@@ -679,6 +763,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `27 February 1963`,
 	},
 	{
+		id: 10084,
 		countryId,
 		name: `Juan Bosch`,
 		party: `Dominican Revolutionary Party`,
@@ -687,6 +772,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `25 September 1963`,
 	},
 	{
+		id: 10085,
 		countryId,
 		name: `Víctor Elby Viñas Román`,
 		party: `Independent`,
@@ -695,6 +781,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `26 September 1963`,
 	},
 	{
+		id: 10086,
 		countryId,
 		name: `Triumvirate`,
 		party: `Independent`,
@@ -703,6 +790,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `25 April 1965`,
 	},
 	{
+		id: 10087,
 		countryId,
 		name: `José Rafael Molina Ureña`,
 		party: `Independent`,
@@ -711,6 +799,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `27 April 1965`,
 	},
 	{
+		id: 10088,
 		countryId,
 		name: `Antonio Imbert`,
 		party: `Independent`,
@@ -719,6 +808,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `30 August 1965`,
 	},
 	{
+		id: 10089,
 		countryId,
 		name: `Héctor Rafael García-Godoy Cáceres`,
 		party: `Independent`,
@@ -727,6 +817,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `1 July 1966`,
 	},
 	{
+		id: 10090,
 		countryId,
 		name: `Joaquín Balaguer`,
 		party: `Dominican Party`,
@@ -735,6 +826,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `16 August 1978`,
 	},
 	{
+		id: 10091,
 		countryId,
 		name: `Silvestre Antonio Guzmán Fernández`,
 		party: `Dominican Dominican Revolutionary Party`,
@@ -743,6 +835,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `4 July 1982`,
 	},
 	{
+		id: 10092,
 		countryId,
 		name: `Jacobo Majluta Azar`,
 		party: `Dominican Revolutionary Party`,
@@ -751,6 +844,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `16 August 1982`,
 	},
 	{
+		id: 10093,
 		countryId,
 		name: `Salvador Jorge Blanco`,
 		party: `Dominican Revolutionary Party`,
@@ -759,6 +853,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `16 August 1986`,
 	},
 	{
+		id: 10094,
 		countryId,
 		name: `Joaquín Balaguer`,
 		party: `Dominican Party`,
@@ -767,6 +862,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `16 August 1996`,
 	},
 	{
+		id: 10095,
 		countryId,
 		name: `Leonel Fernández`,
 		party: `Dominican Liberation Party`,
@@ -775,6 +871,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `16 August 2000`,
 	},
 	{
+		id: 10096,
 		countryId,
 		name: `Hipólito Mejía`,
 		party: `Dominican Revolutionary Party`,
@@ -783,6 +880,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `16 August 2004`,
 	},
 	{
+		id: 10097,
 		countryId,
 		name: `Leonel Fernández`,
 		party: `Dominican Liberation Party`,
@@ -791,6 +889,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `16 August 2012`,
 	},
 	{
+		id: 10098,
 		countryId,
 		name: `Danilo Medina`,
 		party: `Dominican Liberation Party`,
@@ -799,6 +898,7 @@ export const dominicanRepublic: LeaderNoId[] = [
 		leftOffice: `16 August 2020`,
 	},
 	{
+		id: 10099,
 		countryId,
 		name: `Luis Abinader`,
 		party: `Modern Dominican Revolutionary Party`,

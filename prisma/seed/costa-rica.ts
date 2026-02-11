@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_Costa_Rica`;
 
 const countryId = 8;
 
-export const costaRica: LeaderNoId[] = [
+export const costaRica: LeaderSeed[] = [
 	{
+		id: 8000,
 		countryId,
 		name: `Captaincy General of Guatemala`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `15 September 1821`,
 	},
 	{
+		id: 8001,
 		countryId,
 		name: `Gabino Gaínza`,
 		party: `Military / Central American Independence`,
@@ -23,6 +25,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `5 January 1822`,
 	},
 	{
+		id: 8002,
 		countryId,
 		name: `Agustín de Iturbide`,
 		party: `First Mexican Empire`,
@@ -31,6 +34,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `1 July 1823`,
 	},
 	{
+		id: 8003,
 		countryId,
 		name: `Vicente Filísola - Federal Republic of Central America`,
 		party: `Independent`,
@@ -39,6 +43,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `10 July 1823`,
 	},
 	{
+		id: 8004,
 		countryId,
 		name: `First Triumvirate - Federal Republic of Central America`,
 		party: `Independent`,
@@ -47,6 +52,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `4 October 1823`,
 	},
 	{
+		id: 8005,
 		countryId,
 		name: `Second Triumvirate - Federal Republic of Central America`,
 		party: `Independent`,
@@ -55,6 +61,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `29 April 1825`,
 	},
 	{
+		id: 8006,
 		countryId,
 		name: `Manuel José Arce - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -63,6 +70,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `13 April 1829`,
 	},
 	{
+		id: 8007,
 		countryId,
 		name: `Mariano Beltranena y Llano - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -71,6 +79,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `14 June 1829`,
 	},
 	{
+		id: 8008,
 		countryId,
 		name: `Francisco Morazán - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -79,6 +88,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `25 June 1829`,
 	},
 	{
+		id: 8009,
 		countryId,
 		name: `José Francisco Barrundia - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -87,6 +97,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `16 September 1830`,
 	},
 	{
+		id: 8010,
 		countryId,
 		name: `Francisco Morazán - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -95,6 +106,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `16 September 1834`,
 	},
 	{
+		id: 8011,
 		countryId,
 		name: `José Gregorio Salazar - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -103,6 +115,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `14 February 1835`,
 	},
 	{
+		id: 8012,
 		countryId,
 		name: `Francisco Morazán - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -112,6 +125,7 @@ export const costaRica: LeaderNoId[] = [
 	},
 	// Independence from the Federal Republic of Central America
 	{
+		id: 8013,
 		countryId,
 		name: `Braulio Carrillo Colina`,
 		party: `Liberal Party`,
@@ -120,6 +134,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `1 April 1842`,
 	},
 	{
+		id: 8014,
 		countryId,
 		name: `Francisco Morazán`,
 		party: `Liberal Party`,
@@ -128,6 +143,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `11 September 1842`,
 	},
 	{
+		id: 8015,
 		countryId,
 		name: `António Pinto Soares`,
 		party: `Liberal Party`,
@@ -136,6 +152,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `27 September 1842`,
 	},
 	{
+		id: 8016,
 		countryId,
 		name: `José María Alfaro Zamora`,
 		party: `Liberal Party`,
@@ -144,6 +161,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `1 November 1844`,
 	},
 	{
+		id: 8017,
 		countryId,
 		name: `Francisco María Oreamuno Bonilla`,
 		party: `Liberal Party`,
@@ -152,6 +170,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `31 December 1844`,
 	},
 	{
+		id: 8018,
 		countryId,
 		name: `José Rafael Gallegos`,
 		party: `Conservative Party`,
@@ -160,6 +179,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `1 January 1846`,
 	},
 	{
+		id: 8019,
 		countryId,
 		name: `José María Alfaro Zamora`,
 		party: `Liberal Party`,
@@ -168,6 +188,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `1 January 1847`,
 	},
 	{
+		id: 8020,
 		countryId,
 		name: `José Castro Madriz`,
 		party: `Liberal Party`,
@@ -176,6 +197,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `31 August 1848`,
 	},
 	{
+		id: 8021,
 		countryId,
 		name: `José María Castro Madriz`,
 		party: `Non-partisan Liberal`,
@@ -184,6 +206,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `16 November 1849`,
 	},
 	{
+		id: 8022,
 		countryId,
 		name: `Miguel Mora Porras`,
 		party: `Non-partisan Liberal`,
@@ -192,6 +215,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `26 November 1849`,
 	},
 	{
+		id: 8023,
 		countryId,
 		name: `Juan Mora Porras`,
 		party: `Non-partisan Liberal`,
@@ -200,6 +224,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `14 August 1859`,
 	},
 	{
+		id: 8024,
 		countryId,
 		name: `José María Montealegre Fernández`,
 		party: `Non-partisan Liberal`,
@@ -208,6 +233,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1863`,
 	},
 	{
+		id: 8025,
 		countryId,
 		name: `Jesús Jiménez Zamora`,
 		party: `Non-partisan Liberal`,
@@ -216,6 +242,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1866`,
 	},
 	{
+		id: 8026,
 		countryId,
 		name: `José Castro Madriz`,
 		party: `Non-partisan Liberal`,
@@ -224,6 +251,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `1 November 1868`,
 	},
 	{
+		id: 8027,
 		countryId,
 		name: `Jesús Jiménez Zamora`,
 		party: `Military`,
@@ -232,6 +260,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `27 April 1870`,
 	},
 	{
+		id: 8028,
 		countryId,
 		name: `Bruno Carranza Ramírez`,
 		party: `Non-partisan Liberal`,
@@ -240,6 +269,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 August 1870`,
 	},
 	{
+		id: 8029,
 		countryId,
 		name: `Tomás Guardia Gutiérrez`,
 		party: `Non-partisan Liberal`,
@@ -248,6 +278,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1876`,
 	},
 	{
+		id: 8030,
 		countryId,
 		name: `Aniceto Esquivel Sáenz`,
 		party: `Non-partisan Liberal`,
@@ -256,6 +287,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `30 July 1876`,
 	},
 	{
+		id: 8031,
 		countryId,
 		name: `Vicente Herrera Zeledón`,
 		party: `Non-partisan Conservative`,
@@ -264,6 +296,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `11 September 1877`,
 	},
 	{
+		id: 8032,
 		countryId,
 		name: `Tomás Guardia Gutiérrez`,
 		party: `Non-partisan Liberal`,
@@ -272,6 +305,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `6 July 1882`,
 	},
 	{
+		id: 8033,
 		countryId,
 		name: `Saturnino Lizano Gutiérrez`,
 		party: `Non-partisan Liberal`,
@@ -280,6 +314,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `20 July 1882`,
 	},
 	{
+		id: 8034,
 		countryId,
 		name: `Próspero Fernández Oreamuno`,
 		party: `Non-partisan Liberal`,
@@ -288,6 +323,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `12 March 1885`,
 	},
 	{
+		id: 8035,
 		countryId,
 		name: `Bernardo Soto Alfaro`,
 		party: `Non-partisan Liberal`,
@@ -296,6 +332,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1890`,
 	},
 	{
+		id: 8036,
 		countryId,
 		name: `José Joaquín Rodríguez`,
 		party: `Constitutional Party`,
@@ -304,6 +341,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1894`,
 	},
 	{
+		id: 8037,
 		countryId,
 		name: `Rafael Yglesias Castro`,
 		party: `Civil Party`,
@@ -312,6 +350,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1902`,
 	},
 	{
+		id: 8038,
 		countryId,
 		name: `Ascensión Esquivel Ibarra`,
 		party: `National Union Party`,
@@ -320,6 +359,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1906`,
 	},
 	{
+		id: 8039,
 		countryId,
 		name: `Cleto González Víquez`,
 		party: `National Union Party`,
@@ -328,6 +368,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1910`,
 	},
 	{
+		id: 8040,
 		countryId,
 		name: `Ricardo Jiménez Oreamuno`,
 		party: `National Republican Party`,
@@ -336,6 +377,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1914`,
 	},
 	{
+		id: 8041,
 		countryId,
 		name: `Alfredo González`,
 		party: `National Republican Party`,
@@ -344,6 +386,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `27 January 1917`,
 	},
 	{
+		id: 8042,
 		countryId,
 		name: `Federico Tinoco Granados`,
 		party: `Peliquista Party`,
@@ -352,6 +395,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `13 August 1919`,
 	},
 	{
+		id: 8043,
 		countryId,
 		name: `Juan Bautista Quirós Segura`,
 		party: `Peliquista Party`,
@@ -360,6 +404,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `2 September 1919`,
 	},
 	{
+		id: 8044,
 		countryId,
 		name: `Francisco Aguilar Barquero`,
 		party: `National Union Party`,
@@ -368,6 +413,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1920`,
 	},
 	{
+		id: 8045,
 		countryId,
 		name: `Julio Acosta García`,
 		party: `Constitutional Party`,
@@ -376,6 +422,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1924`,
 	},
 	{
+		id: 8046,
 		countryId,
 		name: `Ricardo Jiménez Oreamuno`,
 		party: `National Republican Party`,
@@ -384,6 +431,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1928`,
 	},
 	{
+		id: 8047,
 		countryId,
 		name: `Cleto González Víquez`,
 		party: `National Union Party`,
@@ -392,6 +440,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1932`,
 	},
 	{
+		id: 8048,
 		countryId,
 		name: `Ricardo Jiménez Oreamuno`,
 		party: `National Republican Party`,
@@ -400,6 +449,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1936`,
 	},
 	{
+		id: 8049,
 		countryId,
 		name: `León Cortés Castro`,
 		party: `National Republican Party`,
@@ -408,6 +458,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1940`,
 	},
 	{
+		id: 8050,
 		countryId,
 		name: `Rafael Ángel Calderón`,
 		party: `National Republican Party`,
@@ -416,6 +467,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1944`,
 	},
 	{
+		id: 8051,
 		countryId,
 		name: `Teodoro Picado Michalski`,
 		party: `National Republican Party`,
@@ -424,6 +476,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1948`,
 	},
 	{
+		id: 8052,
 		countryId,
 		name: `Santos León Herrera`,
 		party: `National Republican Party`,
@@ -432,6 +485,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1948`,
 	},
 	{
+		id: 8053,
 		countryId,
 		name: `José Figueres Ferrer`,
 		party: `National Liberation Party`,
@@ -440,6 +494,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 November 1949`,
 	},
 	{
+		id: 8054,
 		countryId,
 		name: `Otilio Ulate Blanco`,
 		party: `National Union Party`,
@@ -448,6 +503,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1953`,
 	},
 	{
+		id: 8055,
 		countryId,
 		name: `José Figueres Ferrer`,
 		party: `National Liberation Party`,
@@ -456,6 +512,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1958`,
 	},
 	{
+		id: 8056,
 		countryId,
 		name: `Mario Echandi Jimenéz`,
 		party: `National Unification Party`,
@@ -464,6 +521,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1962`,
 	},
 	{
+		id: 8057,
 		countryId,
 		name: `Francisco Orlich`,
 		party: `National Liberation Party`,
@@ -472,6 +530,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1966`,
 	},
 	{
+		id: 8058,
 		countryId,
 		name: `Joaquín Trejos`,
 		party: `National Unification Party`,
@@ -480,6 +539,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1970`,
 	},
 	{
+		id: 8059,
 		countryId,
 		name: `José Figueres Ferrer`,
 		party: `National Liberation Party`,
@@ -488,6 +548,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1974`,
 	},
 	{
+		id: 8060,
 		countryId,
 		name: `Daniel Oduber Quirós`,
 		party: `National Liberation Party`,
@@ -496,6 +557,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1978`,
 	},
 	{
+		id: 8061,
 		countryId,
 		name: `Rodrigo Carazo Odio`,
 		party: `Unity Party`,
@@ -504,6 +566,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1982`,
 	},
 	{
+		id: 8062,
 		countryId,
 		name: `Luis Alberto Monge`,
 		party: `National Liberation Party`,
@@ -512,6 +575,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1986`,
 	},
 	{
+		id: 8063,
 		countryId,
 		name: `Óscar Arias`,
 		party: `National Liberation Party`,
@@ -520,6 +584,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1990`,
 	},
 	{
+		id: 8064,
 		countryId,
 		name: `Rafael Ángel Calderón Fournier`,
 		party: `Social Christian Unity Party`,
@@ -528,6 +593,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1994`,
 	},
 	{
+		id: 8065,
 		countryId,
 		name: `José María Figueres Olsen`,
 		party: `National Liberation Party`,
@@ -536,6 +602,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 1998`,
 	},
 	{
+		id: 8066,
 		countryId,
 		name: `Miguel Ángel Rodríguez`,
 		party: `Social Christian Unity Party`,
@@ -544,6 +611,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 2002`,
 	},
 	{
+		id: 8067,
 		countryId,
 		name: `Abel Pacheco de La Espriella`,
 		party: `Social Christian Unity Party`,
@@ -552,6 +620,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 2006`,
 	},
 	{
+		id: 8068,
 		countryId,
 		name: `Óscar Arias`,
 		party: `National Liberation Party`,
@@ -560,6 +629,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 2010`,
 	},
 	{
+		id: 8069,
 		countryId,
 		name: `Laura Chinchilla`,
 		party: `National Liberation Party`,
@@ -568,6 +638,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 2014`,
 	},
 	{
+		id: 8070,
 		countryId,
 		name: `Luis Guillermo Solís`,
 		party: `Citizens’ Action Party`,
@@ -576,6 +647,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 2018`,
 	},
 	{
+		id: 8071,
 		countryId,
 		name: `Carlos Alvarado Quesada`,
 		party: `Citizens’ Action Party`,
@@ -584,6 +656,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 2022`,
 	},
 	{
+		id: 8072,
 		countryId,
 		name: `Rodrigo Chaves Robles`,
 		party: `Social Democratic Progress Party`,
@@ -592,6 +665,7 @@ export const costaRica: LeaderNoId[] = [
 		leftOffice: `8 May 2026`,
 	},
 	{
+		id: 8073,
 		countryId,
 		name: `Laura Fernández Delgado`,
 		party: `Sovereign People's Party`,

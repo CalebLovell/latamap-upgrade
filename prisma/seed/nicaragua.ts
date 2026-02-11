@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/President_of_Nicaragua`;
 
 const countryId = 7;
 
-export const nicaragua: LeaderNoId[] = [
+export const nicaragua: LeaderSeed[] = [
 	{
+		id: 19000,
 		countryId,
 		name: `Captaincy General of Guatemala`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `15 September 1821`,
 	},
 	{
+		id: 19001,
 		countryId,
 		name: `Gabino Gaínza`,
 		party: `Military / Central American Independence`,
@@ -23,6 +25,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `5 January 1822`,
 	},
 	{
+		id: 19002,
 		countryId,
 		name: `Agustín de Iturbide`,
 		party: `First Mexican Empire`,
@@ -31,6 +34,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 July 1823`,
 	},
 	{
+		id: 19003,
 		countryId,
 		name: `Vicente Filísola - Federal Republic of Central America`,
 		party: `Independent`,
@@ -39,6 +43,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `10 July 1823`,
 	},
 	{
+		id: 19004,
 		countryId,
 		name: `First Triumvirate - Federal Republic of Central America`,
 		party: `Independent`,
@@ -47,6 +52,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `4 October 1823`,
 	},
 	{
+		id: 19005,
 		countryId,
 		name: `Second Triumvirate - Federal Republic of Central America`,
 		party: `Independent`,
@@ -55,6 +61,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `29 April 1825`,
 	},
 	{
+		id: 19006,
 		countryId,
 		name: `Manuel José Arce - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -63,6 +70,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `13 April 1829`,
 	},
 	{
+		id: 19007,
 		countryId,
 		name: `Mariano Beltranena y Llano - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -71,6 +79,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `14 June 1829`,
 	},
 	{
+		id: 19008,
 		countryId,
 		name: `Francisco Morazán - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -79,6 +88,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `25 June 1829`,
 	},
 	{
+		id: 19009,
 		countryId,
 		name: `José Francisco Barrundia - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -87,6 +97,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `16 September 1830`,
 	},
 	{
+		id: 19010,
 		countryId,
 		name: `Francisco Morazán - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -95,6 +106,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `16 September 1834`,
 	},
 	{
+		id: 19011,
 		countryId,
 		name: `José Gregorio Salazar - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -103,6 +115,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `14 February 1835`,
 	},
 	{
+		id: 19012,
 		countryId,
 		name: `Francisco Morazán - Federal Republic of Central America`,
 		party: `Liberal`,
@@ -112,6 +125,7 @@ export const nicaragua: LeaderNoId[] = [
 	},
 	// Independence from the Federal Republic of Central America
 	{
+		id: 19013,
 		countryId,
 		name: `José Núñez`,
 		party: `Legitimist Party`,
@@ -120,6 +134,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `5 January 1839`,
 	},
 	{
+		id: 19014,
 		countryId,
 		name: `Joaquín del Cossío`,
 		party: `Legitimist Party`,
@@ -128,6 +143,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `15 May 1839`,
 	},
 	{
+		id: 19015,
 		countryId,
 		name: `Evaristo Rocha`,
 		party: `Legitimist Party`,
@@ -136,6 +152,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `30 June 1839`,
 	},
 	{
+		id: 19016,
 		countryId,
 		name: `Patricio Rivas`,
 		party: `Democratic Party`,
@@ -144,6 +161,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `27 July 1839`,
 	},
 	{
+		id: 19017,
 		countryId,
 		name: `Joaquín del Cossío`,
 		party: `Legitimist Party`,
@@ -152,6 +170,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `20 October 1839`,
 	},
 	{
+		id: 19018,
 		countryId,
 		name: `Hilario Ulloa`,
 		party: `Legitimist Party`,
@@ -160,6 +179,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `7 November 1839`,
 	},
 	{
+		id: 19019,
 		countryId,
 		name: `Tomás Valladares`,
 		party: `Democratic Party`,
@@ -168,6 +188,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `21 September 1840`,
 	},
 	{
+		id: 19020,
 		countryId,
 		name: `Patricio Rivas`,
 		party: `Democratic Party`,
@@ -176,6 +197,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `4 March 1841`,
 	},
 	{
+		id: 19021,
 		countryId,
 		name: `Pablo Buitrago`,
 		party: `Legitimist Party`,
@@ -184,6 +206,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 April 1843`,
 	},
 	{
+		id: 19022,
 		countryId,
 		name: `Juan de Dios Orozco`,
 		party: `Legitimist Party`,
@@ -192,6 +215,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `31 May 1843`,
 	},
 	{
+		id: 19023,
 		countryId,
 		name: `Manuel Pérez`,
 		party: `Democratic Party`,
@@ -200,6 +224,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `4 November 1844`,
 	},
 	{
+		id: 19024,
 		countryId,
 		name: `Emiliano Madriz`,
 		party: `Democratic Party`,
@@ -208,6 +233,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `24 January 1845`,
 	},
 	{
+		id: 19025,
 		countryId,
 		name: `Silvestre Selva`,
 		party: `Legitimist Party`,
@@ -216,6 +242,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `20 January 1845`,
 	},
 	{
+		id: 19026,
 		countryId,
 		name: `Blas Antonio Sáenz`,
 		party: `Legitimist Party`,
@@ -224,6 +251,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `4 April 1845`,
 	},
 	{
+		id: 19027,
 		countryId,
 		name: `José León Sandoval`,
 		party: `Republican Party`,
@@ -232,6 +260,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `12 March 1847`,
 	},
 	{
+		id: 19028,
 		countryId,
 		name: `Miguel Ramón Morales`,
 		party: `Legitimist Party`,
@@ -240,6 +269,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `6 April 1847`,
 	},
 	{
+		id: 19029,
 		countryId,
 		name: `José María Guerrero`,
 		party: `Republican Party`,
@@ -248,6 +278,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 January 1849`,
 	},
 	{
+		id: 19030,
 		countryId,
 		name: `Toribio Terán`,
 		party: `Legitimist Party`,
@@ -256,6 +287,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `8 March 1849`,
 	},
 	{
+		id: 19031,
 		countryId,
 		name: `Benito Rosales`,
 		party: `Legitimist Party`,
@@ -264,6 +296,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 April 1849`,
 	},
 	{
+		id: 19032,
 		countryId,
 		name: `Norberto Ramírez`,
 		party: `Legitimist Party`,
@@ -272,6 +305,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 April 1851`,
 	},
 	{
+		id: 19033,
 		countryId,
 		name: `Justo Abaunza`,
 		party: `Legitimist Party`,
@@ -280,6 +314,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `5 May 1851`,
 	},
 	{
+		id: 19034,
 		countryId,
 		name: `Laureano Pineda`,
 		party: `Democratic Party`,
@@ -288,6 +323,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `4 August 1851`,
 	},
 	{
+		id: 19035,
 		countryId,
 		name: `Justo Abaunza`,
 		party: `Legitimist Party`,
@@ -296,6 +332,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `11 November 1851`,
 	},
 	{
+		id: 19036,
 		countryId,
 		name: `Laureano Pineda`,
 		party: `Democratic Party`,
@@ -304,6 +341,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `11 August 1851`,
 	},
 	{
+		id: 19037,
 		countryId,
 		name: `José Francisco del Montenegro`,
 		party: `Legitimist Party`,
@@ -312,6 +350,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `11 August 1851`,
 	},
 	{
+		id: 19038,
 		countryId,
 		name: `José de Jesús Alfaro`,
 		party: `Democratic Party`,
@@ -320,6 +359,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `2 November 1851`,
 	},
 	{
+		id: 19039,
 		countryId,
 		name: `Fulgencio Vega`,
 		party: `Legitimist Party`,
@@ -328,6 +368,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `11 November 1852`,
 	},
 	{
+		id: 19040,
 		countryId,
 		name: `Laureano Pineda`,
 		party: `Democratic Party`,
@@ -336,6 +377,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 April 1853`,
 	},
 	{
+		id: 19041,
 		countryId,
 		name: `Fruto Chamorro`,
 		party: `Legitimist Party`,
@@ -344,6 +386,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `30 April 1854`,
 	},
 	{
+		id: 19042,
 		countryId,
 		name: `Francisco Castellón`,
 		party: `Democratic Party`,
@@ -352,6 +395,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `2 September 1855`,
 	},
 	{
+		id: 19043,
 		countryId,
 		name: `Nazario Escoto`,
 		party: `Democratic Party`,
@@ -360,6 +404,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `30 October 1855`,
 	},
 	{
+		id: 19044,
 		countryId,
 		name: `Fruto Chamorro`,
 		party: `Conservative Party`,
@@ -368,6 +413,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `12 March 1855`,
 	},
 	{
+		id: 19045,
 		countryId,
 		name: `José María Estrada`,
 		party: `Conservative Party`,
@@ -376,6 +422,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `22 October 1855`,
 	},
 	{
+		id: 19046,
 		countryId,
 		name: `Patricio Rivas`,
 		party: `Democratic Party`,
@@ -384,6 +431,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `24 June 1857`,
 	},
 	{
+		id: 19047,
 		countryId,
 		name: `William Walker`,
 		party: `Democratic Party`,
@@ -392,6 +440,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 May 1857`,
 	},
 	{
+		id: 19048,
 		countryId,
 		name: `Máximo Jerez and Tomás Martínez`,
 		party: `Non Partisan`,
@@ -400,6 +449,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `15 November 1857`,
 	},
 	{
+		id: 19049,
 		countryId,
 		name: `Tomás Martínez`,
 		party: `Conservative Party`,
@@ -408,6 +458,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 March 1867`,
 	},
 	{
+		id: 19050,
 		countryId,
 		name: `Fernando Guzmán Solórzano`,
 		party: `Conservative Party`,
@@ -416,6 +467,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 March 1871`,
 	},
 	{
+		id: 19051,
 		countryId,
 		name: `José Vicente Cuadra`,
 		party: `Conservative Party`,
@@ -424,6 +476,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 March 1875`,
 	},
 	{
+		id: 19052,
 		countryId,
 		name: `Pedro Joaquín Chamorro Alfaro`,
 		party: `Conservative Party`,
@@ -432,6 +485,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 March 1879`,
 	},
 	{
+		id: 19053,
 		countryId,
 		name: `Joaquín Zavala`,
 		party: `Conservative Party`,
@@ -440,6 +494,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 March 1883`,
 	},
 	{
+		id: 19054,
 		countryId,
 		name: `Adán Cárdenas`,
 		party: `Conservative Party`,
@@ -448,6 +503,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 March 1887`,
 	},
 	{
+		id: 19055,
 		countryId,
 		name: `Joaquín Zavala`,
 		party: `Conservative Party`,
@@ -456,6 +512,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 March 1883`,
 	},
 	{
+		id: 19056,
 		countryId,
 		name: `Adán Cárdenas`,
 		party: `Conservative Party`,
@@ -464,6 +521,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 March 1887`,
 	},
 	{
+		id: 19057,
 		countryId,
 		name: `Evaristo Carazo`,
 		party: `Conservative Party`,
@@ -472,6 +530,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 August 1889`,
 	},
 	{
+		id: 19058,
 		countryId,
 		name: `Roberto Sacasa`,
 		party: `Conservative Party`,
@@ -480,6 +539,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 January 1891`,
 	},
 	{
+		id: 19059,
 		countryId,
 		name: `Ignacio Chávez`,
 		party: `Conservative Party`,
@@ -488,6 +548,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 March 1891`,
 	},
 	{
+		id: 19060,
 		countryId,
 		name: `Roberto Sacasa`,
 		party: `Conservative Party`,
@@ -496,6 +557,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `11 July 1893`,
 	},
 	{
+		id: 19061,
 		countryId,
 		name: `José Santos Zelaya`,
 		party: `Liberal Party`,
@@ -504,6 +566,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `21 December 1909`,
 	},
 	{
+		id: 19062,
 		countryId,
 		name: `José Madriz`,
 		party: `Liberal Party`,
@@ -512,6 +575,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `20 August 1910`,
 	},
 	{
+		id: 19063,
 		countryId,
 		name: `José Dolores Estrada`,
 		party: `Conservative Party`,
@@ -520,6 +584,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `27 August 1910`,
 	},
 	{
+		id: 19064,
 		countryId,
 		name: `Luis Mena`,
 		party: `Conservative Party`,
@@ -528,6 +593,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `30 August 1910`,
 	},
 	{
+		id: 19065,
 		countryId,
 		name: `Juan José Estrada`,
 		party: `Conservative Party`,
@@ -536,6 +602,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `9 May 1911`,
 	},
 	{
+		id: 19066,
 		countryId,
 		name: `Adolfo Díaz`,
 		party: `Conservative Party`,
@@ -544,6 +611,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 January 1917`,
 	},
 	{
+		id: 19067,
 		countryId,
 		name: `Emiliano Chamorro Vargas`,
 		party: `Conservative Party`,
@@ -552,6 +620,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 January 1921`,
 	},
 	{
+		id: 19068,
 		countryId,
 		name: `Diego Manuel Chamorro`,
 		party: `Conservative Party`,
@@ -560,6 +629,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `12 October 1923`,
 	},
 	{
+		id: 19069,
 		countryId,
 		name: `Rosendo Chamorro`,
 		party: `Conservative Party`,
@@ -568,6 +638,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `27 October 1923`,
 	},
 	{
+		id: 19070,
 		countryId,
 		name: `Bartolomé Martínez`,
 		party: `Conservative Party`,
@@ -576,6 +647,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 January 1925`,
 	},
 	{
+		id: 19071,
 		countryId,
 		name: `Carlos José Solórzano`,
 		party: `Conservative Party`,
@@ -584,6 +656,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `14 March 1926`,
 	},
 	{
+		id: 19072,
 		countryId,
 		name: `Emiliano Chamorro Vargas`,
 		party: `Conservative Party`,
@@ -592,6 +665,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `11 November 1926`,
 	},
 	{
+		id: 19073,
 		countryId,
 		name: `Adolfo Díaz`,
 		party: `Conservative Party`,
@@ -600,6 +674,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 January 1929`,
 	},
 	{
+		id: 19074,
 		countryId,
 		name: `Jose Maria Moncada Tapia`,
 		party: `Liberal Party`,
@@ -608,6 +683,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 January 1933`,
 	},
 	{
+		id: 19075,
 		countryId,
 		name: `Juan Bautista Sacasa`,
 		party: `Liberal Party`,
@@ -616,6 +692,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `9 June 1936`,
 	},
 	{
+		id: 19076,
 		countryId,
 		name: `Carlos Alberto Brenes`,
 		party: `Nationalist Liberal Party`,
@@ -624,6 +701,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 January 1937`,
 	},
 	{
+		id: 19077,
 		countryId,
 		name: `Anastasio Somoza García`,
 		party: `Military / Nationalist Liberal Party`,
@@ -632,6 +710,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 May 1947`,
 	},
 	{
+		id: 19078,
 		countryId,
 		name: `Leonardo Argüello Barreto`,
 		party: `Nationalist Liberal Party`,
@@ -640,6 +719,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `26 May 1947`,
 	},
 	{
+		id: 19079,
 		countryId,
 		name: `Benjamín Lacayo Sacasa`,
 		party: `Nationalist Liberal Party`,
@@ -648,6 +728,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `15 August 1947`,
 	},
 	{
+		id: 19080,
 		countryId,
 		name: `Víctor Manuel Román y Reyes`,
 		party: `Nationalist Liberal Party`,
@@ -656,6 +737,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `6 May 1950`,
 	},
 	{
+		id: 19081,
 		countryId,
 		name: `Anastasio Somoza García`,
 		party: `Nationalist Liberal Party`,
@@ -664,6 +746,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `29 September 1956`,
 	},
 	{
+		id: 19082,
 		countryId,
 		name: `Luis Somoza Debayle`,
 		party: `Nationalist Liberal Party`,
@@ -672,6 +755,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 May 1963`,
 	},
 	{
+		id: 19083,
 		countryId,
 		name: `René Schick`,
 		party: `Nationalist Liberal Party`,
@@ -680,6 +764,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `3 August 1966`,
 	},
 	{
+		id: 19084,
 		countryId,
 		name: `Lorenzo Guerrero`,
 		party: `Nationalist Liberal Party`,
@@ -688,6 +773,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 May 1967`,
 	},
 	{
+		id: 19085,
 		countryId,
 		name: `Anastasio Somoza DeBayle`,
 		party: `Military / Nationalist Liberal Party`,
@@ -696,6 +782,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 May 1972`,
 	},
 	{
+		id: 19086,
 		countryId,
 		name: `Liberal-Conservative Junta`,
 		party: `Nationalist Liberal Party / Social Conservative Party`,
@@ -704,6 +791,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `1 December 1974`,
 	},
 	{
+		id: 19087,
 		countryId,
 		name: `Anastasio Somoza DeBayle`,
 		party: `Military / Nationalist Liberal Party`,
@@ -712,6 +800,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `17 July 1979`,
 	},
 	{
+		id: 19088,
 		countryId,
 		name: `Francisco Urcuyo`,
 		party: `Nationalist Liberal Party`,
@@ -720,6 +809,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `18 July 1979`,
 	},
 	{
+		id: 19089,
 		countryId,
 		name: `Junta of National Reconstruction`,
 		party: `Sandinista National Liberation Front`,
@@ -728,6 +818,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `10 January 1985`,
 	},
 	{
+		id: 19090,
 		countryId,
 		name: `Daniel Ortega`,
 		party: `Sandinista National Liberation Front`,
@@ -736,6 +827,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `25 April 1990`,
 	},
 	{
+		id: 19091,
 		countryId,
 		name: `Violeta Chamorro`,
 		party: `Democratic Union of Liberation`,
@@ -744,6 +836,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `10 January 1997`,
 	},
 	{
+		id: 19092,
 		countryId,
 		name: `José Arnoldo Alemán Lacayo`,
 		party: `Constitutionalist Liberal Party`,
@@ -752,6 +845,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `10 January 2002`,
 	},
 	{
+		id: 19093,
 		countryId,
 		name: `Enrique Bolaños Geyer`,
 		party: `Constitutionalist Liberal Party`,
@@ -760,6 +854,7 @@ export const nicaragua: LeaderNoId[] = [
 		leftOffice: `10 January 2007`,
 	},
 	{
+		id: 19094,
 		countryId,
 		name: `Daniel Ortega`,
 		party: `Sandinista National Liberation Front`,

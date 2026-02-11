@@ -1,12 +1,13 @@
-import type { LeaderNoId } from '../../src/data/types';
+import type { LeaderSeed } from '../../src/data/types';
 import { leanings } from '../../src/data/types';
 
 export const source = `https://en.wikipedia.org/wiki/List_of_presidents_of_Ecuador`;
 
 const countryId = 12;
 
-export const ecuador: LeaderNoId[] = [
+export const ecuador: LeaderSeed[] = [
 	{
+		id: 11000,
 		countryId,
 		name: `Viceroyalty of New Granada`,
 		party: `Kingdom of Spain`,
@@ -15,6 +16,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `24 May 1822`,
 	},
 	{
+		id: 11001,
 		countryId,
 		name: `Simón Bolívar - Gran Colombia`,
 		party: `Military`,
@@ -23,6 +25,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `3 May 1830`,
 	},
 	{
+		id: 11002,
 		countryId,
 		name: `Juan José Flores`,
 		party: `Military`,
@@ -31,6 +34,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 September 1834`,
 	},
 	{
+		id: 11003,
 		countryId,
 		name: `Vicente Rocafuerte`,
 		party: `Military`,
@@ -39,6 +43,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 January 1839`,
 	},
 	{
+		id: 11004,
 		countryId,
 		name: `Juan José Flores`,
 		party: `Military`,
@@ -47,6 +52,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `6 March 1845`,
 	},
 	{
+		id: 11005,
 		countryId,
 		name: `José Joaquín de Olmedo`,
 		party: `Military`,
@@ -55,6 +61,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `8 December 1845`,
 	},
 	{
+		id: 11006,
 		countryId,
 		name: `Vicente Ramón Roca`,
 		party: `Military`,
@@ -63,6 +70,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 October 1849`,
 	},
 	{
+		id: 11007,
 		countryId,
 		name: `Manuel de Ascásubi`,
 		party: `Military`,
@@ -71,6 +79,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `7 December 1850`,
 	},
 	{
+		id: 11008,
 		countryId,
 		name: `Diego Noboa`,
 		party: `Military`,
@@ -79,6 +88,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `12 September 1851`,
 	},
 	{
+		id: 11009,
 		countryId,
 		name: `José María Urvina`,
 		party: `Military`,
@@ -87,6 +97,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 October 1856`,
 	},
 	{
+		id: 11010,
 		countryId,
 		name: `Francisco Robles`,
 		party: `Military`,
@@ -95,6 +106,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1859`,
 	},
 	{
+		id: 11011,
 		countryId,
 		name: `Governments of The Crisis`,
 		party: `Mixed`,
@@ -103,6 +115,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 January 1861`,
 	},
 	{
+		id: 11012,
 		countryId,
 		name: `Gabriel García Moreno`,
 		party: `Conservative Party`,
@@ -111,6 +124,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `30 August 1865`,
 	},
 	{
+		id: 11013,
 		countryId,
 		name: `Rafael Carvajal`,
 		party: `Conservative Party`,
@@ -119,6 +133,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `7 September 1865`,
 	},
 	{
+		id: 11014,
 		countryId,
 		name: `Jerónimo Carrión`,
 		party: `Conservative Party`,
@@ -127,6 +142,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `6 November 1867`,
 	},
 	{
+		id: 11015,
 		countryId,
 		name: `Pedro José de Arteta`,
 		party: `Conservative Party`,
@@ -135,6 +151,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `20 January 1868`,
 	},
 	{
+		id: 11016,
 		countryId,
 		name: `Javier Espinosa`,
 		party: `Conservative Party`,
@@ -143,6 +160,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `19 January 1869`,
 	},
 	{
+		id: 11017,
 		countryId,
 		name: `Gabriel García Moreno`,
 		party: `Conservative Party`,
@@ -151,6 +169,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `19 May 1869`,
 	},
 	{
+		id: 11018,
 		countryId,
 		name: `Manuel de Ascásubi`,
 		party: `Conservative Party`,
@@ -159,6 +178,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 August 1869`,
 	},
 	{
+		id: 11019,
 		countryId,
 		name: `Gabriel García Moreno`,
 		party: `Conservative Party`,
@@ -167,6 +187,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `6 August 1875`,
 	},
 	{
+		id: 11020,
 		countryId,
 		name: `Francisco Xavier León`,
 		party: `Conservative Party`,
@@ -175,6 +196,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 September 1875`,
 	},
 	{
+		id: 11021,
 		countryId,
 		name: `José Javier Eguiguren`,
 		party: `Conservative Party`,
@@ -183,6 +205,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `9 December 1875`,
 	},
 	{
+		id: 11022,
 		countryId,
 		name: `Antonio Borrero`,
 		party: `Conservative Party`,
@@ -191,6 +214,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `8 September 1876`,
 	},
 	{
+		id: 11023,
 		countryId,
 		name: `Ignacio de Veintemilla`,
 		party: `Military`,
@@ -199,6 +223,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 January 1883`,
 	},
 	{
+		id: 11024,
 		countryId,
 		name: `Pentevirato Quiteño`,
 		party: `Bipartisan`,
@@ -207,6 +232,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 October 1883`,
 	},
 	{
+		id: 11025,
 		countryId,
 		name: `Supreme Leadership of Manabí and Esmeraldas`,
 		party: `Bipartisan`,
@@ -215,6 +241,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 October 1883`,
 	},
 	{
+		id: 11026,
 		countryId,
 		name: `Supreme Leadership of Guayas`,
 		party: `Bipartisan`,
@@ -223,6 +250,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 October 1883`,
 	},
 	{
+		id: 11027,
 		countryId,
 		name: `José Plácido Caamaño`,
 		party: `Conservative Party`,
@@ -231,6 +259,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `30 June 1888`,
 	},
 	{
+		id: 11028,
 		countryId,
 		name: `Pedro José Cevallos`,
 		party: `Conservative Party`,
@@ -239,6 +268,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `17 August 1888`,
 	},
 	{
+		id: 11029,
 		countryId,
 		name: `Antonio Flores Jijón`,
 		party: `Progressive Party / Republican Union Party`,
@@ -247,6 +277,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 June 1892`,
 	},
 	{
+		id: 11030,
 		countryId,
 		name: `Luis Cordero Crespo`,
 		party: `Progressive Party / Republican Union Party`,
@@ -255,6 +286,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `16 April 1895`,
 	},
 	{
+		id: 11031,
 		countryId,
 		name: `Vicente Lucio Salazar`,
 		party: `Conservative Party`,
@@ -263,6 +295,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `5 June 1895`,
 	},
 	{
+		id: 11032,
 		countryId,
 		name: `Eloy Alfaro`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -271,6 +304,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1901`,
 	},
 	{
+		id: 11033,
 		countryId,
 		name: `Leónidas Plaza`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -279,6 +313,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1905`,
 	},
 	{
+		id: 11034,
 		countryId,
 		name: `Lizardo García`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -287,6 +322,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 January 1906`,
 	},
 	{
+		id: 11035,
 		countryId,
 		name: `Eloy Alfaro`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -295,6 +331,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `11 August 1911`,
 	},
 	{
+		id: 11036,
 		countryId,
 		name: `Carlos Freile Zaldumbide`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -303,6 +340,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1911`,
 	},
 	{
+		id: 11037,
 		countryId,
 		name: `Emilio Estrada`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -311,6 +349,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `21 December 1911`,
 	},
 	{
+		id: 11038,
 		countryId,
 		name: `Carlos Freile Zaldumbide`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -319,6 +358,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `5 March 1912`,
 	},
 	{
+		id: 11039,
 		countryId,
 		name: `Francisco Andrade Marín`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -327,6 +367,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `1 August 1912`,
 	},
 	{
+		id: 11040,
 		countryId,
 		name: `Alfredo Baquerizo`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -335,6 +376,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `1 September 1912`,
 	},
 	{
+		id: 11041,
 		countryId,
 		name: `Leónidas Plaza`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -343,6 +385,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1916`,
 	},
 	{
+		id: 11042,
 		countryId,
 		name: `Alfredo Baquerizo`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -351,6 +394,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1920`,
 	},
 	{
+		id: 11043,
 		countryId,
 		name: `José Luis Tamayo`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -359,6 +403,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1924`,
 	},
 	{
+		id: 11044,
 		countryId,
 		name: `Gonzalo Córdova`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -367,6 +412,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `9 July 1925`,
 	},
 	{
+		id: 11045,
 		countryId,
 		name: `First Provisional Government`,
 		party: `First Provisional Government`,
@@ -375,6 +421,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `6 January 1926`,
 	},
 	{
+		id: 11046,
 		countryId,
 		name: `Second Provisional Government`,
 		party: `Second Provisional Government`,
@@ -383,6 +430,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 March 1926`,
 	},
 	{
+		id: 11047,
 		countryId,
 		name: `Isidro Ayora`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -391,6 +439,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `24 August 1931`,
 	},
 	{
+		id: 11048,
 		countryId,
 		name: `Luis Larrea Alba`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -399,6 +448,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 October 1931`,
 	},
 	{
+		id: 11049,
 		countryId,
 		name: `Alfredo Baquerizo`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -407,6 +457,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `28 August 1932`,
 	},
 	{
+		id: 11050,
 		countryId,
 		name: `Carlos Freile Larrea`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -415,6 +466,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `1 September 1932`,
 	},
 	{
+		id: 11051,
 		countryId,
 		name: `Alberto Guerrero Martínez`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -423,6 +475,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `4 December 1932`,
 	},
 	{
+		id: 11052,
 		countryId,
 		name: `Juan de Dios Martínez`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -431,6 +484,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `19 October 1933`,
 	},
 	{
+		id: 11053,
 		countryId,
 		name: `Abelardo Montalvo`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -439,6 +493,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1934`,
 	},
 	{
+		id: 11054,
 		countryId,
 		name: `José María Velasco Ibarra`,
 		party: `Conservative Party`,
@@ -447,6 +502,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `21 August 1935`,
 	},
 	{
+		id: 11055,
 		countryId,
 		name: `Antonio Pons`,
 		party: `Conservative Party`,
@@ -455,6 +511,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `25 September 1935`,
 	},
 	{
+		id: 11056,
 		countryId,
 		name: `Federico Páez Chiriboga`,
 		party: `Ecuadorian Socialist Party`,
@@ -463,6 +520,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `23 October 1937`,
 	},
 	{
+		id: 11057,
 		countryId,
 		name: `Alberto Enríquez Gallo`,
 		party: `Ecuadorian Socialist Party`,
@@ -471,6 +529,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 August 1938`,
 	},
 	{
+		id: 11058,
 		countryId,
 		name: `Manuel María Borrero`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -479,6 +538,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `1 December 1938`,
 	},
 	{
+		id: 11059,
 		countryId,
 		name: `Aurelio Mosquera`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -487,6 +547,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `17 November 1939`,
 	},
 	{
+		id: 11060,
 		countryId,
 		name: `Carlos Alberto Arroyo del Río`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -495,6 +556,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 December 1939`,
 	},
 	{
+		id: 11061,
 		countryId,
 		name: `Andrés Córdova`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -503,6 +565,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 August 1940`,
 	},
 	{
+		id: 11062,
 		countryId,
 		name: `Julio Enrique Moreno`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -511,6 +574,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1940`,
 	},
 	{
+		id: 11063,
 		countryId,
 		name: `Carlos Alberto Arroyo del Río`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -519,6 +583,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `28 May 1944`,
 	},
 	{
+		id: 11064,
 		countryId,
 		name: `Julio Teodoro Salem`,
 		party: `Ecuadorian Radical Liberal Party`,
@@ -527,6 +592,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 May 1944`,
 	},
 	{
+		id: 11065,
 		countryId,
 		name: `José María Velasco Ibarra`,
 		party: `Conservative Party`,
@@ -535,6 +601,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `23 August 1947`,
 	},
 	{
+		id: 11066,
 		countryId,
 		name: `Carlos Mancheno Cajas`,
 		party: `Ecuadorean Armed Forces`,
@@ -543,6 +610,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `2 September 1947`,
 	},
 	{
+		id: 11067,
 		countryId,
 		name: `Mariano Suárez`,
 		party: `Conservative Party`,
@@ -551,6 +619,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `17 September 1947`,
 	},
 	{
+		id: 11068,
 		countryId,
 		name: `Carlos Julio Arosemena Tola`,
 		party: `Independent`,
@@ -559,6 +628,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1948`,
 	},
 	{
+		id: 11069,
 		countryId,
 		name: `Galo Plaza Lasso`,
 		party: `National Democratic Civic Movement`,
@@ -567,6 +637,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `1 September 1952`,
 	},
 	{
+		id: 11070,
 		countryId,
 		name: `José María Velasco Ibarra`,
 		party: `Conservative Party`,
@@ -575,6 +646,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `1 September 1956`,
 	},
 	{
+		id: 11071,
 		countryId,
 		name: `Camilo Ponce Enríquez`,
 		party: `Social Christian Party`,
@@ -583,6 +655,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `1 September 1960`,
 	},
 	{
+		id: 11072,
 		countryId,
 		name: `José María Velasco Ibarra`,
 		party: `Conservative Party`,
@@ -591,6 +664,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `7 November 1961`,
 	},
 	{
+		id: 11073,
 		countryId,
 		name: `Carlos Julio Arosemena Monroy`,
 		party: `Independent`,
@@ -599,6 +673,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `11 July 1963`,
 	},
 	{
+		id: 11074,
 		countryId,
 		name: `Military Junta`,
 		party: `Ecuadorean Armed Forces`,
@@ -607,6 +682,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `29 March 1966`,
 	},
 	{
+		id: 11075,
 		countryId,
 		name: `Clemente Yerovi`,
 		party: `Independent`,
@@ -615,6 +691,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `16 November 1966`,
 	},
 	{
+		id: 11076,
 		countryId,
 		name: `Otto Arosemena`,
 		party: `Democratic Institutionalist Coalition`,
@@ -623,6 +700,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `31 August 1968`,
 	},
 	{
+		id: 11077,
 		countryId,
 		name: `José María Velasco Ibarra`,
 		party: `Conservative Party`,
@@ -631,6 +709,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 February 1972`,
 	},
 	{
+		id: 11078,
 		countryId,
 		name: `Guillermo Rodríguez`,
 		party: `Ecuadorean Armed Forces`,
@@ -639,6 +718,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `11 January 1976`,
 	},
 	{
+		id: 11079,
 		countryId,
 		name: `Supreme Government Council`,
 		party: `Ecuadorean Armed Forces`,
@@ -647,6 +727,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 August 1979`,
 	},
 	{
+		id: 11080,
 		countryId,
 		name: `Jaime Roldós Aguilera`,
 		party: `Concentration of People’s Forces`,
@@ -655,6 +736,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `24 May 1981`,
 	},
 	{
+		id: 11081,
 		countryId,
 		name: `Osvaldo Hurtado`,
 		party: `Popular Democracy`,
@@ -663,6 +745,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 August 1984`,
 	},
 	{
+		id: 11082,
 		countryId,
 		name: `León Febres-Cordero`,
 		party: `Social Christian Party`,
@@ -671,6 +754,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 August 1988`,
 	},
 	{
+		id: 11083,
 		countryId,
 		name: `Rodrigo Borja Cevallos`,
 		party: `Party of the Democratic Left`,
@@ -679,6 +763,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 August 1992`,
 	},
 	{
+		id: 11084,
 		countryId,
 		name: `Sixto Durán-Ballén`,
 		party: `Republican Union Party`,
@@ -687,6 +772,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 August 1996`,
 	},
 	{
+		id: 11085,
 		countryId,
 		name: `Abdalá Bucaram`,
 		party: `Ecuadorian Roldosist Party`,
@@ -695,6 +781,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `6 February 1997`,
 	},
 	{
+		id: 11086,
 		countryId,
 		name: `Fabián Alarcón`,
 		party: `Alfarista Radical Front`,
@@ -703,6 +790,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `9 February 1997`,
 	},
 	{
+		id: 11087,
 		countryId,
 		name: `Rosalía Arteaga`,
 		party: `Alfarista Radical Front`,
@@ -711,6 +799,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `11 February 1997`,
 	},
 	{
+		id: 11088,
 		countryId,
 		name: `Fabián Alarcón`,
 		party: `Alfarista Radical Front`,
@@ -719,6 +808,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `10 August 1998`,
 	},
 	{
+		id: 11089,
 		countryId,
 		name: `Jamil Mahuad`,
 		party: `Popular Democracy`,
@@ -727,6 +817,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `21 January 2000`,
 	},
 	{
+		id: 11090,
 		countryId,
 		name: `Gustavo Noboa`,
 		party: `Independent`,
@@ -735,6 +826,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `January 15 2003`,
 	},
 	{
+		id: 11091,
 		countryId,
 		name: `Lucio Gutiérrez`,
 		party: `Patriotic Society Party`,
@@ -743,6 +835,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `20 April 2005`,
 	},
 	{
+		id: 11092,
 		countryId,
 		name: `Alfredo Palacio`,
 		party: `Independent`,
@@ -751,6 +844,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `15 January 2007`,
 	},
 	{
+		id: 11093,
 		countryId,
 		name: `Rafael Correa`,
 		party: `PAIS Alliance`,
@@ -759,6 +853,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `24 May 2017`,
 	},
 	{
+		id: 11094,
 		countryId,
 		name: `Lenín Moreno`,
 		party: `PAIS Alliance`,
@@ -767,6 +862,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `24 May 2021`,
 	},
 	{
+		id: 11095,
 		countryId,
 		name: `Guillermo Lasso`,
 		party: `Creating Opportunities`,
@@ -775,6 +871,7 @@ export const ecuador: LeaderNoId[] = [
 		leftOffice: `23 November 2023`,
 	},
 	{
+		id: 11096,
 		countryId,
 		name: `Daniel Noboa`,
 		party: `National Democratic Action`,
