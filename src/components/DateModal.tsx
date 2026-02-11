@@ -1,5 +1,4 @@
 import {
-	Description,
 	Dialog,
 	DialogPanel,
 	DialogTitle,
@@ -97,32 +96,26 @@ export const DateModal = () => {
 								</DialogTitle>
 							</div>
 							<DialogPanel className="relative flex-auto space-y-4 overflow-y-auto p-4">
-								<Description>
-									<SelectMenu
-										values={years}
-										title="Select a Year"
-										selected={year ?? years[0]}
-										setSelected={setYear}
-									/>
-								</Description>
-								<Description>
-									<SelectMenu
-										values={months}
-										title="Select a Month"
-										selected={month ?? months[0]}
-										setSelected={setMonth}
-									/>
-								</Description>
-								<Description>
-									<SelectMenu
-										values={days}
-										title="Select a Day"
-										selected={day ?? days[0]}
-										setSelected={setDay}
-									/>
-								</Description>
+								<SelectMenu
+									values={years}
+									title="Select a Year"
+									selected={year ?? years[0]}
+									setSelected={setYear}
+								/>
+								<SelectMenu
+									values={months}
+									title="Select a Month"
+									selected={month ?? months[0]}
+									setSelected={setMonth}
+								/>
+								<SelectMenu
+									values={days}
+									title="Select a Day"
+									selected={day ?? days[0]}
+									setSelected={setDay}
+								/>
 							</DialogPanel>
-							<div className="flex shrink-0 flex-wrap items-center justify-between rounded-b border-gray-300 border-t p-4">
+							<div className="flex shrink-0 items-center justify-between gap-4 rounded-b border-gray-300 border-t p-4">
 								<div className="flex items-center justify-center space-x-2">
 									<p className="font-semibold text-gray-900 text-sm">
 										Pick any date between 1789 and today!

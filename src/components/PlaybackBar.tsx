@@ -76,7 +76,7 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 			<button
 				title="Decrease Timeline Speed"
 				type="button"
-				className="flex rounded-full p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-red-200 active:scale-95"
+				className="flex rounded-full p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-blue-100 active:scale-95"
 				onClick={decreaseSpeed}
 			>
 				<BackwardIcon className="h-8 w-8" />
@@ -84,7 +84,7 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 			<button
 				title={isPlaying ? `Pause Timeline` : `Autoplay Timeline`}
 				type="button"
-				className="rounded-full p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-red-200 active:scale-95"
+				className="rounded-full p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-blue-100 active:scale-95"
 				onClick={() => setIsPlaying(!isPlaying)}
 			>
 				{isPlaying ? (
@@ -96,7 +96,7 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 			<button
 				title="Increase Timeline Speed"
 				type="button"
-				className="rounded-full p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-red-200 active:scale-95"
+				className="rounded-full p-1.5 text-gray-900 duration-150 ease-in-out hover:bg-blue-100 active:scale-95"
 				onClick={increaseSpeed}
 			>
 				<ForwardIcon className="h-8 w-8" />
