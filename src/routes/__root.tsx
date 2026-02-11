@@ -1,8 +1,26 @@
-import { TanStackDevtools } from "@tanstack/react-devtools";
 import { createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
-import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
+import { lazy } from "react";
 
 import appCss from "../styles.css?url";
+
+const DevTools = lazy(() =>
+	Promise.all([
+		import("@tanstack/react-devtools"),
+		import("@tanstack/react-router-devtools"),
+	]).then(([{ TanStackDevtools }, { TanStackRouterDevtoolsPanel }]) => ({
+		default: () => (
+			<TanStackDevtools
+				config={{ position: "bottom-right" }}
+				plugins={[
+					{
+						name: "Tanstack Router",
+						render: <TanStackRouterDevtoolsPanel />,
+					},
+				]}
+			/>
+		),
+	})),
+);
 
 export const Route = createRootRoute({
 	notFoundComponent: () => <p>Page not found</p>,
@@ -92,17 +110,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 					src="https://plausible.io/js/script.tagged-events.js"
 				/>
 				{children}
-				<TanStackDevtools
-					config={{
-						position: "bottom-right",
-					}}
-					plugins={[
-						{
-							name: "Tanstack Router",
-							render: <TanStackRouterDevtoolsPanel />,
-						},
-					]}
-				/>
+				{import.meta.env.DEV && <DevTools />}
 				<Scripts />
 			</body>
 		</html>
