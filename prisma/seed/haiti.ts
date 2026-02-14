@@ -94,7 +94,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `3 May 1844`,
-		leftOffice: `15 April 1845`,
+		leftOffice: `16 April 1845`,
 	},
 	{
 		id: 15010,

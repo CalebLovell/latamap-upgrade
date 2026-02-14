@@ -49,7 +49,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Brazilian Armed Forces`,
 		leaning: leanings.RIGHT,
 		tookOffice: `23 November 1891`,
-		leftOffice: `14 November 1894`,
+		leftOffice: `15 November 1894`,
 	},
 	{
 		id: 4005,
@@ -58,7 +58,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Federal Republican Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `15 November 1894`,
-		leftOffice: `14 November 1898`,
+		leftOffice: `15 November 1898`,
 	},
 	{
 		id: 4006,
@@ -67,7 +67,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Paulista Republican Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `15 November 1898`,
-		leftOffice: `14 November 1902`,
+		leftOffice: `15 November 1902`,
 	},
 	{
 		id: 4007,
@@ -76,7 +76,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Paulista Republican Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `15 November 1902`,
-		leftOffice: `14 November 1906`,
+		leftOffice: `15 November 1906`,
 	},
 	{
 		id: 4008,
@@ -94,7 +94,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Fluminense Republican Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `14 June 1909`,
-		leftOffice: `14 November 1910`,
+		leftOffice: `15 November 1910`,
 	},
 	{
 		id: 4010,
@@ -103,7 +103,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Conservative Republican Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `15 November 1910`,
-		leftOffice: `14 November 1914`,
+		leftOffice: `15 November 1914`,
 	},
 	{
 		id: 4011,
@@ -112,7 +112,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Minas Republican Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `15 November 1914`,
-		leftOffice: `14 November 1918`,
+		leftOffice: `15 November 1918`,
 	},
 	{
 		id: 4012,
@@ -130,7 +130,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Minas Republican Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `28 July 1919`,
-		leftOffice: `14 November 1922`,
+		leftOffice: `15 November 1922`,
 	},
 	{
 		id: 4014,
@@ -139,7 +139,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Minas Republican Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `15 November 1922`,
-		leftOffice: `14 November 1926`,
+		leftOffice: `15 November 1926`,
 	},
 	{
 		id: 4015,
@@ -184,7 +184,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `29 October 1945`,
-		leftOffice: `30 January 1946`,
+		leftOffice: `31 January 1946`,
 	},
 	{
 		id: 4020,
@@ -193,7 +193,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Social Democratic Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `31 January 1946`,
-		leftOffice: `30 January 1951`,
+		leftOffice: `31 January 1951`,
 	},
 	{
 		id: 4021,
@@ -229,7 +229,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Social Democratic Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `11 November 1955`,
-		leftOffice: `30 January 1956`,
+		leftOffice: `31 January 1956`,
 	},
 	{
 		id: 4025,
@@ -238,7 +238,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Social Democratic Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `31 January 1956`,
-		leftOffice: `30 January 1961`,
+		leftOffice: `31 January 1961`,
 	},
 	{
 		id: 4026,
@@ -364,7 +364,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Brazilian Social Democracy Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 January 1995`,
-		leftOffice: `31 December 2002`,
+		leftOffice: `1 January 2003`,
 	},
 	{
 		id: 4040,
@@ -373,7 +373,7 @@ export const brazil: LeaderSeed[] = [
 		party: `Workers' Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `1 January 2003`,
-		leftOffice: `31 December 2010`,
+		leftOffice: `1 January 2011`,
 	},
 	{
 		id: 4041,

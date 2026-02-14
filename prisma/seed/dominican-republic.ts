@@ -94,7 +94,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `8 September 1848`,
-		leftOffice: `29 May 1849`,
+		leftOffice: `30 May 1849`,
 	},
 	{
 		id: 10010,
@@ -103,7 +103,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `30 May 1849`,
-		leftOffice: `23 September 1849`,
+		leftOffice: `24 September 1849`,
 	},
 	{
 		id: 10011,
@@ -202,7 +202,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `23 October 1863`,
-		leftOffice: `30 March 1864`,
+		leftOffice: `31 March 1864`,
 	},
 	{
 		id: 10022,
@@ -238,7 +238,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `24 January 1865`,
-		leftOffice: `24 March 1865`,
+		leftOffice: `25 March 1865`,
 	},
 	{
 		id: 10026,
@@ -409,7 +409,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Green Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `11 November 1876`,
-		leftOffice: `9 December 1876`,
+		leftOffice: `10 December 1876`,
 	},
 	{
 		id: 10045,
@@ -418,7 +418,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `10 December 1876`,
-		leftOffice: `26 December 1876`,
+		leftOffice: `27 December 1876`,
 	},
 	{
 		id: 10046,
@@ -472,7 +472,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `2 September 1878`,
-		leftOffice: `6 September 1878`,
+		leftOffice: `7 September 1878`,
 	},
 	{
 		id: 10052,
@@ -481,7 +481,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `7 September 1878`,
-		leftOffice: `29 September 1878`,
+		leftOffice: `30 September 1878`,
 	},
 	{
 		id: 10053,
@@ -742,7 +742,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Dominican Party`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `30 May 1961`,
-		leftOffice: `31 December 1961`,
+		leftOffice: `1 January 1962`,
 	},
 	{
 		id: 10082,

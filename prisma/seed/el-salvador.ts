@@ -699,7 +699,7 @@ export const elSalvador: LeaderSeed[] = [
 		party: `Armed Forces of El Salvador - Liberal Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `22 June 1890`,
-		leftOffice: `9 June 1894`,
+		leftOffice: `10 June 1894`,
 	},
 	{
 		id: 12077,
@@ -708,7 +708,7 @@ export const elSalvador: LeaderSeed[] = [
 		party: `Armed Forces of El Salvador - Liberal Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `10 June 1894`,
-		leftOffice: `13 November 1898`,
+		leftOffice: `14 November 1898`,
 	},
 	{
 		id: 12078,
@@ -825,7 +825,7 @@ export const elSalvador: LeaderSeed[] = [
 		party: `National Pro Patria Party`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `4 December 1931`,
-		leftOffice: `28 August 1934`,
+		leftOffice: `29 August 1934`,
 	},
 	{
 		id: 12091,
@@ -852,7 +852,7 @@ export const elSalvador: LeaderSeed[] = [
 		party: `Armed Forces of El Salvador / National Pro-Patria Party`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `9 May 1944`,
-		leftOffice: `20 October 1944`,
+		leftOffice: `21 October 1944`,
 	},
 	{
 		id: 12094,
@@ -870,7 +870,7 @@ export const elSalvador: LeaderSeed[] = [
 		party: `Armed Forces of El Salvador / Unification Social Democratic Party`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `1 March 1945`,
-		leftOffice: `14 December 1948`,
+		leftOffice: `15 December 1948`,
 	},
 	{
 		id: 12096,

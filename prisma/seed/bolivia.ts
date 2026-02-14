@@ -211,7 +211,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `15 January 1871`,
-		leftOffice: `27 November 1872`,
+		leftOffice: `28 November 1872`,
 	},
 	{
 		id: 3023,
@@ -346,7 +346,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `15 August 1917`,
-		leftOffice: `12 July 1920`,
+		leftOffice: `13 July 1920`,
 	},
 	{
 		id: 3038,
@@ -670,7 +670,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Armed Forces of Bolivia`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `22 August 1971`,
-		leftOffice: `20 July 1978`,
+		leftOffice: `21 July 1978`,
 	},
 	{
 		id: 3074,
@@ -679,7 +679,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Armed Forces of Bolivia`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `21 July 1978`,
-		leftOffice: `21 July 1978`,
+		leftOffice: `22 July 1978`,
 	},
 	{
 		id: 3075,

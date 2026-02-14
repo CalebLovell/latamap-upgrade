@@ -167,7 +167,7 @@ export const costaRica: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 November 1844`,
-		leftOffice: `31 December 1844`,
+		leftOffice: `1 January 1845`,
 	},
 	{
 		id: 8018,

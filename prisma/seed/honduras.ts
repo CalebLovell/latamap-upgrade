@@ -203,7 +203,7 @@ export const honduras: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `1 January 1841`,
-		leftOffice: `31 December 1842`,
+		leftOffice: `1 January 1843`,
 	},
 	{
 		id: 16022,
@@ -221,7 +221,7 @@ export const honduras: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `23 February 1843`,
-		leftOffice: `31 December 1844`,
+		leftOffice: `1 January 1845`,
 	},
 	{
 		id: 16024,

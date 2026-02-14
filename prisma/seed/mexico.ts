@@ -31,7 +31,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Second Mexican Empire`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `11 April 1822`,
-		leftOffice: `18 May 1822`,
+		leftOffice: `19 May 1822`,
 	},
 	{
 		id: 18003,
@@ -58,7 +58,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `10 October 1824`,
-		leftOffice: `31 March 1829`,
+		leftOffice: `1 April 1829`,
 	},
 	{
 		id: 18006,
@@ -85,7 +85,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `23 December 1829`,
-		leftOffice: `31 December 1829`,
+		leftOffice: `1 January 1830`,
 	},
 	{
 		id: 18009,
@@ -94,7 +94,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `1 January 1830`,
-		leftOffice: `13 August 1832`,
+		leftOffice: `14 August 1832`,
 	},
 	{
 		id: 18010,
@@ -112,7 +112,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `24 December 1832`,
-		leftOffice: `31 March 1833`,
+		leftOffice: `1 April 1833`,
 	},
 	{
 		id: 18012,
@@ -166,7 +166,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `27 October 1833`,
-		leftOffice: `15 December 1833`,
+		leftOffice: `16 December 1833`,
 	},
 	{
 		id: 18018,
@@ -220,7 +220,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `18 March 1839`,
-		leftOffice: `10 July 1839`,
+		leftOffice: `11 July 1839`,
 	},
 	{
 		id: 18024,
@@ -319,7 +319,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `6 December 1844`,
-		leftOffice: `30 December 1845`,
+		leftOffice: `31 December 1845`,
 	},
 	{
 		id: 18035,
@@ -337,7 +337,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `28 July 1846`,
-		leftOffice: `4 August 1846`,
+		leftOffice: `5 August 1846`,
 	},
 	{
 		id: 18037,
@@ -382,7 +382,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `20 May 1847`,
-		leftOffice: `15 September 1847`,
+		leftOffice: `16 September 1847`,
 	},
 	{
 		id: 18042,
@@ -427,7 +427,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `15 January 1851`,
-		leftOffice: `5 January 1853`,
+		leftOffice: `6 January 1853`,
 	},
 	{
 		id: 18047,
@@ -436,7 +436,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `6 January 1853`,
-		leftOffice: `7 February 1853`,
+		leftOffice: `8 February 1853`,
 	},
 	{
 		id: 18048,
@@ -472,7 +472,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `12 September 1855`,
-		leftOffice: `3 October 1855`,
+		leftOffice: `4 October 1855`,
 	},
 	{
 		id: 18052,
@@ -517,7 +517,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `24 December 1858`,
-		leftOffice: `23 January 1859`,
+		leftOffice: `24 January 1859`,
 	},
 	{
 		id: 18057,
@@ -526,7 +526,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `24 January 1859`,
-		leftOffice: `1 February 1859`,
+		leftOffice: `2 February 1859`,
 	},
 	{
 		id: 18058,
@@ -643,7 +643,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `17 February 1877`,
-		leftOffice: `30 November 1880`,
+		leftOffice: `1 December 1880`,
 	},
 	{
 		id: 18071,
@@ -652,7 +652,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `1 December 1880`,
-		leftOffice: `30 November 1884`,
+		leftOffice: `1 December 1884`,
 	},
 	{
 		id: 18072,
@@ -670,7 +670,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `25 May 1911`,
-		leftOffice: `5 November 1911`,
+		leftOffice: `6 November 1911`,
 	},
 	{
 		id: 18074,
@@ -724,7 +724,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Liberal Constitutionalist Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `21 May 1920`,
-		leftOffice: `30 November 1920`,
+		leftOffice: `1 December 1920`,
 	},
 	{
 		id: 18080,
@@ -733,7 +733,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Laborist Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `1 December 1920`,
-		leftOffice: `30 November 1924`,
+		leftOffice: `1 December 1924`,
 	},
 	{
 		id: 18081,
@@ -742,7 +742,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Laborist Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `1 December 1924`,
-		leftOffice: `30 November 1928`,
+		leftOffice: `1 December 1928`,
 	},
 	{
 		id: 18082,
@@ -751,7 +751,7 @@ export const mexico: LeaderSeed[] = [
 		party: `Institutional Revolutionary Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 December 1928`,
-		leftOffice: `4 February 1930`,
+		leftOffice: `5 February 1930`,
 	},
 	{
 		id: 18083,

@@ -364,7 +364,7 @@ export const paraguay: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `15 August 1916`,
-		leftOffice: `5 June 1919`,
+		leftOffice: `6 June 1919`,
 	},
 	{
 		id: 21040,
@@ -553,7 +553,7 @@ export const paraguay: LeaderSeed[] = [
 		party: `Colorado Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `15 August 1993`,
-		leftOffice: `14 August 1998`,
+		leftOffice: `15 August 1998`,
 	},
 	{
 		id: 21061,
@@ -580,7 +580,7 @@ export const paraguay: LeaderSeed[] = [
 		party: `Colorado Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `15 August 2003`,
-		leftOffice: `14 August 2008`,
+		leftOffice: `15 August 2008`,
 	},
 	{
 		id: 21064,

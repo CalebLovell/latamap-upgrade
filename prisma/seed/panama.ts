@@ -383,7 +383,7 @@ export const panama: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `20 February 1904`,
-		leftOffice: `23 June 1907`,
+		leftOffice: `24 June 1907`,
 	},
 	{
 		id: 20042,

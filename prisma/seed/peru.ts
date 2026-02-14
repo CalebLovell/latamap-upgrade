@@ -247,7 +247,7 @@ export const peru: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `22 July 1872`,
-		leftOffice: `26 July 1872`,
+		leftOffice: `27 July 1872`,
 	},
 	{
 		id: 22027,
@@ -724,7 +724,7 @@ export const peru: LeaderSeed[] = [
 		party: `Peruvians for Change`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `23 March 2018`,
-		leftOffice: `9 November 2020`,
+		leftOffice: `10 November 2020`,
 	},
 	{
 		id: 22080,

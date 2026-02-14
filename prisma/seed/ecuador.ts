@@ -40,7 +40,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `10 September 1834`,
-		leftOffice: `31 January 1839`,
+		leftOffice: `1 February 1839`,
 	},
 	{
 		id: 11004,
@@ -49,7 +49,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `1 February 1839`,
-		leftOffice: `6 March 1845`,
+		leftOffice: `7 March 1845`,
 	},
 	{
 		id: 11005,
@@ -76,7 +76,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `15 October 1849`,
-		leftOffice: `7 December 1850`,
+		leftOffice: `8 December 1850`,
 	},
 	{
 		id: 11008,
@@ -94,7 +94,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `24 July 1851`,
-		leftOffice: `15 October 1856`,
+		leftOffice: `16 October 1856`,
 	},
 	{
 		id: 11010,
@@ -121,7 +121,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `17 January 1861`,
-		leftOffice: `30 August 1865`,
+		leftOffice: `31 August 1865`,
 	},
 	{
 		id: 11013,
@@ -139,7 +139,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `7 September 1865`,
-		leftOffice: `6 November 1867`,
+		leftOffice: `7 November 1867`,
 	},
 	{
 		id: 11015,
@@ -256,7 +256,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `15 October 1883`,
-		leftOffice: `30 June 1888`,
+		leftOffice: `1 July 1888`,
 	},
 	{
 		id: 11028,
@@ -301,7 +301,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `5 June 1895`,
-		leftOffice: `31 August 1901`,
+		leftOffice: `1 September 1901`,
 	},
 	{
 		id: 11033,
@@ -310,7 +310,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 September 1901`,
-		leftOffice: `31 August 1905`,
+		leftOffice: `1 September 1905`,
 	},
 	{
 		id: 11034,
@@ -318,8 +318,8 @@ export const ecuador: LeaderSeed[] = [
 		name: `Lizardo García`,
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
-		tookOffice: ` 1 September 1905`,
-		leftOffice: `15 January 1906`,
+		tookOffice: `1 September 1905`,
+		leftOffice: `16 January 1906`,
 	},
 	{
 		id: 11035,
@@ -337,7 +337,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `11 August 1911`,
-		leftOffice: `31 August 1911`,
+		leftOffice: `1 September 1911`,
 	},
 	{
 		id: 11037,
@@ -346,7 +346,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 September 1911`,
-		leftOffice: `21 December 1911`,
+		leftOffice: `22 December 1911`,
 	},
 	{
 		id: 11038,
@@ -355,7 +355,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `22 December 1911`,
-		leftOffice: `5 March 1912`,
+		leftOffice: `6 March 1912`,
 	},
 	{
 		id: 11039,
@@ -382,7 +382,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 September 1912`,
-		leftOffice: `31 August 1916`,
+		leftOffice: `1 September 1916`,
 	},
 	{
 		id: 11042,
@@ -391,7 +391,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 September 1916`,
-		leftOffice: `31 August 1920`,
+		leftOffice: `1 September 1920`,
 	},
 	{
 		id: 11043,
@@ -400,7 +400,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 September 1920`,
-		leftOffice: `31 August 1924`,
+		leftOffice: `1 September 1924`,
 	},
 	{
 		id: 11044,
@@ -409,7 +409,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 September 1924`,
-		leftOffice: `9 July 1925`,
+		leftOffice: `10 July 1925`,
 	},
 	{
 		id: 11045,
@@ -463,7 +463,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `28 August 1932`,
-		leftOffice: `1 September 1932`,
+		leftOffice: `2 September 1932`,
 	},
 	{
 		id: 11051,
@@ -472,7 +472,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `2 September 1932`,
-		leftOffice: `4 December 1932`,
+		leftOffice: `5 December 1932`,
 	},
 	{
 		id: 11052,
@@ -481,7 +481,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `5 December 1932`,
-		leftOffice: `19 October 1933`,
+		leftOffice: `20 October 1933`,
 	},
 	{
 		id: 11053,
@@ -490,7 +490,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 October 1933`,
-		leftOffice: `31 August 1934`,
+		leftOffice: `1 September 1934`,
 	},
 	{
 		id: 11054,
@@ -508,7 +508,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `21 August 1935`,
-		leftOffice: `25 September 1935`,
+		leftOffice: `26 September 1935`,
 	},
 	{
 		id: 11056,
@@ -535,7 +535,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `10 August 1938`,
-		leftOffice: `1 December 1938`,
+		leftOffice: `2 December 1938`,
 	},
 	{
 		id: 11059,
@@ -544,7 +544,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `2 December 1938`,
-		leftOffice: `17 November 1939`,
+		leftOffice: `18 November 1939`,
 	},
 	{
 		id: 11060,
@@ -553,7 +553,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `18 November 1939`,
-		leftOffice: `10 December 1939`,
+		leftOffice: `11 December 1939`,
 	},
 	{
 		id: 11061,
@@ -571,7 +571,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `10 August 1940`,
-		leftOffice: `31 August 1940`,
+		leftOffice: `1 September 1940`,
 	},
 	{
 		id: 11063,
@@ -580,7 +580,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 September 1940`,
-		leftOffice: `28 May 1944`,
+		leftOffice: `29 May 1944`,
 	},
 	{
 		id: 11064,
@@ -589,7 +589,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorian Radical Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `29 May 1944`,
-		leftOffice: `31 May 1944`,
+		leftOffice: `1 June 1944`,
 	},
 	{
 		id: 11065,
@@ -625,7 +625,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `17 September 1947`,
-		leftOffice: `31 August 1948`,
+		leftOffice: `1 September 1948`,
 	},
 	{
 		id: 11069,
@@ -679,7 +679,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Ecuadorean Armed Forces`,
 		leaning: leanings.RIGHT,
 		tookOffice: `11 July 1963`,
-		leftOffice: `29 March 1966`,
+		leftOffice: `30 March 1966`,
 	},
 	{
 		id: 11075,
@@ -697,7 +697,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Democratic Institutionalist Coalition`,
 		leaning: leanings.RIGHT,
 		tookOffice: `16 November 1966`,
-		leftOffice: `31 August 1968`,
+		leftOffice: `1 September 1968`,
 	},
 	{
 		id: 11077,
@@ -814,7 +814,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Popular Democracy`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `10 August 1998`,
-		leftOffice: `21 January 2000`,
+		leftOffice: `22 January 2000`,
 	},
 	{
 		id: 11090,

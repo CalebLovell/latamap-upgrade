@@ -22,7 +22,7 @@ export const chile: LeaderSeed[] = [
 		party: `President of the First Government Junta`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `18 September 1810`,
-		leftOffice: `26 February 1811`,
+		leftOffice: `27 February 1811`,
 	},
 	{
 		id: 6002,
@@ -166,7 +166,7 @@ export const chile: LeaderSeed[] = [
 		party: `President of the Government Junta`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `23 July 1814`,
-		leftOffice: `2 October 1814`,
+		leftOffice: `3 October 1814`,
 	},
 	{
 		id: 6018,

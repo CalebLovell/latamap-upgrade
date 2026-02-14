@@ -607,7 +607,7 @@ export const venezuela: LeaderSeed[] = [
 		party: `Democratic Action`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `2 February 1989`,
-		leftOffice: `20 May 1993`,
+		leftOffice: `21 May 1993`,
 	},
 	{
 		id: 27067,

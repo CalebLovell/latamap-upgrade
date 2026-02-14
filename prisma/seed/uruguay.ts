@@ -31,7 +31,7 @@ export const uruguay: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `25 August 1814`,
-		leftOffice: `25 February 1815`,
+		leftOffice: `26 February 1815`,
 	},
 	{
 		id: 25003,
@@ -103,7 +103,7 @@ export const uruguay: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `27 August 1828`,
-		leftOffice: `1 December 1828`,
+		leftOffice: `2 December 1828`,
 	},
 	{
 		id: 25011,

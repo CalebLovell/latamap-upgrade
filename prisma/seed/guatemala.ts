@@ -293,7 +293,7 @@ export const guatemala: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `2 April 1885`,
-		leftOffice: `5 April 1885`,
+		leftOffice: `6 April 1885`,
 	},
 	{
 		id: 13032,
@@ -410,7 +410,7 @@ export const guatemala: LeaderSeed[] = [
 		party: `Armed Forces of Guatemala`,
 		leaning: 0,
 		tookOffice: `27 June 1954`,
-		leftOffice: `28 June 1954`,
+		leftOffice: `29 June 1954`,
 	},
 	{
 		id: 13045,
@@ -428,7 +428,7 @@ export const guatemala: LeaderSeed[] = [
 		party: `National Liberation Movement`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `8 July 1954`,
-		leftOffice: `26 July 1957`,
+		leftOffice: `27 July 1957`,
 	},
 	{
 		id: 13047,
@@ -554,7 +554,7 @@ export const guatemala: LeaderSeed[] = [
 		party: `Solidarity Action Movement`,
 		leaning: leanings.RIGHT,
 		tookOffice: `1 June 1993`,
-		leftOffice: `5 June 1993`,
+		leftOffice: `6 June 1993`,
 	},
 	{
 		id: 13061,

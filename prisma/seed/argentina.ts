@@ -301,7 +301,7 @@ export const argentina: LeaderSeed[] = [
 		party: `Governor of Buenos Aires`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `2 April 1824`,
-		leftOffice: `7 February 1826`,
+		leftOffice: `8 February 1826`,
 	},
 	{
 		id: 1033,

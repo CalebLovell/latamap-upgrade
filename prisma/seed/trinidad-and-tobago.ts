@@ -40,7 +40,7 @@ export const trinidadAndTobago: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `15 September 1972`,
-		leftOffice: `19 March 1987`,
+		leftOffice: `20 March 1987`,
 	},
 	{
 		id: 24004,
@@ -49,7 +49,7 @@ export const trinidadAndTobago: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 March 1987`,
-		leftOffice: `17 March 1997`,
+		leftOffice: `18 March 1997`,
 	},
 	{
 		id: 24005,
@@ -58,7 +58,7 @@ export const trinidadAndTobago: LeaderSeed[] = [
 		party: `People's National Movement, Democratic Action Congress, National Alliance for Reconstruction`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `18 March 1997`,
-		leftOffice: `16 March 2003`,
+		leftOffice: `17 March 2003`,
 	},
 	{
 		id: 24006,
