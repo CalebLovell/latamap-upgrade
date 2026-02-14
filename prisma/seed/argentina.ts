@@ -313,6 +313,15 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `27 June 1827`,
 	},
 	{
+		id: 1099,
+		countryId,
+		name: `No Leader`,
+		party: `None`,
+		leaning: leanings.NONE,
+		tookOffice: `27 June 1827`,
+		leftOffice: `7 July 1827`,
+	},
+	{
 		id: 1034,
 		countryId,
 		name: `Vicente López y Planes - United Provinces of the Rio de la Plata`,

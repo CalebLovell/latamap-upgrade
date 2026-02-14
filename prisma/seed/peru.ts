@@ -711,11 +711,11 @@ export const peru: LeaderSeed[] = [
 	{
 		id: 22078,
 		countryId,
-		name: `Pedro Pablo Kuczynski Godard`,
+		name: `Pedro Pablo Kuczynski`,
 		party: `Peruvians for Change`,
 		leaning: leanings.CENTER_RIGHT,
-		tookOffice: `July 28, 2016`,
-		leftOffice: `March 21, 2018`,
+		tookOffice: `July 28 2016`,
+		leftOffice: `March 23 2018`,
 	},
 	{
 		id: 22079,

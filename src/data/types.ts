@@ -17,6 +17,7 @@ export type LeaderSeed = {
 };
 
 export const leanings = {
+	NONE: 0,
 	FAR_LEFT: 1,
 	LEFT: 2,
 	CENTER_LEFT: 3,
@@ -29,6 +30,7 @@ export const leanings = {
 };
 
 export const leaningLabels = {
+	0: `None`,
 	1: `Far Left`,
 	2: `Left Wing`,
 	3: `Center Left`,
@@ -44,6 +46,7 @@ export type MapKeyColorScheme = `default` | `inverted`;
 
 export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 	const globalColors = {
+		0: `black`,
 		1: `rgb(157,0,0)`,
 		2: `rgb(215,17,27)`,
 		3: `rgb(223,139,139)`,
@@ -55,6 +58,7 @@ export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 		9: `gold`,
 	};
 	const usaColors = {
+		0: `black`,
 		7: `rgb(157,0,0)`,
 		6: `rgb(215,17,27)`,
 		5: `rgb(223,139,139)`,

@@ -350,15 +350,6 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `15 March 1864`,
 	},
 	{
-		id: 16038,
-		countryId,
-		name: `Francisco Cruz Castro`,
-		party: `Conservative Party`,
-		leaning: leanings.RIGHT,
-		tookOffice: `5 September 1869`,
-		leftOffice: `14 January 1870`,
-	},
-	{
 		id: 16039,
 		countryId,
 		name: `José María Medina`,
