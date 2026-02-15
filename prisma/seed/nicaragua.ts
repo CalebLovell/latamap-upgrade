@@ -365,7 +365,7 @@ export const nicaragua: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `12 March 1855`,
-		leftOffice: `22 October 1855`,
+		leftOffice: `30 October 1855`,
 	},
 	{
 		id: 19046,
