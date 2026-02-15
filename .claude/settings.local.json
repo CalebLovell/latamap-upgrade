@@ -21,7 +21,11 @@
       "WebSearch",
       "WebFetch(domain:tanstack.com)",
       "Bash(npm i:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(node find-gaps.mjs:*)",
+      "Bash(node:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:en.wikipedia.org)"
     ]
   }
 }
