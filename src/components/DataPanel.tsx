@@ -32,9 +32,10 @@ export const DataPanel = () => {
 	const country = selectedCountry ? selectedCountry : `Select a Country`;
 	const name = leader?.name ? leader?.name : `-`;
 	const party = leader?.party ? leader?.party : `-`;
-	const leaning = leader?.leaning
-		? leaningLabels[leader?.leaning as keyof typeof leaningLabels]
-		: `-`;
+	const leaning =
+		leader?.leaning != null
+			? leaningLabels[leader.leaning as keyof typeof leaningLabels]
+			: `-`;
 	const inOffice = `${leader?.tookOffice ? formatDate(leader?.tookOffice) : ``} - ${
 		leader?.leftOffice
 			? formatDate(leader?.leftOffice)
