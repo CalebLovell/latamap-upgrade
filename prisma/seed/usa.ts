@@ -7,6 +7,15 @@ const countryId = 1;
 
 export const usa: LeaderSeed[] = [
 	{
+		id: 25999,
+		countryId,
+		name: `Articles of Confederation`,
+		party: `None`,
+		leaning: leanings.NONE,
+		tookOffice: `1 March 1781`,
+		leftOffice: `1789-04-30T00:00:00.000Z`,
+	},
+	{
 		id: 26000,
 		countryId,
 		name: `George Washington`,

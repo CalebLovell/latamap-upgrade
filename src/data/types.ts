@@ -46,7 +46,7 @@ export type MapKeyColorScheme = `default` | `inverted`;
 
 export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 	const globalColors = {
-		0: `black`,
+		0: `rgb(100,100,100)`,
 		1: `rgb(157,0,0)`,
 		2: `rgb(215,17,27)`,
 		3: `rgb(223,139,139)`,
@@ -58,7 +58,7 @@ export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 		9: `gold`,
 	};
 	const usaColors = {
-		0: `black`,
+		0: `rgb(100,100,100)`,
 		7: `rgb(157,0,0)`,
 		6: `rgb(215,17,27)`,
 		5: `rgb(223,139,139)`,
