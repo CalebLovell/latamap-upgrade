@@ -597,7 +597,7 @@ export const peru: LeaderSeed[] = [
 		name: `Manuel A. Odría`,
 		party: `Unión Nacional Odriista`,
 		leaning: leanings.FAR_RIGHT,
-		tookOffice: `27 October 1948`,
+		tookOffice: `29 October 1948`,
 		leftOffice: `1 June 1950`,
 	},
 	{

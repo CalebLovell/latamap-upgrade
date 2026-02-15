@@ -67,7 +67,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `18 April 1828`,
-		leftOffice: `12 August 1828`,
+		leftOffice: `2 August 1828`,
 	},
 	{
 		id: 3007,
@@ -364,7 +364,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Armed Forces of Bolivia`,
 		leaning: leanings.RIGHT,
 		tookOffice: `13 July 1920`,
-		leftOffice: `16 July 1921`,
+		leftOffice: `16 July 1920`,
 	},
 	{
 		id: 3039,

@@ -473,7 +473,7 @@ export const costaRica: LeaderSeed[] = [
 		party: `National Republican Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `8 May 1944`,
-		leftOffice: `8 May 1948`,
+		leftOffice: `20 April 1948`,
 	},
 	{
 		id: 8052,
@@ -499,7 +499,7 @@ export const costaRica: LeaderSeed[] = [
 		name: `Otilio Ulate Blanco`,
 		party: `National Union Party`,
 		leaning: leanings.CENTER_RIGHT,
-		tookOffice: `7 November 1949`,
+		tookOffice: `8 November 1949`,
 		leftOffice: `8 May 1953`,
 	},
 	{

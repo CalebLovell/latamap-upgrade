@@ -725,7 +725,7 @@ export const argentina: LeaderSeed[] = [
 		party: `Justicialist Party / Peronist`,
 		leaning: leanings.FAR_RIGHT,
 		tookOffice: `12 October 1973`,
-		leftOffice: `1 July 1974`,
+		leftOffice: `29 June 1974`,
 	},
 	{
 		id: 1088,

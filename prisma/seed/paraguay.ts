@@ -250,24 +250,6 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `19 December 1904`,
 	},
 	{
-		id: 21027,
-		countryId,
-		name: `Andrés Héctor Carvallo`,
-		party: `Colorado Party`,
-		leaning: leanings.RIGHT,
-		tookOffice: `9 January 1902`,
-		leftOffice: `25 November 1902`,
-	},
-	{
-		id: 21028,
-		countryId,
-		name: `Juan Antonio Escurra`,
-		party: `Colorado Party`,
-		leaning: leanings.RIGHT,
-		tookOffice: `25 November 1902`,
-		leftOffice: `19 December 1904`,
-	},
-	{
 		id: 21029,
 		countryId,
 		name: `Juan Bautista Gaona`,
@@ -282,7 +264,7 @@ export const paraguay: LeaderSeed[] = [
 		name: `Cecilio Báez`,
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_RIGHT,
-		tookOffice: `8 December 1905`,
+		tookOffice: `9 December 1905`,
 		leftOffice: `25 November 1906`,
 	},
 	{
@@ -562,7 +544,7 @@ export const paraguay: LeaderSeed[] = [
 		party: `Colorado Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `15 August 1998`,
-		leftOffice: `29 March 1999`,
+		leftOffice: `28 March 1999`,
 	},
 	{
 		id: 21062,

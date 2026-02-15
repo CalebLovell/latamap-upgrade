@@ -16,15 +16,6 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `17 March 1970`,
 	},
 	{
-		id: 14001,
-		countryId,
-		name: `Elizabeth II`,
-		party: `British Monarchy`,
-		leaning: leanings.MONARCHY,
-		tookOffice: `26 May 1966`,
-		leftOffice: `17 March 1970`,
-	},
-	{
 		id: 14002,
 		countryId,
 		name: `Arthur Chung`,

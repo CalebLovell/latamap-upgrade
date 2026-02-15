@@ -516,7 +516,7 @@ export const mexico: LeaderSeed[] = [
 		name: `José María Iglesias`,
 		party: `Liberal Party`,
 		leaning: leanings.LEFT,
-		tookOffice: `26 October 1876`,
+		tookOffice: `20 November 1876`,
 		leftOffice: `28 November 1876`,
 	},
 	{

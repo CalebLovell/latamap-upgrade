@@ -367,15 +367,6 @@ export const uruguay: LeaderSeed[] = [
 		leftOffice: `1 March 1879`,
 	},
 	{
-		id: 25043,
-		countryId,
-		name: `Pedro Varela`,
-		party: `Colorado Party`,
-		leaning: leanings.CENTRIST,
-		tookOffice: `22 January 1875`,
-		leftOffice: `10 March 1876`,
-	},
-	{
 		id: 25044,
 		countryId,
 		name: `Lorenzo Latorre`,
@@ -544,7 +535,7 @@ export const uruguay: LeaderSeed[] = [
 		party: `Colorado Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 March 1927`,
-		leftOffice: `19 June 1938`,
+		leftOffice: `1 March 1931`,
 	},
 	{
 		id: 25063,
