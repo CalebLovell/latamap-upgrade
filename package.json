@@ -12,11 +12,12 @@
     "typecheck": "tsc --noEmit",
     "clean": "biome check --write --unsafe && tsc --noEmit",
     "post-cta-init": "npx create-db@latest",
-    "db:generate": "dotenv -e .env.local -- prisma generate",
-    "db:push": "dotenv -e .env.local -- prisma db push",
-    "db:migrate": "dotenv -e .env.local -- prisma migrate dev",
-    "db:studio": "dotenv -e .env.local -- prisma studio",
-    "db:seed": "dotenv -e .env.local -- prisma db seed"
+    "db:generate": "dotenv -e .env -- prisma generate",
+    "db:push": "dotenv -e .env -- prisma db push",
+    "db:migrate": "dotenv -e .env -- prisma migrate dev",
+    "db:studio": "dotenv -e .env -- prisma studio",
+    "db:seed": "dotenv -e .env -- prisma db seed",
+    "db:reset": "dotenv -e .env -- prisma migrate reset --force"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",

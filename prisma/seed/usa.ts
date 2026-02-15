@@ -452,8 +452,8 @@ const firstAmericanPres = {
 };
 
 export const puertoRico = usa
-	.map(x => {
-		return { ...x, countryId: 23 };
+	.map((x, i) => {
+		return { ...x, id: 26100 + i, countryId: 23 };
 	})
 	// Filter out presidents who took office before the US took control of Puerto Rico
 	.filter(x => x.tookOffice >= `1898-10-18T00:00:00.000Z`)
