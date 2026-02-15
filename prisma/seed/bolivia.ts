@@ -187,7 +187,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `14 January 1861`,
 	},
 	{
-		id: 3100,
+		id: 3020,
 		countryId,
 		name: `Government Junta - José María de Achá, Manuel Antonio Sánchez, Ruperto Fernández`,
 		party: `Armed Forces of Bolivia`,
@@ -196,7 +196,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `4 May 1861`,
 	},
 	{
-		id: 3020,
+		id: 3021,
 		countryId,
 		name: `José María de Achá`,
 		party: `Independent`,
@@ -205,7 +205,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `28 December 1864`,
 	},
 	{
-		id: 3021,
+		id: 3022,
 		countryId,
 		name: `Mariano Melgarejo`,
 		party: `Military`,
@@ -214,7 +214,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `15 January 1871`,
 	},
 	{
-		id: 3022,
+		id: 3023,
 		countryId,
 		name: `Agustín Morales`,
 		party: `Military`,
@@ -223,7 +223,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `28 November 1872`,
 	},
 	{
-		id: 3023,
+		id: 3024,
 		countryId,
 		name: `Tomás Frías`,
 		party: `Independent`,
@@ -232,7 +232,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `9 May 1873`,
 	},
 	{
-		id: 3024,
+		id: 3025,
 		countryId,
 		name: `Adolfo Ballivián`,
 		party: `The Red Party`,
@@ -241,7 +241,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `14 February 1874`,
 	},
 	{
-		id: 3025,
+		id: 3026,
 		countryId,
 		name: `Tomás Frías`,
 		party: `Independent`,
@@ -250,7 +250,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `4 May 1876`,
 	},
 	{
-		id: 3026,
+		id: 3027,
 		countryId,
 		name: `Hilarión Daza`,
 		party: `Military`,
@@ -259,7 +259,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `19 January 1880`,
 	},
 	{
-		id: 3027,
+		id: 3028,
 		countryId,
 		name: `Narciso Campero`,
 		party: `Independent`,
@@ -268,7 +268,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `4 September 1884`,
 	},
 	{
-		id: 3028,
+		id: 3029,
 		countryId,
 		name: `Gregorio Pacheco`,
 		party: `Conservative Party`,
@@ -277,7 +277,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `15 August 1888`,
 	},
 	{
-		id: 3029,
+		id: 3030,
 		countryId,
 		name: `Aniceto Arce`,
 		party: `Conservative Party`,
@@ -286,7 +286,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `11 August 1892`,
 	},
 	{
-		id: 3030,
+		id: 3031,
 		countryId,
 		name: `Mariano Baptista`,
 		party: `Conservative Party`,
@@ -295,7 +295,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `19 August 1896`,
 	},
 	{
-		id: 3031,
+		id: 3032,
 		countryId,
 		name: `Severo Fernández`,
 		party: `Conservative Party`,
@@ -304,7 +304,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `12 April 1899`,
 	},
 	{
-		id: 3032,
+		id: 3033,
 		countryId,
 		name: `Government Junta`,
 		party: `Bolivian Civil War`,
@@ -313,7 +313,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `25 October 1899`,
 	},
 	{
-		id: 3033,
+		id: 3034,
 		countryId,
 		name: `José Manuel Pando`,
 		party: `Liberal Party`,
@@ -322,7 +322,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `14 August 1904`,
 	},
 	{
-		id: 3034,
+		id: 3035,
 		countryId,
 		name: `Ismael Montes`,
 		party: `Liberal Party`,
@@ -331,7 +331,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `12 August 1909`,
 	},
 	{
-		id: 3035,
+		id: 3036,
 		countryId,
 		name: `Eliodoro Villazón`,
 		party: `Liberal Party`,
@@ -340,7 +340,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `14 August 1913`,
 	},
 	{
-		id: 3036,
+		id: 3037,
 		countryId,
 		name: `Ismael Montes II`,
 		party: `Liberal Party`,
@@ -349,7 +349,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `15 August 1917`,
 	},
 	{
-		id: 3037,
+		id: 3038,
 		countryId,
 		name: `José Gutiérrez Guerra`,
 		party: `Liberal Party`,
@@ -358,7 +358,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `13 July 1920`,
 	},
 	{
-		id: 3038,
+		id: 3039,
 		countryId,
 		name: `Military Junta - Bautista Saavedra, José María Escalier, José Manuel Ramírez`,
 		party: `Armed Forces of Bolivia`,
@@ -367,7 +367,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `16 July 1920`,
 	},
 	{
-		id: 3039,
+		id: 3040,
 		countryId,
 		name: `Military Junta - Bautista Saavedra, José María Escalier, José Manuel Ramírez, Juan José Fernández`,
 		party: `Armed Forces of Bolivia`,
@@ -376,7 +376,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `28 January 1921`,
 	},
 	{
-		id: 3040,
+		id: 3041,
 		countryId,
 		name: `Bautista Saavedra`,
 		party: `Republican Party`,
@@ -385,7 +385,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `3 September 1925`,
 	},
 	{
-		id: 3041,
+		id: 3042,
 		countryId,
 		name: `Felipe Segundo Guzmán`,
 		party: `Republican Party`,
@@ -394,7 +394,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `10 January 1926`,
 	},
 	{
-		id: 3042,
+		id: 3043,
 		countryId,
 		name: `Hernando Siles Reyes`,
 		party: `Republican Party`,
@@ -403,7 +403,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `28 May 1930`,
 	},
 	{
-		id: 3043,
+		id: 3044,
 		countryId,
 		name: `Council of Ministers`,
 		party: `Independent`,
@@ -412,7 +412,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `28 June 1930`,
 	},
 	{
-		id: 3044,
+		id: 3045,
 		countryId,
 		name: `Carlos Blanco Galindo`,
 		party: `Armed Forces of Bolivia`,
@@ -421,7 +421,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `5 March 1931`,
 	},
 	{
-		id: 3045,
+		id: 3046,
 		countryId,
 		name: `Daniel Salamanca`,
 		party: `Genuine Republican Party`,
@@ -430,7 +430,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `28 November 1934`,
 	},
 	{
-		id: 3046,
+		id: 3047,
 		countryId,
 		name: `José Luis Tejada Sorzano`,
 		party: `Liberal Party`,
@@ -439,7 +439,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `17 May 1936`,
 	},
 	{
-		id: 3047,
+		id: 3048,
 		countryId,
 		name: `Germán Busch`,
 		party: `Armed Forces of Bolivia - Socialist`,
@@ -448,7 +448,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `22 May 1936`,
 	},
 	{
-		id: 3048,
+		id: 3049,
 		countryId,
 		name: `David Toro`,
 		party: `Armed Forces of Bolivia - Socialist`,
@@ -457,7 +457,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `13 July 1937`,
 	},
 	{
-		id: 3049,
+		id: 3050,
 		countryId,
 		name: `Germán Busch`,
 		party: `Armed Forces of Bolivia - Socialist`,
@@ -466,7 +466,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `23 August 1939`,
 	},
 	{
-		id: 3050,
+		id: 3051,
 		countryId,
 		name: `Carlos Quintanilla`,
 		party: `Armed Forces of Bolivia`,
@@ -475,7 +475,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `15 April 1940`,
 	},
 	{
-		id: 3051,
+		id: 3052,
 		countryId,
 		name: `Enrique Peñaranda`,
 		party: `Concordance Party`,
@@ -484,7 +484,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `20 December 1943`,
 	},
 	{
-		id: 3052,
+		id: 3053,
 		countryId,
 		name: `Gualberto Villarroel`,
 		party: `Armed Forces of Bolivia`,
@@ -493,7 +493,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `21 July 1946`,
 	},
 	{
-		id: 3053,
+		id: 3054,
 		countryId,
 		name: `Dámaso Arenas`,
 		party: `Armed Forces of Bolivia`,
@@ -502,7 +502,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `21 July 1946`,
 	},
 	{
-		id: 3054,
+		id: 3055,
 		countryId,
 		name: `Néstor Guillén`,
 		party: `Independent`,
@@ -511,7 +511,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `17 August 1946`,
 	},
 	{
-		id: 3055,
+		id: 3056,
 		countryId,
 		name: `Tomás Monje`,
 		party: `Independent`,
@@ -520,7 +520,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `10 March 1947`,
 	},
 	{
-		id: 3056,
+		id: 3057,
 		countryId,
 		name: `Enrique Hertzog`,
 		party: `Republican Socialist Unity Party`,
@@ -529,7 +529,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `7 May 1949`,
 	},
 	{
-		id: 3057,
+		id: 3058,
 		countryId,
 		name: `Mamerto Urriolagoitía`,
 		party: `Republican Socialist Unity Party`,
@@ -538,7 +538,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `16 May 1951`,
 	},
 	{
-		id: 3058,
+		id: 3059,
 		countryId,
 		name: `Hugo Ballivián`,
 		party: `Armed Forces of Bolivia`,
@@ -547,7 +547,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `11 April 1952`,
 	},
 	{
-		id: 3059,
+		id: 3060,
 		countryId,
 		name: `Hernán Siles Zuazo`,
 		party: `Revolutionary Nationalist Party`,
@@ -556,7 +556,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `15 April 1952`,
 	},
 	{
-		id: 3060,
+		id: 3061,
 		countryId,
 		name: `Víctor Paz Estenssoro I`,
 		party: `Revolutionary Nationalist Party`,
@@ -565,7 +565,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 August 1956`,
 	},
 	{
-		id: 3061,
+		id: 3062,
 		countryId,
 		name: `Hernán Siles Zuazo`,
 		party: `Revolutionary Nationalist Party`,
@@ -574,7 +574,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 August 1960`,
 	},
 	{
-		id: 3062,
+		id: 3063,
 		countryId,
 		name: `Víctor Paz Estenssoro II`,
 		party: `Revolutionary Nationalist Party`,
@@ -583,7 +583,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `4 November 1964`,
 	},
 	{
-		id: 3063,
+		id: 3064,
 		countryId,
 		name: `Military Junta - René Barrientos, Alfredo Ovando Candía, René Barrientos, Alfredo Ovando Candía`,
 		party: `Armed Forces of Bolivia`,
@@ -592,7 +592,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `5 November 1964`,
 	},
 	{
-		id: 3064,
+		id: 3065,
 		countryId,
 		name: `René Barrientos`,
 		party: `Armed Forces of Bolivia`,
@@ -601,7 +601,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `2 January 1966`,
 	},
 	{
-		id: 3065,
+		id: 3066,
 		countryId,
 		name: `Alfredo Ovando Candía`,
 		party: `Armed Forces of Bolivia`,
@@ -610,7 +610,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 August 1966`,
 	},
 	{
-		id: 3066,
+		id: 3067,
 		countryId,
 		name: `René Barrientos`,
 		party: `Armed Forces of Bolivia - Popular Christian`,
@@ -619,7 +619,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `27 April 1969`,
 	},
 	{
-		id: 3067,
+		id: 3068,
 		countryId,
 		name: `Luis Adolfo Siles Salinas`,
 		party: `Social Democratic Party`,
@@ -628,7 +628,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `26 September 1969`,
 	},
 	{
-		id: 3068,
+		id: 3069,
 		countryId,
 		name: `Alfredo Ovando Candía`,
 		party: `Armed Forces of Bolivia - Nationalist`,
@@ -637,7 +637,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 October 1970`,
 	},
 	{
-		id: 3069,
+		id: 3070,
 		countryId,
 		name: `Rogelio Miranda`,
 		party: `Armed Forces of Bolivia - Nationalist`,
@@ -646,7 +646,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 October 1970`,
 	},
 	{
-		id: 3070,
+		id: 3071,
 		countryId,
 		name: `Military Junta - Efraín Guachalla, Alberto Albarracín, Fernando Sattori`,
 		party: `Armed Forces of Bolivia - Nationalist`,
@@ -655,7 +655,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `7 October 1970`,
 	},
 	{
-		id: 3071,
+		id: 3072,
 		countryId,
 		name: `Juan José Torres`,
 		party: `Armed Forces of Bolivia - Nationalist`,
@@ -664,7 +664,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `21 August 1971`,
 	},
 	{
-		id: 3072,
+		id: 3073,
 		countryId,
 		name: `Military Junta - Hugo Banzer, Andrés Selich Chop, Jaime Florentino Mendieta`,
 		party: `Armed Forces of Bolivia`,
@@ -673,7 +673,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `22 August 1971`,
 	},
 	{
-		id: 3073,
+		id: 3074,
 		countryId,
 		name: `Hugo Banzer I`,
 		party: `Armed Forces of Bolivia`,
@@ -682,7 +682,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `21 July 1978`,
 	},
 	{
-		id: 3074,
+		id: 3075,
 		countryId,
 		name: `Military Junta - Víctor González Fuentes, Gutenberg Barroso, Alfonso Villalpando`,
 		party: `Armed Forces of Bolivia`,
@@ -691,7 +691,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `22 July 1978`,
 	},
 	{
-		id: 3075,
+		id: 3076,
 		countryId,
 		name: `Juan Pereda`,
 		party: `Armed Forces of Bolivia`,
@@ -700,7 +700,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `24 November 1978`,
 	},
 	{
-		id: 3076,
+		id: 3077,
 		countryId,
 		name: `David Padilla`,
 		party: `Armed Forces of Bolivia`,
@@ -709,7 +709,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `8 August 1979`,
 	},
 	{
-		id: 3077,
+		id: 3078,
 		countryId,
 		name: `Wálter Guevara`,
 		party: `Authentic Revolutionary Party`,
@@ -718,7 +718,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `1 November 1979`,
 	},
 	{
-		id: 3078,
+		id: 3079,
 		countryId,
 		name: `Alberto Natusch`,
 		party: `Armed Forces of Bolivia`,
@@ -727,7 +727,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `16 November 1979`,
 	},
 	{
-		id: 3079,
+		id: 3080,
 		countryId,
 		name: `Lidia Gueiler`,
 		party: `Revolutionary Party of the Nationalist Left`,
@@ -736,7 +736,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `17 July 1980`,
 	},
 	{
-		id: 3080,
+		id: 3081,
 		countryId,
 		name: `Military Junta - Luis García Meza, Ramiro Terrazas Rodríguez, Waldo Bernal Pereira`,
 		party: `Armed Forces of Bolivia`,
@@ -745,7 +745,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `18 July 1980`,
 	},
 	{
-		id: 3081,
+		id: 3082,
 		countryId,
 		name: `Luis García Meza`,
 		party: `Armed Forces of Bolivia`,
@@ -754,7 +754,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `4 August 1981`,
 	},
 	{
-		id: 3082,
+		id: 3083,
 		countryId,
 		name: `Military Junta - Celso Torrelio, Óscar Pammo Rodríguez, Waldo Bernal Pereira`,
 		party: `Armed Forces of Bolivia`,
@@ -763,7 +763,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `4 September 1981`,
 	},
 	{
-		id: 3083,
+		id: 3084,
 		countryId,
 		name: `Celso Torrelio`,
 		party: `Armed Forces of Bolivia`,
@@ -772,7 +772,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `19 July 1982`,
 	},
 	{
-		id: 3084,
+		id: 3085,
 		countryId,
 		name: `Military Junta - Ángel Mariscal, Natalio Morales, Óscar Pammo Rodríguez`,
 		party: `Armed Forces of Bolivia`,
@@ -781,7 +781,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `21 July 1982`,
 	},
 	{
-		id: 3085,
+		id: 3086,
 		countryId,
 		name: `Guido Vildoso`,
 		party: `Armed Forces of Bolivia`,
@@ -790,7 +790,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `10 October 1982`,
 	},
 	{
-		id: 3086,
+		id: 3087,
 		countryId,
 		name: `Hernán Siles Zuazo`,
 		party: `Leftwing Revolutionary Nationalist Movement`,
@@ -799,7 +799,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 August 1985`,
 	},
 	{
-		id: 3087,
+		id: 3088,
 		countryId,
 		name: `Víctor Paz Estenssoro III`,
 		party: `Revolutionary Nationalist Movement`,
@@ -808,7 +808,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 August 1989`,
 	},
 	{
-		id: 3088,
+		id: 3089,
 		countryId,
 		name: `Jaime Paz Zamora`,
 		party: `Leftwing Revolutionary Nationalist Movement`,
@@ -817,7 +817,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 August 1993`,
 	},
 	{
-		id: 3089,
+		id: 3090,
 		countryId,
 		name: `Gonzalo Sánchez de Lozada I`,
 		party: `Revolutionary Nationalist Movement`,
@@ -826,7 +826,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 August 1997`,
 	},
 	{
-		id: 3090,
+		id: 3091,
 		countryId,
 		name: `Hugo Banzer`,
 		party: `Nationalist Democratic Action Party`,
@@ -835,7 +835,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `7 August 2001`,
 	},
 	{
-		id: 3091,
+		id: 3092,
 		countryId,
 		name: `Jorge Quiroga`,
 		party: `Nationalist Democratic Action Party`,
@@ -844,7 +844,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `6 August 2002`,
 	},
 	{
-		id: 3092,
+		id: 3093,
 		countryId,
 		name: `Gonzalo Sánchez de Lozada II`,
 		party: `Revolutionary Nationalist Movement`,
@@ -853,7 +853,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `17 October 2003`,
 	},
 	{
-		id: 3093,
+		id: 3094,
 		countryId,
 		name: `Carlos Diego Mesa Gisbert`,
 		party: `Independent`,
@@ -862,7 +862,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `9 June 2005`,
 	},
 	{
-		id: 3094,
+		id: 3095,
 		countryId,
 		name: `Eduardo Rodríguez Veltzé`,
 		party: `Independent`,
@@ -871,7 +871,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `22 January 2006`,
 	},
 	{
-		id: 3095,
+		id: 3096,
 		countryId,
 		name: `Evo Morales`,
 		party: `Movement for Socialism`,
@@ -880,7 +880,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `12 November 2019`,
 	},
 	{
-		id: 3096,
+		id: 3097,
 		countryId,
 		name: `Jeanine Áñez`,
 		party: `Social Democratic Movement`,
@@ -889,7 +889,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `8 November 2020`,
 	},
 	{
-		id: 3097,
+		id: 3098,
 		countryId,
 		name: `Luis Arce`,
 		party: `Movement for Socialism`,
@@ -898,7 +898,7 @@ export const bolivia: LeaderSeed[] = [
 		leftOffice: `8 November 2025`,
 	},
 	{
-		id: 3098,
+		id: 3099,
 		countryId,
 		name: `Rodrigo Paz Pereira`,
 		party: `Christian Democratic Party`,

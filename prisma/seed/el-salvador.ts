@@ -666,7 +666,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `21 June 1885`,
 	},
 	{
-		id: 12075,
+		id: 12073,
 		countryId,
 		name: `Francisco Menéndez`,
 		party: `Armed Forces of El Salvador - Liberal Party`,
@@ -675,7 +675,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `22 June 1890`,
 	},
 	{
-		id: 12076,
+		id: 12074,
 		countryId,
 		name: `Carlos Basilio Ezeta y León`,
 		party: `Armed Forces of El Salvador - Liberal Party`,
@@ -684,7 +684,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `10 June 1894`,
 	},
 	{
-		id: 12077,
+		id: 12075,
 		countryId,
 		name: `Rafael Antonio Gutiérrez`,
 		party: `Armed Forces of El Salvador - Liberal Party`,
@@ -693,7 +693,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `14 November 1898`,
 	},
 	{
-		id: 12078,
+		id: 12076,
 		countryId,
 		name: `Tomás Regalado`,
 		party: `Armed Forces of El Salvador - Liberal Party`,
@@ -702,7 +702,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1903`,
 	},
 	{
-		id: 12079,
+		id: 12077,
 		countryId,
 		name: `Pedro José Escalón`,
 		party: `Armed Forces of El Salvador - Conservative Party`,
@@ -711,7 +711,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1907`,
 	},
 	{
-		id: 12080,
+		id: 12078,
 		countryId,
 		name: `Fernando Figueroa`,
 		party: `Armed Forces of El Salvador - Liberal Party`,
@@ -720,7 +720,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1911`,
 	},
 	{
-		id: 12081,
+		id: 12079,
 		countryId,
 		name: `Manuel Enrique Araujo`,
 		party: `Independent`,
@@ -729,7 +729,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `8 February 1913`,
 	},
 	{
-		id: 12082,
+		id: 12080,
 		countryId,
 		name: `Carlos Meléndez`,
 		party: `National Democratic Party`,
@@ -738,7 +738,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `29 August 1914`,
 	},
 	{
-		id: 12083,
+		id: 12081,
 		countryId,
 		name: `Alfonso Quiñónez Molina`,
 		party: `National Democratic Party`,
@@ -747,7 +747,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1915`,
 	},
 	{
-		id: 12084,
+		id: 12082,
 		countryId,
 		name: `Carlos Meléndez`,
 		party: `National Democratic Party`,
@@ -756,7 +756,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `21 December 1918`,
 	},
 	{
-		id: 12085,
+		id: 12083,
 		countryId,
 		name: `Alfonso Quiñónez Molina`,
 		party: `National Democratic Party`,
@@ -765,7 +765,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1919`,
 	},
 	{
-		id: 12086,
+		id: 12084,
 		countryId,
 		name: `Jorge Meléndez`,
 		party: `National Democratic Party`,
@@ -774,7 +774,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1923`,
 	},
 	{
-		id: 12087,
+		id: 12085,
 		countryId,
 		name: `Alfonso Quiñónez Molina`,
 		party: `National Democratic Party`,
@@ -783,7 +783,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1927`,
 	},
 	{
-		id: 12088,
+		id: 12086,
 		countryId,
 		name: `Pío Romero Bosque`,
 		party: `National Democratic Party`,
@@ -792,7 +792,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1931`,
 	},
 	{
-		id: 12089,
+		id: 12087,
 		countryId,
 		name: `Arturo Araujo`,
 		party: `Labor Party`,
@@ -801,7 +801,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `4 December 1931`,
 	},
 	{
-		id: 12090,
+		id: 12088,
 		countryId,
 		name: `Maximiliano Hernández Martínez`,
 		party: `National Pro Patria Party`,
@@ -810,7 +810,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `29 August 1934`,
 	},
 	{
-		id: 12091,
+		id: 12089,
 		countryId,
 		name: `Andrés Ignacio Menéndez`,
 		party: `Armed Forces of El Salvador/National Pro-Patria Party`,
@@ -819,7 +819,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1935`,
 	},
 	{
-		id: 12092,
+		id: 12090,
 		countryId,
 		name: `Maximiliano Hernández Martínez`,
 		party: `National Pro Patria Party`,
@@ -828,7 +828,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `9 May 1944`,
 	},
 	{
-		id: 12093,
+		id: 12091,
 		countryId,
 		name: `Andrés Ignacio Menéndez`,
 		party: `Armed Forces of El Salvador / National Pro-Patria Party`,
@@ -837,7 +837,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `21 October 1944`,
 	},
 	{
-		id: 12094,
+		id: 12092,
 		countryId,
 		name: `Osmín Aguirre y Salinas`,
 		party: `Armed Forces of El Salvador`,
@@ -846,7 +846,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 March 1945`,
 	},
 	{
-		id: 12095,
+		id: 12093,
 		countryId,
 		name: `Salvador Castaneda Castro`,
 		party: `Armed Forces of El Salvador / Unification Social Democratic Party`,
@@ -855,7 +855,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `15 December 1948`,
 	},
 	{
-		id: 12096,
+		id: 12094,
 		countryId,
 		name: `Revolutionary Council of Government`,
 		party: `Revolutionary Council of Government`,
@@ -864,7 +864,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `14 September 1950`,
 	},
 	{
-		id: 12097,
+		id: 12095,
 		countryId,
 		name: `Óscar Osorio`,
 		party: `Armed Forces of El Salvador / Revolutionary Party of Democratic Unification`,
@@ -873,7 +873,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `14 September 1956`,
 	},
 	{
-		id: 12098,
+		id: 12096,
 		countryId,
 		name: `José María Lemus`,
 		party: `Armed Forces of El Salvador / Revolutionary Party of Democratic Unification`,
@@ -882,7 +882,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `26 October 1960`,
 	},
 	{
-		id: 12099,
+		id: 12097,
 		countryId,
 		name: `Junta of Government`,
 		party: `Junta of Government`,
@@ -891,7 +891,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `25 January 1961`,
 	},
 	{
-		id: 12100,
+		id: 12098,
 		countryId,
 		name: `Civic-Military Directory`,
 		party: `Civic-Military Directory`,
@@ -900,7 +900,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `25 January 1962`,
 	},
 	{
-		id: 12101,
+		id: 12099,
 		countryId,
 		name: `Eusebio Rodolfo Cordón Cea`,
 		party: `Independent`,
@@ -909,7 +909,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 July 1962`,
 	},
 	{
-		id: 12102,
+		id: 12100,
 		countryId,
 		name: `Julio Adalberto Rivera`,
 		party: `National Coalition Party`,
@@ -918,7 +918,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 July 1967`,
 	},
 	{
-		id: 12103,
+		id: 12101,
 		countryId,
 		name: `Fidel Sánchez Hernández`,
 		party: `National Coalition Party`,
@@ -927,7 +927,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 July 1972`,
 	},
 	{
-		id: 12104,
+		id: 12102,
 		countryId,
 		name: `Arturo Armando Molina`,
 		party: `Armed Forces of El Salvador / Party of National Conciliation`,
@@ -936,7 +936,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 July 1977`,
 	},
 	{
-		id: 12105,
+		id: 12103,
 		countryId,
 		name: `Carlos Humberto Romero`,
 		party: `Armed Forces of El Salvador / Party of National Conciliation`,
@@ -945,7 +945,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `15 October 1979`,
 	},
 	{
-		id: 12106,
+		id: 12104,
 		countryId,
 		name: `Revolutionary Government Junta`,
 		party: `Armed Forces of El Salvador`,
@@ -954,7 +954,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `2 May 1982`,
 	},
 	{
-		id: 12107,
+		id: 12105,
 		countryId,
 		name: `Álvaro Magaña`,
 		party: `Nationalist Republican Alliance`,
@@ -963,7 +963,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 June 1984`,
 	},
 	{
-		id: 12108,
+		id: 12106,
 		countryId,
 		name: `José Napoleón Duarte`,
 		party: `Christian Democratic Party`,
@@ -972,7 +972,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 June 1989`,
 	},
 	{
-		id: 12109,
+		id: 12107,
 		countryId,
 		name: `Alfredo Cristiani`,
 		party: `Nationalist Republican Alliance`,
@@ -981,7 +981,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 June 1994`,
 	},
 	{
-		id: 12110,
+		id: 12108,
 		countryId,
 		name: `Armando Calderón Sol`,
 		party: `Nationalist Republican Alliance`,
@@ -990,7 +990,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 June 1999`,
 	},
 	{
-		id: 12111,
+		id: 12109,
 		countryId,
 		name: `Francisco Flores Pérez`,
 		party: `Nationalist Republican Alliance`,
@@ -999,7 +999,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 June 2004`,
 	},
 	{
-		id: 12112,
+		id: 12110,
 		countryId,
 		name: `Antonio Saca`,
 		party: `Nationalist Republican Alliance`,
@@ -1008,7 +1008,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 June 2009`,
 	},
 	{
-		id: 12113,
+		id: 12111,
 		countryId,
 		name: `Mauricio Funes`,
 		party: `Farabundo Martí National Liberation Front`,
@@ -1017,7 +1017,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 June 2014`,
 	},
 	{
-		id: 12114,
+		id: 12112,
 		countryId,
 		name: `Salvador Sánchez Cerén`,
 		party: `Farabundo Martí National Liberation Front`,
@@ -1026,7 +1026,7 @@ export const elSalvador: LeaderSeed[] = [
 		leftOffice: `1 June 2019`,
 	},
 	{
-		id: 12115,
+		id: 12113,
 		countryId,
 		name: `Nayib Armando Bukele Ortez`,
 		party: `Nuevas Ideas`,

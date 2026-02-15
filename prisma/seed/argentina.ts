@@ -43,7 +43,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `8 October 1812`,
 	},
 	{
-		id: 1007,
+		id: 1004,
 		countryId,
 		name: `Second Triumvirate - Nicolás Rodríguez Peña, Antonio Álvarez Jonte, Juan José Paso, Gervasio Antonio de Posadas, Juan Larrea - United Provinces of the Rio de la Plata`,
 		party: `Second Triumvirate`,
@@ -52,7 +52,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `31 January 1814`,
 	},
 	{
-		id: 1012,
+		id: 1005,
 		countryId,
 		name: `Gervasio Antonio de Posadas - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
@@ -61,7 +61,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `9 January 1815`,
 	},
 	{
-		id: 1013,
+		id: 1006,
 		countryId,
 		name: `Carlos María de Alvear - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
@@ -70,7 +70,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `18 April 1815`,
 	},
 	{
-		id: 1014,
+		id: 1007,
 		countryId,
 		name: `Junta of Observation - José de San Martín, Matías de Irigoyen, Manuel de Sarratea - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
@@ -79,7 +79,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `20 April 1815`,
 	},
 	{
-		id: 1017,
+		id: 1008,
 		countryId,
 		name: `José Rondeau - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
@@ -88,7 +88,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `21 April 1815`,
 	},
 	{
-		id: 1018,
+		id: 1009,
 		countryId,
 		name: `Ignacio Álvarez Thomas - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
@@ -97,7 +97,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `16 April 1816`,
 	},
 	{
-		id: 1019,
+		id: 1010,
 		countryId,
 		name: `Antonio González de Balcarce - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
@@ -106,7 +106,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `9 July 1816`,
 	},
 	{
-		id: 1020,
+		id: 1011,
 		countryId,
 		name: `Juan Martín de Pueyrredón - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
@@ -115,7 +115,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `9 June 1819`,
 	},
 	{
-		id: 1021,
+		id: 1012,
 		countryId,
 		name: `José Rondeau - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
@@ -124,7 +124,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `1 February 1820`,
 	},
 	{
-		id: 1022,
+		id: 1013,
 		countryId,
 		name: `Juan Pedro Aguirre - United Provinces of the Rio de la Plata`,
 		party: `Supreme Director`,
@@ -133,7 +133,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `11 February 1820`,
 	},
 	{
-		id: 1023,
+		id: 1014,
 		countryId,
 		name: `Matías de Irigoyen - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -142,7 +142,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `18 February 1820`,
 	},
 	{
-		id: 1024,
+		id: 1015,
 		countryId,
 		name: `Manuel de Sarratea - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -151,7 +151,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `6 March 1820`,
 	},
 	{
-		id: 1025,
+		id: 1016,
 		countryId,
 		name: `Juan Ramón Balcarce - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -160,7 +160,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `11 March 1820`,
 	},
 	{
-		id: 1026,
+		id: 1017,
 		countryId,
 		name: `Manuel de Sarratea - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -169,7 +169,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `2 May 1820`,
 	},
 	{
-		id: 1027,
+		id: 1018,
 		countryId,
 		name: `Ildefonso Ramos Mexía - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -178,7 +178,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `20 June 1820`,
 	},
 	{
-		id: 1028,
+		id: 1019,
 		countryId,
 		name: `Ildefonso Ramos Mexía and Miguel Estanislao Soler - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -187,7 +187,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `23 June 1820`,
 	},
 	{
-		id: 1029,
+		id: 1020,
 		countryId,
 		name: `Miguel Estanislao Soler - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -196,7 +196,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `29 June 1820`,
 	},
 	{
-		id: 1030,
+		id: 1021,
 		countryId,
 		name: `Manuel Dorrego - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -205,7 +205,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `20 September 1820`,
 	},
 	{
-		id: 1031,
+		id: 1022,
 		countryId,
 		name: `Martín Rodríguez - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -214,7 +214,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `2 April 1824`,
 	},
 	{
-		id: 1032,
+		id: 1023,
 		countryId,
 		name: `Juan Gregorio de las Heras - United Provinces of the Rio de la Plata`,
 		party: `Governor of Buenos Aires`,
@@ -223,7 +223,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `8 February 1826`,
 	},
 	{
-		id: 1033,
+		id: 1024,
 		countryId,
 		name: `Bernardino Rivadavia - United Provinces of the Rio de la Plata`,
 		party: `Unitarian Party`,
@@ -232,7 +232,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `27 June 1827`,
 	},
 	{
-		id: 1099,
+		id: 1025,
 		countryId,
 		name: `No Leader`,
 		party: `None`,
@@ -241,7 +241,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `7 July 1827`,
 	},
 	{
-		id: 1034,
+		id: 1026,
 		countryId,
 		name: `Vicente López y Planes - United Provinces of the Rio de la Plata`,
 		party: `Unitarian Party`,
@@ -250,7 +250,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `18 August 1827`,
 	},
 	{
-		id: 1035,
+		id: 1027,
 		countryId,
 		name: `Manuel Dorrego - United Provinces of the Rio de la Plata`,
 		party: `Federalist Party`,
@@ -259,7 +259,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `1 December 1828`,
 	},
 	{
-		id: 1036,
+		id: 1028,
 		countryId,
 		name: `Juan Lavalle - United Provinces of the Rio de la Plata`,
 		party: `Unitarian Party`,
@@ -268,7 +268,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `26 June 1829`,
 	},
 	{
-		id: 1037,
+		id: 1029,
 		countryId,
 		name: `Juan José Viamonte - United Provinces of the Rio de la Plata`,
 		party: `Federalist Party`,
@@ -277,7 +277,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `6 December 1829`,
 	},
 	{
-		id: 1038,
+		id: 1030,
 		countryId,
 		name: `Juan Manuel de Rosas - United Provinces of the Rio de la Plata`,
 		party: `Federalist Party`,
@@ -286,7 +286,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `4 January 1831`,
 	},
 	{
-		id: 1039,
+		id: 1031,
 		countryId,
 		name: `Juan Manuel de Rosas`,
 		party: `Federalist Party`,
@@ -295,7 +295,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `5 December 1832`,
 	},
 	{
-		id: 1040,
+		id: 1032,
 		countryId,
 		name: `Juan Ramón Balcarce`,
 		party: `Federalist Party`,
@@ -304,7 +304,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `4 November 1833`,
 	},
 	{
-		id: 1041,
+		id: 1033,
 		countryId,
 		name: `Juan José Viamonte`,
 		party: `Federalist Party`,
@@ -313,7 +313,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `27 June 1834`,
 	},
 	{
-		id: 1042,
+		id: 1034,
 		countryId,
 		name: `Manuel Vicente Maza`,
 		party: `Federalist Party`,
@@ -322,7 +322,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `7 March 1835`,
 	},
 	{
-		id: 1043,
+		id: 1035,
 		countryId,
 		name: `Juan Manuel de Rosas`,
 		party: `Federalist Party`,
@@ -331,7 +331,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `3 February 1852`,
 	},
 	{
-		id: 1044,
+		id: 1036,
 		countryId,
 		name: `Vicente López y Planes`,
 		party: `Independent`,
@@ -340,7 +340,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `6 April 1852`,
 	},
 	{
-		id: 1045,
+		id: 1037,
 		countryId,
 		name: `Justo José de Urquiza`,
 		party: `Federalist Party`,
@@ -349,7 +349,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `31 May 1852`,
 	},
 	{
-		id: 1046,
+		id: 1038,
 		countryId,
 		name: `Justo José de Urquiza`,
 		party: `Federalist Party`,
@@ -358,7 +358,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `5 March 1854`,
 	},
 	{
-		id: 1047,
+		id: 1039,
 		countryId,
 		name: `Justo José de Urquiza`,
 		party: `Federalist Party`,
@@ -367,7 +367,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `5 March 1860`,
 	},
 	{
-		id: 1048,
+		id: 1040,
 		countryId,
 		name: `Santiago Derqui`,
 		party: `Federalist Party`,
@@ -376,7 +376,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `5 November 1861`,
 	},
 	{
-		id: 1049,
+		id: 1041,
 		countryId,
 		name: `Juan Esteban Pedernera`,
 		party: `Unitarian Party`,
@@ -385,7 +385,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 December 1861`,
 	},
 	{
-		id: 1050,
+		id: 1042,
 		countryId,
 		name: `Bartolomé Mitre`,
 		party: `Liberal Party`,
@@ -394,7 +394,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1868`,
 	},
 	{
-		id: 1051,
+		id: 1043,
 		countryId,
 		name: `Domingo Faustino Sarmiento`,
 		party: `Independent`,
@@ -403,7 +403,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1874`,
 	},
 	{
-		id: 1052,
+		id: 1044,
 		countryId,
 		name: `Nicolás Avellaneda`,
 		party: `National Autonomist Party`,
@@ -412,7 +412,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1880`,
 	},
 	{
-		id: 1053,
+		id: 1045,
 		countryId,
 		name: `Alejo Julio Argentino Roca`,
 		party: `National Autonomist Party`,
@@ -421,7 +421,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1886`,
 	},
 	{
-		id: 1054,
+		id: 1046,
 		countryId,
 		name: `Miguel Ángel Juárez Celman`,
 		party: `National Autonomist Party`,
@@ -430,7 +430,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `6 August 1890`,
 	},
 	{
-		id: 1055,
+		id: 1047,
 		countryId,
 		name: `Carlos Pellegrini`,
 		party: `National Autonomist Party`,
@@ -439,7 +439,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1892`,
 	},
 	{
-		id: 1056,
+		id: 1048,
 		countryId,
 		name: `Luis Sáenz Peña`,
 		party: `National Autonomist Party`,
@@ -448,7 +448,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `22 January 1895`,
 	},
 	{
-		id: 1057,
+		id: 1049,
 		countryId,
 		name: `José Evaristo Uriburu`,
 		party: `National Autonomist Party`,
@@ -457,7 +457,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1898`,
 	},
 	{
-		id: 1058,
+		id: 1050,
 		countryId,
 		name: `Julio Argentino Roca`,
 		party: `National Autonomist Party`,
@@ -466,7 +466,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1904`,
 	},
 	{
-		id: 1059,
+		id: 1051,
 		countryId,
 		name: `Manuel Quintana`,
 		party: `National Autonomist Party`,
@@ -475,7 +475,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 March 1906`,
 	},
 	{
-		id: 1060,
+		id: 1052,
 		countryId,
 		name: `José Figueroa Alcorta`,
 		party: `National Autonomist Party`,
@@ -484,7 +484,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1910`,
 	},
 	{
-		id: 1061,
+		id: 1053,
 		countryId,
 		name: `Roque Sáenz Peña`,
 		party: `National Autonomist Party (Modernist)`,
@@ -493,7 +493,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `9 August 1914`,
 	},
 	{
-		id: 1062,
+		id: 1054,
 		countryId,
 		name: `Victorino de la Plaza`,
 		party: `National Autonomist Party (Modernist)`,
@@ -502,7 +502,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1916`,
 	},
 	{
-		id: 1063,
+		id: 1055,
 		countryId,
 		name: `Hipólito Yrigoyen`,
 		party: `Radical Civic Union`,
@@ -511,7 +511,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1922`,
 	},
 	{
-		id: 1064,
+		id: 1056,
 		countryId,
 		name: `Marcelo Torcuato de Alvear`,
 		party: `Radical Civic Union`,
@@ -520,7 +520,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1928`,
 	},
 	{
-		id: 1065,
+		id: 1057,
 		countryId,
 		name: `Hipólito Yrigoyen`,
 		party: `Radical Civic Union`,
@@ -529,7 +529,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `6 September 1930`,
 	},
 	{
-		id: 1066,
+		id: 1058,
 		countryId,
 		name: `José Félix Uriburu`,
 		party: `Argentine Armed Forces`,
@@ -538,7 +538,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `20 February 1932`,
 	},
 	{
-		id: 1067,
+		id: 1059,
 		countryId,
 		name: `Agustín Pedro Justo`,
 		party: `Radical Civic Union (Concordancia)`,
@@ -547,7 +547,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `20 February 1938`,
 	},
 	{
-		id: 1068,
+		id: 1060,
 		countryId,
 		name: `Roberto María Ortiz`,
 		party: `Radical Civic Union (Concordancia)`,
@@ -556,7 +556,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `27 June 1942`,
 	},
 	{
-		id: 1069,
+		id: 1061,
 		countryId,
 		name: `Ramón Castillo`,
 		party: `National Democratic Party (Concordancia)`,
@@ -565,7 +565,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `4 June 1943`,
 	},
 	{
-		id: 1070,
+		id: 1062,
 		countryId,
 		name: `Arturo Franklin Rawson`,
 		party: `Argentine Armed Forces`,
@@ -574,7 +574,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `7 June 1943`,
 	},
 	{
-		id: 1071,
+		id: 1063,
 		countryId,
 		name: `Pedro Pablo Ramírez`,
 		party: `Argentine Armed Forces`,
@@ -583,7 +583,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `9 March 1944`,
 	},
 	{
-		id: 1072,
+		id: 1064,
 		countryId,
 		name: `Edelmiro Julián Farrell`,
 		party: `Argentine Armed Forces`,
@@ -592,7 +592,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `4 June 1946`,
 	},
 	{
-		id: 1073,
+		id: 1065,
 		countryId,
 		name: `Juan Perón`,
 		party: `Justicialist Party / Peronist`,
@@ -601,7 +601,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `19 September 1955`,
 	},
 	{
-		id: 1074,
+		id: 1066,
 		countryId,
 		name: `Eduardo Lonardi`,
 		party: `Argentine Armed Forces`,
@@ -611,7 +611,7 @@ export const argentina: LeaderSeed[] = [
 	},
 
 	{
-		id: 1075,
+		id: 1067,
 		countryId,
 		name: `Pedro Eugenio Aramburu`,
 		party: `Argentine Armed Forces`,
@@ -620,7 +620,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `1 May 1958`,
 	},
 	{
-		id: 1076,
+		id: 1068,
 		countryId,
 		name: `Arturo Frondizi`,
 		party: `Intransigent Radical Civic Union`,
@@ -629,7 +629,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `29 March 1962`,
 	},
 	{
-		id: 1077,
+		id: 1069,
 		countryId,
 		name: `José María Guido`,
 		party: `Intransigent Radical Civic Union`,
@@ -638,7 +638,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1963`,
 	},
 	{
-		id: 1078,
+		id: 1070,
 		countryId,
 		name: `Arturo Umberto Illia`,
 		party: `People's Radical Civic Union`,
@@ -647,7 +647,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `28 June 1966`,
 	},
 	{
-		id: 1079,
+		id: 1071,
 		countryId,
 		name: `Junta of Commanders of the Armed Forces - Pascual Pistarini, Benigno Ignacio Varela, Adolfo Teodoro Álvarez`,
 		party: `Argentine Armed Forces`,
@@ -656,7 +656,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `29 June 1966`,
 	},
 	{
-		id: 1080,
+		id: 1072,
 		countryId,
 		name: `Juan Carlos Onganía`,
 		party: `Argentine Armed Forces`,
@@ -665,7 +665,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `8 June 1970`,
 	},
 	{
-		id: 1081,
+		id: 1073,
 		countryId,
 		name: `Junta of Commanders of the Armed Forces - Pedro Alberto José Gnavi, Alejandro Agustín Lanusse, Carlos Alberto Rey`,
 		party: `Argentine Armed Forces`,
@@ -674,7 +674,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `18 June 1970`,
 	},
 	{
-		id: 1082,
+		id: 1074,
 		countryId,
 		name: `Roberto M. Levingston`,
 		party: `Argentine Armed Forces`,
@@ -683,7 +683,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `23 March 1971`,
 	},
 	{
-		id: 1083,
+		id: 1075,
 		countryId,
 		name: `Junta of Commanders of the Armed Forces - Alejandro Agustín Lanusse, Pedro Alberto José Gnavi, Carlos Alberto Rey`,
 		party: `Argentine Armed Forces`,
@@ -692,7 +692,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `26 March 1971`,
 	},
 	{
-		id: 1084,
+		id: 1076,
 		countryId,
 		name: `Alejandro Agustín Lanusse`,
 		party: `Argentine Armed Forces`,
@@ -701,7 +701,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `25 May 1973`,
 	},
 	{
-		id: 1085,
+		id: 1077,
 		countryId,
 		name: `Héctor José Cámpora`,
 		party: `Justicialist Party / Peronist`,
@@ -710,7 +710,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `13 July 1973`,
 	},
 	{
-		id: 1086,
+		id: 1078,
 		countryId,
 		name: `Raúl Alberto Lastiri`,
 		party: `Justicialist Party / Peronist`,
@@ -719,7 +719,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `12 October 1973`,
 	},
 	{
-		id: 1087,
+		id: 1079,
 		countryId,
 		name: `Juan Perón`,
 		party: `Justicialist Party / Peronist`,
@@ -728,7 +728,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `29 June 1974`,
 	},
 	{
-		id: 1088,
+		id: 1080,
 		countryId,
 		name: `Isabel Perón`,
 		party: `Justicialist Party / Peronist`,
@@ -737,7 +737,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `24 March 1976`,
 	},
 	{
-		id: 1089,
+		id: 1081,
 		countryId,
 		name: `Military Junta - Jorge Rafael Videla, Emilio Eduardo Massera, Orlando Ramón Agosti`,
 		party: `Argentine Armed Forces`,
@@ -746,7 +746,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `29 March 1976`,
 	},
 	{
-		id: 1090,
+		id: 1082,
 		countryId,
 		name: `Jorge Rafael Videla`,
 		party: `Argentine Armed Forces`,
@@ -755,7 +755,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `29 March 1981`,
 	},
 	{
-		id: 1091,
+		id: 1083,
 		countryId,
 		name: `Roberto Eduardo Viola`,
 		party: `Argentine Armed Forces`,
@@ -764,7 +764,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `21 November 1981`,
 	},
 	{
-		id: 1092,
+		id: 1084,
 		countryId,
 		name: `Horacio Tomás Liendo`,
 		party: `Argentine Armed Forces`,
@@ -773,7 +773,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `11 December 1981`,
 	},
 	{
-		id: 1093,
+		id: 1085,
 		countryId,
 		name: `Carlos Lacoste`,
 		party: `Argentine Armed Forces`,
@@ -782,7 +782,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `22 December 1981`,
 	},
 	{
-		id: 1094,
+		id: 1086,
 		countryId,
 		name: `Leopoldo Galtieri`,
 		party: `Argentine Armed Forces`,
@@ -791,7 +791,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `18 June 1982`,
 	},
 	{
-		id: 1095,
+		id: 1087,
 		countryId,
 		name: `Alfredo Oscar Saint Jean`,
 		party: `Argentine Armed Forces`,
@@ -800,7 +800,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `1 July 1982`,
 	},
 	{
-		id: 1096,
+		id: 1088,
 		countryId,
 		name: `Reynaldo Bignone`,
 		party: `Argentine Armed Forces`,
@@ -809,7 +809,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `10 December 1983`,
 	},
 	{
-		id: 1097,
+		id: 1089,
 		countryId,
 		name: `Raúl Alfonsín`,
 		party: `Radical Civic Union`,
@@ -818,7 +818,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `8 July 1989`,
 	},
 	{
-		id: 1098,
+		id: 1090,
 		countryId,
 		name: `Carlos Saúl Menem Akil`,
 		party: `Justicialist Party / Peronist`,
@@ -827,7 +827,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `10 December 1999`,
 	},
 	{
-		id: 1099,
+		id: 1091,
 		countryId,
 		name: `Fernando de la Rúa`,
 		party: `Alliance for Work, Justice and Education`,
@@ -836,7 +836,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `20 December 2001`,
 	},
 	{
-		id: 1100,
+		id: 1092,
 		countryId,
 		name: `Ramón Puerta`,
 		party: `Justicialist Party / Peronist`,
@@ -845,7 +845,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `22 December 2001`,
 	},
 	{
-		id: 1101,
+		id: 1093,
 		countryId,
 		name: `Adolfo Rodríguez Saá`,
 		party: `Justicialist Party / Peronist`,
@@ -854,7 +854,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `30 December 2001`,
 	},
 	{
-		id: 1102,
+		id: 1094,
 		countryId,
 		name: `Eduardo Camaño`,
 		party: `Justicialist Party / Peronist`,
@@ -863,7 +863,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `2 January 2002`,
 	},
 	{
-		id: 1103,
+		id: 1095,
 		countryId,
 		name: `Eduardo Duhalde`,
 		party: `Justicialist Party / Peronist`,
@@ -872,7 +872,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `25 May 2003`,
 	},
 	{
-		id: 1104,
+		id: 1096,
 		countryId,
 		name: `Néstor Kirchner`,
 		party: `Justicialist Party / Peronist`,
@@ -881,7 +881,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `10 December 2007`,
 	},
 	{
-		id: 1105,
+		id: 1097,
 		countryId,
 		name: `Cristina Fernández de Kirchner`,
 		party: `Justicialist Party / Peronist`,
@@ -890,7 +890,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `10 December 2015`,
 	},
 	{
-		id: 1106,
+		id: 1098,
 		countryId,
 		name: `Mauricio Macri`,
 		party: `Republican Proposal`,
@@ -899,7 +899,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `10 December 2019`,
 	},
 	{
-		id: 1107,
+		id: 1099,
 		countryId,
 		name: `Alberto Fernández`,
 		party: `Justicialist Party / Peronist`,
@@ -908,7 +908,7 @@ export const argentina: LeaderSeed[] = [
 		leftOffice: `10 December 2023`,
 	},
 	{
-		id: 1108,
+		id: 1100,
 		countryId,
 		name: `Javier Milei`,
 		party: `Libertarian Party`,

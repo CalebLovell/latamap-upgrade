@@ -493,7 +493,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `18 December 1857`,
 	},
 	{
-		id: 18065,
+		id: 18054,
 		countryId,
 		name: `Benito Juárez`,
 		party: `Liberal Party`,
@@ -502,7 +502,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `18 July 1872`,
 	},
 	{
-		id: 18066,
+		id: 18055,
 		countryId,
 		name: `Sebastián Lerdo de Tejada`,
 		party: `Liberal Party`,
@@ -511,7 +511,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `20 November 1876`,
 	},
 	{
-		id: 18067,
+		id: 18056,
 		countryId,
 		name: `José María Iglesias`,
 		party: `Liberal Party`,
@@ -520,7 +520,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `28 November 1876`,
 	},
 	{
-		id: 18068,
+		id: 18057,
 		countryId,
 		name: `Porfirio Díaz`,
 		party: `Liberal Party`,
@@ -529,7 +529,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `6 December 1876`,
 	},
 	{
-		id: 18069,
+		id: 18058,
 		countryId,
 		name: `Juan N. Méndez`,
 		party: `Liberal Party`,
@@ -538,7 +538,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `17 February 1877`,
 	},
 	{
-		id: 18070,
+		id: 18059,
 		countryId,
 		name: `Porfirio Díaz`,
 		party: `Liberal Party`,
@@ -547,7 +547,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1880`,
 	},
 	{
-		id: 18071,
+		id: 18060,
 		countryId,
 		name: `Manuel González Flores`,
 		party: `Liberal Party`,
@@ -556,7 +556,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1884`,
 	},
 	{
-		id: 18072,
+		id: 18061,
 		countryId,
 		name: `Porfirio Díaz`,
 		party: `National Porfirist party`,
@@ -565,7 +565,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `25 May 1911`,
 	},
 	{
-		id: 18073,
+		id: 18062,
 		countryId,
 		name: `Francisco León de la Barra`,
 		party: `Independent`,
@@ -574,7 +574,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `6 November 1911`,
 	},
 	{
-		id: 18074,
+		id: 18063,
 		countryId,
 		name: `Francisco I. Madero`,
 		party: `Progressive Constitutionalist Party`,
@@ -583,7 +583,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `19 February 1913`,
 	},
 	{
-		id: 18075,
+		id: 18064,
 		countryId,
 		name: `Pedro Lascuráin`,
 		party: `Independent`,
@@ -592,7 +592,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `19 February 1913`,
 	},
 	{
-		id: 18076,
+		id: 18065,
 		countryId,
 		name: `Victoriano Huerta`,
 		party: `Independent`,
@@ -601,7 +601,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `15 July 1914`,
 	},
 	{
-		id: 18077,
+		id: 18066,
 		countryId,
 		name: `Francisco S. Carvajal`,
 		party: `Independent`,
@@ -610,7 +610,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `13 August 1914`,
 	},
 	{
-		id: 18078,
+		id: 18067,
 		countryId,
 		name: `Venustiano Carranza`,
 		party: `Liberal Constitutionalist Party`,
@@ -619,7 +619,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `21 May 1920`,
 	},
 	{
-		id: 18079,
+		id: 18068,
 		countryId,
 		name: `Adolfo de la Huerta`,
 		party: `Liberal Constitutionalist Party`,
@@ -628,7 +628,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1920`,
 	},
 	{
-		id: 18080,
+		id: 18069,
 		countryId,
 		name: `Álvaro Obregón`,
 		party: `Laborist Party`,
@@ -637,7 +637,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1924`,
 	},
 	{
-		id: 18081,
+		id: 18070,
 		countryId,
 		name: `Plutarco Elías Calles`,
 		party: `Laborist Party`,
@@ -646,7 +646,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1928`,
 	},
 	{
-		id: 18082,
+		id: 18071,
 		countryId,
 		name: `Emilio Portes Gil`,
 		party: `Institutional Revolutionary Party`,
@@ -655,7 +655,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `5 February 1930`,
 	},
 	{
-		id: 18083,
+		id: 18072,
 		countryId,
 		name: `Pascual Ortiz Rubio`,
 		party: `Institutional Revolutionary Party`,
@@ -664,7 +664,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `4 September 1932`,
 	},
 	{
-		id: 18084,
+		id: 18073,
 		countryId,
 		name: `Abelardo L. Rodríguez`,
 		party: `Institutional Revolutionary Party`,
@@ -673,7 +673,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1934`,
 	},
 	{
-		id: 18085,
+		id: 18074,
 		countryId,
 		name: `Lázaro Cárdenas`,
 		party: `Institutional Revolutionary Party`,
@@ -682,7 +682,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1940`,
 	},
 	{
-		id: 18086,
+		id: 18075,
 		countryId,
 		name: `Manuel Ávila Camacho`,
 		party: `Institutional Revolutionary Party`,
@@ -691,7 +691,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1946`,
 	},
 	{
-		id: 18087,
+		id: 18076,
 		countryId,
 		name: `Miguel Alemán Valdés`,
 		party: `Institutional Revolutionary Party`,
@@ -700,7 +700,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1952`,
 	},
 	{
-		id: 18088,
+		id: 18077,
 		countryId,
 		name: `Adolfo Ruiz Cortines`,
 		party: `Institutional Revolutionary Party`,
@@ -709,7 +709,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1958`,
 	},
 	{
-		id: 18089,
+		id: 18078,
 		countryId,
 		name: `Adolfo López Mateos`,
 		party: `Institutional Revolutionary Party`,
@@ -718,7 +718,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1964`,
 	},
 	{
-		id: 18090,
+		id: 18079,
 		countryId,
 		name: `Gustavo Díaz Ordaz`,
 		party: `Institutional Revolutionary Party`,
@@ -727,7 +727,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1970`,
 	},
 	{
-		id: 18091,
+		id: 18080,
 		countryId,
 		name: `Luis Echeverría Álvarez`,
 		party: `Institutional Revolutionary Party`,
@@ -736,7 +736,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1976`,
 	},
 	{
-		id: 18092,
+		id: 18081,
 		countryId,
 		name: `Lopez Portillo`,
 		party: `Institutional Revolutionary Party`,
@@ -745,7 +745,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1982`,
 	},
 	{
-		id: 18093,
+		id: 18082,
 		countryId,
 		name: `Miguel de la Madrid`,
 		party: `Institutional Revolutionary Party`,
@@ -754,7 +754,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1988`,
 	},
 	{
-		id: 18094,
+		id: 18083,
 		countryId,
 		name: `Carlos Salinas de Gortari`,
 		party: `Institutional Revolutionary Party`,
@@ -763,7 +763,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 1994`,
 	},
 	{
-		id: 18095,
+		id: 18084,
 		countryId,
 		name: `Ernesto Zedillo Ponce de Leon`,
 		party: `Institutional Revolutionary Party`,
@@ -772,7 +772,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 2000`,
 	},
 	{
-		id: 18096,
+		id: 18085,
 		countryId,
 		name: `Vicente Fox`,
 		party: `National Action Party`,
@@ -781,7 +781,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 2006`,
 	},
 	{
-		id: 18097,
+		id: 18086,
 		countryId,
 		name: `Felipe Calderon`,
 		party: `National Action Party`,
@@ -790,7 +790,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 2012`,
 	},
 	{
-		id: 18098,
+		id: 18087,
 		countryId,
 		name: `Enrique Pena Nieto`,
 		party: `Institutional Revolutionary Party`,
@@ -799,7 +799,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 December 2018`,
 	},
 	{
-		id: 18099,
+		id: 18088,
 		countryId,
 		name: `Andrés Manuel López Obrador`,
 		party: `National Regeneration Movement`,
@@ -808,7 +808,7 @@ export const mexico: LeaderSeed[] = [
 		leftOffice: `1 October 2024`,
 	},
 	{
-		id: 18100,
+		id: 18089,
 		countryId,
 		name: `Claudia Sheinbaum`,
 		party: `National Regeneration Movement`,

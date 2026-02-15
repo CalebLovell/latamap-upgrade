@@ -143,7 +143,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `25 February 1842`,
 	},
 	{
-		id: 13018,
+		id: 13015,
 		countryId,
 		name: `José Venancio López`,
 		party: `Independent`,
@@ -152,7 +152,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 May 1842`,
 	},
 	{
-		id: 13019,
+		id: 13016,
 		countryId,
 		name: `Mariano Rivera Paz`,
 		party: `Conservative Party`,
@@ -161,7 +161,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 December 1844`,
 	},
 	{
-		id: 13020,
+		id: 13017,
 		countryId,
 		name: `Rafael Carrera`,
 		party: `Conservative Party`,
@@ -170,7 +170,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `16 August 1848`,
 	},
 	{
-		id: 13021,
+		id: 13018,
 		countryId,
 		name: `Juan Antonio Martínez`,
 		party: `Conservative Party`,
@@ -179,7 +179,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `28 November 1848`,
 	},
 	{
-		id: 13023,
+		id: 13019,
 		countryId,
 		name: `Mariano Paredes`,
 		party: `Independent`,
@@ -188,7 +188,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `6 November 1851`,
 	},
 	{
-		id: 13024,
+		id: 13020,
 		countryId,
 		name: `José Bernardo Escobar`,
 		party: `Conservative Party`,
@@ -197,7 +197,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `1 January 1849`,
 	},
 	{
-		id: 13026,
+		id: 13021,
 		countryId,
 		name: `Rafael Carrera`,
 		party: `Conservative Party`,
@@ -206,7 +206,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 April 1865`,
 	},
 	{
-		id: 13027,
+		id: 13022,
 		countryId,
 		name: `Pedro de Aycinena y Piñol`,
 		party: `Conservative Party`,
@@ -215,7 +215,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `24 May 1865`,
 	},
 	{
-		id: 13028,
+		id: 13023,
 		countryId,
 		name: `Vicente Cerna Sandoval`,
 		party: `Conservative Party`,
@@ -224,7 +224,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `29 June 1871`,
 	},
 	{
-		id: 13029,
+		id: 13024,
 		countryId,
 		name: `Miguel García Granados`,
 		party: `Liberal Party`,
@@ -233,7 +233,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `4 June 1873`,
 	},
 	{
-		id: 13030,
+		id: 13025,
 		countryId,
 		name: `Justo Rufino Barrios`,
 		party: `Liberal Party`,
@@ -242,7 +242,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `2 April 1885`,
 	},
 	{
-		id: 13031,
+		id: 13026,
 		countryId,
 		name: `Alejandro M. Sinibaldi`,
 		party: `Liberal Party`,
@@ -251,7 +251,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `6 April 1885`,
 	},
 	{
-		id: 13032,
+		id: 13027,
 		countryId,
 		name: `Manuel Barillas`,
 		party: `Liberal Party`,
@@ -260,7 +260,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `15 March 1892`,
 	},
 	{
-		id: 13033,
+		id: 13028,
 		countryId,
 		name: `José María Reina Barrios`,
 		party: `Liberal Party`,
@@ -269,7 +269,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `8 February 1898`,
 	},
 	{
-		id: 13034,
+		id: 13029,
 		countryId,
 		name: `Manuel Estrada Cabrera`,
 		party: `Liberal Party`,
@@ -278,7 +278,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `15 April 1920`,
 	},
 	{
-		id: 13035,
+		id: 13030,
 		countryId,
 		name: `Carlos Herrera y Luna`,
 		party: `Unionist Party`,
@@ -287,7 +287,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `10 December 1921`,
 	},
 	{
-		id: 13036,
+		id: 13031,
 		countryId,
 		name: `José María Orellana Pinto`,
 		party: `Liberal Party`,
@@ -296,7 +296,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `26 September 1926`,
 	},
 	{
-		id: 13037,
+		id: 13032,
 		countryId,
 		name: `Lázaro Chacón González`,
 		party: `Unionist Party`,
@@ -305,7 +305,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `2 January 1931`,
 	},
 	{
-		id: 13038,
+		id: 13033,
 		countryId,
 		name: `José María Reina Andrade`,
 		party: `Liberal Party`,
@@ -314,7 +314,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 February 1931`,
 	},
 	{
-		id: 13039,
+		id: 13034,
 		countryId,
 		name: `Jorge Ubico Castañeda`,
 		party: `Progressive Liberal Party`,
@@ -323,7 +323,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `4 July 1944`,
 	},
 	{
-		id: 13040,
+		id: 13035,
 		countryId,
 		name: `Juan Federico Ponce Vaides`,
 		party: `Progressive Liberal Party`,
@@ -332,7 +332,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `20 October 1944`,
 	},
 	{
-		id: 13041,
+		id: 13036,
 		countryId,
 		name: `Revolutionary Government Junta`,
 		party: `Armed Forces of Guatemala`,
@@ -341,7 +341,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `15 March 1945`,
 	},
 	{
-		id: 13042,
+		id: 13037,
 		countryId,
 		name: `Juan José Arévalo`,
 		party: `Revolutionary Action Party`,
@@ -350,7 +350,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `15 March 1951`,
 	},
 	{
-		id: 13043,
+		id: 13038,
 		countryId,
 		name: `Jacobo Árbenz`,
 		party: `Revolutionary Action Party`,
@@ -359,7 +359,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `27 June 1954`,
 	},
 	{
-		id: 13044,
+		id: 13039,
 		countryId,
 		name: `Carlos Enrique Díaz de León`,
 		party: `Armed Forces of Guatemala`,
@@ -368,7 +368,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `29 June 1954`,
 	},
 	{
-		id: 13045,
+		id: 13040,
 		countryId,
 		name: `Elfego Hernán Monzón Aguirre`,
 		party: `Armed Forces of Guatemala`,
@@ -377,7 +377,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `8 July 1954`,
 	},
 	{
-		id: 13046,
+		id: 13041,
 		countryId,
 		name: `Carlos Castillo Armas`,
 		party: `National Liberation Movement`,
@@ -386,7 +386,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `27 July 1957`,
 	},
 	{
-		id: 13047,
+		id: 13042,
 		countryId,
 		name: `Luis Arturo González López`,
 		party: `National Liberation Movement`,
@@ -395,7 +395,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `24 October 1957`,
 	},
 	{
-		id: 13048,
+		id: 13043,
 		countryId,
 		name: `Óscar Mendoza Azurdia`,
 		party: `Armed Forces of Guatemala`,
@@ -404,7 +404,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `26 October 1957`,
 	},
 	{
-		id: 13049,
+		id: 13044,
 		countryId,
 		name: `Guillermo Flores Avendaño`,
 		party: `Armed Forces of Guatemala`,
@@ -413,7 +413,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `2 March 1958`,
 	},
 	{
-		id: 13050,
+		id: 13045,
 		countryId,
 		name: `Miguel Ydígoras Fuentes`,
 		party: `National Democratic Reconciliation Party`,
@@ -422,7 +422,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `31 March 1963`,
 	},
 	{
-		id: 13051,
+		id: 13046,
 		countryId,
 		name: `Enrique Peralta Azurdia`,
 		party: `Institutional Democratic Party`,
@@ -431,7 +431,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `1 July 1966`,
 	},
 	{
-		id: 13052,
+		id: 13047,
 		countryId,
 		name: `Julio César Méndez Montenegro`,
 		party: `Revolutionary Party`,
@@ -440,7 +440,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `1 July 1970`,
 	},
 	{
-		id: 13053,
+		id: 13048,
 		countryId,
 		name: `Carlos Arana Osorio`,
 		party: `Armed Forces of Guatemala / Institutional Democratic Party`,
@@ -449,7 +449,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `1 July 1974`,
 	},
 	{
-		id: 13054,
+		id: 13049,
 		countryId,
 		name: `Kjell Eugenio Laugerud García`,
 		party: `National Liberation Movement / Institutional Democratic Party`,
@@ -458,7 +458,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `1 July 1978`,
 	},
 	{
-		id: 13055,
+		id: 13050,
 		countryId,
 		name: `Fernando Romeo Lucas Garcia`,
 		party: `Institutional Democratic Party / Revolutionary Party`,
@@ -467,7 +467,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `23 March 1982`,
 	},
 	{
-		id: 13056,
+		id: 13051,
 		countryId,
 		name: `Efraín Ríos Montt`,
 		party: `Armed Forces of Guatemala`,
@@ -476,7 +476,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `8 August 1983`,
 	},
 	{
-		id: 13057,
+		id: 13052,
 		countryId,
 		name: `Óscar Humberto Mejía Victores`,
 		party: `Armed Forces of Guatemala`,
@@ -485,7 +485,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 1986`,
 	},
 	{
-		id: 13058,
+		id: 13053,
 		countryId,
 		name: `Vinicio Cerezo`,
 		party: `Guatemalan Christian Democrats`,
@@ -494,7 +494,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 1991`,
 	},
 	{
-		id: 13059,
+		id: 13054,
 		countryId,
 		name: `Jorge Serrano`,
 		party: `Solidarity Action Movement`,
@@ -503,7 +503,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `1 June 1993`,
 	},
 	{
-		id: 13060,
+		id: 13055,
 		countryId,
 		name: `Gustavo Espina`,
 		party: `Solidarity Action Movement`,
@@ -512,7 +512,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `6 June 1993`,
 	},
 	{
-		id: 13061,
+		id: 13056,
 		countryId,
 		name: `Ramiro de León`,
 		party: `Independent`,
@@ -521,7 +521,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 1996`,
 	},
 	{
-		id: 13062,
+		id: 13057,
 		countryId,
 		name: `Álvaro Arzú`,
 		party: `National Advancement Party / Unionist Party`,
@@ -530,7 +530,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 2000`,
 	},
 	{
-		id: 13063,
+		id: 13058,
 		countryId,
 		name: `Alfonso Portillo`,
 		party: `Guatemalan Republican Front`,
@@ -539,7 +539,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 2004`,
 	},
 	{
-		id: 13064,
+		id: 13059,
 		countryId,
 		name: `Óscar Berger`,
 		party: `National Solidarity Party / Grand National Alliance`,
@@ -548,7 +548,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 2008`,
 	},
 	{
-		id: 13065,
+		id: 13060,
 		countryId,
 		name: `Álvaro Colom`,
 		party: `National Unity of Hope`,
@@ -557,7 +557,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 2012`,
 	},
 	{
-		id: 13066,
+		id: 13061,
 		countryId,
 		name: `Otto Pérez Molina`,
 		party: `Patriotic Party`,
@@ -566,7 +566,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `3 September 2015`,
 	},
 	{
-		id: 13067,
+		id: 13062,
 		countryId,
 		name: `Alejandro Maldonado`,
 		party: `Independent`,
@@ -575,7 +575,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 2016`,
 	},
 	{
-		id: 13068,
+		id: 13063,
 		countryId,
 		name: `Jimmy Morales`,
 		party: `National Convergence Front`,
@@ -584,7 +584,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 2020`,
 	},
 	{
-		id: 13069,
+		id: 13064,
 		countryId,
 		name: `Alejandro Giammattei`,
 		party: `Vamos`,
@@ -593,7 +593,7 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `14 January 2024`,
 	},
 	{
-		id: 13070,
+		id: 13065,
 		countryId,
 		name: `Bernardo Arévalo`,
 		party: `Semilla`,

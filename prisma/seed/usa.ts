@@ -432,7 +432,7 @@ export const usa: LeaderSeed[] = [
 ];
 
 const spanishRule = {
-	id: 26998,
+	id: 26047,
 	countryId: 23,
 	name: `Captain General of Puerto Rico`,
 	party: `Kingdom of Spain`,
@@ -442,7 +442,7 @@ const spanishRule = {
 };
 
 const firstAmericanPres = {
-	id: 26999,
+	id: 26048,
 	countryId: 23,
 	name: `William McKinley`,
 	party: `Republican Party`,

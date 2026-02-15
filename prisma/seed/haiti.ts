@@ -79,7 +79,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `13 February 1843`,
 	},
 	{
-		id: 15908,
+		id: 15008,
 		countryId,
 		name: `Provisional Government Council`,
 		party: `None`,
@@ -88,7 +88,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `4 April 1843`,
 	},
 	{
-		id: 15008,
+		id: 15009,
 		countryId,
 		name: `Charles Rivière-Hérard`,
 		party: `Independent`,
@@ -97,7 +97,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `3 May 1844`,
 	},
 	{
-		id: 15009,
+		id: 15010,
 		countryId,
 		name: `Philippe Guerrier`,
 		party: `Independent`,
@@ -106,7 +106,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `16 April 1845`,
 	},
 	{
-		id: 15010,
+		id: 15011,
 		countryId,
 		name: `Jean-Louis Pierrot`,
 		party: `Independent`,
@@ -115,7 +115,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `24 March 1846`,
 	},
 	{
-		id: 15011,
+		id: 15012,
 		countryId,
 		name: `Jean-Baptiste Riché`,
 		party: `Independent`,
@@ -124,7 +124,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `2 March 1847`,
 	},
 	{
-		id: 15012,
+		id: 15013,
 		countryId,
 		name: `Faustin Soulouque`,
 		party: `Independent`,
@@ -133,7 +133,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `26 August 1849`,
 	},
 	{
-		id: 15013,
+		id: 15014,
 		countryId,
 		name: `Faustin I`,
 		party: `Second Empire of Haiti`,
@@ -142,7 +142,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `22 January 1859`,
 	},
 	{
-		id: 15014,
+		id: 15015,
 		countryId,
 		name: `Fabre Geffrard`,
 		party: `Independent`,
@@ -151,7 +151,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `20 March 1867`,
 	},
 	{
-		id: 15015,
+		id: 15016,
 		countryId,
 		name: `Jean-Nicolas Nissage Saget`,
 		party: `Independent`,
@@ -160,7 +160,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `4 May 1867`,
 	},
 	{
-		id: 15016,
+		id: 15017,
 		countryId,
 		name: `Sylvain Salnave`,
 		party: `Independent`,
@@ -169,7 +169,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `27 December 1869`,
 	},
 	{
-		id: 15017,
+		id: 15018,
 		countryId,
 		name: `Jean-Nicolas Nissage Saget`,
 		party: `Liberal Party`,
@@ -178,7 +178,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `14 May 1874`,
 	},
 	{
-		id: 15018,
+		id: 15019,
 		countryId,
 		name: `Council of Secretaries of State`,
 		party: `Independent`,
@@ -187,7 +187,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `14 June 1874`,
 	},
 	{
-		id: 15019,
+		id: 15020,
 		countryId,
 		name: `Michel Domingue`,
 		party: `Independent`,
@@ -196,7 +196,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `23 April 1876`,
 	},
 	{
-		id: 15020,
+		id: 15021,
 		countryId,
 		name: `Pierre Théoma Boisrond-Canal`,
 		party: `Liberal Party`,
@@ -205,7 +205,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `26 July 1879`,
 	},
 	{
-		id: 15021,
+		id: 15022,
 		countryId,
 		name: `Joseph Lamothe`,
 		party: `Independent`,
@@ -214,7 +214,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `2 October 1879`,
 	},
 	{
-		id: 15022,
+		id: 15023,
 		countryId,
 		name: `Lysius Salomon`,
 		party: `National Party`,
@@ -223,7 +223,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `10 August 1888`,
 	},
 	{
-		id: 15023,
+		id: 15024,
 		countryId,
 		name: `Pierre Théoma Boisrond-Canal`,
 		party: `Liberal Party`,
@@ -232,7 +232,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `16 October 1888`,
 	},
 	{
-		id: 15024,
+		id: 15025,
 		countryId,
 		name: `François Denys Légitime`,
 		party: `Liberal Party`,
@@ -241,7 +241,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `23 August 1889`,
 	},
 	{
-		id: 15025,
+		id: 15026,
 		countryId,
 		name: `Monpoint Jeune`,
 		party: `Independent`,
@@ -250,7 +250,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `17 October 1889`,
 	},
 	{
-		id: 15026,
+		id: 15027,
 		countryId,
 		name: `Florvil Hyppolite`,
 		party: `National Party`,
@@ -259,7 +259,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `31 March 1896`,
 	},
 	{
-		id: 15027,
+		id: 15028,
 		countryId,
 		name: `Tirésias Simon Sam`,
 		party: `National Party`,
@@ -268,7 +268,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `12 May 1902`,
 	},
 	{
-		id: 15028,
+		id: 15029,
 		countryId,
 		name: `Pierre Théoma Boisrond-Canal`,
 		party: `Liberal Party`,
@@ -277,7 +277,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `21 December 1902`,
 	},
 	{
-		id: 15029,
+		id: 15030,
 		countryId,
 		name: `Pierre Nord Alexis`,
 		party: `Military`,
@@ -286,7 +286,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `6 December 1908`,
 	},
 	{
-		id: 15030,
+		id: 15031,
 		countryId,
 		name: `François C. Antoine Simon`,
 		party: `Liberal Party`,
@@ -295,7 +295,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `15 August 1911`,
 	},
 	{
-		id: 15031,
+		id: 15032,
 		countryId,
 		name: `Cincinnatus Leconte`,
 		party: `National Party`,
@@ -304,7 +304,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `8 August 1912`,
 	},
 	{
-		id: 15032,
+		id: 15033,
 		countryId,
 		name: `Tancrède Auguste`,
 		party: `National Party`,
@@ -313,7 +313,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `12 May 1913`,
 	},
 	{
-		id: 15033,
+		id: 15034,
 		countryId,
 		name: `Michel Oreste`,
 		party: `Independent`,
@@ -322,7 +322,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `8 February 1914`,
 	},
 	{
-		id: 15034,
+		id: 15035,
 		countryId,
 		name: `Oreste Zamor`,
 		party: `Military`,
@@ -331,7 +331,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 November 1914`,
 	},
 	{
-		id: 15035,
+		id: 15036,
 		countryId,
 		name: `Joseph Davilmar Théodore`,
 		party: `Military`,
@@ -340,7 +340,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `25 February 1915`,
 	},
 	{
-		id: 15036,
+		id: 15037,
 		countryId,
 		name: `Vilbrun Guillaume Sam`,
 		party: `Military`,
@@ -349,7 +349,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `12 August 1915`,
 	},
 	{
-		id: 15037,
+		id: 15038,
 		countryId,
 		name: `Philippe Sudré Dartiguenave`,
 		party: `Independent`,
@@ -358,7 +358,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `15 May 1922`,
 	},
 	{
-		id: 15038,
+		id: 15039,
 		countryId,
 		name: `Louis Borno`,
 		party: `Independent`,
@@ -367,7 +367,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `15 May 1930`,
 	},
 	{
-		id: 15039,
+		id: 15040,
 		countryId,
 		name: `Louis Eugène Roy`,
 		party: `Independent`,
@@ -376,7 +376,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `18 November 1930`,
 	},
 	{
-		id: 15040,
+		id: 15041,
 		countryId,
 		name: `Sténio Vincent`,
 		party: `Independent`,
@@ -385,7 +385,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `15 May 1941`,
 	},
 	{
-		id: 15041,
+		id: 15042,
 		countryId,
 		name: `Élie Lescot`,
 		party: `Liberal Party`,
@@ -394,7 +394,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `11 January 1946`,
 	},
 	{
-		id: 15042,
+		id: 15043,
 		countryId,
 		name: `Franck Lavaud`,
 		party: `Military`,
@@ -403,7 +403,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `16 August 1946`,
 	},
 	{
-		id: 15043,
+		id: 15044,
 		countryId,
 		name: `Dumarsais Estimé`,
 		party: `Independent`,
@@ -412,7 +412,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `10 May 1950`,
 	},
 	{
-		id: 15044,
+		id: 15045,
 		countryId,
 		name: `Franck Lavaud`,
 		party: `Military`,
@@ -421,7 +421,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `6 December 1950`,
 	},
 	{
-		id: 15045,
+		id: 15046,
 		countryId,
 		name: `Paul Magloire`,
 		party: `Peasant Worker Movement`,
@@ -430,7 +430,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `12 December 1956`,
 	},
 	{
-		id: 15046,
+		id: 15047,
 		countryId,
 		name: `Joseph Nemours Pierre-Louis`,
 		party: `Independent`,
@@ -439,7 +439,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 February 1957`,
 	},
 	{
-		id: 15047,
+		id: 15048,
 		countryId,
 		name: `Franck Sylvain`,
 		party: `Independent`,
@@ -448,7 +448,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `2 April 1957`,
 	},
 	{
-		id: 15048,
+		id: 15049,
 		countryId,
 		name: `Executive Government Council`,
 		party: `Independent`,
@@ -457,7 +457,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `25 May 1957`,
 	},
 	{
-		id: 15049,
+		id: 15050,
 		countryId,
 		name: `Daniel Fignolé`,
 		party: `Peasant Worker Movement`,
@@ -466,7 +466,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `14 June 1957`,
 	},
 	{
-		id: 15050,
+		id: 15051,
 		countryId,
 		name: `Antonio Thrasybule Kébreau`,
 		party: `Military`,
@@ -475,7 +475,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `22 October 1957`,
 	},
 	{
-		id: 15051,
+		id: 15052,
 		countryId,
 		name: `François Duvalier`,
 		party: `National Unity Party`,
@@ -484,7 +484,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `21 April 1971`,
 	},
 	{
-		id: 15052,
+		id: 15053,
 		countryId,
 		name: `Jean-Claude Duvalier`,
 		party: `National Unity Party`,
@@ -493,7 +493,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 February 1986`,
 	},
 	{
-		id: 15053,
+		id: 15054,
 		countryId,
 		name: `Henri Namphy`,
 		party: `Armed Forces of Haiti`,
@@ -502,7 +502,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 February 1988`,
 	},
 	{
-		id: 15054,
+		id: 15055,
 		countryId,
 		name: `Leslie Manigat`,
 		party: `Rally of Progressive National Democrats`,
@@ -511,7 +511,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `20 June 1988`,
 	},
 	{
-		id: 15055,
+		id: 15056,
 		countryId,
 		name: `Henri Namphy`,
 		party: `Armed Forces of Haiti`,
@@ -520,7 +520,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `17 September 1988`,
 	},
 	{
-		id: 15056,
+		id: 15057,
 		countryId,
 		name: `Prosper Avril`,
 		party: `Armed Forces of Haiti`,
@@ -529,7 +529,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `10 March 1990`,
 	},
 	{
-		id: 15057,
+		id: 15058,
 		countryId,
 		name: `Hérard Abraham`,
 		party: `Armed Forces of Haiti`,
@@ -538,7 +538,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `13 March 1990`,
 	},
 	{
-		id: 15058,
+		id: 15059,
 		countryId,
 		name: `Ertha Pascal-Trouillot`,
 		party: `Independent`,
@@ -547,7 +547,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 February 1991`,
 	},
 	{
-		id: 15059,
+		id: 15060,
 		countryId,
 		name: `Jean-Bertrand Aristide`,
 		party: `Struggling People's Organization`,
@@ -556,7 +556,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `29 September 1991`,
 	},
 	{
-		id: 15060,
+		id: 15061,
 		countryId,
 		name: `Raoul Cédras`,
 		party: `Armed Forces of Haiti`,
@@ -565,7 +565,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `8 October 1991`,
 	},
 	{
-		id: 15061,
+		id: 15062,
 		countryId,
 		name: `Joseph Nérette`,
 		party: `Independent`,
@@ -574,7 +574,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `19 June 1992`,
 	},
 	{
-		id: 15062,
+		id: 15063,
 		countryId,
 		name: `Council of Ministers & Prime Minister Marc Bazin`,
 		party: `Movement for the Instauration of Democracy in Haiti`,
@@ -583,7 +583,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `15 June 1993`,
 	},
 	{
-		id: 15063,
+		id: 15064,
 		countryId,
 		name: `Jean-Bertrand Aristide`,
 		party: `Struggling People's Organization`,
@@ -592,7 +592,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `12 May 1994`,
 	},
 	{
-		id: 15064,
+		id: 15065,
 		countryId,
 		name: `Émile Jonassaint`,
 		party: `Independent`,
@@ -601,7 +601,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `12 October 1994`,
 	},
 	{
-		id: 15065,
+		id: 15066,
 		countryId,
 		name: `Jean-Bertrand Aristide`,
 		party: `Struggling People's Organization`,
@@ -610,7 +610,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 February 1996`,
 	},
 	{
-		id: 15066,
+		id: 15067,
 		countryId,
 		name: `René Préval`,
 		party: `Lavalas Family`,
@@ -619,7 +619,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 February 2001`,
 	},
 	{
-		id: 15067,
+		id: 15068,
 		countryId,
 		name: `Jean-Bertrand Aristide`,
 		party: `Lavalas Family`,
@@ -628,7 +628,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `29 February 2004`,
 	},
 	{
-		id: 15068,
+		id: 15069,
 		countryId,
 		name: `Boniface Alexandre`,
 		party: `Independent`,
@@ -637,7 +637,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `14 May 2006`,
 	},
 	{
-		id: 15069,
+		id: 15070,
 		countryId,
 		name: `René Préval`,
 		party: `Lespwa / Inite`,
@@ -646,7 +646,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `14 May 2011`,
 	},
 	{
-		id: 15070,
+		id: 15071,
 		countryId,
 		name: `Michel Martelly`,
 		party: `Repons Peyizan`,
@@ -655,7 +655,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 February 2016`,
 	},
 	{
-		id: 15071,
+		id: 15072,
 		countryId,
 		name: `Council of Ministers & Prime Minister Evans Paul`,
 		party: `Independent`,
@@ -664,7 +664,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `14 February 2016`,
 	},
 	{
-		id: 15072,
+		id: 15073,
 		countryId,
 		name: `Jocelerme Privert`,
 		party: `Inite`,
@@ -673,7 +673,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 February 2017`,
 	},
 	{
-		id: 15073,
+		id: 15074,
 		countryId,
 		name: `Jovenel Moïse`,
 		party: `Haitian Tèt Kale Party`,
@@ -682,7 +682,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 July 2021`,
 	},
 	{
-		id: 15074,
+		id: 15075,
 		countryId,
 		name: `Council of Ministers - Claude Joseph`,
 		party: `Independent`,
@@ -691,7 +691,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `20 July 2021`,
 	},
 	{
-		id: 15075,
+		id: 15076,
 		countryId,
 		name: `Council of Ministers - Ariel Henry`,
 		party: `Independent`,
@@ -700,7 +700,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `24 April 2024`,
 	},
 	{
-		id: 15076,
+		id: 15077,
 		countryId,
 		name: `Transitional Presidential Council - Edgard Leblanc Fils`,
 		party: `Struggling People's Organization`,
@@ -709,7 +709,7 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `7 October 2024`,
 	},
 	{
-		id: 15077,
+		id: 15078,
 		countryId,
 		name: `Transitional Presidential Council - Leslie Voltaire`,
 		party: `Fanmi Lavalas`,

@@ -16,7 +16,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `17 March 1970`,
 	},
 	{
-		id: 14002,
+		id: 14001,
 		countryId,
 		name: `Arthur Chung`,
 		party: `Independent`,
@@ -25,7 +25,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `6 October 1980`,
 	},
 	{
-		id: 14003,
+		id: 14002,
 		countryId,
 		name: `Forbes Burnham`,
 		party: `People's National Congress Reform`,
@@ -34,7 +34,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `6 August 1985`,
 	},
 	{
-		id: 14004,
+		id: 14003,
 		countryId,
 		name: `Desmond Hoyte`,
 		party: `People's National Congress Reform`,
@@ -43,7 +43,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `9 October 1992`,
 	},
 	{
-		id: 14005,
+		id: 14004,
 		countryId,
 		name: `Cheddi Jagan`,
 		party: `People's Progressive Party`,
@@ -52,7 +52,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `6 March 1997`,
 	},
 	{
-		id: 14006,
+		id: 14005,
 		countryId,
 		name: `Sam Hinds`,
 		party: `People's Progressive Party`,
@@ -61,7 +61,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `19 December 1997`,
 	},
 	{
-		id: 14007,
+		id: 14006,
 		countryId,
 		name: `Janet Jagan`,
 		party: `People's Progressive Party`,
@@ -70,7 +70,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `11 August 1999`,
 	},
 	{
-		id: 14008,
+		id: 14007,
 		countryId,
 		name: `Bharrat Jagdeo`,
 		party: `People's Progressive Party`,
@@ -79,7 +79,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `3 December 2011`,
 	},
 	{
-		id: 14009,
+		id: 14008,
 		countryId,
 		name: `Donald Ramotar`,
 		party: `People's Progressive Party`,
@@ -88,7 +88,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `16 May 2015`,
 	},
 	{
-		id: 14010,
+		id: 14009,
 		countryId,
 		name: `David Granger`,
 		party: `People's National Congress Reform`,
@@ -97,7 +97,7 @@ export const guyana: LeaderSeed[] = [
 		leftOffice: `2 August 2020`,
 	},
 	{
-		id: 14011,
+		id: 14010,
 		countryId,
 		name: `Irfaan Ali`,
 		party: `People's Progressive Party`,

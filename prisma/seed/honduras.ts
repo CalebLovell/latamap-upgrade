@@ -350,7 +350,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `15 March 1864`,
 	},
 	{
-		id: 16039,
+		id: 16038,
 		countryId,
 		name: `José María Medina`,
 		party: `Conservative Party`,
@@ -359,7 +359,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `26 July 1872`,
 	},
 	{
-		id: 16040,
+		id: 16039,
 		countryId,
 		name: `Céleo Arias`,
 		party: `Liberal Party`,
@@ -368,7 +368,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `13 January 1874`,
 	},
 	{
-		id: 16041,
+		id: 16040,
 		countryId,
 		name: `Ponciano Leiva`,
 		party: `Conservative Party`,
@@ -377,7 +377,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `8 June 1876`,
 	},
 	{
-		id: 16042,
+		id: 16041,
 		countryId,
 		name: `Marcelino Mejía`,
 		party: `Conservative Party`,
@@ -386,7 +386,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `13 June 1876`,
 	},
 	{
-		id: 16043,
+		id: 16042,
 		countryId,
 		name: `Crescencio Gómez`,
 		party: `Conservative Party`,
@@ -395,7 +395,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `12 August 1876`,
 	},
 	{
-		id: 16044,
+		id: 16043,
 		countryId,
 		name: `José María Medina`,
 		party: `Conservative Party`,
@@ -404,7 +404,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 August 1876`,
 	},
 	{
-		id: 16045,
+		id: 16044,
 		countryId,
 		name: `Marco Aurelio Soto`,
 		party: `Liberal Party`,
@@ -413,7 +413,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `19 October 1883`,
 	},
 	{
-		id: 16046,
+		id: 16045,
 		countryId,
 		name: `Council of Ministers`,
 		party: `Council of Ministers`,
@@ -422,7 +422,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `30 November 1883`,
 	},
 	{
-		id: 16047,
+		id: 16046,
 		countryId,
 		name: `Luis Bográn`,
 		party: `Conservative Party`,
@@ -431,7 +431,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `30 November 1891`,
 	},
 	{
-		id: 16048,
+		id: 16047,
 		countryId,
 		name: `Ponciano Leiva`,
 		party: `Conservative Party`,
@@ -440,7 +440,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `7 August 1893`,
 	},
 	{
-		id: 16049,
+		id: 16048,
 		countryId,
 		name: `Domingo Vásquez`,
 		party: `Conservative Party`,
@@ -449,7 +449,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `22 February 1894`,
 	},
 	{
-		id: 16050,
+		id: 16049,
 		countryId,
 		name: `Policarpo Bonilla`,
 		party: `Liberal Party of Honduras`,
@@ -458,7 +458,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `1 February 1899`,
 	},
 	{
-		id: 16051,
+		id: 16050,
 		countryId,
 		name: `Terencio Sierra`,
 		party: `Liberal Party of Honduras`,
@@ -467,7 +467,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `1 February 1903`,
 	},
 	{
-		id: 16052,
+		id: 16051,
 		countryId,
 		name: `Juan Ángel Arias Boquín`,
 		party: `Liberal Party of Honduras`,
@@ -476,7 +476,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `13 April 1903`,
 	},
 	{
-		id: 16053,
+		id: 16052,
 		countryId,
 		name: `Manuel Bonilla`,
 		party: `National Party of Honduras`,
@@ -485,7 +485,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `25 February 1907`,
 	},
 	{
-		id: 16054,
+		id: 16053,
 		countryId,
 		name: `Miguel Oquelí Bustillo`,
 		party: `Liberal Party of Honduras`,
@@ -494,7 +494,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `18 April 1907`,
 	},
 	{
-		id: 16055,
+		id: 16054,
 		countryId,
 		name: `Miguel R. Dávila`,
 		party: `Liberal Party of Honduras`,
@@ -503,7 +503,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `28 March 1911`,
 	},
 	{
-		id: 16056,
+		id: 16055,
 		countryId,
 		name: `Francisco Bertrand`,
 		party: `National Party of Honduras`,
@@ -512,7 +512,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `1 February 1912`,
 	},
 	{
-		id: 16057,
+		id: 16056,
 		countryId,
 		name: `Manuel Bonilla`,
 		party: `National Party of Honduras`,
@@ -521,7 +521,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `21 March 1913`,
 	},
 	{
-		id: 16058,
+		id: 16057,
 		countryId,
 		name: `Francisco Bertrand`,
 		party: `National Party of Honduras`,
@@ -530,7 +530,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `9 September 1919`,
 	},
 	{
-		id: 16059,
+		id: 16058,
 		countryId,
 		name: `Salvador Aguirre`,
 		party: `National Party of Honduras`,
@@ -539,7 +539,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `16 September 1919`,
 	},
 	{
-		id: 16060,
+		id: 16059,
 		countryId,
 		name: `Vicente Mejía Colindres`,
 		party: `Liberal Party of Honduras`,
@@ -548,7 +548,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `5 October 1919`,
 	},
 	{
-		id: 16061,
+		id: 16060,
 		countryId,
 		name: `Francisco Bográn`,
 		party: `Liberal Party of Honduras`,
@@ -557,7 +557,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `1 February 1920`,
 	},
 	{
-		id: 16062,
+		id: 16061,
 		countryId,
 		name: `Rafael López Gutiérrez`,
 		party: `Liberal Party of Honduras`,
@@ -566,7 +566,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `10 March 1924`,
 	},
 	{
-		id: 16063,
+		id: 16062,
 		countryId,
 		name: `Francisco Bueso`,
 		party: `Liberal Party of Honduras`,
@@ -575,7 +575,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 April 1924`,
 	},
 	{
-		id: 16064,
+		id: 16063,
 		countryId,
 		name: `Tiburcio Carías Andino`,
 		party: `National Party of Honduras`,
@@ -584,7 +584,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `30 April 1924`,
 	},
 	{
-		id: 16065,
+		id: 16064,
 		countryId,
 		name: `Vicente Tosta`,
 		party: `Liberal Party of Honduras`,
@@ -593,7 +593,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `1 February 1925`,
 	},
 	{
-		id: 16066,
+		id: 16065,
 		countryId,
 		name: `Miguel Paz Barahona`,
 		party: `National Party of Honduras`,
@@ -602,7 +602,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `1 February 1929`,
 	},
 	{
-		id: 16067,
+		id: 16066,
 		countryId,
 		name: `Vicente Mejía Colindres`,
 		party: `Liberal Party of Honduras`,
@@ -611,7 +611,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `1 February 1933`,
 	},
 	{
-		id: 16068,
+		id: 16067,
 		countryId,
 		name: `Tiburcio Carías Andino`,
 		party: `National Party of Honduras`,
@@ -620,7 +620,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `1 January 1949`,
 	},
 	{
-		id: 16069,
+		id: 16068,
 		countryId,
 		name: `Juan Manuel Gálvez`,
 		party: `National Party of Honduras`,
@@ -629,7 +629,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `5 December 1954`,
 	},
 	{
-		id: 16070,
+		id: 16069,
 		countryId,
 		name: `Julio Lozano Díaz`,
 		party: `National Party of Honduras`,
@@ -638,7 +638,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `21 October 1956`,
 	},
 	{
-		id: 16071,
+		id: 16070,
 		countryId,
 		name: `Military Government Council`,
 		party: `Armed Forces of Honduras`,
@@ -647,7 +647,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `21 December 1957`,
 	},
 	{
-		id: 16072,
+		id: 16071,
 		countryId,
 		name: `Ramon Villeda Morales`,
 		party: `Liberal Party of Honduras`,
@@ -656,7 +656,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `3 October 1963`,
 	},
 	{
-		id: 16073,
+		id: 16072,
 		countryId,
 		name: `Oswaldo López Arellano`,
 		party: `National Party of Honduras`,
@@ -665,7 +665,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `7 June 1971`,
 	},
 	{
-		id: 16074,
+		id: 16073,
 		countryId,
 		name: `Ramón Ernesto Cruz Uclés`,
 		party: `National Party of Honduras`,
@@ -674,7 +674,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `4 December 1972`,
 	},
 	{
-		id: 16075,
+		id: 16074,
 		countryId,
 		name: `Oswaldo López Arellano`,
 		party: `National Party of Honduras`,
@@ -683,7 +683,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `22 April 1975`,
 	},
 	{
-		id: 16076,
+		id: 16075,
 		countryId,
 		name: `Juan Alberto Melgar`,
 		party: `Armed Forces of Honduras`,
@@ -692,7 +692,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `7 August 1978`,
 	},
 	{
-		id: 16077,
+		id: 16076,
 		countryId,
 		name: `Policarpo Paz García`,
 		party: `Armed Forces of Honduras`,
@@ -701,7 +701,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 1982`,
 	},
 	{
-		id: 16078,
+		id: 16077,
 		countryId,
 		name: `Roberto Suazo Córdoba`,
 		party: `Liberal Party of Honduras`,
@@ -710,7 +710,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 1986`,
 	},
 	{
-		id: 16079,
+		id: 16078,
 		countryId,
 		name: `José Azcona`,
 		party: `Liberal Party of Honduras`,
@@ -719,7 +719,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 1990`,
 	},
 	{
-		id: 16080,
+		id: 16079,
 		countryId,
 		name: `Rafael Callejas`,
 		party: `National Party of Honduras`,
@@ -728,7 +728,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 1994`,
 	},
 	{
-		id: 16081,
+		id: 16080,
 		countryId,
 		name: `Carlos Roberto Reina`,
 		party: `Liberal Party of Honduras`,
@@ -737,7 +737,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 1998`,
 	},
 	{
-		id: 16082,
+		id: 16081,
 		countryId,
 		name: `Carlos Flores`,
 		party: `Liberal Party of Honduras`,
@@ -746,7 +746,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 2002`,
 	},
 	{
-		id: 16083,
+		id: 16082,
 		countryId,
 		name: `Ricardo Maduro`,
 		party: `National Party of Honduras`,
@@ -755,7 +755,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 2006`,
 	},
 	{
-		id: 16084,
+		id: 16083,
 		countryId,
 		name: `Manuel Zelaya`,
 		party: `Liberal Party of Honduras`,
@@ -764,7 +764,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `28 June 2009`,
 	},
 	{
-		id: 16085,
+		id: 16084,
 		countryId,
 		name: `Roberto Micheletti`,
 		party: `Liberal Party of Honduras`,
@@ -773,7 +773,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 2010`,
 	},
 	{
-		id: 16086,
+		id: 16085,
 		countryId,
 		name: `Pepe Lobo`,
 		party: `National Party of Honduras`,
@@ -782,7 +782,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 2014`,
 	},
 	{
-		id: 16087,
+		id: 16086,
 		countryId,
 		name: `Juan Orlando Hernández`,
 		party: `National Party of Honduras`,
@@ -791,7 +791,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 2022`,
 	},
 	{
-		id: 16088,
+		id: 16087,
 		countryId,
 		name: `Xiomara Castro`,
 		party: `Liberty and Refoundation`,
@@ -800,7 +800,7 @@ export const honduras: LeaderSeed[] = [
 		leftOffice: `27 January 2026`,
 	},
 	{
-		id: 16089,
+		id: 16088,
 		countryId,
 		name: `Nasry Asfura`,
 		party: `National Party of Honduras`,

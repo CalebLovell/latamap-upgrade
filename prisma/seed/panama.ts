@@ -160,7 +160,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `25 January 1861`,
 	},
 	{
-		id: 20018,
+		id: 20017,
 		countryId,
 		name: `Juan José Nieto Gil - Granadine Confederation`,
 		party: `Colombian Liberal Party`,
@@ -169,7 +169,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `18 July 1861`,
 	},
 	{
-		id: 20019,
+		id: 20018,
 		countryId,
 		name: `Tomás Cipriano de Mosquera y Arboleda - Granadine Confederation`,
 		party: `Colombian Liberal Party`,
@@ -178,7 +178,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `14 May 1863`,
 	},
 	{
-		id: 20020,
+		id: 20019,
 		countryId,
 		name: `Tomás Cipriano de Mosquera y Arboleda - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -187,7 +187,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1864`,
 	},
 	{
-		id: 20021,
+		id: 20020,
 		countryId,
 		name: `Manuel Murillo Toro - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -196,7 +196,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1866`,
 	},
 	{
-		id: 20022,
+		id: 20021,
 		countryId,
 		name: `Tomás Cipriano de Mosquera y Arboleda - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -205,7 +205,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `23 May 1867`,
 	},
 	{
-		id: 20023,
+		id: 20022,
 		countryId,
 		name: `Santos Acosta Castillo - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -214,7 +214,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1868`,
 	},
 	{
-		id: 20024,
+		id: 20023,
 		countryId,
 		name: `Santos Gutiérrez Prieto - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -223,7 +223,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1870`,
 	},
 	{
-		id: 20025,
+		id: 20024,
 		countryId,
 		name: `Eustorgio Salgar Moreno - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -232,7 +232,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1872`,
 	},
 	{
-		id: 20026,
+		id: 20025,
 		countryId,
 		name: `Manuel Murillo Toro - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -241,7 +241,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1874`,
 	},
 	{
-		id: 20027,
+		id: 20026,
 		countryId,
 		name: `Santiago Pérez de Manosalbas - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -250,7 +250,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1876`,
 	},
 	{
-		id: 20028,
+		id: 20027,
 		countryId,
 		name: `Aquileo Parra Gómez - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -259,7 +259,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1878`,
 	},
 	{
-		id: 20029,
+		id: 20028,
 		countryId,
 		name: `Julián Trujillo Largacha - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -268,7 +268,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1880`,
 	},
 	{
-		id: 20030,
+		id: 20029,
 		countryId,
 		name: `Rafael Núñez Moledo - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -277,7 +277,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1882`,
 	},
 	{
-		id: 20031,
+		id: 20030,
 		countryId,
 		name: `Rafael Núñez MoledoFrancisco Javier Zaldúa y Racines - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -286,7 +286,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `21 December 1882`,
 	},
 	{
-		id: 20032,
+		id: 20031,
 		countryId,
 		name: `José Eusebio Otálora Martínez - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -295,7 +295,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1884`,
 	},
 	{
-		id: 20033,
+		id: 20032,
 		countryId,
 		name: `Rafael Núñez Moledo - United States of Colombia`,
 		party: `Colombian Liberal Party`,
@@ -304,7 +304,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 April 1886`,
 	},
 	{
-		id: 20034,
+		id: 20033,
 		countryId,
 		name: `Rafael Núñez Moledo - United States of Colombia`,
 		party: `National Party`,
@@ -313,7 +313,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `18 September 1894`,
 	},
 	{
-		id: 20035,
+		id: 20034,
 		countryId,
 		name: `Miguel Antonio Caro Tobar - Republic of Colombia`,
 		party: `National Party`,
@@ -322,7 +322,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `7 August 1898`,
 	},
 	{
-		id: 20038,
+		id: 20035,
 		countryId,
 		name: `Manuel Antonio Sanclemente - Republic of Colombia`,
 		party: `National Party`,
@@ -331,7 +331,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `31 July 1900`,
 	},
 	{
-		id: 20039,
+		id: 20036,
 		countryId,
 		name: `José Manuel Marroquín - Republic of Colombia`,
 		party: `Colombian Conservative Party`,
@@ -341,7 +341,7 @@ export const panama: LeaderSeed[] = [
 	},
 	// Indepedence from Colombia
 	{
-		id: 20040,
+		id: 20037,
 		countryId,
 		name: `Republic of Panama`,
 		party: `Independent`,
@@ -350,7 +350,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `20 February 1904`,
 	},
 	{
-		id: 20041,
+		id: 20038,
 		countryId,
 		name: `Manuel Amador Guerrero`,
 		party: `Conservative Party`,
@@ -359,7 +359,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `24 June 1907`,
 	},
 	{
-		id: 20042,
+		id: 20039,
 		countryId,
 		name: `José Domingo de Obaldía`,
 		party: `National Liberal party`,
@@ -368,7 +368,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `29 December 1907`,
 	},
 	{
-		id: 20043,
+		id: 20040,
 		countryId,
 		name: `Manuel Amador Guerrero`,
 		party: `Conservative Party`,
@@ -377,7 +377,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1908`,
 	},
 	{
-		id: 20044,
+		id: 20041,
 		countryId,
 		name: `José Domingo de Obaldía`,
 		party: `National Liberal party`,
@@ -386,7 +386,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 March 1910`,
 	},
 	{
-		id: 20045,
+		id: 20042,
 		countryId,
 		name: `Carlos Antonio Mendoza`,
 		party: `National Liberal party`,
@@ -395,7 +395,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1910`,
 	},
 	{
-		id: 20046,
+		id: 20043,
 		countryId,
 		name: `Federico Boyd`,
 		party: `National Liberal party`,
@@ -404,7 +404,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `5 October 1910`,
 	},
 	{
-		id: 20047,
+		id: 20044,
 		countryId,
 		name: `Pablo Arosemena`,
 		party: `National Liberal party`,
@@ -413,7 +413,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1912`,
 	},
 	{
-		id: 20048,
+		id: 20045,
 		countryId,
 		name: `Belisario Porras Barahona`,
 		party: `National Liberal party`,
@@ -422,7 +422,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1916`,
 	},
 	{
-		id: 20049,
+		id: 20046,
 		countryId,
 		name: `Ramón Maximiliano Valdés`,
 		party: `National Liberal party`,
@@ -431,7 +431,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `3 June 1918`,
 	},
 	{
-		id: 20050,
+		id: 20047,
 		countryId,
 		name: `Ciro Luis Urriola`,
 		party: `National Liberal party`,
@@ -440,7 +440,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1918`,
 	},
 	{
-		id: 20051,
+		id: 20048,
 		countryId,
 		name: `Pedro Antonio Díaz`,
 		party: `Conservative Party`,
@@ -449,7 +449,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `12 October 1918`,
 	},
 	{
-		id: 20052,
+		id: 20049,
 		countryId,
 		name: `Belisario Porras Barahona`,
 		party: `National Liberal party`,
@@ -458,7 +458,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `30 January 1920`,
 	},
 	{
-		id: 20053,
+		id: 20050,
 		countryId,
 		name: `Ernesto Tisdel Lefevre`,
 		party: `National Liberal party`,
@@ -467,7 +467,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1920`,
 	},
 	{
-		id: 20054,
+		id: 20051,
 		countryId,
 		name: `Belisario Porras Barahona`,
 		party: `National Liberal party`,
@@ -476,7 +476,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1924`,
 	},
 	{
-		id: 20055,
+		id: 20052,
 		countryId,
 		name: `Rodolfo Chiari`,
 		party: `National Liberal party`,
@@ -485,7 +485,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1928`,
 	},
 	{
-		id: 20059,
+		id: 20053,
 		countryId,
 		name: `Florencio Harmodio Arosemena`,
 		party: `National Liberal Party`,
@@ -494,7 +494,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `3 January 1931`,
 	},
 	{
-		id: 20060,
+		id: 20054,
 		countryId,
 		name: `Harmodio Arias Madrid`,
 		party: `National Revolutionary Party`,
@@ -503,7 +503,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `16 January 1931`,
 	},
 	{
-		id: 20061,
+		id: 20055,
 		countryId,
 		name: `Ricardo Joaquín Alfaro Jované`,
 		party: `National Liberal Party`,
@@ -512,7 +512,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `5 June 1932`,
 	},
 	{
-		id: 20062,
+		id: 20056,
 		countryId,
 		name: `Harmodio Arias Madrid`,
 		party: `National Revolutionary Party`,
@@ -521,7 +521,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1936`,
 	},
 	{
-		id: 20063,
+		id: 20057,
 		countryId,
 		name: `Juan Demóstenes Arosemena`,
 		party: `National Liberal Party`,
@@ -530,7 +530,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `16 December 1939`,
 	},
 	{
-		id: 20064,
+		id: 20058,
 		countryId,
 		name: `Ezequiel Fernández`,
 		party: `National Revolutionary Party`,
@@ -539,7 +539,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `18 December 1939`,
 	},
 	{
-		id: 20065,
+		id: 20059,
 		countryId,
 		name: `Augusto Samuel Boyd`,
 		party: `National Revolutionary Party`,
@@ -548,7 +548,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1940`,
 	},
 	{
-		id: 20066,
+		id: 20060,
 		countryId,
 		name: `Arnulfo Arias`,
 		party: `Panameñista Party`,
@@ -557,7 +557,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `9 October 1941`,
 	},
 	{
-		id: 20067,
+		id: 20061,
 		countryId,
 		name: `Ricardo Adolfo de la Guardia Arango`,
 		party: `Independent`,
@@ -566,7 +566,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `15 June 1945`,
 	},
 	{
-		id: 20068,
+		id: 20062,
 		countryId,
 		name: `Enrique Adolfo Jiménez`,
 		party: `National Liberal Party`,
@@ -575,7 +575,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `7 August 1948`,
 	},
 	{
-		id: 20069,
+		id: 20063,
 		countryId,
 		name: `Domingo Díaz Arosemena`,
 		party: `National Liberal Party`,
@@ -584,7 +584,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `28 July 1949`,
 	},
 	{
-		id: 20070,
+		id: 20064,
 		countryId,
 		name: `Daniel Chanis Pinzón`,
 		party: `National Liberal Party`,
@@ -593,7 +593,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `20 November 1949`,
 	},
 	{
-		id: 20071,
+		id: 20065,
 		countryId,
 		name: `Roberto Francisco Chiari Remón`,
 		party: `National Liberal Party`,
@@ -602,7 +602,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `24 November 1949`,
 	},
 	{
-		id: 20072,
+		id: 20066,
 		countryId,
 		name: `Arnulfo Arias`,
 		party: `Panameñista Party`,
@@ -611,7 +611,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `9 May 1951`,
 	},
 	{
-		id: 20073,
+		id: 20067,
 		countryId,
 		name: `Alcibíades Arosemena`,
 		party: `Authentic Revolutionary Party`,
@@ -620,7 +620,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1952`,
 	},
 	{
-		id: 20074,
+		id: 20068,
 		countryId,
 		name: `José Antonio Remón Cantera`,
 		party: `National Patriotic Coalition`,
@@ -629,7 +629,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `2 January 1955`,
 	},
 	{
-		id: 20075,
+		id: 20069,
 		countryId,
 		name: `José Ramón Guizado`,
 		party: `National Patriotic Coalition`,
@@ -638,7 +638,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `29 March 1955`,
 	},
 	{
-		id: 20076,
+		id: 20070,
 		countryId,
 		name: `Ricardo Arias`,
 		party: `National Patriotic Coalition`,
@@ -647,7 +647,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1956`,
 	},
 	{
-		id: 20077,
+		id: 20071,
 		countryId,
 		name: `Ernesto de la Guardia`,
 		party: `National Patriotic Coalition`,
@@ -656,7 +656,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1960`,
 	},
 	{
-		id: 20078,
+		id: 20072,
 		countryId,
 		name: `Roberto Francisco Chiari Remón`,
 		party: `National Liberal Party`,
@@ -665,7 +665,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1964`,
 	},
 	{
-		id: 20079,
+		id: 20073,
 		countryId,
 		name: `Marco Aurelio Robles`,
 		party: `National Liberal Party`,
@@ -674,7 +674,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 October 1968`,
 	},
 	{
-		id: 20080,
+		id: 20074,
 		countryId,
 		name: `Arnulfo Arias`,
 		party: `Panameñista Party`,
@@ -683,7 +683,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `11 October 1968`,
 	},
 	{
-		id: 20081,
+		id: 20075,
 		countryId,
 		name: `Omar Torrijos`,
 		party: `National Guard of Panama`,
@@ -692,7 +692,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `31 July 1981`,
 	},
 	{
-		id: 20082,
+		id: 20076,
 		countryId,
 		name: `Rubén Darío Paredes`,
 		party: `National Guard of Panama`,
@@ -701,7 +701,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `12 August 1983`,
 	},
 	{
-		id: 20083,
+		id: 20077,
 		countryId,
 		name: `Manuel Noriega`,
 		party: `National Guard of Panama`,
@@ -710,7 +710,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `20 December 1989`,
 	},
 	{
-		id: 20084,
+		id: 20078,
 		countryId,
 		name: `Guillermo Endara`,
 		party: `Panameñista Party`,
@@ -719,7 +719,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 September 1994`,
 	},
 	{
-		id: 20085,
+		id: 20079,
 		countryId,
 		name: `Ernesto Pérez Balladares`,
 		party: `Democratic Revolutionary Party`,
@@ -728,7 +728,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 September 1999`,
 	},
 	{
-		id: 20086,
+		id: 20080,
 		countryId,
 		name: `Mireya Moscoso`,
 		party: `Panameñista Party`,
@@ -737,7 +737,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 September 2004`,
 	},
 	{
-		id: 20087,
+		id: 20081,
 		countryId,
 		name: `Martín Torrijos`,
 		party: `Democratic Revolutionary Party`,
@@ -746,7 +746,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 July 2009`,
 	},
 	{
-		id: 20088,
+		id: 20082,
 		countryId,
 		name: `Ricardo Martinelli`,
 		party: `Democratic Change`,
@@ -755,7 +755,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 July 2014`,
 	},
 	{
-		id: 20089,
+		id: 20083,
 		countryId,
 		name: `Juan Carlos Varela`,
 		party: `Panameñista Party`,
@@ -764,7 +764,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 July 2019`,
 	},
 	{
-		id: 20090,
+		id: 20084,
 		countryId,
 		name: `Laurentino Cortizo`,
 		party: `Democratic Revolutionary Party`,
@@ -773,7 +773,7 @@ export const panama: LeaderSeed[] = [
 		leftOffice: `1 July 2024`,
 	},
 	{
-		id: 20091,
+		id: 20085,
 		countryId,
 		name: `José Raúl Mulino`,
 		party: `Realizing Goals`,

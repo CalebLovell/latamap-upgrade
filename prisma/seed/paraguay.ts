@@ -250,7 +250,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `19 December 1904`,
 	},
 	{
-		id: 21029,
+		id: 21027,
 		countryId,
 		name: `Juan Bautista Gaona`,
 		party: `Liberal Party`,
@@ -259,7 +259,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `9 December 1905`,
 	},
 	{
-		id: 21030,
+		id: 21028,
 		countryId,
 		name: `Cecilio Báez`,
 		party: `Liberal Party`,
@@ -268,7 +268,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `25 November 1906`,
 	},
 	{
-		id: 21031,
+		id: 21029,
 		countryId,
 		name: `Benigno Ferreira`,
 		party: `Liberal Party`,
@@ -277,7 +277,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `4 July 1908`,
 	},
 	{
-		id: 21032,
+		id: 21030,
 		countryId,
 		name: `Emiliano González Navero`,
 		party: `Liberal Party`,
@@ -286,7 +286,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `25 November 1910`,
 	},
 	{
-		id: 21033,
+		id: 21031,
 		countryId,
 		name: `Manuel Gondra`,
 		party: `Liberal Party`,
@@ -295,7 +295,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `17 January 1911`,
 	},
 	{
-		id: 21034,
+		id: 21032,
 		countryId,
 		name: `Albino Jara`,
 		party: `Liberal Party`,
@@ -304,7 +304,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `5 July 1911`,
 	},
 	{
-		id: 21035,
+		id: 21033,
 		countryId,
 		name: `Liberato Marcial Rojas`,
 		party: `Liberal Party`,
@@ -313,7 +313,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `28 February 1912`,
 	},
 	{
-		id: 21036,
+		id: 21034,
 		countryId,
 		name: `Pedro Peña`,
 		party: `Liberal Party`,
@@ -322,7 +322,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `22 March 1912`,
 	},
 	{
-		id: 21037,
+		id: 21035,
 		countryId,
 		name: `Emiliano González Navero`,
 		party: `Liberal Party`,
@@ -331,7 +331,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1912`,
 	},
 	{
-		id: 21038,
+		id: 21036,
 		countryId,
 		name: `Eduardo Schaerer`,
 		party: `Liberal Party`,
@@ -340,7 +340,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1916`,
 	},
 	{
-		id: 21039,
+		id: 21037,
 		countryId,
 		name: `Manuel Franco`,
 		party: `Liberal Party`,
@@ -349,7 +349,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `6 June 1919`,
 	},
 	{
-		id: 21040,
+		id: 21038,
 		countryId,
 		name: `José Pedro Montero`,
 		party: `Liberal Party`,
@@ -358,7 +358,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1920`,
 	},
 	{
-		id: 21041,
+		id: 21039,
 		countryId,
 		name: `Manuel Gondra`,
 		party: `Liberal Party`,
@@ -367,7 +367,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `7 November 1921`,
 	},
 	{
-		id: 21042,
+		id: 21040,
 		countryId,
 		name: `Eusebio Ayala`,
 		party: `Liberal Party`,
@@ -376,7 +376,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `12 April 1923`,
 	},
 	{
-		id: 21043,
+		id: 21041,
 		countryId,
 		name: `José Eligio Ayala`,
 		party: `Liberal Party`,
@@ -385,7 +385,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `17 March 1924`,
 	},
 	{
-		id: 21044,
+		id: 21042,
 		countryId,
 		name: `Luis Alberto Riart`,
 		party: `Liberal Party`,
@@ -394,7 +394,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1924`,
 	},
 	{
-		id: 21045,
+		id: 21043,
 		countryId,
 		name: `José Eligio Ayala`,
 		party: `Liberal Party`,
@@ -403,7 +403,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1928`,
 	},
 	{
-		id: 21046,
+		id: 21044,
 		countryId,
 		name: `José Patricio Guggiari`,
 		party: `Liberal Party`,
@@ -412,7 +412,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1932`,
 	},
 	{
-		id: 21047,
+		id: 21045,
 		countryId,
 		name: `Eusebio Ayala`,
 		party: `Liberal Party`,
@@ -421,7 +421,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `17 February 1936`,
 	},
 	{
-		id: 21048,
+		id: 21046,
 		countryId,
 		name: `Rafael Franco Ojeda`,
 		party: `Revolutionary Febrerista Party`,
@@ -430,7 +430,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1937`,
 	},
 	{
-		id: 21049,
+		id: 21047,
 		countryId,
 		name: `Félix Paiva`,
 		party: `Liberal Party`,
@@ -439,7 +439,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1939`,
 	},
 	{
-		id: 21050,
+		id: 21048,
 		countryId,
 		name: `José Félix Estigarribia`,
 		party: `Liberal Party`,
@@ -448,7 +448,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `7 September 1940`,
 	},
 	{
-		id: 21051,
+		id: 21049,
 		countryId,
 		name: `Higinio Morínigo`,
 		party: `Independent`,
@@ -457,7 +457,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `3 June 1948`,
 	},
 	{
-		id: 21052,
+		id: 21050,
 		countryId,
 		name: `Juan Manuel Frutos`,
 		party: `Colorado Party`,
@@ -466,7 +466,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1948`,
 	},
 	{
-		id: 21053,
+		id: 21051,
 		countryId,
 		name: `Juan Natalicio González`,
 		party: `Colorado Party`,
@@ -475,7 +475,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `30 January 1949`,
 	},
 	{
-		id: 21054,
+		id: 21052,
 		countryId,
 		name: `Raimundo Rolón`,
 		party: `Colorado Party`,
@@ -484,7 +484,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `27 February 1949`,
 	},
 	{
-		id: 21055,
+		id: 21053,
 		countryId,
 		name: `Felipe Molas López`,
 		party: `Colorado Party`,
@@ -493,7 +493,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `10 September 1949`,
 	},
 	{
-		id: 21056,
+		id: 21054,
 		countryId,
 		name: `Federico Chaves Careaga`,
 		party: `Colorado Party`,
@@ -502,7 +502,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `5 May 1954`,
 	},
 	{
-		id: 21057,
+		id: 21055,
 		countryId,
 		name: `Tomás Romero Pereira`,
 		party: `Colorado Party`,
@@ -511,7 +511,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1954`,
 	},
 	{
-		id: 21058,
+		id: 21056,
 		countryId,
 		name: `Alfredo Stroessner`,
 		party: `Colorado Party`,
@@ -520,7 +520,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `3 February 1989`,
 	},
 	{
-		id: 21059,
+		id: 21057,
 		countryId,
 		name: `Andrés Rodríguez`,
 		party: `Colorado Party`,
@@ -529,7 +529,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1993`,
 	},
 	{
-		id: 21060,
+		id: 21058,
 		countryId,
 		name: `Juan Carlos Wasmosy`,
 		party: `Colorado Party`,
@@ -538,7 +538,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 1998`,
 	},
 	{
-		id: 21061,
+		id: 21059,
 		countryId,
 		name: `Raúl Cubas Grau`,
 		party: `Colorado Party`,
@@ -547,7 +547,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `28 March 1999`,
 	},
 	{
-		id: 21062,
+		id: 21060,
 		countryId,
 		name: `Luis Ángel González Macchi`,
 		party: `Colorado Party`,
@@ -556,7 +556,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 2003`,
 	},
 	{
-		id: 21063,
+		id: 21061,
 		countryId,
 		name: `Nicanor Duarte`,
 		party: `Colorado Party`,
@@ -565,7 +565,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 2008`,
 	},
 	{
-		id: 21064,
+		id: 21062,
 		countryId,
 		name: `Fernando Lugo`,
 		party: `Patriotic Alliance for Change`,
@@ -574,7 +574,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `22 June 2012`,
 	},
 	{
-		id: 21065,
+		id: 21063,
 		countryId,
 		name: `Federico Franco`,
 		party: `Authentic Radical Liberal Party`,
@@ -583,7 +583,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 2013`,
 	},
 	{
-		id: 21066,
+		id: 21064,
 		countryId,
 		name: `Horacio Cartes`,
 		party: `Colorado Party`,
@@ -592,7 +592,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 2018`,
 	},
 	{
-		id: 21067,
+		id: 21065,
 		countryId,
 		name: `Mario Abdo Benítez`,
 		party: `Colorado Party`,
@@ -601,7 +601,7 @@ export const paraguay: LeaderSeed[] = [
 		leftOffice: `15 August 2023`,
 	},
 	{
-		id: 21068,
+		id: 21066,
 		countryId,
 		name: `Santiago Peña`,
 		party: `Colorado Party`,
