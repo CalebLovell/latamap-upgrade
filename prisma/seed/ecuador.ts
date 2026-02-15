@@ -85,7 +85,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `8 December 1850`,
-		leftOffice: `12 September 1851`,
+		leftOffice: `24 July 1851`,
 	},
 	{
 		id: 11009,
@@ -229,24 +229,6 @@ export const ecuador: LeaderSeed[] = [
 		party: `Bipartisan`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `14 January 1883`,
-		leftOffice: `15 October 1883`,
-	},
-	{
-		id: 11025,
-		countryId,
-		name: `Supreme Leadership of Manabí and Esmeraldas`,
-		party: `Bipartisan`,
-		leaning: leanings.CENTRIST,
-		tookOffice: `5 June 1883`,
-		leftOffice: `15 October 1883`,
-	},
-	{
-		id: 11026,
-		countryId,
-		name: `Supreme Leadership of Guayas`,
-		party: `Bipartisan`,
-		leaning: leanings.CENTRIST,
-		tookOffice: `10 July 1883`,
 		leftOffice: `15 October 1883`,
 	},
 	{

@@ -179,15 +179,6 @@ export const guatemala: LeaderSeed[] = [
 		leftOffice: `28 November 1848`,
 	},
 	{
-		id: 13022,
-		countryId,
-		name: `José Bernardo Escobar`,
-		party: `Conservative Party`,
-		leaning: leanings.RIGHT,
-		tookOffice: `16 August 1848`,
-		leftOffice: `28 November 1848`,
-	},
-	{
 		id: 13023,
 		countryId,
 		name: `Mariano Paredes`,
@@ -204,15 +195,6 @@ export const guatemala: LeaderSeed[] = [
 		leaning: leanings.RIGHT,
 		tookOffice: `28 November 1848`,
 		leftOffice: `1 January 1849`,
-	},
-	{
-		id: 13025,
-		countryId,
-		name: `Mariano Peredes`,
-		party: `Non-partisan`,
-		leaning: leanings.CENTRIST,
-		tookOffice: `1 January 1849`,
-		leftOffice: `6 November 1851`,
 	},
 	{
 		id: 13026,

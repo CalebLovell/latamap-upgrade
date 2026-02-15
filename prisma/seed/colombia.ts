@@ -57,7 +57,7 @@ export const colombia: LeaderSeed[] = [
 		name: `Rafael Urdaneta y Faría - Gran Colombia`,
 		party: `Military`,
 		leaning: leanings.MILITARY,
-		tookOffice: `4 May 1830`,
+		tookOffice: `4 September 1830`,
 		leftOffice: `30 April 1831`,
 	},
 	{
@@ -157,16 +157,7 @@ export const colombia: LeaderSeed[] = [
 		party: `Colombian Conservative Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 April 1857`,
-		leftOffice: `1 April 1861`,
-	},
-	{
-		id: 7017,
-		countryId,
-		name: `Bartolomé Calvo Díaz - Granadine Confederation`,
-		party: `Colombian Conservative Party`,
-		leaning: leanings.CENTER_RIGHT,
-		tookOffice: `1 April 1861`,
-		leftOffice: `18 July 1861`,
+		leftOffice: `25 January 1861`,
 	},
 	{
 		id: 7018,

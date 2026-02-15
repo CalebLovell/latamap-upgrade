@@ -58,16 +58,7 @@ export const uruguay: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 January 1817`,
-		leftOffice: `3 February 1826`,
-	},
-	{
-		id: 25006,
-		countryId,
-		name: `Francisco de Paula Magessi Tavares de Carvalho - Empire of Brazil`,
-		party: `Independent`,
-		leaning: leanings.CENTRIST,
-		tookOffice: `3 February 1826`,
-		leftOffice: `27 August 1828`,
+		leftOffice: `19 September 1825`,
 	},
 	{
 		id: 25007,
@@ -194,15 +185,6 @@ export const uruguay: LeaderSeed[] = [
 		leaning: leanings.CENTRIST,
 		tookOffice: `1 March 1839`,
 		leftOffice: `1 March 1843`,
-	},
-	{
-		id: 25021,
-		countryId,
-		name: `Manuel Oribe`,
-		party: `National Party / White Party`,
-		leaning: leanings.CENTER_RIGHT,
-		tookOffice: `16 February 1843`,
-		leftOffice: `8 October 1851`,
 	},
 	{
 		id: 25022,

@@ -356,7 +356,7 @@ export const elSalvador: LeaderSeed[] = [
 		name: `Eugenio Aguilar`,
 		party: `Liberal Party`,
 		leaning: leanings.LEFT,
-		tookOffice: `12 July 1846`,
+		tookOffice: `21 July 1846`,
 		leftOffice: `1 February 1848`,
 	},
 	{
