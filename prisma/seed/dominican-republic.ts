@@ -796,7 +796,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `25 April 1965`,
-		leftOffice: `27 April 1965`,
+		leftOffice: `7 May 1965`,
 	},
 	{
 		id: 10088,
@@ -805,7 +805,7 @@ export const dominicanRepublic: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `7 May 1965`,
-		leftOffice: `30 August 1965`,
+		leftOffice: `3 September 1965`,
 	},
 	{
 		id: 10089,

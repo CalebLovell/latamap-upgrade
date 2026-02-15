@@ -816,7 +816,7 @@ export const elSalvador: LeaderSeed[] = [
 		party: `Labor Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `1 March 1931`,
-		leftOffice: `2 December 1931`,
+		leftOffice: `4 December 1931`,
 	},
 	{
 		id: 12090,

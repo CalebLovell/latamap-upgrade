@@ -76,7 +76,7 @@ export const venezuela: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `9 February 1835`,
-		leftOffice: `9 July 1835`,
+		leftOffice: `27 July 1835`,
 	},
 	{
 		id: 27008,
@@ -103,7 +103,7 @@ export const venezuela: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `24 April 1836`,
-		leftOffice: `20 January 1837`,
+		leftOffice: `27 January 1837`,
 	},
 	{
 		id: 27011,
@@ -508,7 +508,7 @@ export const venezuela: LeaderSeed[] = [
 		party: `Armed Forces of Venezuela`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `24 November 1948`,
-		leftOffice: `13 November 1950`,
+		leftOffice: `27 November 1950`,
 	},
 	{
 		id: 27056,

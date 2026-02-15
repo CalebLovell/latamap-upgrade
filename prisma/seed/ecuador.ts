@@ -103,7 +103,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `16 October 1856`,
-		leftOffice: `31 August 1859`,
+		leftOffice: `4 September 1859`,
 	},
 	{
 		id: 11011,
@@ -112,7 +112,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Mixed`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `4 September 1859`,
-		leftOffice: `10 January 1861`,
+		leftOffice: `17 January 1861`,
 	},
 	{
 		id: 11012,
@@ -220,7 +220,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `8 September 1876`,
-		leftOffice: `10 January 1883`,
+		leftOffice: `14 January 1883`,
 	},
 	{
 		id: 11024,
@@ -418,7 +418,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `First Provisional Government`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `10 July 1925`,
-		leftOffice: `6 January 1926`,
+		leftOffice: `10 January 1926`,
 	},
 	{
 		id: 11046,
@@ -427,7 +427,7 @@ export const ecuador: LeaderSeed[] = [
 		party: `Second Provisional Government`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `10 January 1926`,
-		leftOffice: `31 March 1926`,
+		leftOffice: `3 April 1926`,
 	},
 	{
 		id: 11047,

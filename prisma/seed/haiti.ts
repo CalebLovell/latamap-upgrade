@@ -67,7 +67,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Kingdom of Haiti`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `28 March 1811`,
-		leftOffice: `8 October 1820`,
+		leftOffice: `18 October 1820`,
 	},
 	{
 		id: 15007,
@@ -112,7 +112,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `24 March 1846`,
-		leftOffice: `28 February 1847`,
+		leftOffice: `2 March 1847`,
 	},
 	{
 		id: 15012,
@@ -139,7 +139,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `22 January 1859`,
-		leftOffice: `13 March 1867`,
+		leftOffice: `20 March 1867`,
 	},
 	{
 		id: 15015,
@@ -148,7 +148,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `20 March 1867`,
-		leftOffice: `2 May 1867`,
+		leftOffice: `4 May 1867`,
 	},
 	{
 		id: 15016,
@@ -184,7 +184,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `14 June 1874`,
-		leftOffice: `15 April 1876`,
+		leftOffice: `23 April 1876`,
 	},
 	{
 		id: 15020,
@@ -193,7 +193,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `23 April 1876`,
-		leftOffice: `17 July 1879`,
+		leftOffice: `26 July 1879`,
 	},
 	{
 		id: 15021,
@@ -247,7 +247,7 @@ export const haiti: LeaderSeed[] = [
 		party: `National Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `17 October 1889`,
-		leftOffice: `24 March 1896`,
+		leftOffice: `31 March 1896`,
 	},
 	{
 		id: 15027,
@@ -265,7 +265,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `12 May 1902`,
-		leftOffice: `17 December 1902`,
+		leftOffice: `21 December 1902`,
 	},
 	{
 		id: 15029,
@@ -274,7 +274,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `21 December 1902`,
-		leftOffice: `2 December 1908`,
+		leftOffice: `6 December 1908`,
 	},
 	{
 		id: 15030,
@@ -283,7 +283,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `6 December 1908`,
-		leftOffice: `3 August 1911`,
+		leftOffice: `15 August 1911`,
 	},
 	{
 		id: 15031,
@@ -301,7 +301,7 @@ export const haiti: LeaderSeed[] = [
 		party: `National Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `8 August 1912`,
-		leftOffice: `2 May 1913`,
+		leftOffice: `12 May 1913`,
 	},
 	{
 		id: 15033,
@@ -310,7 +310,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `12 May 1913`,
-		leftOffice: `27 January 1914`,
+		leftOffice: `8 February 1914`,
 	},
 	{
 		id: 15034,
@@ -319,7 +319,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `8 February 1914`,
-		leftOffice: `29 October 1914`,
+		leftOffice: `7 November 1914`,
 	},
 	{
 		id: 15035,
@@ -328,7 +328,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `7 November 1914`,
-		leftOffice: `22 February 1915`,
+		leftOffice: `25 February 1915`,
 	},
 	{
 		id: 15036,
@@ -337,7 +337,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `25 February 1915`,
-		leftOffice: `28 July 1915`,
+		leftOffice: `12 August 1915`,
 	},
 	{
 		id: 15037,
@@ -427,7 +427,7 @@ export const haiti: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `12 December 1956`,
-		leftOffice: `3 February 1957`,
+		leftOffice: `7 February 1957`,
 	},
 	{
 		id: 15047,

@@ -184,7 +184,7 @@ export const panama: LeaderSeed[] = [
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `18 July 1861`,
-		leftOffice: `4 February 1863`,
+		leftOffice: `14 May 1863`,
 	},
 	{
 		id: 20020,
@@ -392,7 +392,7 @@ export const panama: LeaderSeed[] = [
 		party: `National Liberal party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `24 June 1907`,
-		leftOffice: `27 December 1907`,
+		leftOffice: `29 December 1907`,
 	},
 	{
 		id: 20043,

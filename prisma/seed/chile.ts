@@ -184,7 +184,7 @@ export const chile: LeaderSeed[] = [
 		party: `Royal Governor`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `26 December 1815`,
-		leftOffice: `12 February 1817`,
+		leftOffice: `16 February 1817`,
 	},
 	{
 		id: 6020,
@@ -238,7 +238,7 @@ export const chile: LeaderSeed[] = [
 		party: `Pipiolos`,
 		leaning: leanings.LEFT,
 		tookOffice: `25 January 1827`,
-		leftOffice: `15 February 1827`,
+		leftOffice: `8 May 1827`,
 	},
 	{
 		id: 6026,
@@ -292,7 +292,7 @@ export const chile: LeaderSeed[] = [
 		party: `Pipiolos`,
 		leaning: leanings.LEFT,
 		tookOffice: `8 November 1829`,
-		leftOffice: `7 December 1829`,
+		leftOffice: `24 December 1829`,
 	},
 	{
 		id: 6032,

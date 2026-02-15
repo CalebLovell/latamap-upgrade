@@ -13,7 +13,7 @@ export const cuba: LeaderSeed[] = [
 		party: `Kingdom of Spain`,
 		leaning: leanings.MONARCHY,
 		tookOffice: `1 January 1607`,
-		leftOffice: `10 December 1898`,
+		leftOffice: `1 January 1899`,
 	},
 	{
 		id: 9001,

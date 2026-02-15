@@ -76,7 +76,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `2 August 1828`,
-		leftOffice: `18 December 1828`,
+		leftOffice: `26 December 1828`,
 	},
 	{
 		id: 3008,
@@ -103,7 +103,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `24 May 1829`,
-		leftOffice: `17 February 1839`,
+		leftOffice: `22 February 1839`,
 	},
 	{
 		id: 3011,
@@ -130,7 +130,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `9 July 1841`,
-		leftOffice: `22 September 1841`,
+		leftOffice: `27 September 1841`,
 	},
 	{
 		id: 3014,
@@ -148,7 +148,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Independent`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `23 December 1847`,
-		leftOffice: `2 January 1848`,
+		leftOffice: `18 January 1848`,
 	},
 	{
 		id: 3016,
@@ -185,6 +185,15 @@ export const bolivia: LeaderSeed[] = [
 		leaning: leanings.CENTRIST,
 		tookOffice: `9 September 1857`,
 		leftOffice: `14 January 1861`,
+	},
+	{
+		id: 3100,
+		countryId,
+		name: `Government Junta - José María de Achá, Manuel Antonio Sánchez, Ruperto Fernández`,
+		party: `Armed Forces of Bolivia`,
+		leaning: leanings.MILITARY,
+		tookOffice: `14 January 1861`,
+		leftOffice: `4 May 1861`,
 	},
 	{
 		id: 3020,
@@ -247,7 +256,7 @@ export const bolivia: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `4 May 1876`,
-		leftOffice: `28 December 1879`,
+		leftOffice: `19 January 1880`,
 	},
 	{
 		id: 3027,
@@ -768,8 +777,8 @@ export const bolivia: LeaderSeed[] = [
 		name: `Military Junta - Ángel Mariscal, Natalio Morales, Óscar Pammo Rodríguez`,
 		party: `Armed Forces of Bolivia`,
 		leaning: leanings.RIGHT,
-		tookOffice: `19 July 1981`,
-		leftOffice: `21 July 1981`,
+		tookOffice: `19 July 1982`,
+		leftOffice: `21 July 1982`,
 	},
 	{
 		id: 3085,

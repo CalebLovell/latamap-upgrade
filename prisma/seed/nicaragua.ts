@@ -356,7 +356,7 @@ export const nicaragua: LeaderSeed[] = [
 		party: `Democratic Party`,
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `11 August 1851`,
-		leftOffice: `2 November 1851`,
+		leftOffice: `11 November 1851`,
 	},
 	{
 		id: 19039,
@@ -438,6 +438,15 @@ export const nicaragua: LeaderSeed[] = [
 		leaning: leanings.CENTER_LEFT,
 		tookOffice: `12 July 1856`,
 		leftOffice: `1 May 1857`,
+	},
+	{
+		id: 19100,
+		countryId,
+		name: `No Leader`,
+		party: `None`,
+		leaning: leanings.NONE,
+		tookOffice: `1 May 1857`,
+		leftOffice: `24 June 1857`,
 	},
 	{
 		id: 19048,
@@ -527,7 +536,7 @@ export const nicaragua: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 March 1887`,
-		leftOffice: `1 August 1889`,
+		leftOffice: `5 August 1889`,
 	},
 	{
 		id: 19058,
@@ -554,7 +563,7 @@ export const nicaragua: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `1 March 1891`,
-		leftOffice: `11 July 1893`,
+		leftOffice: `25 July 1893`,
 	},
 	{
 		id: 19061,
@@ -662,7 +671,7 @@ export const nicaragua: LeaderSeed[] = [
 		party: `Conservative Party`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `14 March 1926`,
-		leftOffice: `11 November 1926`,
+		leftOffice: `14 November 1926`,
 	},
 	{
 		id: 19073,
@@ -734,7 +743,7 @@ export const nicaragua: LeaderSeed[] = [
 		party: `Nationalist Liberal Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `15 August 1947`,
-		leftOffice: `6 May 1950`,
+		leftOffice: `21 May 1950`,
 	},
 	{
 		id: 19081,

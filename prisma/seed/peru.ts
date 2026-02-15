@@ -25,6 +25,15 @@ export const peru: LeaderSeed[] = [
 		leftOffice: `20 September 1822`,
 	},
 	{
+		id: 22100,
+		countryId,
+		name: `Supreme Governing Junta - José de La Mar, Felipe Antonio Alvarado, Manuel Salazar y Baquíjano`,
+		party: `Constituent Congress`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `20 September 1822`,
+		leftOffice: `28 February 1823`,
+	},
+	{
 		id: 22002,
 		countryId,
 		name: `José de la Riva Agüero`,
@@ -67,7 +76,7 @@ export const peru: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `7 June 1829`,
-		leftOffice: `19 December 1833`,
+		leftOffice: `21 December 1833`,
 	},
 	{
 		id: 22007,
@@ -121,7 +130,7 @@ export const peru: LeaderSeed[] = [
 		party: `Military`,
 		leaning: leanings.MILITARY,
 		tookOffice: `20 October 1842`,
-		leftOffice: `15 March 1843`,
+		leftOffice: `27 March 1843`,
 	},
 	{
 		id: 22013,
@@ -733,7 +742,7 @@ export const peru: LeaderSeed[] = [
 		party: `Popular Action`,
 		leaning: leanings.CENTER_RIGHT,
 		tookOffice: `10 November 2020`,
-		leftOffice: `15 November 2020`,
+		leftOffice: `17 November 2020`,
 	},
 	{
 		id: 22081,

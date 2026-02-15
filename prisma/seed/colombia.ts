@@ -184,7 +184,7 @@ export const colombia: LeaderSeed[] = [
 		party: `Colombian Liberal Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `18 July 1861`,
-		leftOffice: `4 February 1863`,
+		leftOffice: `14 May 1863`,
 	},
 	{
 		id: 7020,

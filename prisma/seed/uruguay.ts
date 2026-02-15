@@ -418,7 +418,7 @@ export const uruguay: LeaderSeed[] = [
 		party: `Colorado Party`,
 		leaning: leanings.CENTRIST,
 		tookOffice: `15 March 1880`,
-		leftOffice: `1 February 1882`,
+		leftOffice: `1 March 1882`,
 	},
 	{
 		id: 25046,

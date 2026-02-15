@@ -336,7 +336,7 @@ export const paraguay: LeaderSeed[] = [
 		name: `Pedro Peña`,
 		party: `Liberal Party`,
 		leaning: leanings.CENTER_RIGHT,
-		tookOffice: `28 February 1911`,
+		tookOffice: `28 February 1912`,
 		leftOffice: `22 March 1912`,
 	},
 	{
@@ -445,7 +445,7 @@ export const paraguay: LeaderSeed[] = [
 		party: `Revolutionary Febrerista Party`,
 		leaning: leanings.LEFT,
 		tookOffice: `17 February 1936`,
-		leftOffice: `13 August 1937`,
+		leftOffice: `15 August 1937`,
 	},
 	{
 		id: 21049,
