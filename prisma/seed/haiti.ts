@@ -79,6 +79,15 @@ export const haiti: LeaderSeed[] = [
 		leftOffice: `13 February 1843`,
 	},
 	{
+		id: 15908,
+		countryId,
+		name: `Provisional Government Council`,
+		party: `None`,
+		leaning: leanings.CENTRIST,
+		tookOffice: `13 February 1843`,
+		leftOffice: `4 April 1843`,
+	},
+	{
 		id: 15008,
 		countryId,
 		name: `Charles Rivière-Hérard`,

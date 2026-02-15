@@ -376,6 +376,15 @@ export const colombia: LeaderSeed[] = [
 		leftOffice: `27 July 1909`,
 	},
 	{
+		id: 7899,
+		countryId,
+		name: `Jorge Holguín Mallarino`,
+		party: `Colombian Conservative Party`,
+		leaning: leanings.RIGHT,
+		tookOffice: `27 July 1909`,
+		leftOffice: `7 August 1909`,
+	},
+	{
 		id: 7041,
 		countryId,
 		name: `Ramón González Valencia`,

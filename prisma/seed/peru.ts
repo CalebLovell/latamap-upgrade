@@ -124,6 +124,15 @@ export const peru: LeaderSeed[] = [
 		leftOffice: `16 August 1842`,
 	},
 	{
+		id: 22912,
+		countryId,
+		name: `Juan Crisóstomo Torrico`,
+		party: `Military`,
+		leaning: leanings.MILITARY,
+		tookOffice: `16 August 1842`,
+		leftOffice: `20 October 1842`,
+	},
+	{
 		id: 22012,
 		countryId,
 		name: `Juan Francisco de Vidal`,
@@ -203,6 +212,15 @@ export const peru: LeaderSeed[] = [
 		leaning: leanings.MILITARY,
 		tookOffice: `5 August 1863`,
 		leftOffice: `8 November 1865`,
+	},
+	{
+		id: 22921,
+		countryId,
+		name: `Pedro Diez Canseco`,
+		party: `Military`,
+		leaning: leanings.MILITARY,
+		tookOffice: `8 November 1865`,
+		leftOffice: `28 November 1865`,
 	},
 	{
 		id: 22021,

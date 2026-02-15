@@ -88,6 +88,15 @@ export const dominicanRepublic: LeaderSeed[] = [
 		leftOffice: `4 August 1848`,
 	},
 	{
+		id: 10999,
+		countryId,
+		name: `No Leader`,
+		party: `None`,
+		leaning: leanings.NONE,
+		tookOffice: `4 August 1848`,
+		leftOffice: `8 September 1848`,
+	},
+	{
 		id: 10009,
 		countryId,
 		name: `Manuel Jimenes`,
@@ -122,15 +131,6 @@ export const dominicanRepublic: LeaderSeed[] = [
 		leaning: leanings.CENTRIST,
 		tookOffice: `15 February 1853`,
 		leftOffice: `26 May 1856`,
-	},
-	{
-		id: 10013,
-		countryId,
-		name: `Manuel de Regla Mota`,
-		party: `Independent`,
-		leaning: leanings.CENTRIST,
-		tookOffice: `2 January 1855`,
-		leftOffice: `5 September 1855`,
 	},
 	{
 		id: 10014,
