@@ -1,8 +1,8 @@
 import { Transition, TransitionChild } from "@headlessui/react";
 import { getRouteApi, useNavigate } from "@tanstack/react-router";
+import clsx from "clsx";
 import { format } from "date-fns";
 import { events } from "~/data/events";
-import { classNames } from "~/data/types";
 import { formatDateParam, parseDateParam } from "~/routes/index";
 
 const route = getRouteApi("/");
@@ -58,13 +58,13 @@ const SlideoverContent = () => {
 					return (
 						<li
 							key={x.title}
-							className={classNames(
+							className={clsx(
 								i === 0 ? `pt-0 lg:pt-2` : ``,
 								`relative border-gray-900 border-l pl-4`,
 							)}
 						>
 							<button
-								className={classNames(
+								className={clsx(
 									currentDate
 										? `border-2 border-blue-900`
 										: `border-2 border-transparent`,

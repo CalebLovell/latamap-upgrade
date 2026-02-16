@@ -25,7 +25,8 @@
       "Bash(node find-gaps.mjs:*)",
       "Bash(node:*)",
       "Bash(python3:*)",
-      "WebFetch(domain:en.wikipedia.org)"
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(npx biome:*)"
     ]
   }
 }

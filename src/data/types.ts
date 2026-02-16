@@ -72,14 +72,12 @@ export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 	return mapColorType === `default` ? globalColors : usaColors;
 };
 
-export function classNames(...classes: string[]) {
-	return classes.filter(Boolean).join(` `);
-}
-
 export const getLeadersByDate = (leaders: LeaderReturn[], date: Date) => {
 	const leadersByDate = leaders?.filter((x) => {
 		const tookOffice = new Date(x.tookOffice);
+		tookOffice.setHours(0, 0, 0, 0);
 		const leftOffice = x.leftOffice ? new Date(x.leftOffice) : new Date();
+		leftOffice.setHours(23, 59, 59, 999);
 		const dateIsBetween = date >= tookOffice && date <= leftOffice;
 		return dateIsBetween;
 	});

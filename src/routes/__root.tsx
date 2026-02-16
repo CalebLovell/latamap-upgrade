@@ -103,7 +103,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 				<HeadContent />
 			</head>
 			<body>
-				<div style={{ position: `absolute`, opacity: 0, zIndex: 10000000 }} />
 				<script
 					defer
 					data-domain="latamap.com"

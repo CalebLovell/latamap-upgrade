@@ -25,9 +25,11 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 				leader.leaning as keyof ReturnType<typeof getLeaningColors>
 			]
 		: `url(#${patternId})`;
-	const d = path(feature) ? String(path(feature)) : undefined;
+	const pathResult = path(feature);
+	const d = pathResult ? String(pathResult) : undefined;
 
-	const onClick = () => {
+	const onClick = (e: React.MouseEvent) => {
+		e.stopPropagation();
 		navigate({
 			from: "/",
 			search: (prev) => ({ ...prev, country: name }),
@@ -43,14 +45,18 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 				aria-label={`Select ${name}`}
 				onKeyDown={(e) => {
 					if (e.key === "Enter" || e.key === " ") {
-						onClick();
+						e.stopPropagation();
+						navigate({
+							from: "/",
+							search: (prev) => ({ ...prev, country: name }),
+						});
 					}
 				}}
 				id={name}
 				d={d}
 				fill={fill}
 				onClick={onClick}
-				className="focus:none cursor-pointer outline-none transition duration-500 ease-in-out hover:opacity-80 focus:opacity-80 active:opacity-50"
+				className="cursor-pointer outline-none transition duration-500 ease-in-out hover:opacity-80 focus:opacity-80 active:opacity-50"
 				style={{ WebkitTapHighlightColor: `transparent` }}
 			/>
 			<defs>
