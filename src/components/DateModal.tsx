@@ -30,7 +30,9 @@ export const DateModal = () => {
 	const year = years.find((y) => y.id === date.getFullYear());
 	const setYear = React.useCallback(
 		(y: { id: number; name: string | number }) => {
-			setDate(new Date(y.id, date.getMonth(), date.getDate()));
+			const maxDay = new Date(y.id, date.getMonth() + 1, 0).getDate();
+			const clampedDay = Math.min(date.getDate(), maxDay);
+			setDate(new Date(y.id, date.getMonth(), clampedDay));
 		},
 		[date, setDate],
 	);
@@ -38,12 +40,21 @@ export const DateModal = () => {
 	const month = months.find((m) => m.id === date.getMonth() + 1);
 	const setMonth = React.useCallback(
 		(m: { id: number; name: string | number }) => {
-			setDate(new Date(date.getFullYear(), m.id - 1, date.getDate()));
+			const maxDay = new Date(date.getFullYear(), m.id, 0).getDate();
+			const clampedDay = Math.min(date.getDate(), maxDay);
+			setDate(new Date(date.getFullYear(), m.id - 1, clampedDay));
 		},
 		[date, setDate],
 	);
 
-	const day = days.find((d) => d.id === date.getDate());
+	const daysInMonth = new Date(
+		date.getFullYear(),
+		date.getMonth() + 1,
+		0,
+	).getDate();
+	const filteredDays = days.slice(0, daysInMonth);
+
+	const day = filteredDays.find((d) => d.id === date.getDate());
 	const setDay = React.useCallback(
 		(d: { id: number; name: string | number }) => {
 			setDate(new Date(date.getFullYear(), date.getMonth(), d.id));
@@ -69,7 +80,7 @@ export const DateModal = () => {
 			>
 				<TransitionChild
 					as="div"
-	enter="ease-out duration-300"
+					enter="ease-out duration-300"
 					enterFrom="opacity-0"
 					enterTo="opacity-100"
 					leave="ease-in duration-200"
@@ -81,7 +92,7 @@ export const DateModal = () => {
 
 				<TransitionChild
 					as="div"
-	enter="ease-out duration-300"
+					enter="ease-out duration-300"
 					enterFrom="opacity-0 scale-95"
 					enterTo="opacity-100 scale-100"
 					leave="ease-in duration-200"
@@ -89,52 +100,52 @@ export const DateModal = () => {
 					leaveTo="opacity-0 scale-95"
 					className="relative mx-auto flex h-full w-full max-w-xl items-center px-2 py-14"
 				>
-						<DialogPanel className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
-							<div className="flex shrink-0 items-center justify-center rounded-t border-gray-300 border-b p-4">
-								<DialogTitle className="text-center font-bold text-2xl">
-									{formatDate(date)}
-								</DialogTitle>
+					<DialogPanel className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
+						<div className="flex shrink-0 items-center justify-center rounded-t border-gray-300 border-b p-4">
+							<DialogTitle className="text-center font-bold text-2xl">
+								{formatDate(date)}
+							</DialogTitle>
+						</div>
+						<div className="relative flex-auto space-y-4 overflow-y-auto p-4">
+							<SelectMenu
+								values={years}
+								title="Select a Year"
+								selected={year ?? years[0]}
+								setSelected={setYear}
+							/>
+							<SelectMenu
+								values={months}
+								title="Select a Month"
+								selected={month ?? months[0]}
+								setSelected={setMonth}
+							/>
+							<SelectMenu
+								values={filteredDays}
+								title="Select a Day"
+								selected={day ?? filteredDays[0]}
+								setSelected={setDay}
+							/>
+						</div>
+						<div className="flex shrink-0 items-center justify-between gap-4 rounded-b border-gray-300 border-t p-4">
+							<div className="flex items-center justify-center space-x-2">
+								<p className="font-semibold text-gray-900 text-sm">
+									Pick any date between 1789 and today!
+								</p>
 							</div>
-							<div className="relative flex-auto space-y-4 overflow-y-auto p-4">
-								<SelectMenu
-									values={years}
-									title="Select a Year"
-									selected={year ?? years[0]}
-									setSelected={setYear}
-								/>
-								<SelectMenu
-									values={months}
-									title="Select a Month"
-									selected={month ?? months[0]}
-									setSelected={setMonth}
-								/>
-								<SelectMenu
-									values={days}
-									title="Select a Day"
-									selected={day ?? days[0]}
-									setSelected={setDay}
-								/>
-							</div>
-							<div className="flex shrink-0 items-center justify-between gap-4 rounded-b border-gray-300 border-t p-4">
-								<div className="flex items-center justify-center space-x-2">
-									<p className="font-semibold text-gray-900 text-sm">
-										Pick any date between 1789 and today!
-									</p>
-								</div>
-								<button
-									type="button"
-									onClick={() =>
-										navigate({
-											from: "/",
-											search: (prev) => ({ ...prev, dateModal: false }),
-										})
-									}
-									className="rounded bg-gray-800 px-6 py-2.5 font-medium text-white text-xs uppercase leading-tight transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg"
-								>
-									Close
-								</button>
-							</div>
-						</DialogPanel>
+							<button
+								type="button"
+								onClick={() =>
+									navigate({
+										from: "/",
+										search: (prev) => ({ ...prev, dateModal: false }),
+									})
+								}
+								className="rounded bg-gray-800 px-6 py-2.5 font-medium text-white text-xs uppercase leading-tight transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg"
+							>
+								Close
+							</button>
+						</div>
+					</DialogPanel>
 				</TransitionChild>
 			</Dialog>
 		</Transition>

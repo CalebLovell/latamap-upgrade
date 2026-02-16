@@ -25,6 +25,5 @@ export const fetchData = createServerFn({
 		mostRecentLeader: newestLeader,
 	};
 
-	if (!data) throw new Error("No data found");
 	return data;
 });

@@ -99,7 +99,15 @@ export const DataPanel = () => {
 										/>
 									</dt>
 									<dd className="text-gray-500 text-xs italic leading-tight md:text-sm">
-										<time dateTime="2023-01-31">{inOffice}</time>
+										<time
+											dateTime={
+												leader?.tookOffice
+													? formatDateParam(new Date(leader.tookOffice))
+													: undefined
+											}
+										>
+											{inOffice}
+										</time>
 									</dd>
 								</div>
 								<div className="flex w-full flex-none items-center gap-x-1">

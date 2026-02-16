@@ -62,7 +62,7 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 	};
 
 	const increment = React.useCallback(() => {
-		if (selectedYear === max) return;
+		if (selectedYear === max) return setSelectedYear(min);
 		setSelectedYear(selectedYear + 1);
 	}, [selectedYear, setSelectedYear]);
 

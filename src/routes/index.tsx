@@ -16,7 +16,9 @@ export const formatDateParam = (d: Date) =>
 
 export const parseDateParam = (s: string) => {
 	const [y, m, d] = s.split("-").map(Number);
-	return new Date(y, m - 1, d);
+	const date = new Date(y, m - 1, d);
+	if (Number.isNaN(date.getTime())) return new Date();
+	return date;
 };
 
 const searchDefaults = {
