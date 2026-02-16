@@ -68,8 +68,6 @@ export const DateModal = () => {
 	return (
 		<Transition appear show={dateModal}>
 			<Dialog
-				static
-				open={dateModal}
 				onClose={() =>
 					navigate({
 						from: "/",

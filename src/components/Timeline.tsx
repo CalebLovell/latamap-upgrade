@@ -73,6 +73,8 @@ const Slider = ({ selectedYear, setSelectedYear }: Props) => {
 
 	React.useEffect(() => {
 		const handleKeyDown = (e: KeyboardEvent) => {
+			const el = e.target as HTMLElement;
+			if (el.closest("[role='dialog'], [role='listbox'], dialog")) return;
 			if (e.key === "ArrowLeft") decrement();
 			if (e.key === "ArrowRight") increment();
 		};

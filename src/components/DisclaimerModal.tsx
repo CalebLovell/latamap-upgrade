@@ -22,8 +22,6 @@ export const DisclaimerModal = () => {
 	return (
 		<Transition appear show={disclaimerModal}>
 			<Dialog
-				static
-				open={disclaimerModal}
 				onClose={() =>
 					navigate({
 						from: "/",

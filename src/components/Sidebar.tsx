@@ -104,9 +104,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 		<Transition show={menu}>
 			<Dialog
 				as="div"
-				static
 				className="fixed inset-0 z-40 overflow-hidden"
-				open={menu}
 				onClose={() =>
 					navigate({
 						from: "/",
@@ -139,7 +137,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 							<div className="relative flex h-full w-80 shrink-0 flex-col items-center bg-white">
 								<div className="flex h-12 w-full items-center justify-end p-2">
 									<button
-										title="Open Menu"
+										title="Close Menu"
 										type="button"
 										className="flex transform rounded-md from-red-200 via-orange-200 to-blue-200 px-2 py-1.5 font-bold text-gray-900 duration-150 ease-in-out hover:bg-gray-300 active:scale-95"
 										onClick={() =>
