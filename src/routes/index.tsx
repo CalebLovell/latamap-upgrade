@@ -18,6 +18,10 @@ export const parseDateParam = (s: string) => {
 	const [y, m, d] = s.split("-").map(Number);
 	const date = new Date(y, m - 1, d);
 	if (Number.isNaN(date.getTime())) return new Date();
+	const min = new Date(1789, 0, 1);
+	const max = new Date();
+	if (date < min) return min;
+	if (date > max) return max;
 	return date;
 };
 
