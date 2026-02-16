@@ -127,6 +127,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 				<div className="fixed inset-0 flex">
 					<TransitionChild
 						as="div"
+						className="h-full"
 						enter="transition ease-in-out duration-300 transform"
 						enterFrom="-translate-x-full"
 						enterTo="translate-x-0"
@@ -134,7 +135,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 						leaveFrom="translate-x-0"
 						leaveTo="-translate-x-full"
 					>
-						<DialogPanel>
+						<DialogPanel className="h-full">
 							<div className="relative flex h-full w-80 shrink-0 flex-col items-center bg-white">
 								<div className="flex h-12 w-full items-center justify-end p-2">
 									<button
