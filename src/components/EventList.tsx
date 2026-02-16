@@ -1,7 +1,6 @@
 import { Transition, TransitionChild } from "@headlessui/react";
 import { getRouteApi, useNavigate } from "@tanstack/react-router";
 import { format } from "date-fns";
-import { Fragment } from "react";
 import { events } from "~/data/events";
 import { classNames } from "~/data/types";
 import { formatDateParam, parseDateParam } from "~/routes/index";
@@ -15,7 +14,7 @@ export const EventList = () => {
 		<Transition show={timeline}>
 			<div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
 				<TransitionChild
-					as={Fragment}
+					as="div"
 					enter="transform transition ease-in-out duration-500"
 					enterFrom="translate-x-full"
 					enterTo="translate-x-0"
@@ -41,7 +40,7 @@ const SlideoverContent = () => {
 	const date = parseDateParam(dateParam);
 
 	const formatDate = (d: Date | undefined) =>
-		d ? format(new Date(d), `MMMM do, yyy`) : undefined;
+		d ? format(new Date(d), `MMMM do, yyyy`) : undefined;
 
 	return (
 		<section className="overflow-auto pb-4">

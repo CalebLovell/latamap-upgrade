@@ -10,7 +10,8 @@ export const Key = () => {
 	const { key, scheme } = route.useSearch();
 
 	const colors = getLeaningColors(scheme);
-	const labels = Object.values(leaningLabels);
+	const entries = Object.entries(leaningLabels);
+	const reordered = [...entries.slice(1), entries[0]];
 
 	if (!key) return null;
 	return (
@@ -24,12 +25,13 @@ export const Key = () => {
 				ref={nodeRef}
 				className="absolute bottom-4 left-0.5 rounded-lg p-2 md:bottom-16"
 			>
-				{labels.map((label, index) => (
+				{reordered.map(([colorIndex, label]) => (
 					<div key={label} className="mt-1 flex items-center">
 						<div
 							className="mr-2 h-6 w-1.5 transition duration-500 ease-in-out sm:h-10"
 							style={{
-								backgroundColor: colors[(index + 1) as keyof typeof colors],
+								backgroundColor:
+									colors[Number(colorIndex) as keyof typeof colors],
 							}}
 						/>
 						<p className="font-semibold text-black text-xs sm:text-sm">

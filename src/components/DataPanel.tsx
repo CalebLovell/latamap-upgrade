@@ -14,7 +14,7 @@ import { formatDateParam, parseDateParam } from "~/routes/index";
 const route = getRouteApi("/");
 
 const formatDate = (date: Date | undefined) =>
-	date ? format(new Date(date), `MMM d, yyy`) : undefined;
+	date ? format(new Date(date), `MMM d, yyyy`) : undefined;
 
 export const DataPanel = () => {
 	const nodeRef = useRef<HTMLDivElement>(null);

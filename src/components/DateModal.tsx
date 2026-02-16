@@ -52,10 +52,10 @@ export const DateModal = () => {
 	);
 
 	const formatDate = (d: Date | undefined) =>
-		d ? format(new Date(d), `MMMM do, yyy`) : undefined;
+		d ? format(new Date(d), `MMMM do, yyyy`) : undefined;
 
 	return (
-		<Transition appear show={dateModal} as={React.Fragment}>
+		<Transition appear show={dateModal}>
 			<Dialog
 				static
 				open={dateModal}
@@ -68,34 +68,34 @@ export const DateModal = () => {
 				className="fixed top-0 left-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
 			>
 				<TransitionChild
-					as={React.Fragment}
-					enter="ease-out duration-300"
+					as="div"
+	enter="ease-out duration-300"
 					enterFrom="opacity-0"
 					enterTo="opacity-100"
 					leave="ease-in duration-200"
 					leaveFrom="opacity-100"
 					leaveTo="opacity-0"
-				>
-					<div className="fixed inset-0 bg-black/75" aria-hidden="true" />
-				</TransitionChild>
+					className="fixed inset-0 bg-black/75"
+					aria-hidden="true"
+				/>
 
 				<TransitionChild
-					as={React.Fragment}
-					enter="ease-out duration-300"
+					as="div"
+	enter="ease-out duration-300"
 					enterFrom="opacity-0 scale-95"
 					enterTo="opacity-100 scale-100"
 					leave="ease-in duration-200"
 					leaveFrom="opacity-100 scale-100"
 					leaveTo="opacity-0 scale-95"
+					className="relative mx-auto flex h-full w-full max-w-xl items-center px-2 py-14"
 				>
-					<div className="relative mx-auto flex h-full w-full max-w-xl items-center px-2 py-14">
-						<div className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
+						<DialogPanel className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
 							<div className="flex shrink-0 items-center justify-center rounded-t border-gray-300 border-b p-4">
 								<DialogTitle className="text-center font-bold text-2xl">
 									{formatDate(date)}
 								</DialogTitle>
 							</div>
-							<DialogPanel className="relative flex-auto space-y-4 overflow-y-auto p-4">
+							<div className="relative flex-auto space-y-4 overflow-y-auto p-4">
 								<SelectMenu
 									values={years}
 									title="Select a Year"
@@ -114,7 +114,7 @@ export const DateModal = () => {
 									selected={day ?? days[0]}
 									setSelected={setDay}
 								/>
-							</DialogPanel>
+							</div>
 							<div className="flex shrink-0 items-center justify-between gap-4 rounded-b border-gray-300 border-t p-4">
 								<div className="flex items-center justify-center space-x-2">
 									<p className="font-semibold text-gray-900 text-sm">
@@ -123,13 +123,18 @@ export const DateModal = () => {
 								</div>
 								<button
 									type="button"
+									onClick={() =>
+										navigate({
+											from: "/",
+											search: (prev) => ({ ...prev, dateModal: false }),
+										})
+									}
 									className="rounded bg-gray-800 px-6 py-2.5 font-medium text-white text-xs uppercase leading-tight transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg"
 								>
 									Close
 								</button>
 							</div>
-						</div>
-					</div>
+						</DialogPanel>
 				</TransitionChild>
 			</Dialog>
 		</Transition>

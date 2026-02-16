@@ -101,7 +101,7 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 	}`;
 
 	return (
-		<Transition show={menu} as={React.Fragment}>
+		<Transition show={menu}>
 			<Dialog
 				as="div"
 				static
@@ -115,19 +115,18 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 				}
 			>
 				<TransitionChild
-					as={React.Fragment}
+					as="div"
 					enter="transition-opacity ease-linear duration-300"
 					enterFrom="opacity-0"
 					enterTo="opacity-100"
 					leave="transition-opacity ease-linear duration-300"
 					leaveFrom="opacity-100"
 					leaveTo="opacity-0"
-				>
-					<div className="fixed inset-0 bg-gray-600/50" />
-				</TransitionChild>
+					className="fixed inset-0 bg-gray-600/50"
+				/>
 				<div className="fixed inset-0 flex">
 					<TransitionChild
-						as={React.Fragment}
+						as="div"
 						enter="transition ease-in-out duration-300 transform"
 						enterFrom="-translate-x-full"
 						enterTo="translate-x-0"

@@ -16,7 +16,7 @@ export const Header = () => {
 	const date = parseDateParam(dateParam);
 
 	const formatDate = (d: Date | undefined) =>
-		d ? format(new Date(d), `MMMM do, yyy`) : undefined;
+		d ? format(new Date(d), `MMMM do, yyyy`) : undefined;
 
 	return (
 		<>

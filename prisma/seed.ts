@@ -52,7 +52,7 @@ const countries: Country[] = [
 	{ id: 12, name: `Ecuador`, createdAt },
 	{ id: 13, name: `Guyana`, createdAt },
 	{ id: 14, name: `Suriname`, createdAt },
-	{ id: 15, name: `French Guyana`, createdAt },
+	{ id: 15, name: `French Guiana`, createdAt },
 	{ id: 16, name: `Peru`, createdAt },
 	{ id: 17, name: `Bolivia`, createdAt },
 	{ id: 18, name: `Paraguay`, createdAt },

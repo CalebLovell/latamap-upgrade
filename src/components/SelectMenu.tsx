@@ -7,8 +7,6 @@ import {
 	Transition,
 } from "@headlessui/react";
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/20/solid";
-import * as React from "react";
-
 import { classNames } from "~/data/types";
 
 type Props = {
@@ -20,7 +18,7 @@ type Props = {
 
 export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 	return (
-		<Listbox value={selected} onChange={setSelected}>
+		<Listbox as="div" value={selected} onChange={setSelected}>
 			{({ open }) => (
 				<>
 					<Label className="block font-medium text-gray-900 text-sm leading-6">
@@ -38,8 +36,8 @@ export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 						</ListboxButton>
 
 						<Transition
+							as="div"
 							show={open}
-							as={React.Fragment}
 							leave="transition ease-in duration-100"
 							leaveFrom="opacity-100"
 							leaveTo="opacity-0"

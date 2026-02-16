@@ -12,7 +12,6 @@ import {
 	LightBulbIcon,
 } from "@heroicons/react/24/solid";
 import { getRouteApi, useNavigate } from "@tanstack/react-router";
-import * as React from "react";
 
 const route = getRouteApi("/");
 
@@ -21,7 +20,7 @@ export const DisclaimerModal = () => {
 	const navigate = useNavigate();
 
 	return (
-		<Transition appear show={disclaimerModal} as={React.Fragment}>
+		<Transition appear show={disclaimerModal}>
 			<Dialog
 				static
 				open={disclaimerModal}
@@ -34,34 +33,34 @@ export const DisclaimerModal = () => {
 				className="fixed top-0 left-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
 			>
 				<TransitionChild
-					as={React.Fragment}
-					enter="ease-out duration-300"
+					as="div"
+	enter="ease-out duration-300"
 					enterFrom="opacity-0"
 					enterTo="opacity-100"
 					leave="ease-in duration-200"
 					leaveFrom="opacity-100"
 					leaveTo="opacity-0"
-				>
-					<div className="fixed inset-0 bg-black/75" aria-hidden="true" />
-				</TransitionChild>
+					className="fixed inset-0 bg-black/75"
+					aria-hidden="true"
+				/>
 
 				<TransitionChild
-					as={React.Fragment}
-					enter="ease-out duration-300"
+					as="div"
+	enter="ease-out duration-300"
 					enterFrom="opacity-0 scale-95"
 					enterTo="opacity-100 scale-100"
 					leave="ease-in duration-200"
 					leaveFrom="opacity-100 scale-100"
 					leaveTo="opacity-0 scale-95"
+					className="relative mx-auto flex h-full w-full max-w-3xl items-center px-2 py-14"
 				>
-					<div className="relative mx-auto flex h-full w-full max-w-3xl items-center px-2 py-14">
-						<div className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
+						<DialogPanel className="relative flex max-h-full w-full flex-col overflow-hidden rounded border-none bg-gray-100">
 							<div className="flex shrink-0 items-center justify-between rounded-t border-gray-300 border-b p-4">
 								<DialogTitle className="font-bold text-2xl">
 									Map Explanation
 								</DialogTitle>
 							</div>
-							<DialogPanel className="relative flex-auto overflow-y-auto p-4">
+							<div className="relative flex-auto overflow-y-auto p-4">
 								<div className="mb-2 flex items-center">
 									<ExclamationTriangleIcon className="mr-2 h-5 w-5 text-red-700" />
 									<DialogTitle as="h3" className="font-semibold text-xl">
@@ -121,17 +120,22 @@ export const DisclaimerModal = () => {
 									</a>
 									, or on my social media listed below.
 								</Description>
-							</DialogPanel>
+							</div>
 							<div className="flex shrink-0 flex-wrap items-center justify-end rounded-b border-gray-300 border-t p-4">
 								<button
 									type="button"
+									onClick={() =>
+										navigate({
+											from: "/",
+											search: (prev) => ({ ...prev, disclaimerModal: false }),
+										})
+									}
 									className="rounded bg-gray-800 px-6 py-2.5 font-medium text-white text-xs uppercase leading-tight transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 hover:shadow-lg active:bg-gray-800 active:shadow-lg"
 								>
 									Close
 								</button>
 							</div>
-						</div>
-					</div>
+						</DialogPanel>
 				</TransitionChild>
 			</Dialog>
 		</Transition>
