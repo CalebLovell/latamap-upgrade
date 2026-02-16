@@ -29,17 +29,21 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 	const baseSpeed = speeds[3];
 	const [speed, setSpeed] = React.useState(baseSpeed);
 
+	const selectedYearRef = React.useRef(selectedYear);
+	selectedYearRef.current = selectedYear;
+
 	React.useEffect(() => {
 		if (!isPlaying) return;
 		const interval = setInterval(() => {
-			if (selectedYear === max) {
+			const current = selectedYearRef.current;
+			if (current === max) {
 				setSelectedYear(min);
 				return;
 			}
-			setSelectedYear(selectedYear + 1);
+			setSelectedYear(current + 1);
 		}, speed.value);
 		return () => clearInterval(interval);
-	}, [isPlaying, selectedYear, setSelectedYear, speed]);
+	}, [isPlaying, speed, setSelectedYear]);
 
 	const increaseSpeed = () => {
 		const index = speeds.findIndex((s) => s.value === speed.value);
