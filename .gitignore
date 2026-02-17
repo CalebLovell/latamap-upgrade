@@ -11,3 +11,9 @@ count.txt
 .output
 .vinxi
 todos.json
+
+# Test outputs
+coverage/
+playwright-report/
+test-results/
+.vitest/

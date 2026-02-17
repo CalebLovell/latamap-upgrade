@@ -9,7 +9,7 @@ test.describe("Map Page", () => {
 
 	test("clicking a country shows data panel", async ({ page }) => {
 		await page.goto("/?country=Brazil");
-		await expect(page.getByText("Brazil")).toBeVisible({ timeout: 15000 });
+		await expect(page.getByText("Brazil", { exact: true })).toBeVisible({ timeout: 15000 });
 	});
 
 	test("timeline navigation works", async ({ page }) => {
