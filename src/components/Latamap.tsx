@@ -29,11 +29,17 @@ export const Latamap = () => {
 	);
 
 	React.useEffect(() => {
-		if (svgRef.current) {
-			d3.select<SVGSVGElement, unknown>(svgRef.current).call(
+		const svg = svgRef.current;
+		if (svg) {
+			d3.select<SVGSVGElement, unknown>(svg).call(
 				zoom as unknown as d3.ZoomBehavior<SVGSVGElement, unknown>,
 			);
 		}
+		return () => {
+			if (svg) {
+				d3.select<SVGSVGElement, unknown>(svg).on(".zoom", null);
+			}
+		};
 	}, [zoom]);
 
 	function reset() {

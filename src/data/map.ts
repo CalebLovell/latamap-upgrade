@@ -77,8 +77,8 @@ export const adjustCentroids = (
 			return elSalvador;
 		}
 		case `Jamaica`: {
-			const jamica: [number, number] = [centroid[0] - 1, centroid[1] + 6];
-			return jamica;
+			const jamaica: [number, number] = [centroid[0] - 1, centroid[1] + 6];
+			return jamaica;
 		}
 		case `Trinidad and Tobago`: {
 			const trinidad: [number, number] = [centroid[0], centroid[1] - 5];

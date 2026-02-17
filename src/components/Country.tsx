@@ -52,7 +52,7 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 						});
 					}
 				}}
-				id={name}
+				id={name?.replace(/\s+/g, "-")}
 				d={d}
 				fill={fill}
 				onClick={onClick}

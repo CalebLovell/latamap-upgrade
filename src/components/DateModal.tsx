@@ -15,8 +15,25 @@ const route = getRouteApi("/");
 
 export const DateModal = () => {
 	const { dateModal, date: dateParam } = route.useSearch();
+	const { leaders } = route.useLoaderData();
 	const navigate = useNavigate();
 	const date = parseDateParam(dateParam);
+	const maxYear = React.useMemo(
+		() =>
+			leaders.reduce((max, l) => {
+				const y = new Date(l.tookOffice).getFullYear();
+				return y > max ? y : max;
+			}, 1789),
+		[leaders],
+	);
+	const years = React.useMemo(
+		() =>
+			Array.from({ length: maxYear - 1789 + 1 }, (_, i) => ({
+				id: i + 1789,
+				name: i + 1789,
+			})),
+		[maxYear],
+	);
 
 	const setDate = React.useCallback(
 		(d: Date) =>
@@ -149,15 +166,6 @@ export const DateModal = () => {
 		</Transition>
 	);
 };
-
-// Years from 1789 to now
-const years = Array.from(
-	{ length: new Date().getFullYear() - 1789 + 1 },
-	(_, i) => ({
-		id: i + 1789,
-		name: i + 1789,
-	}),
-);
 
 const months: { id: number; name: string | number }[] = [
 	{ id: 1, name: `January` },

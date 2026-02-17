@@ -36,7 +36,7 @@ export const PlaybackBar = ({ selectedYear, setSelectedYear }: Props) => {
 		if (!isPlaying) return;
 		const interval = setInterval(() => {
 			const current = selectedYearRef.current;
-			if (current === max) {
+			if (current >= max) {
 				setSelectedYear(min);
 				return;
 			}

@@ -73,7 +73,7 @@ export const getLeaningColors = (mapColorType: MapKeyColorScheme) => {
 };
 
 export const getLeadersByDate = (leaders: LeaderReturn[], date: Date) => {
-	const leadersByDate = leaders?.filter((x) => {
+	const leadersByDate = leaders.filter((x) => {
 		const tookOffice = new Date(x.tookOffice);
 		tookOffice.setHours(0, 0, 0, 0);
 		const leftOffice = x.leftOffice ? new Date(x.leftOffice) : new Date();
