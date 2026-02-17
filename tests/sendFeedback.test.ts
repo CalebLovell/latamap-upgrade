@@ -73,9 +73,9 @@ describe("sendFeedback", () => {
 
 			expect(result).toEqual({ success: true });
 			expect(mockSend).toHaveBeenCalledWith({
-				from: "Latamap Feedback <feedback@latamap.com>",
-				to: "caleb@caleblovell.com",
-				subject: "New Latamap Feedback",
+				from: "Latamap Feedback <noreply@feedback.latamap.com>",
+				to: "caleblovell1@gmail.com",
+				subject: "Latamap Feedback",
 				text: "Test feedback",
 			});
 		});
