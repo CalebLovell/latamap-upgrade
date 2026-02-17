@@ -3,6 +3,7 @@ import { DataPanel } from "~/components/DataPanel";
 import { DateModal } from "~/components/DateModal";
 import { DisclaimerModal } from "~/components/DisclaimerModal";
 import { EventList } from "~/components/EventList";
+import { FeedbackModal } from "~/components/FeedbackModal";
 import { Header } from "~/components/Header";
 import { Key } from "~/components/Key";
 import { Latamap } from "~/components/Latamap";
@@ -21,6 +22,7 @@ const searchDefaults = {
 	panel: true,
 	dateModal: false,
 	disclaimerModal: false,
+	feedbackModal: false,
 	scheme: "default" as const,
 	date: formatDateParam(new Date()),
 	country: "United States of America",
@@ -34,6 +36,7 @@ export const Route = createFileRoute("/")({
 		panel: search.panel !== false,
 		dateModal: search.dateModal === true,
 		disclaimerModal: search.disclaimerModal === true,
+		feedbackModal: search.feedbackModal === true,
 		scheme: (search.scheme === "inverted" ? "inverted" : "default") as
 			| "default"
 			| "inverted",
@@ -76,6 +79,7 @@ function App() {
 			</div>
 			<DateModal />
 			<DisclaimerModal />
+			<FeedbackModal />
 		</>
 	);
 }

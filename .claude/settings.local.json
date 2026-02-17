@@ -31,7 +31,13 @@
       "Bash(npx playwright install:*)",
       "Bash(npx vitest:*)",
       "Bash(npm run test:*)",
-      "Bash(npx playwright test:*)"
+      "Bash(npx playwright test:*)",
+      "Bash(xxd:*)",
+      "Bash(npm run format:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run clean:*)",
+      "Bash(npm uninstall:*)"
     ]
   }
 }

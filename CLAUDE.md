@@ -1,5 +1,8 @@
 # CLAUDE.md — Project Instructions for Claude Code
 
+Be extremely concise. Sacrifice grammar for the sake of concision.
+List any unresolved questions at the end, if any.
+
 ## Project Overview
 Latamap is a React app built with TanStack Start (SSR), Vite, Prisma (PostgreSQL), D3 for map visualization, and Tailwind CSS v4. It uses TypeScript in strict mode.
 

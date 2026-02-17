@@ -1,5 +1,14 @@
-import { createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import {
+	createRootRoute,
+	HeadContent,
+	Outlet,
+	Scripts,
+} from "@tanstack/react-router";
 import { lazy } from "react";
+import { Toaster } from "sonner";
+
+const queryClient = new QueryClient();
 
 import appCss from "../styles.css?url";
 
@@ -94,7 +103,16 @@ export const Route = createRootRoute({
 		],
 	}),
 	shellComponent: RootDocument,
+	component: RootComponent,
 });
+
+function RootComponent() {
+	return (
+		<QueryClientProvider client={queryClient}>
+			<Outlet />
+		</QueryClientProvider>
+	);
+}
 
 function RootDocument({ children }: { children: React.ReactNode }) {
 	return (
@@ -109,6 +127,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 					src="https://plausible.io/js/script.tagged-events.js"
 				/>
 				{children}
+				<Toaster richColors position="bottom-center" />
 				{import.meta.env.DEV && <DevTools />}
 				<Scripts />
 			</body>
