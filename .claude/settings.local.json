@@ -26,7 +26,10 @@
       "Bash(node:*)",
       "Bash(python3:*)",
       "WebFetch(domain:en.wikipedia.org)",
-      "Bash(npx biome:*)"
+      "Bash(npx biome:*)",
+      "Bash(npm install:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(npx vitest:*)"
     ]
   }
 }
