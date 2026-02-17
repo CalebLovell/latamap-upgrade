@@ -1,4 +1,5 @@
 import { createFileRoute, stripSearchParams } from "@tanstack/react-router";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { DataPanel } from "~/components/DataPanel";
 import { DateModal } from "~/components/DateModal";
 import { DisclaimerModal } from "~/components/DisclaimerModal";
@@ -12,7 +13,6 @@ import { Timeline } from "~/components/Timeline";
 import { fetchData } from "~/data/fetchData";
 import { countryNames } from "~/data/map";
 import { formatDateParam, parseDateParam } from "~/utils/date";
-
 export { formatDateParam, parseDateParam };
 
 const searchDefaults = {
@@ -80,6 +80,7 @@ function App() {
 			<DateModal />
 			<DisclaimerModal />
 			<FeedbackModal />
+			<SpeedInsights />
 		</>
 	);
 }
