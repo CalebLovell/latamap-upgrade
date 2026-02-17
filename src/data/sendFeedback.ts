@@ -15,9 +15,9 @@ export const sendFeedback = createServerFn({
 		const resend = new Resend(env.RESEND_API_KEY);
 
 		const { error } = await resend.emails.send({
-			from: "Latamap Feedback <feedback@latamap.com>",
-			to: "caleb@caleblovell.com",
-			subject: "New Latamap Feedback",
+			from: "Latamap Feedback <noreply@feedback.latamap.com>",
+			to: "caleblovell1@gmail.com",
+			subject: "Latamap Feedback",
 			text: data.message,
 		});
 
