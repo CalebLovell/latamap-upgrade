@@ -25,5 +25,8 @@ model Leader {
    Country    Country   @relation(fields: [countryId], references: [id])
    createdAt  DateTime  @default(now())
 
+   @@index([countryId])
+   @@index([createdAt])
+   @@index([tookOffice])
    @@map("Leader")
 }

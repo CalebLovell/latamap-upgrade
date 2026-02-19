@@ -1,17 +1,18 @@
-import type { Country, Leader } from "~/generated/prisma/client";
-
-export type CountryReturn = Country;
-
-export type LeaderReturn = Leader & {
-	Country: Country;
+export type LeaderReturn = {
+	name: string;
+	party: string;
+	leaning: number;
+	tookOffice: Date;
+	leftOffice: Date | null;
+	Country: { name: string };
 };
 
 export type LeaderSeed = {
 	id: number;
-	countryId: Leader[`countryId`];
-	name: Leader[`name`];
-	party: Leader[`party`];
-	leaning: Leader[`leaning`];
+	countryId: number;
+	name: string;
+	party: string;
+	leaning: number;
 	tookOffice: string;
 	leftOffice: string | null;
 };
