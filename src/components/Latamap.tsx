@@ -22,6 +22,7 @@ export const Latamap = () => {
 			d3
 				.zoom()
 				.scaleExtent([1, 8])
+				.filter((event: Event) => event.type === "wheel" || event.type === "dblclick")
 				.on(`zoom`, (event: d3.D3ZoomEvent<SVGElement, unknown>) => {
 					d3.select(gRef.current).attr(`transform`, event.transform.toString());
 				}),
