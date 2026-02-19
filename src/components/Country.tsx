@@ -11,9 +11,10 @@ type Props = {
 	feature: Feature<Geometry, GeoJsonProperties>;
 	centroid: [number, number];
 	leader: LeaderReturn | undefined;
+	onSelect: () => void;
 };
 
-export const Country = ({ feature, centroid, leader }: Props) => {
+export const Country = ({ feature, centroid, leader, onSelect }: Props) => {
 	const { scheme } = route.useSearch();
 	const navigate = useNavigate();
 	const patternId = useId();
@@ -34,6 +35,7 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 			from: "/",
 			search: (prev) => ({ ...prev, country: name }),
 		});
+		onSelect();
 	};
 
 	return (
@@ -50,6 +52,7 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 							from: "/",
 							search: (prev) => ({ ...prev, country: name }),
 						});
+						onSelect();
 					}
 				}}
 				id={name?.replace(/\s+/g, "-")}
@@ -58,7 +61,9 @@ export const Country = ({ feature, centroid, leader }: Props) => {
 				onClick={onClick}
 				className="cursor-pointer outline-none transition duration-500 ease-in-out hover:opacity-80 focus:opacity-80 active:opacity-50"
 				style={{ WebkitTapHighlightColor: `transparent` }}
-			/>
+			>
+				<title>{name}</title>
+			</path>
 			<defs>
 				<pattern
 					id={patternId}
