@@ -63,23 +63,16 @@ git diff
 git status --porcelain
 ```
 
-### 2. Stage Files (if needed)
+### 2. Stage All Changed Files
 
-If nothing is staged or you want to group changes differently:
+Always stage all modified/deleted/untracked files that aren't already staged, unless they look like secrets:
 
 ```bash
-# Stage specific files
-git add path/to/file1 path/to/file2
-
-# Stage by pattern
-git add *.test.*
-git add src/components/*
-
-# Interactive staging
-git add -p
+# Stage everything not yet staged
+git add -A
 ```
 
-**Never commit secrets** (.env, credentials.json, private keys).
+**Never commit secrets** (.env, credentials.json, private keys). Skip any such files.
 
 ### 3. Generate Commit Message
 
@@ -113,6 +106,21 @@ EOF
 - Imperative mood: "fix bug" not "fixes bug"
 - Reference issues: `Closes #123`, `Refs #456`
 - Keep description under 72 characters
+
+### 5. Offer to Push
+
+After a successful commit, ask the user if they want to push:
+
+```
+Use AskUserQuestion with options: "Yes, push now" / "No, skip"
+```
+
+If yes:
+```bash
+git push
+```
+
+Never force push to main/master.
 
 ## Git Safety Protocol
 
