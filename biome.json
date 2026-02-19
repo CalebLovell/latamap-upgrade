@@ -17,7 +17,8 @@
 			"!**/src/generated/*",
 			"!**/test-results",
 			"!**/playwright-report",
-			"!**/coverage"
+			"!**/coverage",
+			"!**/.output"
 		]
 	},
 	"formatter": {
