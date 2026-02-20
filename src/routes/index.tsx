@@ -4,6 +4,7 @@ import { DataPanel } from "~/components/DataPanel";
 import { DateModal } from "~/components/DateModal";
 import { DisclaimerModal } from "~/components/DisclaimerModal";
 import { EventList } from "~/components/EventList";
+import { FeedbackButton } from "~/components/FeedbackButton";
 import { FeedbackModal } from "~/components/FeedbackModal";
 import { Header } from "~/components/Header";
 import { Key } from "~/components/Key";
@@ -77,6 +78,7 @@ function App() {
 					mostRecentLeader={mostRecentLeader}
 				/>
 			</div>
+			<FeedbackButton />
 			<DateModal />
 			<DisclaimerModal />
 			<FeedbackModal />
