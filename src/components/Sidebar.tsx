@@ -267,19 +267,19 @@ export const Sidebar = ({ lastUpdated, mostRecentLeader }: SidebarProps) => {
 									<div className="flex flex-col justify-center pt-2">
 										<div className="flex items-center justify-center space-x-1 pt-2">
 											<ArrowPathRoundedSquareIcon className="h-3.5 w-3.5 text-gray-900" />
-											<p className="font-semibold text-gray-900 text-xs italic">
+											<p className="text-center font-semibold text-gray-900 text-xs italic">
 												{formattedLastUpdated}
 											</p>
 										</div>
 										<div className="flex items-center justify-center space-x-1 pt-2">
 											<ClockIcon className="h-3.5 w-3.5 text-gray-900" />
-											<p className="font-semibold text-gray-900 text-xs italic">
+											<p className="text-center font-semibold text-gray-900 text-xs italic">
 												{formattedMostRecentLeader}
 											</p>
 										</div>
 										<div className="flex items-center justify-center space-x-1 pt-2">
 											<CalendarIcon className="h-3.5 w-3.5 text-gray-900" />
-											<p className="font-semibold text-gray-900 text-xs italic">
+											<p className="text-center font-semibold text-gray-900 text-xs italic">
 												{formattedTookOffice}
 											</p>
 										</div>

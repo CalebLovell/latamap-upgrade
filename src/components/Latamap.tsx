@@ -3,7 +3,13 @@ import * as d3 from "d3";
 import * as React from "react";
 import { Borders } from "~/components/Borders";
 import { Country } from "~/components/Country";
-import { adjustCentroids, laTopoJson, mapHeight, mapWidth, path } from "~/data/map";
+import {
+	adjustCentroids,
+	laTopoJson,
+	mapHeight,
+	mapWidth,
+	path,
+} from "~/data/map";
 import { getLeadersByDate } from "~/data/types";
 import { parseDateParam } from "~/routes/index";
 
@@ -23,7 +29,9 @@ export const Latamap = () => {
 			d3
 				.zoom()
 				.scaleExtent([1, 8])
-				.filter((event: Event) => event.type === "wheel" || event.type === "dblclick")
+				.filter(
+					(event: Event) => event.type === "wheel" || event.type === "dblclick",
+				)
 				.on(`zoom`, (event: d3.D3ZoomEvent<SVGElement, unknown>) => {
 					d3.select(gRef.current).attr(`transform`, event.transform.toString());
 					setIsZoomed(event.transform.k > 1);
@@ -65,7 +73,10 @@ export const Latamap = () => {
 			const k = d3.zoomTransform(svgRef.current).k;
 			if (k <= 1) return;
 			const newTransform = d3.zoomIdentity
-				.translate(mapWidth / 2 - k * centroid[0], mapHeight / 2 - k * centroid[1])
+				.translate(
+					mapWidth / 2 - k * centroid[0],
+					mapHeight / 2 - k * centroid[1],
+				)
 				.scale(k);
 			(
 				d3.select(svgRef.current) as unknown as d3.Selection<

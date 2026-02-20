@@ -44,7 +44,7 @@ export const SelectMenu = ({ values, title, selected, setSelected }: Props) => {
 						>
 							<ListboxOptions
 								anchor="bottom"
-								className="relative z-10 mt-1 h-76 w-132 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-2 ring-gray-300 ring-inset focus:outline-none sm:text-sm"
+								className="relative z-10 mt-1 h-76 w-[var(--button-width)] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-2 ring-gray-300 ring-inset focus:outline-none sm:text-sm"
 							>
 								{values.map((x) => (
 									<ListboxOption
