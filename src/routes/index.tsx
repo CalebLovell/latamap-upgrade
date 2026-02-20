@@ -61,7 +61,7 @@ function App() {
 
 	return (
 		<>
-			<div className="flex h-screen flex-col items-center bg-radial-[at_bottom_right] from-red-100 via-orange-100 to-blue-100">
+			<div className="flex h-dvh flex-col items-center bg-radial-[at_bottom_right] from-red-100 via-orange-100 to-blue-100">
 				<Header />
 				<main className="flex min-h-0 w-full max-w-3xl flex-1 flex-col items-center">
 					<div className="relative h-content w-full">
