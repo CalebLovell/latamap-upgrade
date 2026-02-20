@@ -12,10 +12,17 @@ type Props = {
 	centroid: [number, number];
 	leader: LeaderReturn | undefined;
 	onSelect: () => void;
+	onDeselect: () => void;
 };
 
-export const Country = ({ feature, centroid, leader, onSelect }: Props) => {
-	const { scheme } = route.useSearch();
+export const Country = ({
+	feature,
+	centroid,
+	leader,
+	onSelect,
+	onDeselect,
+}: Props) => {
+	const { scheme, country: selectedCountry } = route.useSearch();
 	const navigate = useNavigate();
 	const patternId = useId();
 
@@ -31,6 +38,10 @@ export const Country = ({ feature, centroid, leader, onSelect }: Props) => {
 
 	const onClick = (e: React.MouseEvent) => {
 		e.stopPropagation();
+		if (name === selectedCountry) {
+			onDeselect();
+			return;
+		}
 		navigate({
 			from: "/",
 			search: (prev) => ({ ...prev, country: name }),
@@ -48,6 +59,10 @@ export const Country = ({ feature, centroid, leader, onSelect }: Props) => {
 				onKeyDown={(e) => {
 					if (e.key === "Enter" || e.key === " ") {
 						e.stopPropagation();
+						if (name === selectedCountry) {
+							onDeselect();
+							return;
+						}
 						navigate({
 							from: "/",
 							search: (prev) => ({ ...prev, country: name }),

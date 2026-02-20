@@ -22,7 +22,6 @@ export const Latamap = () => {
 	const leadersByDate = getLeadersByDate(leaders, date);
 	const svgRef = React.useRef<SVGSVGElement>(null);
 	const gRef = React.useRef<SVGGElement>(null);
-	const [isZoomed, setIsZoomed] = React.useState(false);
 
 	const zoom = React.useMemo(
 		() =>
@@ -30,11 +29,14 @@ export const Latamap = () => {
 				.zoom()
 				.scaleExtent([1, 8])
 				.filter(
-					(event: Event) => event.type === "wheel" || event.type === "dblclick",
+					(event: Event) =>
+						event.type === "wheel" ||
+						event.type === "dblclick" ||
+						event.type === "mousedown" ||
+						event.type === "touchstart",
 				)
 				.on(`zoom`, (event: d3.D3ZoomEvent<SVGElement, unknown>) => {
 					d3.select(gRef.current).attr(`transform`, event.transform.toString());
-					setIsZoomed(event.transform.k > 1);
 				}),
 		[],
 	);
@@ -94,6 +96,32 @@ export const Latamap = () => {
 		[zoom],
 	);
 
+	const unzoom = React.useCallback(() => {
+		if (!svgRef.current) return;
+		const { k, x, y } = d3.zoomTransform(svgRef.current);
+		if (k <= 1) return;
+		const f = 1.5;
+		const newK = Math.max(1, k / f);
+		const newTransform = d3.zoomIdentity
+			.translate(
+				mapWidth / 2 - (mapWidth / 2 - x) / f,
+				mapHeight / 2 - (mapHeight / 2 - y) / f,
+			)
+			.scale(newK);
+		(
+			d3.select(svgRef.current) as unknown as d3.Selection<
+				SVGSVGElement,
+				unknown,
+				null,
+				undefined
+			>
+		)
+			.transition()
+			.duration(500)
+			// @ts-expect-error types are unknown
+			.call(zoom.transform, newTransform);
+	}, [zoom]);
+
 	return (
 		<svg
 			ref={svgRef}
@@ -107,9 +135,9 @@ export const Latamap = () => {
 				}
 			}}
 			aria-label="Latin America Map"
-			style={{ cursor: isZoomed ? "zoom-out" : "default" }}
+			style={{ cursor: "grab" }}
 		>
-			<title>{isZoomed ? "Zoom out" : "Latin America Map"}</title>
+			<title>Pan or click to reset</title>
 			<g ref={gRef}>
 				{laTopoJson.features.map((feature) => {
 					const name = feature.properties?.ADMIN;
@@ -123,6 +151,7 @@ export const Latamap = () => {
 							centroid={centroid}
 							leader={leader}
 							onSelect={() => panTo(geoCentroid)}
+							onDeselect={unzoom}
 						/>
 					);
 				})}
