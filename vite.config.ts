@@ -19,7 +19,9 @@ const config = defineConfig({
         enabled: true,
       },
     }),
-    nitro(),
+    nitro({
+      preset: 'vercel',
+    }),
     viteReact(),
   ],
 })
