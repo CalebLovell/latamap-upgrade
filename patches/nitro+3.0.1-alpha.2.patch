@@ -1,0 +1,17 @@
+diff --git a/node_modules/nitro/dist/presets/vercel/runtime/vercel.web.mjs b/node_modules/nitro/dist/presets/vercel/runtime/vercel.web.mjs
+index 2c8e82f..574cb5e 100644
+--- a/node_modules/nitro/dist/presets/vercel/runtime/vercel.web.mjs
++++ b/node_modules/nitro/dist/presets/vercel/runtime/vercel.web.mjs
+@@ -11,10 +11,8 @@ export default { fetch(req, context) {
+ 			req = new Request(new URL(isrURL[0] + (isrURL[1] ? `?${isrURL[1]}` : ""), req.url).href, req);
+ 		}
+ 	}
+-	req.runtime = {
+-		name: "vercel",
+-		vercel: { context }
+-	};
++	req.runtime ??= { name: "vercel" };
++	req.runtime.vercel = { context };
+ 	let ip;
+ 	Object.defineProperty(req, "ip", { get() {
+ 		const h = req.headers.get("x-forwarded-for");
