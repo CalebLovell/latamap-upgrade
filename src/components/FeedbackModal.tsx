@@ -28,6 +28,11 @@ export const FeedbackModal = () => {
 		setMessage("");
 	};
 
+	const handleClose = () => {
+		if (message.trim() && !window.confirm("Discard your feedback?")) return;
+		close();
+	};
+
 	const mutation = useMutation({
 		mutationFn: (msg: string) =>
 			Promise.all([
@@ -51,7 +56,7 @@ export const FeedbackModal = () => {
 	return (
 		<Transition appear show={feedbackModal}>
 			<Dialog
-				onClose={close}
+				onClose={handleClose}
 				className="fixed top-0 left-0 z-40 h-full w-full overflow-y-auto overflow-x-hidden text-gray-800"
 			>
 				<TransitionChild
@@ -100,7 +105,7 @@ export const FeedbackModal = () => {
 							<div className="flex shrink-0 flex-wrap items-center justify-end gap-2 rounded-b border-gray-300 border-t p-4">
 								<button
 									type="button"
-									onClick={close}
+									onClick={handleClose}
 									className="flex items-center rounded bg-gray-800 px-6 py-2.5 font-medium text-white text-xs uppercase leading-tight transition duration-150 ease-in-out hover:scale-105 hover:bg-gray-900 focus:border-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 active:bg-gray-800"
 								>
 									Close
