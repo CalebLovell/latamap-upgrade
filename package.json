@@ -21,7 +21,8 @@
     "db:studio": "dotenv -e .env -- prisma studio",
     "db:seed": "dotenv -e .env -- prisma db seed",
     "db:reset": "dotenv -e .env -- prisma migrate reset --force",
-    "db:repopulate": "npm run db:reset && npm run db:seed"
+    "db:repopulate": "npm run db:reset && npm run db:seed",
+    "prepare": "husky"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
@@ -70,6 +71,7 @@
     "@types/topojson-client": "^3.1.5",
     "@vitejs/plugin-react": "^5.0.4",
     "dotenv-cli": "^10.0.0",
+    "husky": "^9.1.7",
     "jsdom": "^27.0.0",
     "patch-package": "^8.0.1",
     "prisma": "^7.2.0",
