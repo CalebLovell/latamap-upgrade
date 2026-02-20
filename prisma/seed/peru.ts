@@ -778,6 +778,15 @@ export const peru: LeaderSeed[] = [
 		party: `We Are Peru`,
 		leaning: leanings.RIGHT,
 		tookOffice: `10 October 2025`,
+		leftOffice: `18 February 2026`,
+	},
+	{
+		id: 22086,
+		countryId,
+		name: `José María Balcázar`,
+		party: `Free Peru`,
+		leaning: leanings.FAR_LEFT,
+		tookOffice: `18 February 2026`,
 		leftOffice: null,
-	}
+	},
 ];
