@@ -33,7 +33,7 @@ export const Timeline = () => {
 	);
 
 	return (
-		<div className="flex h-20 w-full flex-col px-2 md:px-12">
+		<div className="mt-2 flex h-20 w-full flex-col px-2 md:px-12">
 			<div className="flex h-8 w-full items-center justify-between">
 				<Slider selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
 			</div>
