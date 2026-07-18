@@ -5,6 +5,7 @@ import { env } from "~/env";
 
 const feedbackSchema = z.object({
 	message: z.string().min(1).max(5000),
+	email: z.email().max(320).optional().or(z.literal("")),
 });
 
 export const sendFeedback = createServerFn({
@@ -17,6 +18,7 @@ export const sendFeedback = createServerFn({
 		const { error } = await resend.emails.send({
 			from: "Latamap Feedback <noreply@feedback.latamap.com>",
 			to: "caleblovell1@gmail.com",
+			replyTo: data.email || undefined,
 			subject: "Latamap Feedback",
 			text: data.message,
 		});

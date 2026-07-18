@@ -19,6 +19,7 @@ export const FeedbackModal = () => {
 	const { feedbackModal } = route.useSearch();
 	const navigate = useNavigate();
 	const [message, setMessage] = useState("");
+	const [email, setEmail] = useState("");
 
 	const close = () => {
 		navigate({
@@ -26,6 +27,7 @@ export const FeedbackModal = () => {
 			search: (prev) => ({ ...prev, feedbackModal: false }),
 		});
 		setMessage("");
+		setEmail("");
 	};
 
 	const handleClose = () => {
@@ -34,9 +36,9 @@ export const FeedbackModal = () => {
 	};
 
 	const mutation = useMutation({
-		mutationFn: (msg: string) =>
+		mutationFn: (vars: { message: string; email: string }) =>
 			Promise.all([
-				sendFeedback({ data: { message: msg } }),
+				sendFeedback({ data: vars }),
 				new Promise((r) => setTimeout(r, 1000)),
 			]).then(([result]) => result),
 		onSuccess: () => {
@@ -50,7 +52,7 @@ export const FeedbackModal = () => {
 
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
-		mutation.mutate(message.trim());
+		mutation.mutate({ message: message.trim(), email: email.trim() });
 	};
 
 	return (
@@ -91,6 +93,7 @@ export const FeedbackModal = () => {
 							<div className="relative flex-auto overflow-y-auto p-4">
 								<Description className="mb-3 text-sm">
 									Have a comment, suggestion, or found an error? Let me know!
+									You can leave your email if you want a reply.
 								</Description>
 								<textarea
 									value={message}
@@ -100,6 +103,14 @@ export const FeedbackModal = () => {
 									required
 									disabled={mutation.isPending}
 									className="w-full resize-none rounded border border-gray-300 bg-white p-3 text-sm placeholder:text-gray-400 focus:border-blue-700 focus:outline-none focus:ring-1 focus:ring-blue-700 disabled:opacity-50"
+								/>
+								<input
+									type="email"
+									value={email}
+									onChange={(e) => setEmail(e.target.value)}
+									placeholder="Your email (optional)"
+									disabled={mutation.isPending}
+									className="mt-3 w-full rounded border border-gray-300 bg-white p-3 text-sm placeholder:text-gray-400 focus:border-blue-700 focus:outline-none focus:ring-1 focus:ring-blue-700 disabled:opacity-50"
 								/>
 							</div>
 							<div className="flex shrink-0 flex-wrap items-center justify-end gap-2 rounded-b border-gray-300 border-t p-4">
