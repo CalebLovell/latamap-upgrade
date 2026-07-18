@@ -15,12 +15,16 @@ export const sendFeedback = createServerFn({
 	.handler(async ({ data }) => {
 		const resend = new Resend(env.RESEND_API_KEY);
 
+		const text = data.email
+			? `${data.message}\n\nFrom: ${data.email}`
+			: data.message;
+
 		const { error } = await resend.emails.send({
 			from: "Latamap Feedback <noreply@feedback.latamap.com>",
 			to: "caleblovell1@gmail.com",
 			replyTo: data.email || undefined,
 			subject: "Latamap Feedback",
-			text: data.message,
+			text,
 		});
 
 		if (error) {

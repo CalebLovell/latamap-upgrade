@@ -3,6 +3,7 @@ import { z } from "zod";
 
 const feedbackSchema = z.object({
 	message: z.string().min(1).max(5000),
+	email: z.email().max(320).optional().or(z.literal("")),
 });
 
 const mockSend = vi.fn();
@@ -62,6 +63,30 @@ describe("sendFeedback", () => {
 			const result = feedbackSchema.safeParse({ message: "a".repeat(5000) });
 			expect(result.success).toBe(true);
 		});
+
+		it("accepts a message with a valid email", () => {
+			const result = feedbackSchema.safeParse({
+				message: "Great map!",
+				email: "me@example.com",
+			});
+			expect(result.success).toBe(true);
+		});
+
+		it("accepts a message with no email", () => {
+			const result = feedbackSchema.safeParse({
+				message: "Great map!",
+				email: "",
+			});
+			expect(result.success).toBe(true);
+		});
+
+		it("rejects an invalid email", () => {
+			const result = feedbackSchema.safeParse({
+				message: "Great map!",
+				email: "not-an-email",
+			});
+			expect(result.success).toBe(false);
+		});
 	});
 
 	describe("email sending", () => {
@@ -75,6 +100,38 @@ describe("sendFeedback", () => {
 			expect(mockSend).toHaveBeenCalledWith({
 				from: "Latamap Feedback <noreply@feedback.latamap.com>",
 				to: "caleblovell1@gmail.com",
+				subject: "Latamap Feedback",
+				text: "Test feedback",
+			});
+		});
+
+		it("includes the submitter's email in the body and as reply-to", async () => {
+			mockSend.mockResolvedValueOnce({ error: null });
+			const { sendFeedback } = await import("~/data/sendFeedback");
+
+			await sendFeedback({
+				data: { message: "Test feedback", email: "me@example.com" },
+			});
+
+			expect(mockSend).toHaveBeenCalledWith({
+				from: "Latamap Feedback <noreply@feedback.latamap.com>",
+				to: "caleblovell1@gmail.com",
+				replyTo: "me@example.com",
+				subject: "Latamap Feedback",
+				text: "Test feedback\n\nFrom: me@example.com",
+			});
+		});
+
+		it("omits the From line and reply-to when no email is given", async () => {
+			mockSend.mockResolvedValueOnce({ error: null });
+			const { sendFeedback } = await import("~/data/sendFeedback");
+
+			await sendFeedback({ data: { message: "Test feedback", email: "" } });
+
+			expect(mockSend).toHaveBeenCalledWith({
+				from: "Latamap Feedback <noreply@feedback.latamap.com>",
+				to: "caleblovell1@gmail.com",
+				replyTo: undefined,
 				subject: "Latamap Feedback",
 				text: "Test feedback",
 			});
