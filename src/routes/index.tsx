@@ -27,7 +27,11 @@ const searchDefaults = {
 	scheme: "default" as const,
 	date: formatDateParam(new Date()),
 	country: "United States of America",
+	compare: "",
 };
+
+const validateCompare = (value: unknown): string =>
+	typeof value === "string" && countryNames.has(value) ? value : "";
 
 export const Route = createFileRoute("/")({
 	validateSearch: (search: Record<string, unknown>) => ({
@@ -46,9 +50,11 @@ export const Route = createFileRoute("/")({
 				? search.date
 				: formatDateParam(new Date()),
 		country:
-			typeof search.country === "string" && countryNames.has(search.country)
+			typeof search.country === "string" &&
+			(search.country === "" || countryNames.has(search.country))
 				? search.country
 				: "United States of America",
+		compare: validateCompare(search.compare),
 	}),
 	search: {
 		middlewares: [stripSearchParams(searchDefaults)],

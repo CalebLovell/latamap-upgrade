@@ -21,7 +21,19 @@ describe("index route validateSearch", () => {
 			scheme: "default",
 			date: expect.any(String),
 			country: "United States of America",
+			compare: "",
 		});
+	});
+
+	it("accepts a known country name as the compare value", () => {
+		expect(validateSearch({ compare: "Brazil" }).compare).toBe("Brazil");
+	});
+
+	it("falls back to no comparison for unknown or non-string compare values", () => {
+		expect(validateSearch({ compare: "Narnia" }).compare).toBe("");
+		expect(validateSearch({ compare: 42 }).compare).toBe("");
+		expect(validateSearch({ compare: ["Brazil"] }).compare).toBe("");
+		expect(validateSearch({}).compare).toBe("");
 	});
 
 	it("only recognizes the exact boolean literal, not truthy/falsy lookalikes", () => {
@@ -85,5 +97,9 @@ describe("index route validateSearch", () => {
 		expect(validateSearch({ country: 42 }).country).toBe(
 			"United States of America",
 		);
+	});
+
+	it("allows an explicitly empty country (no selection)", () => {
+		expect(validateSearch({ country: "" }).country).toBe("");
 	});
 });

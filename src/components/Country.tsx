@@ -22,11 +22,12 @@ export const Country = ({
 	onSelect,
 	onDeselect,
 }: Props) => {
-	const { scheme, country: selectedCountry } = route.useSearch();
+	const { scheme, country: selectedCountry, compare } = route.useSearch();
 	const navigate = useNavigate();
 	const patternId = useId();
 
 	const name = feature.properties?.ADMIN;
+	const isCompared = compare !== "" && compare === name;
 	const ISO_A3 = feature.properties?.ISO_A3;
 	const fill = leader
 		? getLeaningColors(scheme)[
@@ -36,8 +37,23 @@ export const Country = ({
 	const pathResult = path(feature);
 	const d = pathResult ? String(pathResult) : undefined;
 
-	const onClick = (e: React.MouseEvent) => {
+	const handleSelect = (e: {
+		stopPropagation: () => void;
+		ctrlKey: boolean;
+		metaKey: boolean;
+		shiftKey: boolean;
+	}) => {
 		e.stopPropagation();
+		if (e.ctrlKey || e.metaKey || e.shiftKey) {
+			navigate({
+				from: "/",
+				search: (prev) => ({
+					...prev,
+					compare: isCompared ? "" : name,
+				}),
+			});
+			return;
+		}
 		if (name === selectedCountry) {
 			onDeselect();
 			return;
@@ -58,22 +74,15 @@ export const Country = ({
 				aria-label={`Select ${name}`}
 				onKeyDown={(e) => {
 					if (e.key === "Enter" || e.key === " ") {
-						e.stopPropagation();
-						if (name === selectedCountry) {
-							onDeselect();
-							return;
-						}
-						navigate({
-							from: "/",
-							search: (prev) => ({ ...prev, country: name }),
-						});
-						onSelect();
+						handleSelect(e);
 					}
 				}}
 				id={name?.replace(/\s+/g, "-")}
 				d={d}
 				fill={fill}
-				onClick={onClick}
+				stroke={isCompared ? "black" : undefined}
+				strokeWidth={isCompared ? 1 : undefined}
+				onClick={handleSelect}
 				className="cursor-pointer outline-none transition duration-500 ease-in-out hover:opacity-80 focus:opacity-80 active:opacity-50"
 				style={{ WebkitTapHighlightColor: `transparent` }}
 			>
