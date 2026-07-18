@@ -634,6 +634,15 @@ export const colombia: LeaderSeed[] = [
 		party: `Historic Pact`,
 		leaning: leanings.LEFT,
 		tookOffice: `7 August 2022`,
-		leftOffice: null,
+		leftOffice: `7 August 2026`,
 	},
+	{
+		id: 7070,
+		countryId,
+		name: `Abelardo de la Espriella`,
+		party: `Defenders of the Homeland`,
+		leaning: leanings.FAR_RIGHT,
+		tookOffice: `7 August 2026`,
+		leftOffice: null,
+	}
 ];

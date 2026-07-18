@@ -779,6 +779,15 @@ export const nicaragua: LeaderSeed[] = [
 		party: `Sandinista National Liberation Front`,
 		leaning: leanings.FAR_LEFT,
 		tookOffice: `10 January 2007`,
-		leftOffice: null,
+		leftOffice: `18 February 2025`,
 	},
+	{
+		id: 19086,
+		countryId,
+		name: `Daniel Ortega & Rosario Murillo`,
+		party: `Sandinista National Liberation Front`,
+		leaning: leanings.FAR_LEFT,
+		tookOffice: `18 February 2025`,
+		leftOffice: null,
+	}
 ];

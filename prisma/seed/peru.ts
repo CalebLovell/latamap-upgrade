@@ -787,6 +787,15 @@ export const peru: LeaderSeed[] = [
 		party: `Free Peru`,
 		leaning: leanings.FAR_LEFT,
 		tookOffice: `18 February 2026`,
-		leftOffice: null,
+		leftOffice: `28 July 2026`,
 	},
+	{
+		id: 22087,
+		countryId,
+		name: `Keiko Fujimori`,
+		party: `Popular Force`,
+		leaning: leanings.FAR_RIGHT,
+		tookOffice: `28 July 2026`,
+		leftOffice: null,
+	}
 ];
