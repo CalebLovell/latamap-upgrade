@@ -11,7 +11,7 @@ const feedbackSchema = z.object({
 export const sendFeedback = createServerFn({
 	method: "POST",
 })
-	.inputValidator(feedbackSchema)
+	.validator(feedbackSchema)
 	.handler(async ({ data }) => {
 		const resend = new Resend(env.RESEND_API_KEY);
 

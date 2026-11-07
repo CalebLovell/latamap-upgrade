@@ -22,7 +22,7 @@ vi.mock("@tanstack/react-start", () => ({
 	createServerFn: (_opts: { method: string }) => {
 		let validator: z.ZodSchema | undefined;
 		const builder = {
-			inputValidator: (schema: z.ZodSchema) => {
+			validator: (schema: z.ZodSchema) => {
 				validator = schema;
 				return builder;
 			},
