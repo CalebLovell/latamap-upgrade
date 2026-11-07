@@ -8,6 +8,15 @@ const validateSearch = Route.options.validateSearch as (
 	search: Record<string, unknown>,
 ) => Record<string, unknown>;
 
+describe("index route headers", () => {
+	it("caches on the CDN only, so browsers always revalidate", () => {
+		const headers = Route.options.headers as () => Record<string, string>;
+		expect(headers()["Cache-Control"]).toBe(
+			"public, max-age=0, s-maxage=60, stale-while-revalidate=300",
+		);
+	});
+});
+
 describe("index route validateSearch", () => {
 	it("applies defaults for an empty search", () => {
 		expect(validateSearch({})).toEqual({

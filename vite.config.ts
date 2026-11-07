@@ -14,11 +14,9 @@ const config = defineConfig({
       projects: ['./tsconfig.json'],
     }),
     tailwindcss(),
-    tanstackStart({
-      prerender: {
-        enabled: true,
-      },
-    }),
+    // No prerendering: the index loader returns live DB data, and a build-time
+    // snapshot flashes stale values until the client refetches it.
+    tanstackStart(),
     nitro({
       preset: 'vercel',
     }),

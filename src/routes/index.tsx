@@ -54,6 +54,11 @@ export const Route = createFileRoute("/")({
 		middlewares: [stripSearchParams(searchDefaults)],
 	},
 	loader: () => fetchData(),
+	// CDN-only cache: spares the DB on repeat hits while keeping data at most minutes old.
+	headers: () => ({
+		"Cache-Control":
+			"public, max-age=0, s-maxage=60, stale-while-revalidate=300",
+	}),
 	component: App,
 });
 
