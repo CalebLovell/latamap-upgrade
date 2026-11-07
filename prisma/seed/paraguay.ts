@@ -607,6 +607,15 @@ export const paraguay: LeaderSeed[] = [
 		party: `Colorado Party`,
 		leaning: leanings.RIGHT,
 		tookOffice: `15 August 2023`,
+		leftOffice: `6 November 2026`,
+	},
+	{
+		id: 21067,
+		countryId,
+		name: `Pedro Alliana`,
+		party: `Colorado Party`,
+		leaning: leanings.RIGHT,
+		tookOffice: `6 November 2026`,
 		leftOffice: null,
 	},
 ];
