@@ -17,18 +17,26 @@ import type * as Prisma from "./prismaNamespace.ts"
 
 const config: runtime.GetPrismaClientConfig = {
   "previewFeatures": [],
-  "clientVersion": "7.3.0",
-  "engineVersion": "9d6ad21cbbceab97458517b147a6a09ff43aa735",
+  "clientVersion": "7.10.1",
+  "engineVersion": "d1b3f377ca835d73fd50954a5e22128b9ebdd6b8",
   "activeProvider": "postgresql",
-  "inlineSchema": "generator client {\n  provider = \"prisma-client\"\n  output   = \"../src/generated/prisma\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel Country {\n  id        Int      @id @default(autoincrement())\n  name      String\n  leader    Leader[]\n  createdAt DateTime @default(now())\n}\n\nmodel Leader {\n  id         Int       @id @default(autoincrement())\n  countryId  Int\n  name       String\n  party      String\n  leaning    Int\n  tookOffice DateTime\n  leftOffice DateTime?\n  Country    Country   @relation(fields: [countryId], references: [id])\n  createdAt  DateTime  @default(now())\n\n  @@map(\"Leader\")\n}\n",
+  "inlineSchema": "generator client {\n  provider = \"prisma-client\"\n  output   = \"../src/generated/prisma\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel Country {\n  id        Int      @id @default(autoincrement())\n  name      String\n  leader    Leader[]\n  createdAt DateTime @default(now())\n}\n\nmodel Leader {\n  id         Int       @id @default(autoincrement())\n  countryId  Int\n  name       String\n  party      String\n  leaning    Int\n  tookOffice DateTime\n  leftOffice DateTime?\n  Country    Country   @relation(fields: [countryId], references: [id])\n  createdAt  DateTime  @default(now())\n\n  @@index([countryId])\n  @@index([createdAt])\n  @@index([tookOffice])\n  @@map(\"Leader\")\n}\n",
   "runtimeDataModel": {
     "models": {},
     "enums": {},
     "types": {}
+  },
+  "parameterizationSchema": {
+    "strings": [],
+    "graph": ""
   }
 }
 
-config.runtimeDataModel = JSON.parse("{\"models\":{\"Country\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"leader\",\"kind\":\"object\",\"type\":\"Leader\",\"relationName\":\"CountryToLeader\"},{\"name\":\"createdAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"}],\"dbName\":null},\"Leader\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"countryId\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"party\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"leaning\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"tookOffice\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"leftOffice\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"Country\",\"kind\":\"object\",\"type\":\"Country\",\"relationName\":\"CountryToLeader\"},{\"name\":\"createdAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"}],\"dbName\":\"Leader\"}},\"enums\":{},\"types\":{}}")
+config.runtimeDataModel = JSON.parse("{\"models\":{\"Country\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"leader\",\"kind\":\"object\",\"type\":\"Leader\",\"relationName\":\"CountryToLeader\"},{\"name\":\"createdAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"}],\"dbName\":null,\"schema\":null},\"Leader\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"countryId\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"party\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"leaning\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"tookOffice\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"leftOffice\",\"kind\":\"scalar\",\"type\":\"DateTime\"},{\"name\":\"Country\",\"kind\":\"object\",\"type\":\"Country\",\"relationName\":\"CountryToLeader\"},{\"name\":\"createdAt\",\"kind\":\"scalar\",\"type\":\"DateTime\"}],\"dbName\":\"Leader\",\"schema\":null}},\"enums\":{},\"types\":{}}")
+config.parameterizationSchema = {
+  strings: JSON.parse("[\"where\",\"orderBy\",\"cursor\",\"Country\",\"leader\",\"_count\",\"Country.findUnique\",\"Country.findUniqueOrThrow\",\"Country.findFirst\",\"Country.findFirstOrThrow\",\"Country.findMany\",\"data\",\"Country.createOne\",\"Country.createMany\",\"Country.createManyAndReturn\",\"Country.updateOne\",\"Country.updateMany\",\"Country.updateManyAndReturn\",\"create\",\"update\",\"Country.upsertOne\",\"Country.deleteOne\",\"Country.deleteMany\",\"having\",\"_avg\",\"_sum\",\"_min\",\"_max\",\"Country.groupBy\",\"Country.aggregate\",\"Leader.findUnique\",\"Leader.findUniqueOrThrow\",\"Leader.findFirst\",\"Leader.findFirstOrThrow\",\"Leader.findMany\",\"Leader.createOne\",\"Leader.createMany\",\"Leader.createManyAndReturn\",\"Leader.updateOne\",\"Leader.updateMany\",\"Leader.updateManyAndReturn\",\"Leader.upsertOne\",\"Leader.deleteOne\",\"Leader.deleteMany\",\"Leader.groupBy\",\"Leader.aggregate\",\"AND\",\"OR\",\"NOT\",\"id\",\"countryId\",\"name\",\"party\",\"leaning\",\"tookOffice\",\"leftOffice\",\"createdAt\",\"equals\",\"in\",\"notIn\",\"lt\",\"lte\",\"gt\",\"gte\",\"not\",\"contains\",\"startsWith\",\"endsWith\",\"every\",\"some\",\"none\",\"is\",\"isNot\",\"connectOrCreate\",\"upsert\",\"createMany\",\"set\",\"disconnect\",\"delete\",\"connect\",\"updateMany\",\"deleteMany\",\"increment\",\"decrement\",\"multiply\",\"divide\"]"),
+  graph: "cxYgBwQAAEkAIC4AAEUAMC8AAAkAEDAAAEUAMDECAAAAATMBAEcAIThAAEgAIQEAAAABACAMAwAATAAgLgAASgAwLwAAAwAQMAAASgAwMQIARgAhMgIARgAhMwEARwAhNAEARwAhNQIARgAhNkAASAAhN0AASwAhOEAASAAhAgMAAG0AIDcAAE0AIAwDAABMACAuAABKADAvAAADABAwAABKADAxAgAAAAEyAgBGACEzAQBHACE0AQBHACE1AgBGACE2QABIACE3QABLACE4QABIACEDAAAAAwAgAQAABAAwAgAABQAgAQAAAAMAIAEAAAABACAHBAAASQAgLgAARQAwLwAACQAQMAAARQAwMQIARgAhMwEARwAhOEAASAAhAQQAAGwAIAMAAAAJACABAAAKADACAAABACADAAAACQAgAQAACgAwAgAAAQAgAwAAAAkAIAEAAAoAMAIAAAEAIAQEAABrACAxAgAAAAEzAQAAAAE4QAAAAAEBCwAADgAgAzECAAAAATMBAAAAAThAAAAAAQELAAAQADABCwAAEAAwBAQAAF4AIDECAFQAITMBAFMAIThAAFUAIQIAAAABACALAAATACADMQIAVAAhMwEAUwAhOEAAVQAhAgAAAAkAIAsAABUAIAIAAAAJACALAAAVACADAAAAAQAgEgAADgAgEwAAEwAgAQAAAAEAIAEAAAAJACAFBQAAWQAgGAAAWgAgGQAAXQAgGgAAXAAgGwAAWwAgBi4AAEQAMC8AABwAEDAAAEQAMDECADYAITMBADcAIThAADgAIQMAAAAJACABAAAbADAXAAAcACADAAAACQAgAQAACgAwAgAAAQAgAQAAAAUAIAEAAAAFACADAAAAAwAgAQAABAAwAgAABQAgAwAAAAMAIAEAAAQAMAIAAAUAIAMAAAADACABAAAEADACAAAFACAJAwAAWAAgMQIAAAABMgIAAAABMwEAAAABNAEAAAABNQIAAAABNkAAAAABN0AAAAABOEAAAAABAQsAACQAIAgxAgAAAAEyAgAAAAEzAQAAAAE0AQAAAAE1AgAAAAE2QAAAAAE3QAAAAAE4QAAAAAEBCwAAJgAwAQsAACYAMAkDAABXACAxAgBUACEyAgBUACEzAQBTACE0AQBTACE1AgBUACE2QABVACE3QABWACE4QABVACECAAAABQAgCwAAKQAgCDECAFQAITICAFQAITMBAFMAITQBAFMAITUCAFQAITZAAFUAITdAAFYAIThAAFUAIQIAAAADACALAAArACACAAAAAwAgCwAAKwAgAwAAAAUAIBIAACQAIBMAACkAIAEAAAAFACABAAAAAwAgBgUAAE4AIBgAAE8AIBkAAFIAIBoAAFEAIBsAAFAAIDcAAE0AIAsuAAA1ADAvAAAyABAwAAA1ADAxAgA2ACEyAgA2ACEzAQA3ACE0AQA3ACE1AgA2ACE2QAA4ACE3QAA5ACE4QAA4ACEDAAAAAwAgAQAAMQAwFwAAMgAgAwAAAAMAIAEAAAQAMAIAAAUAIAsuAAA1ADAvAAAyABAwAAA1ADAxAgA2ACEyAgA2ACEzAQA3ACE0AQA3ACE1AgA2ACE2QAA4ACE3QAA5ACE4QAA4ACENBQAAPgAgGAAAQwAgGQAAPgAgGgAAPgAgGwAAPgAgOQIAAAABOgIAAAAEOwIAAAAEPAIAAAABPQIAAAABPgIAAAABPwIAAAABQAIAQgAhDgUAAD4AIBoAAEEAIBsAAEEAIDkBAAAAAToBAAAABDsBAAAABDwBAAAAAT0BAAAAAT4BAAAAAT8BAAAAAUABAEAAIUEBAAAAAUIBAAAAAUMBAAAAAQsFAAA-ACAaAAA_ACAbAAA_ACA5QAAAAAE6QAAAAAQ7QAAAAAQ8QAAAAAE9QAAAAAE-QAAAAAE_QAAAAAFAQAA9ACELBQAAOwAgGgAAPAAgGwAAPAAgOUAAAAABOkAAAAAFO0AAAAAFPEAAAAABPUAAAAABPkAAAAABP0AAAAABQEAAOgAhCwUAADsAIBoAADwAIBsAADwAIDlAAAAAATpAAAAABTtAAAAABTxAAAAAAT1AAAAAAT5AAAAAAT9AAAAAAUBAADoAIQg5AgAAAAE6AgAAAAU7AgAAAAU8AgAAAAE9AgAAAAE-AgAAAAE_AgAAAAFAAgA7ACEIOUAAAAABOkAAAAAFO0AAAAAFPEAAAAABPUAAAAABPkAAAAABP0AAAAABQEAAPAAhCwUAAD4AIBoAAD8AIBsAAD8AIDlAAAAAATpAAAAABDtAAAAABDxAAAAAAT1AAAAAAT5AAAAAAT9AAAAAAUBAAD0AIQg5AgAAAAE6AgAAAAQ7AgAAAAQ8AgAAAAE9AgAAAAE-AgAAAAE_AgAAAAFAAgA-ACEIOUAAAAABOkAAAAAEO0AAAAAEPEAAAAABPUAAAAABPkAAAAABP0AAAAABQEAAPwAhDgUAAD4AIBoAAEEAIBsAAEEAIDkBAAAAAToBAAAABDsBAAAABDwBAAAAAT0BAAAAAT4BAAAAAT8BAAAAAUABAEAAIUEBAAAAAUIBAAAAAUMBAAAAAQs5AQAAAAE6AQAAAAQ7AQAAAAQ8AQAAAAE9AQAAAAE-AQAAAAE_AQAAAAFAAQBBACFBAQAAAAFCAQAAAAFDAQAAAAENBQAAPgAgGAAAQwAgGQAAPgAgGgAAPgAgGwAAPgAgOQIAAAABOgIAAAAEOwIAAAAEPAIAAAABPQIAAAABPgIAAAABPwIAAAABQAIAQgAhCDkIAAAAAToIAAAABDsIAAAABDwIAAAAAT0IAAAAAT4IAAAAAT8IAAAAAUAIAEMAIQYuAABEADAvAAAcABAwAABEADAxAgA2ACEzAQA3ACE4QAA4ACEHBAAASQAgLgAARQAwLwAACQAQMAAARQAwMQIARgAhMwEARwAhOEAASAAhCDkCAAAAAToCAAAABDsCAAAABDwCAAAAAT0CAAAAAT4CAAAAAT8CAAAAAUACAD4AIQs5AQAAAAE6AQAAAAQ7AQAAAAQ8AQAAAAE9AQAAAAE-AQAAAAE_AQAAAAFAAQBBACFBAQAAAAFCAQAAAAFDAQAAAAEIOUAAAAABOkAAAAAEO0AAAAAEPEAAAAABPUAAAAABPkAAAAABP0AAAAABQEAAPwAhA0QAAAMAIEUAAAMAIEYAAAMAIAwDAABMACAuAABKADAvAAADABAwAABKADAxAgBGACEyAgBGACEzAQBHACE0AQBHACE1AgBGACE2QABIACE3QABLACE4QABIACEIOUAAAAABOkAAAAAFO0AAAAAFPEAAAAABPUAAAAABPkAAAAABP0AAAAABQEAAPAAhCQQAAEkAIC4AAEUAMC8AAAkAEDAAAEUAMDECAEYAITMBAEcAIThAAEgAIUcAAAkAIEgAAAkAIAAAAAAAAAFMAQAAAAEFTAIAAAABUgIAAAABUwIAAAABVAIAAAABVQIAAAABAUxAAAAAAQFMQAAAAAEFEgAAbwAgEwAAcgAgSQAAcAAgSgAAcQAgTwAAAQAgAxIAAG8AIEkAAHAAIE8AAAEAIAAAAAAACxIAAF8AMBMAAGQAMEkAAGAAMEoAAGEAMEsAAGIAIEwAAGMAME0AAGMAME4AAGMAME8AAGMAMFAAAGUAMFEAAGYAMAcxAgAAAAEzAQAAAAE0AQAAAAE1AgAAAAE2QAAAAAE3QAAAAAE4QAAAAAECAAAABQAgEgAAagAgAwAAAAUAIBIAAGoAIBMAAGkAIAELAABuADAMAwAATAAgLgAASgAwLwAAAwAQMAAASgAwMQIAAAABMgIARgAhMwEARwAhNAEARwAhNQIARgAhNkAASAAhN0AASwAhOEAASAAhAgAAAAUAIAsAAGkAIAIAAABnACALAABoACALLgAAZgAwLwAAZwAQMAAAZgAwMQIARgAhMgIARgAhMwEARwAhNAEARwAhNQIARgAhNkAASAAhN0AASwAhOEAASAAhCy4AAGYAMC8AAGcAEDAAAGYAMDECAEYAITICAEYAITMBAEcAITQBAEcAITUCAEYAITZAAEgAITdAAEsAIThAAEgAIQcxAgBUACEzAQBTACE0AQBTACE1AgBUACE2QABVACE3QABWACE4QABVACEHMQIAVAAhMwEAUwAhNAEAUwAhNQIAVAAhNkAAVQAhN0AAVgAhOEAAVQAhBzECAAAAATMBAAAAATQBAAAAATUCAAAAATZAAAAAATdAAAAAAThAAAAAAQQSAABfADBJAABgADBLAABiACBPAABjADAAAQQAAGwAIAcxAgAAAAEzAQAAAAE0AQAAAAE1AgAAAAE2QAAAAAE3QAAAAAE4QAAAAAEDMQIAAAABMwEAAAABOEAAAAABAgAAAAEAIBIAAG8AIAMAAAAJACASAABvACATAABzACAFAAAACQAgCwAAcwAgMQIAVAAhMwEAUwAhOEAAVQAhAzECAFQAITMBAFMAIThAAFUAIQIEBgIFAAMBAwABAQQHAAAAAAUFAAgYAAkZAAoaAAsbAAwAAAAAAAUFAAgYAAkZAAoaAAsbAAwBAwABAQMAAQUFABEYABIZABMaABQbABUAAAAAAAUFABEYABIZABMaABQbABUGAgEHCAEICwEJDAEKDQEMDwENEQQOEgUPFAEQFgQRFwYUGAEVGQEWGgQcHQcdHg0eHwIfIAIgIQIhIgIiIwIjJQIkJwQlKA4mKgInLAQoLQ8pLgIqLwIrMAQsMxAtNBY"
+}
 
 async function decodeBase64AsWasm(wasmBase64: string): Promise<WebAssembly.Module> {
   const { Buffer } = await import('node:buffer')
@@ -59,7 +67,9 @@ export interface PrismaClientConstructor {
    * Type-safe database client for TypeScript
    * @example
    * ```
-   * const prisma = new PrismaClient()
+   * const prisma = new PrismaClient({
+   *   adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL })
+   * })
    * // Fetch zero or more Countries
    * const countries = await prisma.country.findMany()
    * ```
@@ -72,7 +82,7 @@ export interface PrismaClientConstructor {
     LogOpts extends LogOptions<Options> = LogOptions<Options>,
     OmitOpts extends Prisma.PrismaClientOptions['omit'] = Options extends { omit: infer U } ? U : Prisma.PrismaClientOptions['omit'],
     ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs
-  >(options: Prisma.Subset<Options, Prisma.PrismaClientOptions> ): PrismaClient<LogOpts, OmitOpts, ExtArgs>
+  >(options: Prisma.PrismaClientConstructorArgs<Options>): PrismaClient<LogOpts, OmitOpts, ExtArgs>
 }
 
 /**
@@ -81,7 +91,9 @@ export interface PrismaClientConstructor {
  * Type-safe database client for TypeScript
  * @example
  * ```
- * const prisma = new PrismaClient()
+ * const prisma = new PrismaClient({
+ *   adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL })
+ * })
  * // Fetch zero or more Countries
  * const countries = await prisma.country.findMany()
  * ```
@@ -91,7 +103,7 @@ export interface PrismaClientConstructor {
 
 export interface PrismaClient<
   in LogOpts extends Prisma.LogLevel = never,
-  in out OmitOpts extends Prisma.PrismaClientOptions['omit'] = undefined,
+  in out OmitOpts extends Prisma.PrismaClientOptions['omit'] = Prisma.PrismaClientOptions['omit'],
   in out ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs
 > {
   [K: symbol]: { types: Prisma.TypeMap<ExtArgs>['other'] }
@@ -166,9 +178,9 @@ export interface PrismaClient<
    * ])
    * ```
    * 
-   * Read more in our [docs](https://www.prisma.io/docs/concepts/components/prisma-client/transactions).
+   * Read more in our [docs](https://www.prisma.io/docs/orm/prisma-client/queries/transactions).
    */
-  $transaction<P extends Prisma.PrismaPromise<any>[]>(arg: [...P], options?: { isolationLevel?: Prisma.TransactionIsolationLevel }): runtime.Types.Utils.JsPromise<runtime.Types.Utils.UnwrapTuple<P>>
+  $transaction<P extends Prisma.PrismaPromise<any>[]>(arg: [...P], options?: { maxWait?: number, timeout?: number, isolationLevel?: Prisma.TransactionIsolationLevel }): runtime.Types.Utils.JsPromise<runtime.Types.Utils.UnwrapTuple<P>>
 
   $transaction<R>(fn: (prisma: Omit<PrismaClient, runtime.ITXClientDenyList>) => runtime.Types.Utils.JsPromise<R>, options?: { maxWait?: number, timeout?: number, isolationLevel?: Prisma.TransactionIsolationLevel }): runtime.Types.Utils.JsPromise<R>
 

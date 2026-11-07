@@ -221,7 +221,7 @@ export type LeaderGroupByOutputType = {
   _max: LeaderMaxAggregateOutputType | null
 }
 
-type GetLeaderGroupByPayload<T extends LeaderGroupByArgs> = Prisma.PrismaPromise<
+export type GetLeaderGroupByPayload<T extends LeaderGroupByArgs> = Prisma.PrismaPromise<
   Array<
     Prisma.PickEnumerable<LeaderGroupByOutputType, T['by']> &
       {
@@ -1282,6 +1282,11 @@ export type LeaderFindManyArgs<ExtArgs extends runtime.Types.Extensions.Internal
    * Skip the first `n` Leaders.
    */
   skip?: number
+  /**
+   * {@link https://www.prisma.io/docs/concepts/components/prisma-client/distinct Distinct Docs}
+   * 
+   * Filter by unique combinations of Leaders.
+   */
   distinct?: Prisma.LeaderScalarFieldEnum | Prisma.LeaderScalarFieldEnum[]
 }
 

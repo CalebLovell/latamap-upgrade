@@ -9,9 +9,9 @@ const feedbackSchema = z.object({
 const mockSend = vi.fn();
 
 vi.mock("resend", () => ({
-	Resend: vi.fn().mockImplementation(() => ({
-		emails: { send: mockSend },
-	})),
+	Resend: vi.fn().mockImplementation(function () {
+		return { emails: { send: mockSend } };
+	}),
 }));
 
 vi.mock("~/env", () => ({
